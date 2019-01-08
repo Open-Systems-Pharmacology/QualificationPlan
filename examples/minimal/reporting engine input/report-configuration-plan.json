@@ -1,0 +1,71 @@
+{"MasterQualificationPlan": {
+    "Projects": [
+        {
+            "id": "Midazolam",
+            "path": "../Midazolam/Midazolam.json"
+        },
+        {
+            "id": "Itraconazole",
+            "path": "../Itraconazole/Itraconazole.json",
+            "BuildingBlocks": [{
+                "buildingBlockType": "Individual",
+                "name": "Ind",
+                "refProject": "Midazolam"
+            }],
+            "SimulationParameters": []
+        }
+    ],
+    "ObservedDataSets": [{
+        "id": "PK_Ratio_CYP3A4",
+        "path": "../PK_Ratio_CYP3A4.xlsx",
+        "type": "DDIRatio"
+    }],
+    "ReportConfiguration": {
+        "Plots": {
+            "AllPlots": [
+                {
+                    "refProject": "Midazolam",
+                    "refSimulation": "S1",
+                    "location": 2
+                },
+                {
+                    "refProject": "Midazolam",
+                    "refSimulation": "S2",
+                    "location": 3
+                }
+            ],
+            "GOFMerged": [{
+                "name": "Midazolam concentration in plasma/blood",
+                "plotType": "predictedVsObserved|residualsOverTime",
+                "Group": [{
+                    "name": "Midazolam iv",
+                    "symbol": 1,
+                    "Simulation": [{
+                        "refProject": "Midazolam",
+                        "refSimulation": "S1",
+                        "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
+                        "refObservedData": "Midazolam 600mg SD",
+                        "color": "blue"
+                    }]
+                }]
+            }]
+        },
+        "Sections": [
+            {
+                "id": 1,
+                "Title": "Chapter 1",
+                "Content": "../Content/Section1.md"
+            },
+            {
+                "id": 2,
+                "Title": "Chapter 2",
+                "Content": "../Content/Section2.md",
+                "Sections": [{
+                    "id": 3,
+                    "Title": "Chapter 2.1",
+                    "Content": "../Content/Section2.1.md"
+                }]
+            }
+        ]
+    }
+}}

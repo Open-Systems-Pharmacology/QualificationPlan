@@ -1,0 +1,718 @@
+{
+  "Version": 75,
+  "Individuals": [
+    {
+      "Name": "Ind",
+      "Seed": 1606798515,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Asian_Tanaka_1996",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      }
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Midazolam",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.13,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Unknown",
+                "Description": "Drugbank"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.2,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.049,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "FaSSIF (Heikkinen 2012)"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "FaSSIF (Heikkinen 2012)"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimization",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2E-06,
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.15
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Optimization",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 2.73,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 13.0,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "F",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 325.77,
+          "Unit": "g/mol"
+        }
+      ],
+      "Description": "Version 1.4"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "IV",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1.0,
+          "Unit": "mg/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "S1",
+      "Model": "4Comp",
+      "Solver": {
+        "AbsTol": 1E-09,
+        "RelTol": 0.0001
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|ArterialBlood|Plasma|Midazolam|Concentration in container",
+        "Organism|ArterialBlood|Plasma|Midazolam|Plasma Unbound",
+        "Organism|ArterialBlood|BloodCells|Midazolam|Concentration in container",
+        "Organism|ArterialBlood|Midazolam|Whole Blood"
+      ],
+      "Individual": "Ind",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimization",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Curve 1",
+              "X": "Time",
+              "Y": "S1|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Curve 2",
+              "X": "Time",
+              "Y": "S1|Organism|ArterialBlood|Plasma|Midazolam|Concentration in container",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Curve 3",
+              "X": "Time",
+              "Y": "S1|Organism|ArterialBlood|Plasma|Midazolam|Plasma Unbound",
+              "CurveOptions": {
+                "Color": "0, 128, 0",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Curve 4",
+              "X": "Time",
+              "Y": "S1|Organism|ArterialBlood|BloodCells|Midazolam|Concentration in container",
+              "CurveOptions": {
+                "Color": "255, 0, 255",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Curve 5",
+              "X": "Time",
+              "Y": "S1|Organism|ArterialBlood|Midazolam|Whole Blood",
+              "CurveOptions": {
+                "Color": "255, 128, 0",
+                "LegendIndex": 5
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Undefined\nS1\n2019-01-08 10:31"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "Min": 10.0,
+              "Max": 25.0,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Curve 1",
+              "X": "Time",
+              "Y": "S1|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1,
+                "Symbol": "Diamond"
+              }
+            },
+            {
+              "Name": "Curve 3",
+              "X": "Time",
+              "Y": "S1|Organism|ArterialBlood|Plasma|Midazolam|Plasma Unbound",
+              "CurveOptions": {
+                "Color": "0, 128, 0",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Curve 5",
+              "X": "Time",
+              "Y": "S1|Organism|ArterialBlood|Midazolam|Whole Blood",
+              "CurveOptions": {
+                "Color": "255, 128, 0",
+                "LegendIndex": 5
+              }
+            }
+          ],
+          "Name": "Another Chart",
+          "OriginText": "Undefined\nS1\n2019-01-08 10:31"
+        }
+      ]
+    },
+    {
+      "Name": "S2",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Midazolam 600mg SD"
+      ],
+      "Solver": {
+        "AbsTol": 1E-09,
+        "RelTol": 0.0001
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|ArterialBlood|Plasma|Midazolam|Concentration in container",
+        "Organism|ArterialBlood|BloodCells|Midazolam|Concentration in container",
+        "Organism|Fat|Plasma|Midazolam|Concentration in container",
+        "Organism|Fat|BloodCells|Midazolam|Concentration in container",
+        "Organism|Fat|Midazolam|Interstitial Unbound",
+        "Organism|Fat|Midazolam|Intracellular Unbound",
+        "Organism|Fat|Midazolam|Tissue"
+      ],
+      "Individual": "Ind",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimization",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "Min": -0.8087273,
+              "Max": 18.5381165,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": true,
+              "Visible": true,
+              "Min": 0.0121767037,
+              "Max": 18.3302116,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "S2-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "S2-Midazolam-Arterial Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|ArterialBlood|Plasma|Midazolam|Concentration in container",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "S2-Midazolam-Arterial Blood-Blood Cells-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|ArterialBlood|BloodCells|Midazolam|Concentration in container",
+              "CurveOptions": {
+                "Color": "0, 128, 0",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "S2-Midazolam-Fat-Plasma-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|Fat|Plasma|Midazolam|Concentration in container",
+              "CurveOptions": {
+                "Color": "255, 0, 255",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "S2-Midazolam-Fat-Blood Cells-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|Fat|BloodCells|Midazolam|Concentration in container",
+              "CurveOptions": {
+                "Color": "255, 128, 0",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "S2-Midazolam-Fat-Interstitial Unbound-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|Fat|Midazolam|Interstitial Unbound",
+              "CurveOptions": {
+                "Color": "0, 192, 192",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "S2-Midazolam-Fat-Intracellular Unbound-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|Fat|Midazolam|Intracellular Unbound",
+              "CurveOptions": {
+                "Color": "192, 0, 192",
+                "LegendIndex": 7
+              }
+            },
+            {
+              "Name": "S2-Midazolam-Fat-Tissue-Concentration",
+              "X": "Time",
+              "Y": "S2|Organism|Fat|Midazolam|Tissue",
+              "CurveOptions": {
+                "Color": "192, 64, 0",
+                "LegendIndex": 8
+              }
+            },
+            {
+              "Name": "Midazolam 600mg SD-Rifampicin-Peripheral Venous Blood-Plasma-Conc",
+              "X": "Rifampin, Peloquin, 600mg po SD|Time",
+              "Y": "Midazolam 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc",
+              "CurveOptions": {
+                "Color": "192, 64, 0",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Midazolam\nS2\n2019-01-08 10:33"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Midazolam 600mg SD",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\gfrqb\\Desktop\\Digoxin\\Rifampin, Peloquin, 600mg po SD.xlsx.Peloquin"
+        },
+        {
+          "Name": "File",
+          "Value": "Rifampin, Peloquin, 600mg po SD"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Peloquin"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin old"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc",
+          "QuantityInfo": {
+            "Name": "Conc",
+            "Path": "Midazolam 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-02-02T04:55:19.0857775-05:00",
+            "Source": "Rifampin, Peloquin, 600mg po SD.Peloquin.Conc",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            2.59411764,
+            10.5,
+            12.5176477,
+            11.8588238,
+            10.6235294,
+            9.594118,
+            8.194118,
+            5.6411767,
+            3.41764712,
+            1.77058828,
+            0.947058856,
+            0.700000048
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Rifampin, Peloquin, 600mg po SD|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-02-02T04:55:19.0857775-05:00",
+          "Source": "Rifampin, Peloquin, 600mg po SD.Peloquin.Time"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          6.0,
+          9.0,
+          12.0,
+          18.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
