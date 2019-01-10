@@ -1,39 +1,99 @@
-{"MasterQualificationPlan": {
-    "Projects": [
+{
+"ReportConfigurationPlan": {
+    "SimulationMappings": [
         {
-            "id": "Midazolam",
-            "path": "../Midazolam/Midazolam.json"
+            "refProject": "Midazolam",
+			"refSimulation": "S1",
+            "path": "../Midazolam/S1"
         },
         {
-            "id": "Itraconazole",
-            "path": "../Itraconazole/Itraconazole.json",
-            "BuildingBlocks": [{
-                "buildingBlockType": "Individual",
-                "name": "Ind",
-                "refProject": "Midazolam"
-            }],
-            "SimulationParameters": []
+            "refProject": "Midazolam",
+			"refSimulation": "S2",
+            "path": "../Midazolam/S2"
+        },
+        {
+            "refProject": "Itraconazole",
+			"refSimulation": "S1",
+            "path": "../Itraconazole/S1"
         }
     ],
-    "ObservedDataSets": [{
+    "ObservedDataSets": [
+	{
         "id": "PK_Ratio_CYP3A4",
-        "path": "../PK_Ratio_CYP3A4.xlsx",
+        "path": "../ObservedData/PK_Ratio_CYP3A4.xlsx",
         "type": "DDIRatio"
-    }],
+    },
+	{
+        "id": "Midazolam 600mg SD",
+        "path": "../ObservedData/Midazolam 600mg SD.xlsx",
+        "type": "TimeProfile"
+    },
+	{
+        "id": "Intraconazole 600mg MD",
+        "path": "../ObservedData/Intraconazole 600mg MD.xlsx",
+        "type": "TimeProfile"
+    }
+	],
     "ReportConfiguration": {
         "Plots": {
-            "AllPlots": [
-                {
-                    "refProject": "Midazolam",
-                    "refSimulation": "S1",
-                    "location": 2
-                },
-                {
-                    "refProject": "Midazolam",
-                    "refSimulation": "S2",
-                    "location": 3
-                }
-            ],
+			"TimeProfile":
+			{
+				"name": "Another Chart",
+				"description": "", 
+				"refProject": "Midazolam",
+				"refSimulation": "S1",
+				"legendPosition": "RightInside",
+				"location": 2,
+				"Axes" : [
+					{
+						"name": "X",
+						"unit": "h",
+						"scale": "Linear",
+						"minValue": null,
+						"maxValue": 24
+					},
+					{
+						"name": "Y",
+						"unit": "µmol/l",
+						"scale": "Log",
+						"minValue": null,
+						"maxValue": null
+					}					
+				],
+				"Curves": [
+					{
+						"axis": "Y",
+						"type": "Simulated",
+						"source": "PeripheralVenousBlood|Plasma|Midazolam",
+						"caption": "Curve 1",
+						"color": "red",
+						"lineStyle": "Solid",
+						"symbol": "Diamond",
+						"lineWidth": 1
+					},
+					{
+						"axis": "Y",
+						"type": "Simulated",
+						"source": "ArterialBlood|PlasmaUnbound|Midazolam",
+						"caption": "Curve 3",
+						"color": "blue",
+						"lineStyle": "Solid",
+						"symbol": "None",
+						"lineWidth": 1
+					},
+					{
+						"axis": "Y",
+						"type": "Observed",
+						"source": "Midazolam 600mg SD",
+						"caption": "Curve 3",
+						"color": "grey",
+						"lineStyle": "Solid",
+						"symbol": "None",
+						"lineWidth": 1
+					}
+				],
+				
+			},
             "GOFMerged": [{
                 "name": "Midazolam concentration in plasma/blood",
                 "plotType": "predictedVsObserved|residualsOverTime",
@@ -68,4 +128,5 @@
             }
         ]
     }
-}}
+}
+}
