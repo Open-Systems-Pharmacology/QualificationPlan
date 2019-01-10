@@ -3,17 +3,17 @@
     "SimulationMappings": [
         {
             "refProject": "Midazolam",
-			"refSimulation": "S1",
+            "refSimulation": "S1",
             "path": "../Midazolam/S1"
         },
         {
             "refProject": "Midazolam",
-			"refSimulation": "S2",
+            "refSimulation": "S2",
             "path": "../Midazolam/S2"
         },
         {
             "refProject": "Itraconazole",
-			"refSimulation": "S1",
+            "refSimulation": "S1",
             "path": "../Itraconazole/S1"
         }
     ],
