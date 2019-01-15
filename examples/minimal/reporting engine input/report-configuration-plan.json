@@ -43,7 +43,7 @@
 				"refProject": "Midazolam",
 				"refSimulation": "S1",
 				"legendPosition": "RightInside",
-				"location": 2,
+				"sectionId": 2,
 				"Axes" : [
 					{
 						"name": "X",
@@ -97,6 +97,7 @@
             "GOFMerged": [{
                 "name": "Midazolam concentration in plasma/blood",
                 "plotType": "predictedVsObserved|residualsOverTime",
+				"sectionId": 1,
                 "Group": [{
                     "name": "Midazolam iv",
                     "symbol": 1,
