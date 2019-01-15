@@ -26,17 +26,18 @@
                 {
                     "refProject": "Midazolam",
                     "refSimulation": "S1",
-                    "location": 2
+                    "sectionId": 2
                 },
                 {
                     "refProject": "Midazolam",
                     "refSimulation": "S2",
-                    "location": 3
+                    "sectionId": 3
                 }
             ],
             "GOFMerged": [{
                 "name": "Midazolam concentration in plasma/blood",
                 "plotType": "predictedVsObserved|residualsOverTime",
+				"sectionId": 1,
                 "Group": [{
                     "name": "Midazolam iv",
                     "symbol": 1,
