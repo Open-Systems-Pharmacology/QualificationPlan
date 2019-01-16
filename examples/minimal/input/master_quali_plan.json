@@ -51,6 +51,20 @@
                 }]
             }]
         },
+        "Inputs": [
+            {
+                "Project": "Midazolam",
+                "Type": "Compound",
+                "Name": "Midazolam",
+                "sectionId": 1
+            },
+            {
+                "Project": "Midazolam",
+                "Type": "Simulation",
+                "Name": "S1",
+                "sectionId": 2
+            }		
+		],
         "Sections": [
             {
                 "id": 1,
