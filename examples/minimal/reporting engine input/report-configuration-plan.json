@@ -54,7 +54,7 @@
 					},
 					{
 						"name": "Y",
-						"unit": "µmol/l",
+						"unit": "Âµmol/l",
 						"scale": "Log",
 						"minValue": null,
 						"maxValue": null
@@ -113,15 +113,11 @@
         },
         "Inputs": [
             {
-                "Project": "Midazolam",
-                "Type": "Compound",
-                "Name": "Midazolam",
+                "path": "../Inputs/Midazolam_Compound_Midazolam.xlsx",
                 "sectionId": 1
             },
             {
-                "Project": "Midazolam",
-                "Type": "Simulation",
-                "Name": "S1",
+                "path": "../Inputs/Midazolam_Simulations_S1.xlsx",
                 "sectionId": 2
             }		
 		],		
