@@ -113,11 +113,11 @@
         },
         "Inputs": [
             {
-                "path": "../Inputs/Midazolam_Compound_Midazolam.xlsx",
+                "path": "../Midazolam/Inputs/Compounds/Midazolam.xlsx",
                 "sectionId": 1
             },
             {
-                "path": "../Inputs/Midazolam_Simulations_S1.xlsx",
+                "path": "../Midazolam/Inputs/Simulations/S1.xlsx",
                 "sectionId": 2
             }		
 		],		
