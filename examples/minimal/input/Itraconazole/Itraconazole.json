@@ -557,8 +557,11 @@
   ],
   "Simulations": [
     {
-      "Name": "S",
+      "Name": "S1",
       "Model": "4Comp",
+      "ObservedData": [
+        "Itraconazole 600mg MD"
+      ],
       "Solver": {
         "AbsTol": 1E-09,
         "RelTol": 0.0001
@@ -618,7 +621,9 @@
         "Organism|ArterialBlood|BloodCells|Midazolam|Concentration in container",
         "Organism|ArterialBlood|Hydroxy-Itraconazole|Whole Blood",
         "Organism|ArterialBlood|Itraconazole|Whole Blood",
-        "Organism|ArterialBlood|Midazolam|Whole Blood"
+        "Organism|ArterialBlood|Midazolam|Whole Blood",
+        "Organism|Kidney|Urine|Itraconazole|Fraction excreted to urine",
+        "Organism|Kidney|Urine|Midazolam|Fraction excreted to urine"
       ],
       "Individual": "Ind",
       "Compounds": [
@@ -719,98 +724,109 @@
           ],
           "Curves": [
             {
-              "Name": "S-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "S1-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "S|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "Y": "S1|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "255, 0, 0",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "S-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "S1-Midazolam-Arterial Blood-Plasma Unbound-Concentration",
               "X": "Time",
-              "Y": "S|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "0, 0, 255",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "S-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "0, 128, 0",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "S-Hydroxy-Itraconazole-Arterial Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|ArterialBlood|Plasma|Hydroxy-Itraconazole|Concentration in container",
-              "CurveOptions": {
-                "Color": "255, 0, 0",
-                "LegendIndex": 4
-              }
-            },
-            {
-              "Name": "S-Itraconazole-Arterial Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|ArterialBlood|Plasma|Itraconazole|Concentration in container",
-              "CurveOptions": {
-                "Color": "0, 0, 255",
-                "LegendIndex": 5
-              }
-            },
-            {
-              "Name": "S-Midazolam-Arterial Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|ArterialBlood|Plasma|Midazolam|Concentration in container",
-              "CurveOptions": {
-                "Color": "0, 128, 0",
-                "LegendIndex": 6
-              }
-            },
-            {
-              "Name": "S-Hydroxy-Itraconazole-Arterial Blood-Plasma Unbound-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|ArterialBlood|Plasma|Hydroxy-Itraconazole|Plasma Unbound",
-              "CurveOptions": {
-                "Color": "255, 0, 0",
-                "LegendIndex": 7
-              }
-            },
-            {
-              "Name": "S-Itraconazole-Arterial Blood-Plasma Unbound-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|ArterialBlood|Plasma|Itraconazole|Plasma Unbound",
-              "CurveOptions": {
-                "Color": "0, 0, 255",
-                "LegendIndex": 8
-              }
-            },
-            {
-              "Name": "S-Midazolam-Arterial Blood-Plasma Unbound-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|ArterialBlood|Plasma|Midazolam|Plasma Unbound",
+              "Y": "S1|Organism|ArterialBlood|Plasma|Midazolam|Plasma Unbound",
               "CurveOptions": {
                 "Color": "0, 128, 0",
                 "LegendIndex": 9
               }
             },
             {
-              "Name": "S-Hydroxy-Itraconazole-Arterial Blood-Blood Cells-Concentration",
-              "X": "Time",
-              "Y": "S|Organism|ArterialBlood|BloodCells|Hydroxy-Itraconazole|Concentration in container",
+              "Name": "Itraconazole 600mg MD-Rifampicin-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Itraconazole 600mg MD|Time ",
+              "Y": "Itraconazole 600mg MD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc ",
               "CurveOptions": {
-                "Color": "255, 0, 0",
-                "LegendIndex": 10
+                "Color": "0, 0, 255",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Undefined\nS\n2019-01-08 10:40"
+          "Name": "Chart 1",
+          "OriginText": "Intraconazole\nS1\n2019-02-02 14:40"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Hidro - Venous Blood Plasma",
+              "X": "Time",
+              "Y": "S1|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Intra - Venous Blood Plasma",
+              "X": "Time",
+              "Y": "S1|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Mida - Fraction Excreted",
+              "X": "Time",
+              "Y": "S1|Organism|Kidney|Urine|Midazolam|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "0, 128, 0",
+                "LegendIndex": 3,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Chat 2",
+          "OriginText": "Intraconazole\nS1\n2019-02-02 14:40"
         }
       ],
       "Interactions": [
@@ -829,7 +845,7 @@
   ],
   "ObservedData": [
     {
-      "Name": "Intraconazole 600mg MD",
+      "Name": "Itraconazole 600mg MD",
       "ExtendedProperties": [
         {
           "Name": "Source",
@@ -868,7 +884,7 @@
               "Name": "SD ",
               "QuantityInfo": {
                 "Name": "SD ",
-                "Path": "Intraconazole 600mg MD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|SD "
+                "Path": "Itraconazole 600mg MD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|SD "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -897,7 +913,7 @@
           ],
           "QuantityInfo": {
             "Name": "Conc ",
-            "Path": "Intraconazole 600mg MD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc "
+            "Path": "Itraconazole 600mg MD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc "
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -928,7 +944,7 @@
         "Name": "Time ",
         "QuantityInfo": {
           "Name": "Time ",
-          "Path": "Intraconazole 600mg MD|Time ",
+          "Path": "Itraconazole 600mg MD|Time ",
           "Type": "Time"
         },
         "DataInfo": {
