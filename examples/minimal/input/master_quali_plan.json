@@ -44,7 +44,7 @@
                     "Simulation": [{
                         "refProject": "Midazolam",
                         "refSimulation": "S1",
-                        "Output": "PeripheralVenousBlood|Whodle Blood|Miazolam",
+                        "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
                         "refObservedData": "Midazolam 600mg SD",
                         "color": "blue"
                     }]
