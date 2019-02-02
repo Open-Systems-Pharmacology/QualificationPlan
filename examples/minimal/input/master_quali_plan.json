@@ -24,7 +24,7 @@
         "Plots": {
             "AllPlots": [
                 {
-                    "refProject": "Midazolam",
+                    "refProject": "Itraconazole",
                     "refSimulation": "S1",
                     "sectionId": 2
                 },
@@ -44,7 +44,7 @@
                     "Simulation": [{
                         "refProject": "Midazolam",
                         "refSimulation": "S1",
-                        "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
+                        "Output": "PeripheralVenousBlood|Whodle Blood|Miazolam",
                         "refObservedData": "Midazolam 600mg SD",
                         "color": "blue"
                     }]
