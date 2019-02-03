@@ -754,7 +754,7 @@
             }
           ],
           "Name": "Chart 1",
-          "OriginText": "Intraconazole\nS1\n2019-02-02 14:40"
+          "OriginText": "Itraconazole\nS1\n2019-02-02 14:40"
         },
         {
           "Axes": [
@@ -826,7 +826,7 @@
             }
           ],
           "Name": "Chat 2",
-          "OriginText": "Intraconazole\nS1\n2019-02-02 14:40"
+          "OriginText": "Itraconazole\nS1\n2019-02-02 14:40"
         }
       ],
       "Interactions": [

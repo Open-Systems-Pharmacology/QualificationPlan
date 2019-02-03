@@ -29,8 +29,8 @@
                 "Type": "TimeProfile"
             },
             {
-                "Id": "Intraconazole 600mg MD",
-                "Path": "../ObservedData/Intraconazole 600mg MD.xlsx",
+                "Id": "Itraconazole 600mg MD",
+                "Path": "../ObservedData/Itraconazole 600mg MD.xlsx",
                 "Type": "TimeProfile"
             }
         ],
@@ -98,7 +98,7 @@
                                 }
                             ],
                             "Name": "Chart 1",
-                            "OriginText": "Intraconazole\nS1\n2019-02-02 14:40",
+                            "OriginText": "Itraconazole\nS1\n2019-02-02 14:40",
                        }
                     },
                     {
@@ -175,7 +175,7 @@
                                 }
                             ],
                             "Name": "Chat 2",
-                            "OriginText": "Intraconazole\nS1\n2019-02-02 14:40",
+                            "OriginText": "Itraconazole\nS1\n2019-02-02 14:40",
                         }
                     }
                 ],
