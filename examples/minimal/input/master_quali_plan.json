@@ -1,119 +1,117 @@
 {
-    "Projects": [
+  "Projects": [
+    {
+      "Id": "Midazolam",
+      "Path": "../Midazolam/Midazolam.json"
+    },
+    {
+      "Id": "Itraconazole",
+      "Path": "../Itraconazole/Itraconazole.json",
+      "BuildingBlocks": [
         {
-            "Id": "Midazolam",
-            "Path": "../Midazolam/Midazolam.json"
-        },
-        {
-            "Id": "Itraconazole",
-            "Path": "../Itraconazole/Itraconazole.json",
-            "BuildingBlocks": [
-                {
-                    "BuildingBlockType": "Individual",
-                    "Name": "Ind",
-                    "RefProject": "Midazolam"
-                }
-            ],
-            "SimulationParameters": []
+          "BuildingBlockType": "Individual",
+          "Name": "Ind",
+          "RefProject": "Midazolam"
         }
-    ],
-    "ObservedDataSets": [
-        {
-            "Id": "PK_Ratio_CYP3A4",
-            "Path": "../PK_Ratio_CYP3A4.xlsx",
-            "Type": "DDIRatio"
-        }
-    ],
-    "ReportConfiguration": {
-        "PlotSettings": {
-            "ChartWidth": 500,
-            "ChartHeight": 400,
-            "Fonts": {
-                "AxisSize": 11,
-                "LegendSize": 9,
-                "OriginSize": 9,
-                "FontFamilyName": "Arial",
-                "WatermarkSize": 40
-            }
-        },
-        "Plots": {
-            "AllPlots": [
-                {
-                    "RefProject": "Itraconazole",
-                    "RefSimulation": "S1",
-                    "SectionId": 2
-                },
-                {
-                    "RefProject": "Midazolam",
-                    "RefSimulation": "S2",
-                    "SectionId": 3
-                }
-            ],
-            "GOFMerged": [
-                {
-                    "Name": "Midazolam concentration in plasma/blood",
-                    "PlotType": "predictedVsObserved|residualsOverTime",
-                    "SectionId": 1,
-                    "PlotSettings": {
-                        "ChartWidth": 300,
-                        "ChartHeight": 300,
-                        "Fonts": {
-                            "AxisSize": 10,
-                            "LegendSize": 10,
-                            "OriginSize": 10,
-                            "WatermarkSize": 40
-                        }
-                    },
-                    "Group": [
-                        {
-                            "Name": "Midazolam iv",
-                            "Symbol": 1,
-                            "Simulation": [
-                                {
-                                    "RefProject": "Midazolam",
-                                    "RefSimulation": "S1",
-                                    "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
-                                    "RefObservedData": "Midazolam 600mg SD",
-                                    "Color": "blue"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        "Inputs": [
-            {
-                "Project": "Midazolam",
-                "Type": "Compound",
-                "Name": "Midazolam",
-                "SectionId": 1
-            },
-            {
-                "Project": "Midazolam",
-                "Type": "Simulation",
-                "Name": "S1",
-                "SectionId": 2
-            }
-        ],
-        "Sections": [
-            {
-                "Id": 1,
-                "Title": "Chapter 1",
-                "Content": "../Content/Section1.md"
-            },
-            {
-                "Id": 2,
-                "Title": "Chapter 2",
-                "Content": "../Content/Section2.md",
-                "Sections": [
-                    {
-                        "Id": 3,
-                        "Title": "Chapter 2.1",
-                        "Content": "../Content/Section2.1.md"
-                    }
-                ]
-            }
-        ]
+      ],
+      "SimulationParameters": []
     }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "PK_Ratio_CYP3A4",
+      "Path": "../PK_Ratio_CYP3A4.xlsx",
+      "Type": "DDIRatio"
+    }
+  ],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AllPlots": [
+      {
+        "RefProject": "Itraconazole",
+        "RefSimulation": "S1",
+        "SectionId": 2
+      },
+      {
+        "RefProject": "Midazolam",
+        "RefSimulation": "S2",
+        "SectionId": 3
+      }
+    ],
+    "GOFMerged": [
+      {
+        "Name": "Midazolam concentration in plasma/blood",
+        "PlotType": "predictedVsObserved|residualsOverTime",
+        "SectionId": 1,
+        "PlotSettings": {
+          "ChartWidth": 300,
+          "ChartHeight": 300,
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 10,
+            "OriginSize": 10,
+            "WatermarkSize": 40
+          }
+        },
+        "Group": [
+          {
+            "Name": "Midazolam iv",
+            "Symbol": 1,
+            "Simulation": [
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "S1",
+                "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
+                "RefObservedData": "Midazolam 600mg SD",
+                "Color": "blue"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Inputs": [
+    {
+      "Project": "Midazolam",
+      "Type": "Compound",
+      "Name": "Midazolam",
+      "SectionId": 1
+    },
+    {
+      "Project": "Midazolam",
+      "Type": "Simulation",
+      "Name": "S1",
+      "SectionId": 2
+    }
+  ],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Chapter 1",
+      "Content": "../Content/Section1.md"
+    },
+    {
+      "Id": 2,
+      "Title": "Chapter 2",
+      "Content": "../Content/Section2.md",
+      "Sections": [
+        {
+          "Id": 3,
+          "Title": "Chapter 2.1",
+          "Content": "../Content/Section2.1.md"
+        }
+      ]
+    }
+  ]
 }
