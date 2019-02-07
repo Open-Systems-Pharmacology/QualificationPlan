@@ -35,6 +35,17 @@
             }
         ],
         "ReportConfiguration": {
+			"PlotSettings" : {
+				"ChartWidth": 500,
+				"ChartHeight": 400,
+				"Fonts": {
+				"AxisSize": 11,
+				"LegendSize": 9,
+				"OriginSize": 9,
+				"FontFamilyName": "Arial",
+				"WatermarkSize": 40
+				}
+			},
             "Plots": {
                 "TimeProfile": [
                     {
@@ -184,6 +195,16 @@
                         "Name": "Midazolam concentration in plasma/blood",
                         "PlotType": "predictedVsObserved|residualsOverTime",
                         "SectionId": 1,
+						"PlotSettings" : {
+							"ChartWidth": 300,
+							"ChartHeight": 300,
+							"Fonts": {
+							"AxisSize": 10,
+							"LegendSize": 10,
+							"OriginSize": 10,
+							"WatermarkSize": 40
+							}
+						},
                         "Group": [
                             {
                                 "Name": "Midazolam iv",
