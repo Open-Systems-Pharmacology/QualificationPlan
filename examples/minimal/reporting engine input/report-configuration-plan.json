@@ -195,7 +195,7 @@
                         "Name": "Midazolam concentration in plasma/blood",
                         "PlotType": "predictedVsObserved|residualsOverTime",
                         "SectionId": 1,
-						"PlotSettings" : {
+                        "PlotSettings" : {
 							"ChartWidth": 300,
 							"ChartHeight": 300,
 							"Fonts": {
@@ -204,7 +204,7 @@
 							"OriginSize": 10,
 							"WatermarkSize": 40
 							}
-						},
+                        },
                         "Group": [
                             {
                                 "Name": "Midazolam iv",
