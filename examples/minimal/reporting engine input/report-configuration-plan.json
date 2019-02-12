@@ -94,7 +94,7 @@
               "Visible": true,
               "Min": -0.8087273,
               "Max": 18.5381165,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -107,7 +107,7 @@
               "Visible": true,
               "Min": 0.0121767037,
               "Max": 18.3302116,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -119,7 +119,7 @@
               "X": "Time",
               "Y": "S2|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -128,7 +128,7 @@
               "X": "Time",
               "Y": "S2|Organism|ArterialBlood|Plasma|Midazolam|Concentration in container",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 2
               }
             },
@@ -137,7 +137,7 @@
               "X": "Time",
               "Y": "S2|Organism|ArterialBlood|BloodCells|Midazolam|Concentration in container",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 3
               }
             },
@@ -146,7 +146,7 @@
               "X": "Time",
               "Y": "S2|Organism|Fat|Plasma|Midazolam|Concentration in container",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 4
               }
             },
@@ -155,7 +155,7 @@
               "X": "Time",
               "Y": "S2|Organism|Fat|BloodCells|Midazolam|Concentration in container",
               "CurveOptions": {
-                "Color": "255, 128, 0",
+                "Color": "#FF8000",
                 "LegendIndex": 5
               }
             },
@@ -164,7 +164,7 @@
               "X": "Time",
               "Y": "S2|Organism|Fat|Midazolam|Interstitial Unbound",
               "CurveOptions": {
-                "Color": "0, 192, 192",
+                "Color": "#00C0C0",
                 "LegendIndex": 6
               }
             },
@@ -173,7 +173,7 @@
               "X": "Time",
               "Y": "S2|Organism|Fat|Midazolam|Intracellular Unbound",
               "CurveOptions": {
-                "Color": "192, 0, 192",
+                "Color": "#C000C0",
                 "LegendIndex": 7
               }
             },
@@ -182,7 +182,7 @@
               "X": "Time",
               "Y": "S2|Organism|Fat|Midazolam|Tissue",
               "CurveOptions": {
-                "Color": "192, 64, 0",
+                "Color": "#C04000",
                 "LegendIndex": 8
               }
             },
@@ -191,7 +191,7 @@
               "X": "Rifampin, Peloquin, 600mg po SD|Time",
               "Y": "Midazolam 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc",
               "CurveOptions": {
-                "Color": "192, 64, 0",
+                "Color": "#C04000",
                 "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -214,7 +214,7 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -225,7 +225,7 @@
               "Type": "Y",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -237,7 +237,7 @@
               "X": "Time",
               "Y": "S1|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -246,7 +246,7 @@
               "X": "Time",
               "Y": "S1|Organism|ArterialBlood|Plasma|Midazolam|Plasma Unbound",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 9
               }
             },
@@ -255,7 +255,7 @@
               "X": "Itraconazole 600mg MD|Time ",
               "Y": "Itraconazole 600mg MD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc ",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 10,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -280,7 +280,7 @@
               "Visible": true,
               "Min": 0.0,
               "Max": 12.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -291,7 +291,7 @@
               "Type": "Y",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -302,7 +302,7 @@
               "Type": "Y2",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -314,7 +314,7 @@
               "X": "Time",
               "Y": "S1|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -323,7 +323,7 @@
               "X": "Time",
               "Y": "S1|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 2
               }
             },
@@ -333,7 +333,7 @@
               "Y": "S1|Organism|Kidney|Urine|Midazolam|Fraction excreted to urine",
               "CurveOptions": {
                 "yAxisType": "Y2",
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 3,
                 "LineStyle": "Dash"
               }
