@@ -972,7 +972,7 @@
       }
     },
     {
-      "Name": "Midazolan 600 mg SD",
+      "Name": "Midazolam 600mg SD",
       "ExtendedProperties": [
         {
           "Name": "Source",
@@ -1008,7 +1008,7 @@
           "Name": "Conc",
           "QuantityInfo": {
             "Name": "Conc",
-            "Path": "Midazolan 600 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc"
+            "Path": "Midazolam 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|Conc"
           },
           "DataInfo": {
             "Origin": "Observation",
