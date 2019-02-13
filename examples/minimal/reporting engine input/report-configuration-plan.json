@@ -3,35 +3,35 @@
     {
       "RefProject": "Midazolam",
       "RefSimulation": "S1",
-      "Path": "..\\Midazolam\\S1\\"
+      "Path": "../Midazolam/S1/"
     },
     {
       "RefProject": "Midazolam",
       "RefSimulation": "S2",
-      "Path": "..\\Midazolam\\S2\\"
+      "Path": "../Midazolam/S2/"
     },
     {
       "RefProject": "Itraconazole",
       "RefSimulation": "S1",
-      "Path": "..\\Itraconazole\\S1\\"
+      "Path": "../Itraconazole/S1/"
     }
   ],
   "ObservededDataSets": [
     {
       "Id": "Midazolam 600mg SD",
-      "Path": "..\\ObservedData\\Midazolam 600mg SD.xlsx"
+      "Path": "../ObservedData/Midazolam 600mg SD.xlsx"
     },
     {
       "Id": "Itraconazole 600mg MD",
-      "Path": "..\\ObservedData\\Itraconazole 600mg MD.xlsx"
+      "Path": "../ObservedData/Itraconazole 600mg MD.xlsx"
     },
     {
       "Id": "Midazolam 600mg SD",
-      "Path": "..\\ObservedData\\Midazolam 600mg SD.xlsx"
+      "Path": "../ObservedData/Midazolam 600mg SD.xlsx"
     },
     {
       "Id": "PK_Ratio_CYP3A4",
-      "Path": "..\\ObservedData\\PK_Ratio_CYP3A4.xlsx",
+      "Path": "../ObservedData/PK_Ratio_CYP3A4.xlsx",
       "Type": "DDIRatio"
     }
   ],
@@ -345,6 +345,16 @@
       }
     ]
   },
+  "Inputs": [
+    {
+      "SectionId": 1,
+      "Path": "../Inputs/Midazolam/Compound/Midazolam.md"
+    },
+    {
+      "SectionId": 2,
+      "Path": "../Inputs/Midazolam/Simulation/S1.md"
+    }
+  ],
   "Sections": [
     {
       "Id": 1,
