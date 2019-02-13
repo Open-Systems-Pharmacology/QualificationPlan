@@ -83,13 +83,13 @@
   },
   "Inputs": [
     {
-      "Project": "Midazolam",
+      "RefProject": "Midazolam",
       "Type": "Compound",
       "Name": "Midazolam",
       "SectionId": 1
     },
     {
-      "Project": "Midazolam",
+      "RefProject": "Midazolam",
       "Type": "Simulation",
       "Name": "S1",
       "SectionId": 2
