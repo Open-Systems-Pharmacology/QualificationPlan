@@ -9,7 +9,7 @@
       "Path": "../Itraconazole/Itraconazole.json",
       "BuildingBlocks": [
         {
-          "BuildingBlockType": "Individual",
+          "Type": "Individual",
           "Name": "Ind",
           "RefProject": "Midazolam"
         }
