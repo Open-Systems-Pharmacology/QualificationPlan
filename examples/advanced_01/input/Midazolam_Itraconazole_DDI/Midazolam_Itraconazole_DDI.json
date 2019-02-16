@@ -8758,7 +8758,17 @@
       ],
       "IntestinalPermeability": [
         {
-          "Name": "Fit"
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         }
       ],
       "PkaTypes": [
@@ -12395,7 +12405,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Templeton_2010_Itra400.Conc [nmol/l]",
             "MolWeight": 325.77
           },
@@ -12424,7 +12434,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Templeton_2010_Itra400.Time [h]"
         },
         "Values": [
@@ -12484,7 +12494,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Templeton_2010_Itra200.Conc [nmol/l]",
             "MolWeight": 325.77
           },
@@ -12513,7 +12523,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Templeton_2010_Itra200.Time [h]"
         },
         "Values": [
@@ -12573,7 +12583,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Templeton_2010_Itra50.Conc [nmol/l]",
             "MolWeight": 325.77
           },
@@ -12602,7 +12612,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Templeton_2010_Itra50.Time [h]"
         },
         "Values": [
@@ -12662,7 +12672,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Templeton_2010_Control.Conc [nmol/l]",
             "MolWeight": 325.77
           },
@@ -12689,7 +12699,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Templeton_2010_Control.Time [h]"
         },
         "Values": [
@@ -12747,7 +12757,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Olkkola_1994_Treatment.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -12777,7 +12787,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Olkkola_1994_Treatment.Time [h]"
         },
         "Values": [
@@ -12838,7 +12848,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Olkkola_1994_Control.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -12866,7 +12876,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Olkkola_1994_Control.Time [h]"
         },
         "Values": [
@@ -12925,7 +12935,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Ahonen_1995_Treatment.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -12955,7 +12965,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Ahonen_1995_Treatment.Time [h]"
         },
         "Values": [
@@ -13016,7 +13026,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Ahonen_1995_Control.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -13045,7 +13055,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Ahonen_1995_Control.Time [h]"
         },
         "Values": [
@@ -13105,7 +13115,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-08T08:49:12.0655783+02:00",
+            "Date": "2015-05-08T02:49:12.0655783-04:00",
             "Source": "ScannedData_mida-itra.Olkkola_1994_Itra.Conc [mg/l]",
             "MolWeight": 705.633
           },
@@ -13136,7 +13146,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-08T08:49:12.0655783+02:00",
+          "Date": "2015-05-08T02:49:12.0655783-04:00",
           "Source": "ScannedData_mida-itra.Olkkola_1994_Itra.Time [h]"
         },
         "Values": [
@@ -13198,7 +13208,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-08T08:49:12.0655783+02:00",
+            "Date": "2015-05-08T02:49:12.0655783-04:00",
             "Source": "ScannedData_mida-itra.Olkkola_1996_Control.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -13246,7 +13256,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-08T08:49:12.0655783+02:00",
+          "Date": "2015-05-08T02:49:12.0655783-04:00",
           "Source": "ScannedData_mida-itra.Olkkola_1996_Control.Time [h]"
         },
         "Values": [
@@ -13325,7 +13335,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-08T08:49:12.0655783+02:00",
+            "Date": "2015-05-08T02:49:12.0655783-04:00",
             "Source": "ScannedData_mida-itra.Olkkola_1996_Treatment.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -13376,7 +13386,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-08T08:49:12.0655783+02:00",
+          "Date": "2015-05-08T02:49:12.0655783-04:00",
           "Source": "ScannedData_mida-itra.Olkkola_1996_Treatment.Time [h]"
         },
         "Values": [
@@ -13458,7 +13468,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Backmann_1998_Control.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -13488,7 +13498,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Backmann_1998_Control.Time [h]"
         },
         "Values": [
@@ -13549,7 +13559,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-06T08:20:17.949681+02:00",
+            "Date": "2015-05-06T02:20:17.949681-04:00",
             "Source": "ScannedData_mida-itra.Backmann_1998_Control.Conc [ng/ml]",
             "MolWeight": 325.77
           },
@@ -13579,7 +13589,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-06T08:20:17.949681+02:00",
+          "Date": "2015-05-06T02:20:17.949681-04:00",
           "Source": "ScannedData_mida-itra.Backmann_1998_Control.Time [h]"
         },
         "Values": [
@@ -13640,7 +13650,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-09-22T17:53:39.5329493+02:00",
+            "Date": "2016-09-22T11:53:39.5329493-04:00",
             "Source": "ScannedData_mida-itra.Backmann_1998_ItraPhaseII (Paper div by 2!).ScannedData_mida-itra.Backman.Column1",
             "MolWeight": 325.77
           },
@@ -13671,7 +13681,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-09-22T17:53:39.5329493+02:00",
+          "Date": "2016-09-22T11:53:39.5329493-04:00",
           "Source": "ScannedData_mida-itra.Backmann_1998_ItraPhaseII (Paper div by 2!).ScannedData_mida-itra.Backman.Time  [h]"
         },
         "Values": [
@@ -13733,7 +13743,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-09-22T17:54:49.8778583+02:00",
+            "Date": "2016-09-22T11:54:49.8778583-04:00",
             "Source": "ScannedData_mida-itra.Backmann_1998_ItraPhaseIII (Paper div by 2!).ScannedData_mida-itra.Backman.Column1",
             "MolWeight": 325.77
           },
@@ -13764,7 +13774,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-09-22T17:54:49.8778583+02:00",
+          "Date": "2016-09-22T11:54:49.8778583-04:00",
           "Source": "ScannedData_mida-itra.Backmann_1998_ItraPhaseIII (Paper div by 2!).ScannedData_mida-itra.Backman.Time  [h]"
         },
         "Values": [

@@ -8805,13 +8805,33 @@
       ],
       "IntestinalPermeability": [
         {
-          "Name": "Fit"
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 5.4E-05,
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         }
       ],
       "Permeability": [
         {
           "Name": "Fit",
-          "IsDefault": false
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 0.111111,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         }
       ],
       "PkaTypes": [
@@ -15295,7 +15315,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:19:03.8626385+01:00",
+            "Date": "2014-11-25T09:19:03.8626385-05:00",
             "Source": "heykants89_single_100mg_iv_oral_ITZandOHITZ.100mg single oral ITZ (fig 2).concentration [ng/ml]",
             "MolWeight": 705.633
           },
@@ -15327,7 +15347,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:19:03.8626385+01:00",
+          "Date": "2014-11-25T09:19:03.8626385-05:00",
           "Source": "heykants89_single_100mg_iv_oral_ITZandOHITZ.100mg single oral ITZ (fig 2).time [h]"
         },
         "Values": [
@@ -15390,7 +15410,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:03:41.8333726+01:00",
+            "Date": "2014-11-25T09:03:41.8333726-05:00",
             "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral ITZ break.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -15422,7 +15442,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:03:41.8333726+01:00",
+          "Date": "2014-11-25T09:03:41.8333726-05:00",
           "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral ITZ break.time [h]"
         },
         "Values": [
@@ -15485,7 +15505,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:03:41.8333726+01:00",
+            "Date": "2014-11-25T09:03:41.8333726-05:00",
             "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral ITZ fasted.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -15518,7 +15538,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:03:41.8333726+01:00",
+          "Date": "2014-11-25T09:03:41.8333726-05:00",
           "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral ITZ fasted.time [h]"
         },
         "Values": [
@@ -15585,7 +15605,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2014-11-25T15:48:34.2522726+01:00",
+                "Date": "2014-11-25T09:48:34.2522726-05:00",
                 "Source": "hardin88_oral_single_multi_ITZ_diffDoses.100mg oral day 1 ITZ.conc S.D.",
                 "MolWeight": 705.633
               },
@@ -15613,7 +15633,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:48:34.2522726+01:00",
+            "Date": "2014-11-25T09:48:34.2522726-05:00",
             "Source": "hardin88_oral_single_multi_ITZ_diffDoses.100mg oral day 1 ITZ.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -15644,7 +15664,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:48:34.2522726+01:00",
+          "Date": "2014-11-25T09:48:34.2522726-05:00",
           "Source": "hardin88_oral_single_multi_ITZ_diffDoses.100mg oral day 1 ITZ.time [h]"
         },
         "Values": [
@@ -15709,7 +15729,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2014-11-25T15:48:34.2522726+01:00",
+                "Date": "2014-11-25T09:48:34.2522726-05:00",
                 "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200 mg oral day 1 ITZ.conc S.D.",
                 "MolWeight": 705.633
               },
@@ -15738,7 +15758,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:48:34.2522726+01:00",
+            "Date": "2014-11-25T09:48:34.2522726-05:00",
             "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200 mg oral day 1 ITZ.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -15770,7 +15790,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:48:34.2522726+01:00",
+          "Date": "2014-11-25T09:48:34.2522726-05:00",
           "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200 mg oral day 1 ITZ.time [h]"
         },
         "Values": [
@@ -15836,7 +15856,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2014-11-25T15:48:34.2522726+01:00",
+                "Date": "2014-11-25T09:48:34.2522726-05:00",
                 "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg BID oral day 1 ITZ.conc S.D.",
                 "MolWeight": 705.633
               },
@@ -15865,7 +15885,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:48:34.2522726+01:00",
+            "Date": "2014-11-25T09:48:34.2522726-05:00",
             "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg BID oral day 1 ITZ.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -15897,7 +15917,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:48:34.2522726+01:00",
+          "Date": "2014-11-25T09:48:34.2522726-05:00",
           "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg BID oral day 1 ITZ.time [h]"
         },
         "Values": [
@@ -15963,7 +15983,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2014-11-25T15:48:34.2522726+01:00",
+                "Date": "2014-11-25T09:48:34.2522726-05:00",
                 "Source": "hardin88_oral_single_multi_ITZ_diffDoses.100mg oral day 15 ITZ.conc S.D.",
                 "MolWeight": 705.633
               },
@@ -15992,7 +16012,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:48:34.2522726+01:00",
+            "Date": "2014-11-25T09:48:34.2522726-05:00",
             "Source": "hardin88_oral_single_multi_ITZ_diffDoses.100mg oral day 15 ITZ.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -16024,7 +16044,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:48:34.2522726+01:00",
+          "Date": "2014-11-25T09:48:34.2522726-05:00",
           "Source": "hardin88_oral_single_multi_ITZ_diffDoses.100mg oral day 15 ITZ.time [h]"
         },
         "Values": [
@@ -16090,7 +16110,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2014-11-25T15:48:34.2678729+01:00",
+                "Date": "2014-11-25T09:48:34.2678729-05:00",
                 "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg oral day15 ITZ.conc S.D.",
                 "MolWeight": 705.633
               },
@@ -16119,7 +16139,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:48:34.2678729+01:00",
+            "Date": "2014-11-25T09:48:34.2678729-05:00",
             "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg oral day15 ITZ.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -16151,7 +16171,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:48:34.2678729+01:00",
+          "Date": "2014-11-25T09:48:34.2678729-05:00",
           "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg oral day15 ITZ.time [h]"
         },
         "Values": [
@@ -16217,7 +16237,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2014-11-25T15:48:34.2678729+01:00",
+                "Date": "2014-11-25T09:48:34.2678729-05:00",
                 "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg BID day 15 ITZ.conc S.D.",
                 "MolWeight": 705.633
               },
@@ -16246,7 +16266,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T15:48:34.2678729+01:00",
+            "Date": "2014-11-25T09:48:34.2678729-05:00",
             "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg BID day 15 ITZ.conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -16278,7 +16298,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T15:48:34.2678729+01:00",
+          "Date": "2014-11-25T09:48:34.2678729-05:00",
           "Source": "hardin88_oral_single_multi_ITZ_diffDoses.200mg BID day 15 ITZ.time [h]"
         },
         "Values": [
@@ -16341,7 +16361,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T16:26:23.6993571+01:00",
+            "Date": "2014-11-25T10:26:23.6993571-05:00",
             "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 1 ITZ.concentration [nM]",
             "MolWeight": 705.633
           },
@@ -16370,7 +16390,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T16:26:23.6993571+01:00",
+          "Date": "2014-11-25T10:26:23.6993571-05:00",
           "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 1 ITZ.time [h]"
         },
         "Values": [
@@ -16430,7 +16450,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-25T16:26:23.6993571+01:00",
+            "Date": "2014-11-25T10:26:23.6993571-05:00",
             "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 7 ITZ.concentration [nM]",
             "MolWeight": 705.633
           },
@@ -16460,7 +16480,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-25T16:26:23.6993571+01:00",
+          "Date": "2014-11-25T10:26:23.6993571-05:00",
           "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 7 ITZ.time [h]"
         },
         "Values": [
@@ -16521,7 +16541,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-28T14:09:53.311713+01:00",
+            "Date": "2014-11-28T08:09:53.311713-05:00",
             "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral OH_ITZ break.conc [ng/ml]",
             "MolWeight": 721.63
           },
@@ -16553,7 +16573,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-28T14:09:53.311713+01:00",
+          "Date": "2014-11-28T08:09:53.311713-05:00",
           "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral OH_ITZ break.time [h]"
         },
         "Values": [
@@ -16616,7 +16636,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-28T14:09:53.311713+01:00",
+            "Date": "2014-11-28T08:09:53.311713-05:00",
             "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral OH_ITZ fasted.conc [ng/ml]",
             "MolWeight": 721.63
           },
@@ -16649,7 +16669,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-28T14:09:53.311713+01:00",
+          "Date": "2014-11-28T08:09:53.311713-05:00",
           "Source": "barone93_Oral_single_multi_200mg_fasting_breakfast.200mg single oral OH_ITZ fasted.time [h]"
         },
         "Values": [
@@ -16713,7 +16733,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-28T14:21:52.9835337+01:00",
+            "Date": "2014-11-28T08:21:52.9835337-05:00",
             "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 1 OH_ITZ.conc [nM]",
             "MolWeight": 721.63
           },
@@ -16742,7 +16762,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-28T14:21:52.9835337+01:00",
+          "Date": "2014-11-28T08:21:52.9835337-05:00",
           "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 1 OH_ITZ.time [h]"
         },
         "Values": [
@@ -16802,7 +16822,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2014-11-28T14:21:52.9835337+01:00",
+            "Date": "2014-11-28T08:21:52.9835337-05:00",
             "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 7 OH_ITZ.conc [nM]",
             "MolWeight": 721.63
           },
@@ -16832,7 +16852,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2014-11-28T14:21:52.9835337+01:00",
+          "Date": "2014-11-28T08:21:52.9835337-05:00",
           "Source": "templeton08_oral_single_multi_100mg_ITZandOHITZ.100mg soln day 7 OH_ITZ.time [h]"
         },
         "Values": [
@@ -16893,7 +16913,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-10T22:02:36.798869+02:00",
+            "Date": "2015-05-10T16:02:36.798869-04:00",
             "Source": "ItraHydroxy_ScannedData.Heykants_89_PO_100mg_SD_OH.Conc [ng/ml]",
             "MolWeight": 721.63
           },
@@ -16928,7 +16948,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-10T22:02:36.798869+02:00",
+          "Date": "2015-05-10T16:02:36.798869-04:00",
           "Source": "ItraHydroxy_ScannedData.Heykants_89_PO_100mg_SD_OH.Time [h]"
         },
         "Values": [
@@ -16994,7 +17014,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-10T22:02:36.798869+02:00",
+            "Date": "2015-05-10T16:02:36.798869-04:00",
             "Source": "ItraHydroxy_ScannedData.Heykants_89_PO_100mg_SD_Itra.Conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -17029,7 +17049,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-10T22:02:36.798869+02:00",
+          "Date": "2015-05-10T16:02:36.798869-04:00",
           "Source": "ItraHydroxy_ScannedData.Heykants_89_PO_100mg_SD_Itra.Time [h]"
         },
         "Values": [
@@ -17095,7 +17115,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-10T21:38:24.274635+02:00",
+            "Date": "2015-05-10T15:38:24.274635-04:00",
             "Source": "ItraHydroxy_ScannedData.Heykants_89_IV_100mg_SD_Itra.Conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -17129,7 +17149,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-10T21:38:24.274635+02:00",
+          "Date": "2015-05-10T15:38:24.274635-04:00",
           "Source": "ItraHydroxy_ScannedData.Heykants_89_IV_100mg_SD_Itra.Time [h]"
         },
         "Values": [
@@ -17206,7 +17226,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-03-25T17:22:36.4431782+01:00",
+            "Date": "2015-03-25T12:22:36.4431782-04:00",
             "Source": "Barone98.Solution 200mg ITZ.C_pls [ng/ml]",
             "MolWeight": 705.633
           },
@@ -17240,7 +17260,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-03-25T17:22:36.4431782+01:00",
+          "Date": "2015-03-25T12:22:36.4431782-04:00",
           "Source": "Barone98.Solution 200mg ITZ.Time [h]"
         },
         "Values": [
@@ -17317,7 +17337,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-03-25T17:22:36.4431782+01:00",
+            "Date": "2015-03-25T12:22:36.4431782-04:00",
             "Source": "Barone98.F05 capsule 200 mg ITZ.C_pls [ng/ml]",
             "MolWeight": 705.633
           },
@@ -17349,7 +17369,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-03-25T17:22:36.4431782+01:00",
+          "Date": "2015-03-25T12:22:36.4431782-04:00",
           "Source": "Barone98.F05 capsule 200 mg ITZ.Time [h]"
         },
         "Values": [
@@ -17424,7 +17444,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-03-25T17:23:37.3611782+01:00",
+            "Date": "2015-03-25T12:23:37.3611782-04:00",
             "Source": "Barone98.Solution 200mg OH-ITZ.C_pls [ng/ml]",
             "MolWeight": 721.63
           },
@@ -17458,7 +17478,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-03-25T17:23:37.3611782+01:00",
+          "Date": "2015-03-25T12:23:37.3611782-04:00",
           "Source": "Barone98.Solution 200mg OH-ITZ.Time [h]"
         },
         "Values": [
@@ -17535,7 +17555,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-03-25T17:23:37.3611782+01:00",
+            "Date": "2015-03-25T12:23:37.3611782-04:00",
             "Source": "Barone98.F05 capsule 200 mg OH-ITZ.C_pls [ng/ml]",
             "MolWeight": 721.63
           },
@@ -17567,7 +17587,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-03-25T17:23:37.3611782+01:00",
+          "Date": "2015-03-25T12:23:37.3611782-04:00",
           "Source": "Barone98.F05 capsule 200 mg OH-ITZ.Time [h]"
         },
         "Values": [
@@ -17630,7 +17650,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-08T08:49:12.0655783+02:00",
+            "Date": "2015-05-08T02:49:12.0655783-04:00",
             "Source": "ScannedData_mida-itra.Olkkola_1994_Itra.Conc [mg/l]",
             "MolWeight": 705.633
           },
@@ -17661,7 +17681,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-08T08:49:12.0655783+02:00",
+          "Date": "2015-05-08T02:49:12.0655783-04:00",
           "Source": "ScannedData_mida-itra.Olkkola_1994_Itra.Time [h]"
         },
         "Values": [
@@ -17723,7 +17743,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-08T14:33:25.8529252+02:00",
+            "Date": "2015-05-08T08:33:25.8529252-04:00",
             "Source": "ItraHydroxy_ScannedData.barone_93_15days_MD_itra.Conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -17762,7 +17782,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-08T14:33:25.8529252+02:00",
+          "Date": "2015-05-08T08:33:25.8529252-04:00",
           "Source": "ItraHydroxy_ScannedData.barone_93_15days_MD_itra.Time [day]"
         },
         "Values": [
@@ -17832,7 +17852,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-08T14:33:25.8529252+02:00",
+            "Date": "2015-05-08T08:33:25.8529252-04:00",
             "Source": "ItraHydroxy_ScannedData.barone_93_15days_MD_hydroxy.Conc [ng/ml]",
             "MolWeight": 721.63
           },
@@ -17869,7 +17889,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-08T14:33:25.8529252+02:00",
+          "Date": "2015-05-08T08:33:25.8529252-04:00",
           "Source": "ItraHydroxy_ScannedData.barone_93_15days_MD_hydroxy.Time [day]"
         },
         "Values": [
@@ -17937,7 +17957,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-11T12:07:52.4358135+02:00",
+            "Date": "2015-05-11T06:07:52.4358135-04:00",
             "Source": "ItraHydroxy_ScannedData.Mouton_06_200mg_MD_Itra_HPBCD.Conc [ng/ml]",
             "MolWeight": 705.633
           },
@@ -17989,7 +18009,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-11T12:07:52.4358135+02:00",
+          "Date": "2015-05-11T06:07:52.4358135-04:00",
           "Source": "ItraHydroxy_ScannedData.Mouton_06_200mg_MD_Itra_HPBCD.Time [h]"
         },
         "Values": [
@@ -18072,7 +18092,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2015-05-11T12:07:52.4358135+02:00",
+            "Date": "2015-05-11T06:07:52.4358135-04:00",
             "Source": "ItraHydroxy_ScannedData.Mouton_06_200mg_MD_OH_HPBCD.Conc [ng/ml]",
             "MolWeight": 721.63
           },
@@ -18127,7 +18147,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2015-05-11T12:07:52.4358135+02:00",
+          "Date": "2015-05-11T06:07:52.4358135-04:00",
           "Source": "ItraHydroxy_ScannedData.Mouton_06_200mg_MD_OH_HPBCD.Time [h]"
         },
         "Values": [
@@ -18213,7 +18233,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T15:10:03.4809426+02:00",
+            "Date": "2016-06-01T09:10:03.4809426-04:00",
             "Source": "Templeton_et_al-2007.ND-Itraconazole.1.nM",
             "MolWeight": 649.5271
           },
@@ -18242,7 +18262,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T15:10:03.4809426+02:00",
+          "Date": "2016-06-01T09:10:03.4809426-04:00",
           "Source": "Templeton_et_al-2007.ND-Itraconazole.1.h"
         },
         "Values": [
@@ -18302,7 +18322,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T15:10:03.4809426+02:00",
+            "Date": "2016-06-01T09:10:03.4809426-04:00",
             "Source": "Templeton_et_al-2007.ND-Itraconazole.4.nM(1)",
             "MolWeight": 649.5271
           },
@@ -18332,7 +18352,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T15:10:03.4809426+02:00",
+          "Date": "2016-06-01T09:10:03.4809426-04:00",
           "Source": "Templeton_et_al-2007.ND-Itraconazole.4.h(1)"
         },
         "Values": [
@@ -18393,7 +18413,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T15:08:53.0759426+02:00",
+            "Date": "2016-06-01T09:08:53.0759426-04:00",
             "Source": "Templeton_et_al-2007.Keto-Itraconazole.1.nM",
             "MolWeight": 719.617
           },
@@ -18422,7 +18442,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T15:08:53.0759426+02:00",
+          "Date": "2016-06-01T09:08:53.0759426-04:00",
           "Source": "Templeton_et_al-2007.Keto-Itraconazole.1.h"
         },
         "Values": [
@@ -18482,7 +18502,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T15:08:53.0759426+02:00",
+            "Date": "2016-06-01T09:08:53.0759426-04:00",
             "Source": "Templeton_et_al-2007.Keto-Itraconazole.4.nM(1)",
             "MolWeight": 719.617
           },
@@ -18512,7 +18532,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T15:08:53.0759426+02:00",
+          "Date": "2016-06-01T09:08:53.0759426-04:00",
           "Source": "Templeton_et_al-2007.Keto-Itraconazole.4.h(1)"
         },
         "Values": [
@@ -18573,7 +18593,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0783115+02:00",
+            "Date": "2016-06-01T10:48:15.0783115-04:00",
             "Source": "Barone_et_al-1998a.OH-Itra_Day1.3.Conc",
             "MolWeight": 721.63
           },
@@ -18603,7 +18623,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0783115+02:00",
+          "Date": "2016-06-01T10:48:15.0783115-04:00",
           "Source": "Barone_et_al-1998a.OH-Itra_Day1.3.Time"
         },
         "Values": [
@@ -18664,7 +18684,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0783115+02:00",
+            "Date": "2016-06-01T10:48:15.0783115-04:00",
             "Source": "Barone_et_al-1998a.Itra_Day1.1.Conc",
             "MolWeight": 705.633
           },
@@ -18694,7 +18714,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0783115+02:00",
+          "Date": "2016-06-01T10:48:15.0783115-04:00",
           "Source": "Barone_et_al-1998a.Itra_Day1.1.Time"
         },
         "Values": [
@@ -18755,7 +18775,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0783115+02:00",
+            "Date": "2016-06-01T10:48:15.0783115-04:00",
             "Source": "Barone_et_al-1998a.Itra_Day1.2.Conc(1)",
             "MolWeight": 705.633
           },
@@ -18785,7 +18805,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0783115+02:00",
+          "Date": "2016-06-01T10:48:15.0783115-04:00",
           "Source": "Barone_et_al-1998a.Itra_Day1.2.Time"
         },
         "Values": [
@@ -18846,7 +18866,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0793114+02:00",
+            "Date": "2016-06-01T10:48:15.0793114-04:00",
             "Source": "Barone_et_al-1998a.Itra_Day15.8.Conc(1)",
             "MolWeight": 705.633
           },
@@ -18877,7 +18897,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0793114+02:00",
+          "Date": "2016-06-01T10:48:15.0793114-04:00",
           "Source": "Barone_et_al-1998a.Itra_Day15.8.Time"
         },
         "Values": [
@@ -18939,7 +18959,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0793114+02:00",
+            "Date": "2016-06-01T10:48:15.0793114-04:00",
             "Source": "Barone_et_al-1998a.Itra_Day15.7.Conc",
             "MolWeight": 705.633
           },
@@ -18970,7 +18990,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0793114+02:00",
+          "Date": "2016-06-01T10:48:15.0793114-04:00",
           "Source": "Barone_et_al-1998a.Itra_Day15.7.Time"
         },
         "Values": [
@@ -19032,7 +19052,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0793114+02:00",
+            "Date": "2016-06-01T10:48:15.0793114-04:00",
             "Source": "Barone_et_al-1998a.OH-Itra_Day15.6.Conc(1)",
             "MolWeight": 721.63
           },
@@ -19063,7 +19083,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0793114+02:00",
+          "Date": "2016-06-01T10:48:15.0793114-04:00",
           "Source": "Barone_et_al-1998a.OH-Itra_Day15.6.Time"
         },
         "Values": [
@@ -19125,7 +19145,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0783115+02:00",
+            "Date": "2016-06-01T10:48:15.0783115-04:00",
             "Source": "Barone_et_al-1998a.OH-Itra_Day15.5.Conc",
             "MolWeight": 721.63
           },
@@ -19156,7 +19176,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0783115+02:00",
+          "Date": "2016-06-01T10:48:15.0783115-04:00",
           "Source": "Barone_et_al-1998a.OH-Itra_Day15.5.Time"
         },
         "Values": [
@@ -19218,7 +19238,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T16:48:15.0783115+02:00",
+            "Date": "2016-06-01T10:48:15.0783115-04:00",
             "Source": "Barone_et_al-1998a.OH-Itra_Day1.4.Conc(1)",
             "MolWeight": 721.63
           },
@@ -19248,7 +19268,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T16:48:15.0783115+02:00",
+          "Date": "2016-06-01T10:48:15.0783115-04:00",
           "Source": "Barone_et_al-1998a.OH-Itra_Day1.4.Time"
         },
         "Values": [
@@ -19313,7 +19333,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T17:21:18.9661742+02:00",
+            "Date": "2016-06-01T11:21:18.9661742-04:00",
             "Source": "van Peer_1989.100mg_SD.3.Conc(2)",
             "MolWeight": 705.633
           },
@@ -19347,7 +19367,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T17:21:18.9661742+02:00",
+          "Date": "2016-06-01T11:21:18.9661742-04:00",
           "Source": "van Peer_1989.100mg_SD.3.Time"
         },
         "Values": [
@@ -19416,7 +19436,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T17:21:18.9661742+02:00",
+            "Date": "2016-06-01T11:21:18.9661742-04:00",
             "Source": "van Peer_1989.100mg_SD.2.Conc(1)",
             "MolWeight": 705.633
           },
@@ -19450,7 +19470,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T17:21:18.9661742+02:00",
+          "Date": "2016-06-01T11:21:18.9661742-04:00",
           "Source": "van Peer_1989.100mg_SD.2.Time"
         },
         "Values": [
@@ -19519,7 +19539,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T17:21:18.9661742+02:00",
+            "Date": "2016-06-01T11:21:18.9661742-04:00",
             "Source": "van Peer_1989.100mg_SD.1.Conc",
             "MolWeight": 705.633
           },
@@ -19553,7 +19573,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T17:21:18.9661742+02:00",
+          "Date": "2016-06-01T11:21:18.9661742-04:00",
           "Source": "van Peer_1989.100mg_SD.1.Time"
         },
         "Values": [
@@ -19618,7 +19638,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-01T17:21:18.9661742+02:00",
+            "Date": "2016-06-01T11:21:18.9661742-04:00",
             "Source": "van Peer_1989.100mg_OD_capsule_breakfast.Conc",
             "MolWeight": 705.633
           },
@@ -19669,7 +19689,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-01T17:21:18.9661742+02:00",
+          "Date": "2016-06-01T11:21:18.9661742-04:00",
           "Source": "van Peer_1989.100mg_OD_capsule_breakfast.Time(1)"
         },
         "Values": [
@@ -19751,7 +19771,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-02T09:22:20.8620434+02:00",
+            "Date": "2016-06-02T03:22:20.8620434-04:00",
             "Source": "Velde_et_al-1996.Itra.1.Conc",
             "MolWeight": 705.633
           },
@@ -19786,7 +19806,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-02T09:22:20.8620434+02:00",
+          "Date": "2016-06-02T03:22:20.8620434-04:00",
           "Source": "Velde_et_al-1996.Itra.1.Time"
         },
         "Values": [
@@ -19852,7 +19872,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-02T09:22:20.8620434+02:00",
+            "Date": "2016-06-02T03:22:20.8620434-04:00",
             "Source": "Velde_et_al-1996.Itra.2.Conc(1)",
             "MolWeight": 705.633
           },
@@ -19887,7 +19907,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-02T09:22:20.8620434+02:00",
+          "Date": "2016-06-02T03:22:20.8620434-04:00",
           "Source": "Velde_et_al-1996.Itra.2.Time"
         },
         "Values": [
@@ -19953,7 +19973,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-02T09:22:20.8620434+02:00",
+            "Date": "2016-06-02T03:22:20.8620434-04:00",
             "Source": "Velde_et_al-1996.OH-Itra.3.Conc",
             "MolWeight": 721.63
           },
@@ -19984,7 +20004,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-02T09:22:20.8620434+02:00",
+          "Date": "2016-06-02T03:22:20.8620434-04:00",
           "Source": "Velde_et_al-1996.OH-Itra.3.Time"
         },
         "Values": [
@@ -20046,7 +20066,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-02T09:22:20.8620434+02:00",
+            "Date": "2016-06-02T03:22:20.8620434-04:00",
             "Source": "Velde_et_al-1996.OH-Itra.4.Conc(1)",
             "MolWeight": 721.63
           },
@@ -20076,7 +20096,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-02T09:22:20.8620434+02:00",
+          "Date": "2016-06-02T03:22:20.8620434-04:00",
           "Source": "Velde_et_al-1996.OH-Itra.4.Time"
         },
         "Values": [
@@ -20144,7 +20164,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2016-06-08T10:58:07.5022207+02:00",
+                "Date": "2016-06-08T04:58:07.5022207-04:00",
                 "Source": "Hardin88_Ctrough.Sheet1.1.Error [ng/mL]",
                 "MolWeight": 705.633
               },
@@ -20165,7 +20185,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-08T10:58:07.5022207+02:00",
+            "Date": "2016-06-08T04:58:07.5022207-04:00",
             "Source": "Hardin88_Ctrough.Sheet1.1.Conc [ng/mL]",
             "MolWeight": 705.633
           },
@@ -20189,7 +20209,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-08T10:58:07.5022207+02:00",
+          "Date": "2016-06-08T04:58:07.5022207-04:00",
           "Source": "Hardin88_Ctrough.Sheet1.1.Time [h]"
         },
         "Values": [
@@ -20251,7 +20271,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2016-06-08T10:58:07.5022207+02:00",
+                "Date": "2016-06-08T04:58:07.5022207-04:00",
                 "Source": "Hardin88_Ctrough.Sheet1.2.Error [ng/mL]",
                 "MolWeight": 705.633
               },
@@ -20272,7 +20292,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-08T10:58:07.5022207+02:00",
+            "Date": "2016-06-08T04:58:07.5022207-04:00",
             "Source": "Hardin88_Ctrough.Sheet1.2.Conc [ng/mL]",
             "MolWeight": 705.633
           },
@@ -20296,7 +20316,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-08T10:58:07.5022207+02:00",
+          "Date": "2016-06-08T04:58:07.5022207-04:00",
           "Source": "Hardin88_Ctrough.Sheet1.2.Time [h]"
         },
         "Values": [
@@ -20358,7 +20378,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2016-06-08T10:58:07.5022207+02:00",
+                "Date": "2016-06-08T04:58:07.5022207-04:00",
                 "Source": "Hardin88_Ctrough.Sheet1.3.Error [ng/mL]",
                 "MolWeight": 705.633
               },
@@ -20379,7 +20399,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2016-06-08T10:58:07.5022207+02:00",
+            "Date": "2016-06-08T04:58:07.5022207-04:00",
             "Source": "Hardin88_Ctrough.Sheet1.3.Conc [ng/mL]",
             "MolWeight": 705.633
           },
@@ -20403,7 +20423,7 @@
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2016-06-08T10:58:07.5022207+02:00",
+          "Date": "2016-06-08T04:58:07.5022207-04:00",
           "Source": "Hardin88_Ctrough.Sheet1.3.Time [h]"
         },
         "Values": [
