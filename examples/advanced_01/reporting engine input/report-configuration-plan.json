@@ -1,0 +1,3557 @@
+{
+  "SimulationMappings": [
+    {
+      "RefProject": "Midazolam",
+      "RefSimulation": "Mida po 0.075 mgkg - Chung 2006",
+      "Path": "../Midazolam/Mida po 0.075 mgkg - Chung 2006"
+    },
+    {
+      "RefProject": "Midazolam",
+      "RefSimulation": "Mida iv 0.15 mgkg - Heizmann 1983",
+      "Path": "../Midazolam/Mida iv 0.15 mgkg - Heizmann 1983"
+    },
+    {
+      "RefProject": "Midazolam",
+      "RefSimulation": "Mida po 10 mg - Heizmann 1983",
+      "Path": "../Midazolam/Mida po 10 mg - Heizmann 1983/"
+    },
+    {
+      "RefProject": "Midazolam",
+      "RefSimulation": "Mida po 20 mg - Heizmann 1983",
+      "Path": "../Midazolam/Mida po 20 mg - Heizmann 1983/"
+    },
+    {
+      "RefProject": "Midazolam",
+      "RefSimulation": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood",
+      "Path": "../Midazolam/Mida iv 0.05 mgkg - Gorski 1998 - Whole blood"
+    },
+    {
+      "RefProject": "Midazolam",
+      "RefSimulation": "Mida iv 5 mg- Smith 1981",
+      "Path": "../Midazolam/Mida iv 5 mg- Smith 1981/"
+    },
+    {
+      "RefProject": "Midazolam",
+      "RefSimulation": "Mida po 10 mg - Smith 1981",
+      "Path": "../Midazolam/Mida po 10 mg - Smith 1981/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 100 mg QD (Templeton 08) sol fast",
+      "Path": "../Itraconazole/po 100 mg QD (Templeton 08) sol fast/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg QD (Olkkola 94) caps fast",
+      "Path": "../Itraconazole/po 200 mg QD (Olkkola 94) caps fast/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg BID (Hardin 88) caps fed",
+      "Path": "../Itraconazole/po 200 mg BID (Hardin 88) caps fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 100 mg QD (Hardin 88) caps fed",
+      "Path": "../Itraconazole/po 100 mg QD (Hardin 88) caps fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fast",
+      "Path": "../Itraconazole/po 100 mg SD (vanDeVelde 96) sol fast/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 100 mg SD (vanPeer 89) caps fed",
+      "Path": "../Itraconazole/po 100 mg SD (vanPeer 89) caps fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg QD (Barone 1998a) sol fast",
+      "Path": "../Itraconazole/po 200 mg QD (Barone 1998a) sol fast/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 100 mg SD (vanPeer 89) caps fast",
+      "Path": "../Itraconazole/po 100 mg SD (vanPeer 89) caps fast/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fed",
+      "Path": "../Itraconazole/po 100 mg SD (vanDeVelde 96) sol fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg SD (Barone 93) caps fast",
+      "Path": "../Itraconazole/po 200 mg SD (Barone 93) caps fast/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg SD (Barone 98b) caps fed",
+      "Path": "../Itraconazole/po 200 mg SD (Barone 98b) caps fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg SD (Barone 98b) sol fed",
+      "Path": "../Itraconazole/po 200 mg SD (Barone 98b) sol fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg QD (Barone 98a) sol fed",
+      "Path": "../Itraconazole/po 200 mg QD (Barone 98a) sol fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg QD (Hardin 88) caps fed",
+      "Path": "../Itraconazole/po 200 mg QD (Hardin 88) caps fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 100 mg QD (vanPeer 89) caps fed",
+      "Path": "../Itraconazole/po 100 mg QD (vanPeer 89) caps fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "po 200 mg BID (Barone 93) caps fed",
+      "Path": "../Itraconazole/po 200 mg BID (Barone 93) caps fed/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "200 mg IV MD",
+      "Path": "../Itraconazole/200 mg IV MD/"
+    },
+    {
+      "RefProject": "Itraconazole",
+      "RefSimulation": "100 mg IV",
+      "Path": "../Itraconazole/100 mg IV/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Olkkola 1996 Midazolam PO-IV-PO/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Control Templeton 2010 Midazolam",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Templeton 2010 Midazolam/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra 400mg",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra 400mg/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra  50mg",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra  50mg/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Control Olkkola 1994 Midazolam",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Olkkola 1994 Midazolam/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Control Backmann 1998 Midazolam",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Backmann 1998 Midazolam/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Control Ahonen 1995 Midazolam",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Ahonen 1995 Midazolam/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra 200mg",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra 200mg/"
+    },
+    {
+      "RefProject": "Midazolam_Itraconazole_DDI",
+      "RefSimulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
+      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD/"
+    }
+  ],
+  "ObservededDataSets": [
+    {
+      "Id": "Heizmann et al. 1983, iv 11.42 mg, n=1",
+      "Path": "../ObservedData/Heizmann et al. 1983, iv 11.42 mg, n=1.xlsx"
+    },
+    {
+      "Id": "Heizmann et al. 1983, po 10 mg, n=1",
+      "Path": "../ObservedData/Heizmann et al. 1983, po 10 mg, n=1.xlsx"
+    },
+    {
+      "Id": "Heizmann et al. 1983, po 20 mg, n=1",
+      "Path": "../ObservedData/Heizmann et al. 1983, po 20 mg, n=1.xlsx"
+    },
+    {
+      "Id": "Chung et al. 2006, po 0.075 mgkg, n=19",
+      "Path": "../ObservedData/Chung et al. 2006, po 0.075 mgkg, n=19.xlsx"
+    },
+    {
+      "Id": "Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16",
+      "Path": "../ObservedData/Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16.xlsx"
+    },
+    {
+      "Id": "Smith et al. 1981, iv 5 mg, n=6",
+      "Path": "../ObservedData/Smith et al. 1981, iv 5 mg, n=6.xlsx"
+    },
+    {
+      "Id": "Smith et al. 1981, po 10 mg, n=6",
+      "Path": "../ObservedData/Smith et al. 1981, po 10 mg, n=6.xlsx"
+    },
+    {
+      "Id": "Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)",
+      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_solution_Itra_(fig 2).xlsx"
+    },
+    {
+      "Id": "barone_93_PO_SD_200mg_fed_Itra",
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_Itra.xlsx"
+    },
+    {
+      "Id": "barone_93_PO_SD_200mg_fasted_Itra",
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_Itra.xlsx"
+    },
+    {
+      "Id": "Hardin_88_PO_100mg_QD_day1_Itra",
+      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day1_Itra.xlsx"
+    },
+    {
+      "Id": "Hardin_88_PO_200mg_QD_day1_Itra",
+      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day1_Itra.xlsx"
+    },
+    {
+      "Id": "Hardin_88_PO_200mg_BID_day1_Itra",
+      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day1_Itra.xlsx"
+    },
+    {
+      "Id": "Hardin_88_PO_100mg_QD_day15_Itra",
+      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day15_Itra.xlsx"
+    },
+    {
+      "Id": "Hardin_88_PO_200mg_QD_day15_Itra",
+      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day15_Itra.xlsx"
+    },
+    {
+      "Id": "Hardin_88_PO_200mg_BID_day15_Itra",
+      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day15_Itra.xlsx"
+    },
+    {
+      "Id": "Templeton_08_PO_MD_100mg_day1_Itra",
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_Itra.xlsx"
+    },
+    {
+      "Id": "Templeton_08_PO_MD_100mg_day7_Itra",
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_Itra.xlsx"
+    },
+    {
+      "Id": "barone_93_PO_SD_200mg_fed_OH",
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_OH.xlsx"
+    },
+    {
+      "Id": "barone_93_PO_SD_200mg_fasted_OH",
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_OH.xlsx"
+    },
+    {
+      "Id": "Templeton_08_PO_MD_100mg_day1_OH",
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_OH.xlsx"
+    },
+    {
+      "Id": "Templeton_08_PO_MD_100mg_day7_OH",
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_OH.xlsx"
+    },
+    {
+      "Id": "Heykants_89_PO_100mg_SD_OH_(fig 4)",
+      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_OH_(fig 4).xlsx"
+    },
+    {
+      "Id": "Heykants_89_PO_100mg_SD_Itra_(fig 4)",
+      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_Itra_(fig 4).xlsx"
+    },
+    {
+      "Id": "Heykants_89_IV_100mg_SD_Itra",
+      "Path": "../ObservedData/Heykants_89_IV_100mg_SD_Itra.xlsx"
+    },
+    {
+      "Id": "Barone98.Solution 200mg ITZ",
+      "Path": "../ObservedData/Barone98.Solution 200mg ITZ.xlsx"
+    },
+    {
+      "Id": "Barone98.F05 capsule 200 mg ITZ",
+      "Path": "../ObservedData/Barone98.F05 capsule 200 mg ITZ.xlsx"
+    },
+    {
+      "Id": "Barone98.Solution 200mg OH-ITZ",
+      "Path": "../ObservedData/Barone98.Solution 200mg OH-ITZ.xlsx"
+    },
+    {
+      "Id": "Barone98.F05 capsule 200 mg OH-ITZ",
+      "Path": "../ObservedData/Barone98.F05 capsule 200 mg OH-ITZ.xlsx"
+    },
+    {
+      "Id": "Olkkola_1994_Itra",
+      "Path": "../ObservedData/Olkkola_1994_Itra.xlsx"
+    },
+    {
+      "Id": "barone_93_15days_MD_Itra",
+      "Path": "../ObservedData/barone_93_15days_MD_Itra.xlsx"
+    },
+    {
+      "Id": "barone_93_15days_MD_OH",
+      "Path": "../ObservedData/barone_93_15days_MD_OH.xlsx"
+    },
+    {
+      "Id": "Mouton_06_200mg_MD_Itra_HPBCD",
+      "Path": "../ObservedData/Mouton_06_200mg_MD_Itra_HPBCD.xlsx"
+    },
+    {
+      "Id": "Mouton_06_200mg_MD_OH_HPBCD",
+      "Path": "../ObservedData/Mouton_06_200mg_MD_OH_HPBCD.xlsx"
+    },
+    {
+      "Id": "Templeton_et_al-2007.ND-Itraconazole",
+      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole.xlsx"
+    },
+    {
+      "Id": "Templeton_et_al-2007.ND-Itraconazole day7",
+      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole day7.xlsx"
+    },
+    {
+      "Id": "Templeton_et_al-2007.Keto-Itraconazole",
+      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole.xlsx"
+    },
+    {
+      "Id": "Templeton_et_al-2007.Keto-Itraconazole day7",
+      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole day7.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted",
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted",
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed",
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed",
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted",
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed",
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted",
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted.xlsx"
+    },
+    {
+      "Id": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed",
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed.xlsx"
+    },
+    {
+      "Id": "van Peer_1989.100mg_SD.Capsule fasted",
+      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fasted.xlsx"
+    },
+    {
+      "Id": "van Peer_1989.100mg_SD.Capsule fed",
+      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fed.xlsx"
+    },
+    {
+      "Id": "van Peer_1989.100mg_SD.Solution fasted",
+      "Path": "../ObservedData/van Peer_1989.100mg_SD.Solution fasted.xlsx"
+    },
+    {
+      "Id": "van Peer_1989.100mg_QD_capsule_breakfast",
+      "Path": "../ObservedData/van Peer_1989.100mg_QD_capsule_breakfast.xlsx"
+    },
+    {
+      "Id": "Velde_et_al-1996.Itra.100mg_solution fasted",
+      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fasted.xlsx"
+    },
+    {
+      "Id": "Velde_et_al-1996.Itra.100mg_solution fed",
+      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fed.xlsx"
+    },
+    {
+      "Id": "Velde_et_al-1996.OH-Itra.100mg_solution fasted",
+      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fasted.xlsx"
+    },
+    {
+      "Id": "Velde_et_al-1996.OH-Itra.100mg_solution fed",
+      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fed.xlsx"
+    },
+    {
+      "Id": "Hardin_88_Ctrough.100mg",
+      "Path": "../ObservedData/Hardin_88_Ctrough.100mg.xlsx"
+    },
+    {
+      "Id": "Hardin_88_Ctrough.200mg QD",
+      "Path": "../ObservedData/Hardin_88_Ctrough.200mg QD.xlsx"
+    },
+    {
+      "Id": "Hardin_88_Ctrough.200mg BID",
+      "Path": "../ObservedData/Hardin_88_Ctrough.200mg BID.xlsx"
+    },
+    {
+      "Id": "Templeton_2010_Treatment Itra400",
+      "Path": "../ObservedData/Templeton_2010_Treatment Itra400.xlsx"
+    },
+    {
+      "Id": "Templeton_2010_Treatment Itra200",
+      "Path": "../ObservedData/Templeton_2010_Treatment Itra200.xlsx"
+    },
+    {
+      "Id": "Templeton_2010_Treatment Itra 50",
+      "Path": "../ObservedData/Templeton_2010_Treatment Itra 50.xlsx"
+    },
+    {
+      "Id": "Templeton_2010_Control",
+      "Path": "../ObservedData/Templeton_2010_Control.xlsx"
+    },
+    {
+      "Id": "Olkkola_1994_Treatment",
+      "Path": "../ObservedData/Olkkola_1994_Treatment.xlsx"
+    },
+    {
+      "Id": "Olkkola_1994_Control",
+      "Path": "../ObservedData/Olkkola_1994_Control.xlsx"
+    },
+    {
+      "Id": "Ahonen_1995_Treatment",
+      "Path": "../ObservedData/Ahonen_1995_Treatment.xlsx"
+    },
+    {
+      "Id": "Ahonen_1995_Control",
+      "Path": "../ObservedData/Ahonen_1995_Control.xlsx"
+    },
+    {
+      "Id": "Olkkola_1994_Itra",
+      "Path": "../ObservedData/Olkkola_1994_Itra.xlsx"
+    },
+    {
+      "Id": "Olkkola_1996_Control",
+      "Path": "../ObservedData/Olkkola_1996_Control.xlsx"
+    },
+    {
+      "Id": "Olkkola_1996_Treatment",
+      "Path": "../ObservedData/Olkkola_1996_Treatment.xlsx"
+    },
+    {
+      "Id": "Backmann_1998_Control PhaseIII",
+      "Path": "../ObservedData/Backmann_1998_Control PhaseIII.xlsx"
+    },
+    {
+      "Id": "Backmann_1998_Control PhaseII",
+      "Path": "../ObservedData/Backmann_1998_Control PhaseII.xlsx"
+    },
+    {
+      "Id": "Backmann_1998_Treatment PhaseII",
+      "Path": "../ObservedData/Backmann_1998_Treatment PhaseII.xlsx"
+    },
+    {
+      "Id": "Backmann_1998_Treatment PhaseIII",
+      "Path": "../ObservedData/Backmann_1998_Treatment PhaseIII.xlsx"
+    },
+    {
+      "Id": "PK_Ratio_CYP3A4",
+      "Path": "../ObservedData/PK_Ratio_CYP3A4.xlsx",
+      "Type": "DDIRatio"
+    }
+  ],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "GOFMerged": [
+      {
+        "SectionId": 1,
+        "Name": "Midazolam concentration in plasma/blood",
+        "PlotType": "predictedVsObserved|residualsOverTime",
+        "Group": [
+          {
+            "Name": "Midazolam iv",
+            "Symbol": 1,
+            "Simulation": [
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood",
+                "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16",
+                "Color": 123
+              },
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "Mida iv 0.15 mgkg - Heizmann 1983",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Heizmann et al. 1983, iv 11.42 mg, n=1",
+                "Color": 124
+              },
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "Mida iv 5 mg- Smith 1981",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Smith et al. 1981, iv 5 mg, n=6",
+                "Color": 125
+              }
+            ]
+          },
+          {
+            "Name": "Midazolam po",
+            "Symbol": 2,
+            "Simulation": [
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "Mida po 0.075 mgkg - Chung 2006",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Chung et al. 2006, po 0.075 mgkg, n=19",
+                "Color": 126
+              },
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "Mida po 10 mg - Heizmann 1983",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Heizmann et al. 1983, po 10 mg, n=1",
+                "Color": 127
+              },
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "Mida po 10 mg - Smith 1981",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Smith et al. 1981, po 10 mg, n=6",
+                "Color": 128
+              },
+              {
+                "RefProject": "Midazolam",
+                "RefSimulation": "Mida po 20 mg - Heizmann 1983",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Heizmann et al. 1983, po 20 mg, n=1",
+                "Color": 129
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Name": "Itraconazole concentration in plasma",
+        "PlotType": "predictedVsObserved|residualsOverTime",
+        "Group": [
+          {
+            "Name": "Itraconazole iv",
+            "Symbol": 1,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "100 mg IV",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Heykants_89_IV_100mg_SD_Itra",
+                "Color": 123
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "200 mg IV MD",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Mouton_06_200mg_MD_Itra_HPBCD",
+                "Color": 124
+              }
+            ]
+          },
+          {
+            "Name": "Itraconazole po sol fasted",
+            "Symbol": 2,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg QD (Templeton 08) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Templeton_08_PO_MD_100mg_day1_Itra|Templeton_08_PO_MD_100mg_day7_Itra",
+                "Color": 125
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Velde_et_al-1996.Itra.100mg_solution fasted|van Peer_1989.100mg_SD.Solution fasted",
+                "Color": 126
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg QD (Barone 1998a) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted|Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted",
+                "Color": 127
+              }
+            ]
+          },
+          {
+            "Name": "Itraconazole po sol fed",
+            "Symbol": 3,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Velde_et_al-1996.Itra.100mg_solution fed|Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)",
+                "Color": 128
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg QD (Barone 98a) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed|Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed",
+                "Color": 129
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg SD (Barone 98b) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone98.Solution 200mg ITZ",
+                "Color": 131
+              }
+            ]
+          },
+          {
+            "Name": "Itraconazole po caps fasted",
+            "Symbol": 4,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg SD (vanPeer 89) caps fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "van Peer_1989.100mg_SD.Capsule fasted",
+                "Color": 132
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg QD (Olkkola 94) caps fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Olkkola_1994_Itra",
+                "Color": 133
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg SD (Barone 93) caps fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "barone_93_PO_SD_200mg_fasted_Itra",
+                "Color": 134
+              }
+            ]
+          },
+          {
+            "Name": "Itraconazole po caps fed",
+            "Symbol": 5,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg QD (Hardin 88) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Hardin_88_PO_100mg_QD_day1_Itra|Hardin_88_PO_100mg_QD_day15_Itra|Hardin_88_Ctrough.100mg",
+                "Color": 135
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg QD (vanPeer 89) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "van Peer_1989.100mg_QD_capsule_breakfast",
+                "Color": 136
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg SD (vanPeer 89) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "van Peer_1989.100mg_SD.Capsule fed",
+                "Color": 137
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg BID (Barone 93) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "barone_93_PO_SD_200mg_fed_Itra|barone_93_PO_SD_200mg_fasted_Itra",
+                "Color": 138
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg BID (Hardin 88) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Hardin_88_PO_200mg_BID_day1_Itra|Hardin_88_PO_200mg_BID_day15_Itra|Hardin_88_Ctrough.200mg BID",
+                "Color": 139
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg QD (Hardin 88) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Hardin_88_PO_200mg_QD_day1_Itra|Hardin_88_PO_200mg_QD_day15_Itra|Hardin_88_Ctrough.200mg QD",
+                "Color": 140
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg SD (Barone 98b) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone98.F05 capsule 200 mg ITZ|barone_93_PO_SD_200mg_fed_Itra",
+                "Color": 141
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Name": "Hydroxy-Itraconazole concentration in plasma",
+        "PlotType": "predictedVsObserved|residualsOverTime",
+        "Group": [
+          {
+            "Name": "Itraconazole iv",
+            "Symbol": 1,
+            "Simulation": {
+              "RefProject": "Itraconazole",
+              "RefSimulation": "200 mg IV MD",
+              "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+              "ObservedDataType": "INTERNAL",
+              "RefObservedData": "Mouton_06_200mg_MD_OH_HPBCD",
+              "Color": 124
+            }
+          },
+          {
+            "Name": "Itraconazole po sol fasted",
+            "Symbol": 2,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg QD (Templeton 08) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Templeton_08_PO_MD_100mg_day1_OH|Templeton_08_PO_MD_100mg_day7_OH",
+                "Color": 125
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Velde_et_al-1996.OH-Itra.100mg_solution fasted",
+                "Color": 126
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg QD (Barone 1998a) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted|Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted",
+                "Color": 127
+              }
+            ]
+          },
+          {
+            "Name": "Itraconazole po sol fed",
+            "Symbol": 3,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Velde_et_al-1996.OH-Itra.100mg_solution fed",
+                "Color": 128
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg QD (Barone 98a) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed|Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed",
+                "Color": 129
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg SD (Barone 98b) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone98.Solution 200mg OH-ITZ",
+                "Color": 131
+              }
+            ]
+          },
+          {
+            "Name": "Itraconazole po caps fasted",
+            "Symbol": 4,
+            "Simulation": {
+              "RefProject": "Itraconazole",
+              "RefSimulation": "po 200 mg SD (Barone 93) caps fast",
+              "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+              "ObservedDataType": "INTERNAL",
+              "RefObservedData": "barone_93_PO_SD_200mg_fasted_OH",
+              "Color": 134
+            }
+          },
+          {
+            "Name": "Itraconazole po caps fed",
+            "Symbol": 5,
+            "Simulation": [
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 100 mg SD (vanPeer 89) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Heykants_89_PO_100mg_SD_OH_(fig 4)",
+                "Color": 137
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg BID (Barone 93) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "barone_93_PO_SD_200mg_fed_OH|barone_93_15days_MD_OH",
+                "Color": 138
+              },
+              {
+                "RefProject": "Itraconazole",
+                "RefSimulation": "po 200 mg SD (Barone 98b) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedDataType": "INTERNAL",
+                "RefObservedData": "Barone98.F05 capsule 200 mg OH-ITZ",
+                "Color": 141
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Name": "Keto-Itraconazole concentration in plasma",
+        "PlotType": "predictedVsObserved|residualsOverTime",
+        "Group": {
+          "Name": "Itraconazole po sol fasted",
+          "Symbol": 2,
+          "Simulation": {
+            "RefProject": "Itraconazole",
+            "RefSimulation": "po 100 mg QD (Templeton 08) sol fast",
+            "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_et_al-2007.Keto-Itraconazole|Templeton_et_al-2007.Keto-Itraconazole day7",
+            "Color": 125
+          }
+        }
+      },
+      {
+        "SectionId": 1,
+        "Name": "N-desalkyl-Itraconazole concentration in plasma",
+        "PlotType": "predictedVsObserved|residualsOverTime",
+        "Group": {
+          "Name": "Itraconazole po sol fasted",
+          "Symbol": 2,
+          "Simulation": {
+            "RefProject": "Itraconazole",
+            "RefSimulation": "po 100 mg QD (Templeton 08) sol fast",
+            "Output": "PeripheralVenousBlood|Plasma|N-desalkyl-Itraconazole",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_et_al-2007.ND-Itraconazole|Templeton_et_al-2007.ND-Itraconazole day7",
+            "Color": 125
+          }
+        }
+      }
+    ],
+    "ComparisonCTProfiles": [
+      {
+        "SectionId": 1,
+        "Caption": "Ahonen 1995",
+        "SimulationDuration": 18,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Ahonen 1995 Midazolam",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Ahonen_1995_Control",
+            "StartTime": 74,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Ahonen_1995_Treatmen",
+            "StartTime": 74,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Backman 1998 (Phase II)",
+        "SimulationDuration": 20,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Backmann 1998 Midazolam",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Backmann_1998_Control PhaseII",
+            "StartTime": 74,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Backmann_1998_Treatment PhaseII",
+            "StartTime": 74,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Backman 1998 (Phase III)",
+        "SimulationDuration": 20,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Backmann 1998 Midazolam",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Backmann_1998_Control PhaseIII",
+            "StartTime": 74,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Backmann_1998_Control PhaseIII",
+            "StartTime": 170,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Olkkola 1994",
+        "SimulationDuration": 20,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Olkkola 1994 Midazolam",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1994_Control",
+            "StartTime": 73,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1994_Treatment",
+            "StartTime": 73,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Olkkola 1996 (Day 1)",
+        "SimulationDuration": 18,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1996_Control",
+            "StartTime": 2,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1996_Treatment",
+            "StartTime": 2,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Olkkola 1996 (Day 4)",
+        "SimulationDuration": 18,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1996_Control",
+            "StartTime": 74,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1996_Treatment",
+            "StartTime": 74,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Olkkola 1996 (Day 6)",
+        "SimulationDuration": 18,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1996_Control",
+            "StartTime": 122,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Olkkola_1996_Treatment",
+            "StartTime": 122,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Templeton 2010 (50 mg)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Templeton 2010 Midazolam",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_2010_Control",
+            "StartTime": 4,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra  50mg",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_2010_Treatment Itra 50",
+            "StartTime": 4,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Templeton 2010 (200 mg)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Templeton 2010 Midazolam",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_2010_Control",
+            "StartTime": 4,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra 200mg",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_2010_Treatment Itra200",
+            "StartTime": 4,
+            "TimeUnit": "h"
+          }
+        ]
+      },
+      {
+        "SectionId": 1,
+        "Caption": "Templeton 2010 (400 mg)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "CTProfile": [
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Control Templeton 2010 Midazolam",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_2010_Control",
+            "StartTime": 4,
+            "TimeUnit": "h"
+          },
+          {
+            "RefProject": "Midazolam_Itraconazole_DDI",
+            "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra 400mg",
+            "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+            "ObservedDataType": "INTERNAL",
+            "RefObservedData": "Templeton_2010_Treatment Itra400",
+            "StartTime": 4,
+            "TimeUnit": "h"
+          }
+        ]
+      }
+    ],
+    "DDIRatioPlots": [
+      {
+        "SectionId": 1,
+        "Caption": "CYP3A4 DDI AUCR",
+        "PKparameter": "AUC|CMAX",
+        "PlotType": "predictedVsObserved|residualsVsObserved",
+        "DDIRatioGroup": [
+          {
+            "Caption": "Itra+Mida (Mida iv)",
+            "Color": 123,
+            "DDIRatio": {
+              "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+              "ObservedDataType": "EXTERNAL",
+              "RefObservedData": "PK_Ratio_CYP3A4",
+              "ObservedDataId": "Olkkola 1996 (Day 4)",
+              "Simulation_control": {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "RefSimulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+                "StartTime": 74,
+                "EndTime": 122,
+                "TimeUnit": "h"
+              },
+              "Simulation_DDI": {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "RefSimulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+                "StartTime": 74,
+                "EndTime": 122,
+                "TimeUnit": "h"
+              }
+            }
+          },
+          {
+            "Caption": "Itra+Mida (Mida po)",
+            "Color": 124,
+            "DDIRatio": [
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Ahonen 1995",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Ahonen 1995 Midazolam",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Backman 1998 (Phase II)",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Backmann 1998 Midazolam",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Backman 1998 (Phase III)",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Backmann 1998 Midazolam",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Olkkola 1994",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Olkkola 1994 Midazolam",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Olkkola 1996 (Day 1)",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Olkkola 1996 (Day 6)",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Templeton 2010 (50 mg)",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Templeton 2010 Midazolam",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra  50mg",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Templeton 2010 (200 mg)",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Templeton 2010 Midazolam",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra 200mg",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "RefProject": "Midazolam_Itraconazole_DDI",
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedDataType": "EXTERNAL",
+                "RefObservedData": "PK_Ratio_CYP3A4",
+                "ObservedDataId": "Templeton 2010 (400 mg)",
+                "Simulation_control": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Control Templeton 2010 Midazolam",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "Simulation_DDI": {
+                  "RefProject": "Midazolam_Itraconazole_DDI",
+                  "RefSimulation": "DDI Treatment Templeton 2010 Midazolam + Itra 400mg",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "TimeProfile": [
+      {
+        "SectionId": 1,
+        "RefProject": "Midazolam",
+        "RefSimulation": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood-Midazolam-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood|Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Gorski et al. 1996_IV_SD-Midazolam-Peripheral Venous Blood-Plasma-conc ng/ml",
+              "X": "Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16|time h",
+              "Y": "Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|conc ng/ml",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam-Model\nMida iv 0.05 mgkg - Gorski 1998 - Whole blood\n2018-08-08 22:03"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Midazolam",
+        "RefSimulation": "Mida iv 0.15 mgkg - Heizmann 1983",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Peripheral Venous Blood-Plasma-Midazolam-Concentration",
+              "X": "Time",
+              "Y": "Mida iv 0.15 mgkg - Heizmann 1983|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "midazolamPK.heizmann_etal_human_IV_11,42mg 1-Peripheral Venous Blood-Plasma-Midazolam-C_pls [µg/L]",
+              "X": "Heizmann et al. 1983, iv 11.42 mg, n=1|Time [h]",
+              "Y": "Heizmann et al. 1983, iv 11.42 mg, n=1|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|C_pls [µg/L]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam-Model\nMida iv 0.15 mgkg - Heizmann 1983\n2018-08-08 22:03"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Midazolam",
+        "RefSimulation": "Mida iv 5 mg- Smith 1981",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Peripheral Venous Blood-Plasma-Midazolam-Concentration",
+              "X": "Time",
+              "Y": "Mida iv 5 mg- Smith 1981|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Smith et al. 1981.5mg iv micmol L-Peripheral Venous Blood-Plasma-Midazolam-µmol - L",
+              "X": "Smith et al. 1981, iv 5 mg, n=6|time ",
+              "Y": "Smith et al. 1981, iv 5 mg, n=6|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|µmol - L",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam-Model\nMida iv 5 mg- Smith 1981\n2018-08-08 22:03"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Midazolam",
+        "RefSimulation": "Mida po 0.075 mgkg - Chung 2006",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Chung et al. 0.075 mg/kg PO-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mida po 0.075 mgkg - Chung 2006|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "MDZ Keto.MDZ PO control Chung et al 1-Midazolam-Peripheral Venous Blood-Plasma-C_pls [µg/L]",
+              "X": "Chung et al. 2006, po 0.075 mgkg, n=19|Time [h]",
+              "Y": "Chung et al. 2006, po 0.075 mgkg, n=19|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|C_pls [µg/L]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Results",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam-Model\nMida po 0.075 mgkg - Chung 2006\n2018-08-08 22:08"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Midazolam",
+        "RefSimulation": "Mida po 10 mg - Heizmann 1983",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Peripheral Venous Blood-Plasma-Midazolam-Concentration",
+              "X": "Time",
+              "Y": "Mida po 10 mg - Heizmann 1983|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "midazolamPK.heizmann_etal_human_PO_10mg 1-Peripheral Venous Blood-Plasma-Midazolam-C_pls [µg/L]",
+              "X": "Heizmann et al. 1983, po 10 mg, n=1|Time [h]",
+              "Y": "Heizmann et al. 1983, po 10 mg, n=1|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|C_pls [µg/L]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam-Model\nMida po 10 mg - Heizmann 1983\n2018-08-08 22:07"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Midazolam",
+        "RefSimulation": "Mida po 10 mg - Smith 1981",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Peripheral Venous Blood-Plasma-Midazolam-Concentration",
+              "X": "Time",
+              "Y": "Mida po 10 mg - Smith 1981|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Smith et al. 1981.10 oral sol micmol L-Peripheral Venous Blood-Plasma-Midazolam-µmol - L",
+              "X": "Smith et al. 1981, po 10 mg, n=6|time ",
+              "Y": "Smith et al. 1981, po 10 mg, n=6|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|µmol - L",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam-Model\nMida po 10 mg - Smith 1981\n2018-08-08 22:07"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Midazolam",
+        "RefSimulation": "Mida po 20 mg - Heizmann 1983",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Peripheral Venous Blood-Plasma-Midazolam-Concentration",
+              "X": "Time",
+              "Y": "Mida po 20 mg - Heizmann 1983|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "midazolamPK.heizmann_etal_human_PO_20mg 1-Peripheral Venous Blood-Plasma-Midazolam-C_pls [µg/L]",
+              "X": "Heizmann et al. 1983, po 20 mg, n=1|Time [h]",
+              "Y": "Heizmann et al. 1983, po 20 mg, n=1|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|C_pls [µg/L]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Midazolam-Model\nMida po 20 mg - Heizmann 1983\n2018-08-08 22:07"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "100 mg IV",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 4.96251,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "100 mg IV-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "100 mg IV|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "100 mg IV-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "100 mg IV|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Heykants_89_IV_100mg_SD_Itra-Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Heykants_89_IV_100mg_SD_Itra|Time ",
+              "Y": "Heykants_89_IV_100mg_SD_Itra|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\n100 mg IV\n2018-05-31 12:46"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "200 mg IV MD",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.5,
+              "Max": 5.7176,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "200 mg IV MD-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "200 mg IV MD|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7
+              }
+            },
+            {
+              "Name": "200 mg IV MD-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "200 mg IV MD|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "Mouton_06_200mg_MD_Itra_HPBCD-Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Mouton_06_200mg_MD_Itra_HPBCD|Time ",
+              "Y": "Mouton_06_200mg_MD_Itra_HPBCD|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mouton_06_200mg_MD_OH_HPBCD-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Mouton_06_200mg_MD_OH_HPBCD|Time ",
+              "Y": "Mouton_06_200mg_MD_OH_HPBCD|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\n200 mg IV MD\n2018-05-31 12:47"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 100 mg QD (Hardin 88) caps fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 18.1,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 0.7000806,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Itraconazole-Hardin_88_PO_100mg_OD_day1_Itra-Undefined-Plasma-conc ",
+              "X": "Hardin_88_PO_100mg_QD_day1_Itra|time ",
+              "Y": "Hardin_88_PO_100mg_QD_day1_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hardin_88_PO_100mg_OD_day15_Itra-Itraconazole-Undefined-Plasma-conc ",
+              "X": "Hardin_88_PO_100mg_QD_day15_Itra|time ",
+              "Y": "Hardin_88_PO_100mg_QD_day15_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hardin88_Ctrough.100mg-Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Hardin_88_Ctrough.100mg|Time ",
+              "Y": "Hardin_88_Ctrough.100mg|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 100 mg QD (Hardin 88) caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg QD (Hardin 88) caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 100 mg QD (Hardin 88) caps fed\n2018-05-31 13:38"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 100 mg QD (vanPeer 89) caps fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 2.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "van Peer_1989.100mg_OD_capsule_breakfast-Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "van Peer_1989.100mg_QD_capsule_breakfast|Time(1)",
+              "Y": "van Peer_1989.100mg_QD_capsule_breakfast|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 100 mg QD (vanPeer 89) caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg QD (vanPeer 89) caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 100 mg QD (vanPeer 89) caps fed\n2018-05-31 13:40"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 100 mg SD (vanPeer 89) caps fast",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 0.2046343,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 100 mg SD (vanPeer 89) caps fast-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanPeer 89) caps fast|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "po 100 mg SD (vanPeer 89) caps fast-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanPeer 89) caps fast|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "van Peer_1989.100mg_SD.Capsule fed-Itraconazole-Peripheral Venous Blood-Plasma-Conc(2)",
+              "X": "van Peer_1989.100mg_SD.Capsule fed|Time",
+              "Y": "van Peer_1989.100mg_SD.Capsule fed|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc(2)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 100 mg SD (vanPeer 89) caps fast\n2018-05-31 13:36"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 100 mg SD (vanPeer 89) caps fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.005,
+              "Max": 0.3,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 100 mg SD (vanPeer 89) caps fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanPeer 89) caps fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "po 100 mg SD (vanPeer 89) caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanPeer 89) caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "xxx_Heykants_89_PO_100mg_SD_OH_(fig 4)-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Heykants_89_PO_100mg_SD_OH_(fig 4)|Time ",
+              "Y": "Heykants_89_PO_100mg_SD_OH_(fig 4)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "xxx_Heykants_89_PO_100mg_SD_Itra_(fig 4)-Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Heykants_89_PO_100mg_SD_Itra_(fig 4)|Time ",
+              "Y": "Heykants_89_PO_100mg_SD_Itra_(fig 4)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "van Peer_1989.100mg_SD.Capsule fed-Itraconazole-Peripheral Venous Blood-Plasma-Conc(1)",
+              "X": "van Peer_1989.100mg_SD.Capsule fed|Time",
+              "Y": "van Peer_1989.100mg_SD.Capsule fed|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc(1)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 100 mg SD (vanPeer 89) caps fed\n2018-05-31 13:41"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg BID (Barone 93) caps fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 4.913351,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Itraconazole-barone_93_PO_SD_200mg_fed_Itra-Undefined-Plasma-conc ",
+              "X": "barone_93_PO_SD_200mg_fed_Itra|time ",
+              "Y": "barone_93_PO_SD_200mg_fed_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Itraconazole-barone_93_15days_MD_itra-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "barone_93_15days_MD_Itra|Time ",
+              "Y": "barone_93_15days_MD_Itra|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hydroxy_Itraconazole-barone_93_15days_MD_hydroxy-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "barone_93_15days_MD_OH|Time ",
+              "Y": "barone_93_15days_MD_OH|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hydroxy_Itraconazole-barone_93_PO_SD_200mg_fed_OH-Undefined-Plasma-conc ",
+              "X": "barone_93_PO_SD_200mg_fed_OH|time ",
+              "Y": "barone_93_PO_SD_200mg_fed_OH|ObservedData|Undefined|Plasma|Hydroxy_Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 200 mg BID (Barone 93) caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg BID (Barone 93) caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "po 200 mg BID (Barone 93) caps fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg BID (Barone 93) caps fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg BID (Barone 93) caps fed\n2018-05-31 13:55"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg BID (Hardin 88) caps fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 3.389864,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Itraconazole-xxx_Hardin_88_PO_200mg_BID_day1_Itra-Undefined-Plasma-conc ",
+              "X": "Hardin_88_PO_200mg_BID_day1_Itra|time ",
+              "Y": "Hardin_88_PO_200mg_BID_day1_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Itraconazole-xxx_Hardin_88_PO_200mg_BID_day15_Itra-Undefined-Plasma-conc ",
+              "X": "Hardin_88_PO_200mg_BID_day15_Itra|time ",
+              "Y": "Hardin_88_PO_200mg_BID_day15_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hardin88_Ctrough.200mg BID-Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Hardin_88_Ctrough.200mg BID|Time ",
+              "Y": "Hardin_88_Ctrough.200mg BID|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 200 mg BID (Hardin 88) caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg BID (Hardin 88) caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg BID (Hardin 88) caps fed\n2018-05-31 13:53"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg QD (Hardin 88) caps fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 2.090322,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Itraconazole-Hardin_88_PO_200mg_OD_day1_Itra-Undefined-Plasma-conc ",
+              "X": "Hardin_88_PO_200mg_QD_day1_Itra|time ",
+              "Y": "Hardin_88_PO_200mg_QD_day1_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Itraconazole-Hardin_88_PO_200mg_OD_day15_Itra-Undefined-Plasma-conc ",
+              "X": "Hardin_88_PO_200mg_QD_day15_Itra|time ",
+              "Y": "Hardin_88_PO_200mg_QD_day15_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hardin88_Ctrough.200mg OD-Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Hardin_88_Ctrough.200mg QD|Time ",
+              "Y": "Hardin_88_Ctrough.200mg QD|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 200 mg QD (Hardin 88) caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg QD (Hardin 88) caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg QD (Hardin 88) caps fed\n2018-05-31 13:46"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg QD (Olkkola 94) caps fast",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 96.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (mass)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 50.0,
+              "Max": 250.5886,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "ScannedData_mida-itra.Olkkola_1994_Itra-Itraconazole-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Olkkola_1994_Itra|Time ",
+              "Y": "Olkkola_1994_Itra|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 200 mg QD (Olkkola 94) caps fast-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg QD (Olkkola 94) caps fast|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole-Model\nDDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD\n2018-08-04 14:55"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg SD (Barone 93) caps fast",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 0.8959343,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 200 mg SD (Barone 93) caps fast-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD (Barone 93) caps fast|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "po 200 mg SD (Barone 93) caps fast-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD (Barone 93) caps fast|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Itraconazole-barone_93_PO_SD_200mg_fasted_Itra-Undefined-Plasma-conc ",
+              "X": "barone_93_PO_SD_200mg_fasted_Itra|time ",
+              "Y": "barone_93_PO_SD_200mg_fasted_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hydroxy_Itraconazole-barone_93_PO_SD_200mg_fasted_OH-Undefined-Plasma-conc ",
+              "X": "barone_93_PO_SD_200mg_fasted_OH|time ",
+              "Y": "barone_93_PO_SD_200mg_fasted_OH|ObservedData|Undefined|Plasma|Hydroxy_Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg SD (Barone 93) caps fast\n2018-05-31 13:36"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg SD (Barone 98b) caps fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 2.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 200 mg SD (Barone 98b) caps fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD (Barone 98b) caps fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "Itraconazole-Barone98.F05 capsule 200 mg ITZ-Peripheral Venous Blood-Plasma-C_pls ",
+              "X": "Barone98.F05 capsule 200 mg ITZ|Time ",
+              "Y": "Barone98.F05 capsule 200 mg ITZ|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|C_pls ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hydroxy_Itraconazole-Barone98.F05 capsule 200 mg OH-ITZ-Peripheral Venous Blood-Plasma-C_pls ",
+              "X": "Barone98.F05 capsule 200 mg OH-ITZ|Time ",
+              "Y": "Barone98.F05 capsule 200 mg OH-ITZ|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|C_pls ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hydroxy_Itraconazole-barone_93_PO_SD_200mg_fed_OH-Undefined-Plasma-conc ",
+              "X": "barone_93_PO_SD_200mg_fed_OH|time ",
+              "Y": "barone_93_PO_SD_200mg_fed_OH|ObservedData|Undefined|Plasma|Hydroxy_Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#6495ED",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Itraconazole-barone_93_PO_SD_200mg_fed_Itra-Undefined-Plasma-conc ",
+              "X": "barone_93_PO_SD_200mg_fed_Itra|time ",
+              "Y": "barone_93_PO_SD_200mg_fed_Itra|ObservedData|Undefined|Plasma|Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 200 mg SD (Barone 98b) caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD (Barone 98b) caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg SD (Barone 98b) caps fed\n2018-05-31 13:45"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 100 mg QD (Templeton 08) sol fast",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.211121,
+              "Max": 7.26192,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 0.5,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Templeton_08_PO_MD_100mg_day7_OH-Hydroxy_Itraconazole-Undefined-Plasma-conc ",
+              "X": "Templeton_08_PO_MD_100mg_day7_OH|time ",
+              "Y": "Templeton_08_PO_MD_100mg_day7_OH|ObservedData|Undefined|Plasma|Hydroxy_Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hydroxy_Itraconazole-Templeton_08_PO_MD_100mg_day1_OH-Undefined-Plasma-conc ",
+              "X": "Templeton_08_PO_MD_100mg_day1_OH|time ",
+              "Y": "Templeton_08_PO_MD_100mg_day1_OH|ObservedData|Undefined|Plasma|Hydroxy_Itraconazole|conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Templeton_08_PO_MD_100mg_day7_Itra-Itraconazole-Undefined-Plasma-concentration ",
+              "X": "Templeton_08_PO_MD_100mg_day7_Itra|time ",
+              "Y": "Templeton_08_PO_MD_100mg_day7_Itra|ObservedData|Undefined|Plasma|Itraconazole|concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Itraconazole-Templeton_08_PO_MD_100mg_day1_Itra-Undefined-Plasma-concentration ",
+              "X": "Templeton_08_PO_MD_100mg_day1_Itra|time ",
+              "Y": "Templeton_08_PO_MD_100mg_day1_Itra|ObservedData|Undefined|Plasma|Itraconazole|concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 100 mg QD (Templeton 08) sol fast-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg QD (Templeton 08) sol fast|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 10
+              }
+            },
+            {
+              "Name": "po 100 mg QD (Templeton 08) sol fast-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg QD (Templeton 08) sol fast|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 9
+              }
+            },
+            {
+              "Name": "Templeton_et_al-2007.Keto-Itraconazole-Keto_Itraconazole-Peripheral Venous Blood-Plasma-nM",
+              "X": "Templeton_et_al-2007.Keto-Itraconazole|h",
+              "Y": "Templeton_et_al-2007.Keto-Itraconazole|ObservedData|Peripheral Venous Blood|Plasma|Keto_Itraconazole|nM",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Templeton_et_al-2007.Keto-Itraconazole-Keto_Itraconazole-Peripheral Venous Blood-Plasma-nM(1)",
+              "X": "Templeton_et_al-2007.Keto-Itraconazole|h(1)",
+              "Y": "Templeton_et_al-2007.Keto-Itraconazole|ObservedData|Peripheral Venous Blood|Plasma|Keto_Itraconazole|nM(1)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Templeton_et_al-2007.ND-Itraconazole-N-desalkyl_Itraconazole-Peripheral Venous Blood-Plasma-nM",
+              "X": "Templeton_et_al-2007.ND-Itraconazole|h",
+              "Y": "Templeton_et_al-2007.ND-Itraconazole|ObservedData|Peripheral Venous Blood|Plasma|N-desalkyl_Itraconazole|nM",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Templeton_et_al-2007.ND-Itraconazole-N-desalkyl_Itraconazole-Peripheral Venous Blood-Plasma-nM(1)",
+              "X": "Templeton_et_al-2007.ND-Itraconazole|h(1)",
+              "Y": "Templeton_et_al-2007.ND-Itraconazole|ObservedData|Peripheral Venous Blood|Plasma|N-desalkyl_Itraconazole|nM(1)",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 100 mg QD (Templeton 08) sol fast-Keto-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg QD (Templeton 08) sol fast|Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "po 100 mg QD (Templeton 08) sol fast-N-desalkyl-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg QD (Templeton 08) sol fast|Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 12
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 100 mg QD (Templeton 08) sol fast\n2018-05-31 13:06"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fast",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "nM",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 608.7176,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Velde_et_al-1996.Itra.100mg_solution fasted-Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "Velde_et_al-1996.Itra.100mg_solution fasted|Time",
+              "Y": "Velde_et_al-1996.Itra.100mg_solution fasted|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Velde_et_al-1996.OH-Itra.100mg_solution fasted-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "Velde_et_al-1996.OH-Itra.100mg_solution fasted|Time",
+              "Y": "Velde_et_al-1996.OH-Itra.100mg_solution fasted|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#1F497D",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "van Peer_1989.100mg_SD.Solution fasted-Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "van Peer_1989.100mg_SD.Solution fasted|Time",
+              "Y": "van Peer_1989.100mg_SD.Solution fasted|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 100 mg SD (vanDeVelde 96) sol fast-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanDeVelde 96) sol fast|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "po 100 mg SD (vanDeVelde 96) sol fast-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanDeVelde 96) sol fast|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 100 mg SD (vanDeVelde 96) sol fast\n2018-05-31 13:21"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 100 mg SD (vanDeVelde 96) sol fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 0.3374216,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 100 mg SD (vanDeVelde 96) sol fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanDeVelde 96) sol fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "po 100 mg SD (vanDeVelde 96) sol fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg SD (vanDeVelde 96) sol fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Itraconazole-Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)-Undefined-Plasma-concentration ",
+              "X": "Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)|time ",
+              "Y": "Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)|ObservedData|Undefined|Plasma|Itraconazole|concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Velde_et_al-1996.Itra.100mg_solution-Itraconazole-Peripheral Venous Blood-Plasma-Conc(1)",
+              "X": "Velde_et_al-1996.Itra.100mg_solution|Time",
+              "Y": "Velde_et_al-1996.Itra.100mg_solution|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc(1)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Velde_et_al-1996.OH-Itra.100mg_solution-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc(1)",
+              "X": "Velde_et_al-1996.OH-Itra.100mg_solution|Time",
+              "Y": "Velde_et_al-1996.OH-Itra.100mg_solution|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc(1)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 100 mg SD (vanDeVelde 96) sol fed\n2018-05-31 13:24"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg QD (Barone 1998a) sol fast",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.246182,
+              "Max": 15.8822,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.09048899,
+              "Max": 3.150959,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 200 mg QD (Barone 1998a) sol fast-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg QD (Barone 1998a) sol fast|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "po 200 mg QD (Barone 1998a) sol fast-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg QD (Barone 1998a) sol fast|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted-Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted|Time",
+              "Y": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted|Time",
+              "Y": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted-Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted|Time",
+              "Y": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc",
+              "X": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted|Time",
+              "Y": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg QD (Barone 1998a) sol fast\n2018-05-31 13:22"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg QD (Barone 98a) sol fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 15.20833,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 2.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 200 mg QD (Barone 98a) sol fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg QD (Barone 98a) sol fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "po 200 mg QD (Barone 98a) sol fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg QD (Barone 98a) sol fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution-Itraconazole-Peripheral Venous Blood-Plasma-Conc(1)",
+              "X": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution|Time",
+              "Y": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc(1)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc(1)",
+              "X": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution|Time",
+              "Y": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc(1)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution-Itraconazole-Peripheral Venous Blood-Plasma-Conc(1)",
+              "X": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution|Time",
+              "Y": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|Conc(1)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution-Hydroxy_Itraconazole-Peripheral Venous Blood-Plasma-Conc(1)",
+              "X": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution|Time",
+              "Y": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|Conc(1)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg QD (Barone 98a) sol fed\n2018-05-31 13:27"
+        }
+      },
+      {
+        "SectionId": 1,
+        "RefProject": "Itraconazole",
+        "RefSimulation": "po 200 mg SD (Barone 98b) sol fed",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 0.7200012,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 200 mg SD (Barone 98b) sol fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD (Barone 98b) sol fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Itraconazole-Barone98.Solution 200mg ITZ-Peripheral Venous Blood-Plasma-C_pls ",
+              "X": "Barone98.Solution 200mg ITZ|Time ",
+              "Y": "Barone98.Solution 200mg ITZ|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|C_pls ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hydroxy_Itraconazole-Barone98.Solution 200mg OH-ITZ-Peripheral Venous Blood-Plasma-C_pls ",
+              "X": "Barone98.Solution 200mg OH-ITZ|Time ",
+              "Y": "Barone98.Solution 200mg OH-ITZ|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy_Itraconazole|C_pls ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 200 mg SD (Barone 98b) sol fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD (Barone 98b) sol fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3
+              }
+            }
+          ],
+          "Name": "Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Itraconazole_DDI_Model\npo 200 mg SD (Barone 98b) sol fed\n2018-05-31 13:25"
+        }
+      }
+    ]
+  },
+  "Inputs": [],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Chapter 1",
+      "Content": "../Content/Section1.md"
+    }
+  ]
+}
