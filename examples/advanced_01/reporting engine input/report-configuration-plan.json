@@ -189,295 +189,295 @@
   "ObservededDataSets": [
     {
       "Id": "Heizmann et al. 1983, iv 11.42 mg, n=1",
-      "Path": "../ObservedData/Heizmann et al. 1983, iv 11.42 mg, n=1.xlsx"
+      "Path": "../ObservedData/Heizmann et al. 1983, iv 11.42 mg, n=1.csv"
     },
     {
       "Id": "Heizmann et al. 1983, po 10 mg, n=1",
-      "Path": "../ObservedData/Heizmann et al. 1983, po 10 mg, n=1.xlsx"
+      "Path": "../ObservedData/Heizmann et al. 1983, po 10 mg, n=1.csv"
     },
     {
       "Id": "Heizmann et al. 1983, po 20 mg, n=1",
-      "Path": "../ObservedData/Heizmann et al. 1983, po 20 mg, n=1.xlsx"
+      "Path": "../ObservedData/Heizmann et al. 1983, po 20 mg, n=1.csv"
     },
     {
       "Id": "Chung et al. 2006, po 0.075 mgkg, n=19",
-      "Path": "../ObservedData/Chung et al. 2006, po 0.075 mgkg, n=19.xlsx"
+      "Path": "../ObservedData/Chung et al. 2006, po 0.075 mgkg, n=19.csv"
     },
     {
       "Id": "Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16",
-      "Path": "../ObservedData/Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16.xlsx"
+      "Path": "../ObservedData/Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16.csv"
     },
     {
       "Id": "Smith et al. 1981, iv 5 mg, n=6",
-      "Path": "../ObservedData/Smith et al. 1981, iv 5 mg, n=6.xlsx"
+      "Path": "../ObservedData/Smith et al. 1981, iv 5 mg, n=6.csv"
     },
     {
       "Id": "Smith et al. 1981, po 10 mg, n=6",
-      "Path": "../ObservedData/Smith et al. 1981, po 10 mg, n=6.xlsx"
+      "Path": "../ObservedData/Smith et al. 1981, po 10 mg, n=6.csv"
     },
     {
       "Id": "Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)",
-      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_solution_Itra_(fig 2).xlsx"
+      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_solution_Itra_(fig 2).csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fed_Itra",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_Itra.xlsx"
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_Itra.csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fasted_Itra",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_Itra.xlsx"
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_100mg_QD_day1_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day1_Itra.xlsx"
+      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day1_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_QD_day1_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day1_Itra.xlsx"
+      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day1_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_BID_day1_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day1_Itra.xlsx"
+      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day1_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_100mg_QD_day15_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day15_Itra.xlsx"
+      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day15_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_QD_day15_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day15_Itra.xlsx"
+      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day15_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_BID_day15_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day15_Itra.xlsx"
+      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day15_Itra.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day1_Itra",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_Itra.xlsx"
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_Itra.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day7_Itra",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_Itra.xlsx"
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_Itra.csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fed_OH",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_OH.xlsx"
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_OH.csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fasted_OH",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_OH.xlsx"
+      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_OH.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day1_OH",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_OH.xlsx"
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_OH.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day7_OH",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_OH.xlsx"
+      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_OH.csv"
     },
     {
       "Id": "Heykants_89_PO_100mg_SD_OH_(fig 4)",
-      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_OH_(fig 4).xlsx"
+      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_OH_(fig 4).csv"
     },
     {
       "Id": "Heykants_89_PO_100mg_SD_Itra_(fig 4)",
-      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_Itra_(fig 4).xlsx"
+      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_Itra_(fig 4).csv"
     },
     {
       "Id": "Heykants_89_IV_100mg_SD_Itra",
-      "Path": "../ObservedData/Heykants_89_IV_100mg_SD_Itra.xlsx"
+      "Path": "../ObservedData/Heykants_89_IV_100mg_SD_Itra.csv"
     },
     {
       "Id": "Barone98.Solution 200mg ITZ",
-      "Path": "../ObservedData/Barone98.Solution 200mg ITZ.xlsx"
+      "Path": "../ObservedData/Barone98.Solution 200mg ITZ.csv"
     },
     {
       "Id": "Barone98.F05 capsule 200 mg ITZ",
-      "Path": "../ObservedData/Barone98.F05 capsule 200 mg ITZ.xlsx"
+      "Path": "../ObservedData/Barone98.F05 capsule 200 mg ITZ.csv"
     },
     {
       "Id": "Barone98.Solution 200mg OH-ITZ",
-      "Path": "../ObservedData/Barone98.Solution 200mg OH-ITZ.xlsx"
+      "Path": "../ObservedData/Barone98.Solution 200mg OH-ITZ.csv"
     },
     {
       "Id": "Barone98.F05 capsule 200 mg OH-ITZ",
-      "Path": "../ObservedData/Barone98.F05 capsule 200 mg OH-ITZ.xlsx"
+      "Path": "../ObservedData/Barone98.F05 capsule 200 mg OH-ITZ.csv"
     },
     {
       "Id": "Olkkola_1994_Itra",
-      "Path": "../ObservedData/Olkkola_1994_Itra.xlsx"
+      "Path": "../ObservedData/Olkkola_1994_Itra.csv"
     },
     {
       "Id": "barone_93_15days_MD_Itra",
-      "Path": "../ObservedData/barone_93_15days_MD_Itra.xlsx"
+      "Path": "../ObservedData/barone_93_15days_MD_Itra.csv"
     },
     {
       "Id": "barone_93_15days_MD_OH",
-      "Path": "../ObservedData/barone_93_15days_MD_OH.xlsx"
+      "Path": "../ObservedData/barone_93_15days_MD_OH.csv"
     },
     {
       "Id": "Mouton_06_200mg_MD_Itra_HPBCD",
-      "Path": "../ObservedData/Mouton_06_200mg_MD_Itra_HPBCD.xlsx"
+      "Path": "../ObservedData/Mouton_06_200mg_MD_Itra_HPBCD.csv"
     },
     {
       "Id": "Mouton_06_200mg_MD_OH_HPBCD",
-      "Path": "../ObservedData/Mouton_06_200mg_MD_OH_HPBCD.xlsx"
+      "Path": "../ObservedData/Mouton_06_200mg_MD_OH_HPBCD.csv"
     },
     {
       "Id": "Templeton_et_al-2007.ND-Itraconazole",
-      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole.xlsx"
+      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole.csv"
     },
     {
       "Id": "Templeton_et_al-2007.ND-Itraconazole day7",
-      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole day7.xlsx"
+      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole day7.csv"
     },
     {
       "Id": "Templeton_et_al-2007.Keto-Itraconazole",
-      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole.xlsx"
+      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole.csv"
     },
     {
       "Id": "Templeton_et_al-2007.Keto-Itraconazole day7",
-      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole day7.xlsx"
+      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole day7.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed.xlsx"
+      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed.csv"
     },
     {
       "Id": "van Peer_1989.100mg_SD.Capsule fasted",
-      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fasted.xlsx"
+      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fasted.csv"
     },
     {
       "Id": "van Peer_1989.100mg_SD.Capsule fed",
-      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fed.xlsx"
+      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fed.csv"
     },
     {
       "Id": "van Peer_1989.100mg_SD.Solution fasted",
-      "Path": "../ObservedData/van Peer_1989.100mg_SD.Solution fasted.xlsx"
+      "Path": "../ObservedData/van Peer_1989.100mg_SD.Solution fasted.csv"
     },
     {
       "Id": "van Peer_1989.100mg_QD_capsule_breakfast",
-      "Path": "../ObservedData/van Peer_1989.100mg_QD_capsule_breakfast.xlsx"
+      "Path": "../ObservedData/van Peer_1989.100mg_QD_capsule_breakfast.csv"
     },
     {
       "Id": "Velde_et_al-1996.Itra.100mg_solution fasted",
-      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fasted.xlsx"
+      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fasted.csv"
     },
     {
       "Id": "Velde_et_al-1996.Itra.100mg_solution fed",
-      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fed.xlsx"
+      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fed.csv"
     },
     {
       "Id": "Velde_et_al-1996.OH-Itra.100mg_solution fasted",
-      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fasted.xlsx"
+      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fasted.csv"
     },
     {
       "Id": "Velde_et_al-1996.OH-Itra.100mg_solution fed",
-      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fed.xlsx"
+      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fed.csv"
     },
     {
       "Id": "Hardin_88_Ctrough.100mg",
-      "Path": "../ObservedData/Hardin_88_Ctrough.100mg.xlsx"
+      "Path": "../ObservedData/Hardin_88_Ctrough.100mg.csv"
     },
     {
       "Id": "Hardin_88_Ctrough.200mg QD",
-      "Path": "../ObservedData/Hardin_88_Ctrough.200mg QD.xlsx"
+      "Path": "../ObservedData/Hardin_88_Ctrough.200mg QD.csv"
     },
     {
       "Id": "Hardin_88_Ctrough.200mg BID",
-      "Path": "../ObservedData/Hardin_88_Ctrough.200mg BID.xlsx"
+      "Path": "../ObservedData/Hardin_88_Ctrough.200mg BID.csv"
     },
     {
       "Id": "Templeton_2010_Treatment Itra400",
-      "Path": "../ObservedData/Templeton_2010_Treatment Itra400.xlsx"
+      "Path": "../ObservedData/Templeton_2010_Treatment Itra400.csv"
     },
     {
       "Id": "Templeton_2010_Treatment Itra200",
-      "Path": "../ObservedData/Templeton_2010_Treatment Itra200.xlsx"
+      "Path": "../ObservedData/Templeton_2010_Treatment Itra200.csv"
     },
     {
       "Id": "Templeton_2010_Treatment Itra 50",
-      "Path": "../ObservedData/Templeton_2010_Treatment Itra 50.xlsx"
+      "Path": "../ObservedData/Templeton_2010_Treatment Itra 50.csv"
     },
     {
       "Id": "Templeton_2010_Control",
-      "Path": "../ObservedData/Templeton_2010_Control.xlsx"
+      "Path": "../ObservedData/Templeton_2010_Control.csv"
     },
     {
       "Id": "Olkkola_1994_Treatment",
-      "Path": "../ObservedData/Olkkola_1994_Treatment.xlsx"
+      "Path": "../ObservedData/Olkkola_1994_Treatment.csv"
     },
     {
       "Id": "Olkkola_1994_Control",
-      "Path": "../ObservedData/Olkkola_1994_Control.xlsx"
+      "Path": "../ObservedData/Olkkola_1994_Control.csv"
     },
     {
       "Id": "Ahonen_1995_Treatment",
-      "Path": "../ObservedData/Ahonen_1995_Treatment.xlsx"
+      "Path": "../ObservedData/Ahonen_1995_Treatment.csv"
     },
     {
       "Id": "Ahonen_1995_Control",
-      "Path": "../ObservedData/Ahonen_1995_Control.xlsx"
+      "Path": "../ObservedData/Ahonen_1995_Control.csv"
     },
     {
       "Id": "Olkkola_1994_Itra",
-      "Path": "../ObservedData/Olkkola_1994_Itra.xlsx"
+      "Path": "../ObservedData/Olkkola_1994_Itra.csv"
     },
     {
       "Id": "Olkkola_1996_Control",
-      "Path": "../ObservedData/Olkkola_1996_Control.xlsx"
+      "Path": "../ObservedData/Olkkola_1996_Control.csv"
     },
     {
       "Id": "Olkkola_1996_Treatment",
-      "Path": "../ObservedData/Olkkola_1996_Treatment.xlsx"
+      "Path": "../ObservedData/Olkkola_1996_Treatment.csv"
     },
     {
       "Id": "Backmann_1998_Control PhaseIII",
-      "Path": "../ObservedData/Backmann_1998_Control PhaseIII.xlsx"
+      "Path": "../ObservedData/Backmann_1998_Control PhaseIII.csv"
     },
     {
       "Id": "Backmann_1998_Control PhaseII",
-      "Path": "../ObservedData/Backmann_1998_Control PhaseII.xlsx"
+      "Path": "../ObservedData/Backmann_1998_Control PhaseII.csv"
     },
     {
       "Id": "Backmann_1998_Treatment PhaseII",
-      "Path": "../ObservedData/Backmann_1998_Treatment PhaseII.xlsx"
+      "Path": "../ObservedData/Backmann_1998_Treatment PhaseII.csv"
     },
     {
       "Id": "Backmann_1998_Treatment PhaseIII",
-      "Path": "../ObservedData/Backmann_1998_Treatment PhaseIII.xlsx"
+      "Path": "../ObservedData/Backmann_1998_Treatment PhaseIII.csv"
     },
     {
       "Id": "PK_Ratio_CYP3A4",
-      "Path": "../ObservedData/PK_Ratio_CYP3A4.xlsx",
+      "Path": "../ObservedData/PK_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
