@@ -19,19 +19,19 @@
   "ObservededDataSets": [
     {
       "Id": "Midazolam 600mg SD",
-      "Path": "../ObservedData/Midazolam 600mg SD.xlsx"
+      "Path": "../ObservedData/Midazolam 600mg SD.csv"
     },
     {
       "Id": "Itraconazole 600mg MD",
-      "Path": "../ObservedData/Itraconazole 600mg MD.xlsx"
+      "Path": "../ObservedData/Itraconazole 600mg MD.csv"
     },
     {
       "Id": "Midazolam 600mg SD",
-      "Path": "../ObservedData/Midazolam 600mg SD.xlsx"
+      "Path": "../ObservedData/Midazolam 600mg SD.csv"
     },
     {
       "Id": "PK_Ratio_CYP3A4",
-      "Path": "../ObservedData/PK_Ratio_CYP3A4.xlsx",
+      "Path": "../ObservedData/PK_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
