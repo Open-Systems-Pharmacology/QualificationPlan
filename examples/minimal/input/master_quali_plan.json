@@ -20,7 +20,7 @@
   "ObservedDataSets": [
     {
       "Id": "PK_Ratio_CYP3A4",
-      "Path": "../PK_Ratio_CYP3A4.xlsx",
+      "Path": "../PK_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
