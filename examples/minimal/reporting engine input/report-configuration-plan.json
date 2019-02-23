@@ -1,18 +1,18 @@
 {
   "SimulationMappings": [
     {
-      "RefProject": "Midazolam",
-      "RefSimulation": "S1",
+      "Project": "Midazolam",
+      "Simulation": "S1",
       "Path": "../Midazolam/S1/"
     },
     {
-      "RefProject": "Midazolam",
-      "RefSimulation": "S2",
+      "Project": "Midazolam",
+      "Simulation": "S2",
       "Path": "../Midazolam/S2/"
     },
     {
-      "RefProject": "Itraconazole",
-      "RefSimulation": "S1",
+      "Project": "Itraconazole",
+      "Simulation": "S1",
       "Path": "../Itraconazole/S1/"
     }
   ],
@@ -68,11 +68,11 @@
             "Symbol": 1,
             "Simulation": [
               {
-                "RefProject": "Midazolam",
-                "RefSimulation": "S1",
+                "Project": "Midazolam",
+                "Simulation": "S1",
                 "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
-                "RefObservedData": "Midazolam 600mg SD",
-                "Color": "blue"
+                "ObservedData": "Midazolam 600mg SD",
+                "Color": "#FF0000"
               }
             ]
           }
@@ -82,8 +82,8 @@
     "TimeProfile": [
       {
         "SectionId": 3,
-        "RefProject": "Midazolam",
-        "RefSimulation": "S2",
+        "Project": "Midazolam",
+        "Simulation": "S2",
         "Plot": {
           "Axes": [
             {
@@ -204,8 +204,8 @@
       },
       {
         "SectionId": 2,
-        "RefProject": "Itraconazole",
-        "RefSimulation": "S1",
+        "Project": "Itraconazole",
+        "Simulation": "S1",
         "Plot": {
           "Axes": [
             {
@@ -268,8 +268,8 @@
       },
       {
         "SectionId": 2,
-        "RefProject": "Itraconazole",
-        "RefSimulation": "S1",
+        "Project": "Itraconazole",
+        "Simulation": "S1",
         "Plot": {
           "Axes": [
             {

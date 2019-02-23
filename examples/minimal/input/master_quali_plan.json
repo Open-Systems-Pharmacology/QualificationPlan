@@ -11,7 +11,7 @@
         {
           "Type": "Individual",
           "Name": "Ind",
-          "RefProject": "Midazolam"
+          "Project": "Midazolam"
         }
       ],
       "SimulationParameters": []
@@ -38,13 +38,13 @@
     },
     "AllPlots": [
       {
-        "RefProject": "Itraconazole",
-        "RefSimulation": "S1",
+        "Project": "Itraconazole",
+        "Simulation": "S1",
         "SectionId": 2
       },
       {
-        "RefProject": "Midazolam",
-        "RefSimulation": "S2",
+        "Project": "Midazolam",
+        "Simulation": "S2",
         "SectionId": 3
       }
     ],
@@ -69,11 +69,11 @@
             "Symbol": 1,
             "Simulation": [
               {
-                "RefProject": "Midazolam",
-                "RefSimulation": "S1",
+                "Project": "Midazolam",
+                "Simulation": "S1",
                 "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
-                "RefObservedData": "Midazolam 600mg SD",
-                "Color": "blue"
+                "ObservedData": "Midazolam 600mg SD",
+                "Color": "#FF0000"
               }
             ]
           }
@@ -83,13 +83,13 @@
   },
   "Inputs": [
     {
-      "RefProject": "Midazolam",
+      "Project": "Midazolam",
       "Type": "Compound",
       "Name": "Midazolam",
       "SectionId": 1
     },
     {
-      "RefProject": "Midazolam",
+      "Project": "Midazolam",
       "Type": "Simulation",
       "Name": "S1",
       "SectionId": 2
