@@ -2,11 +2,11 @@
   "Projects": [
     {
       "Id": "Midazolam",
-      "Path": "../Midazolam/Midazolam.json"
+      "Path": "Midazolam/Midazolam.json"
     },
     {
       "Id": "Itraconazole",
-      "Path": "../Itraconazole/Itraconazole.json",
+      "Path": "Itraconazole/Itraconazole.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -17,7 +17,7 @@
     },
     {
       "Id": "Midazolam_Itraconazole_DDI",
-      "Path": "../Midazolam_Itraconazole_DDI/Midazolam_Itraconazole_DDI.json",
+      "Path": "Midazolam_Itraconazole_DDI/Midazolam_Itraconazole_DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -61,7 +61,7 @@
   "ObservedDataSets": [
     {
       "Id": "PK_Ratio_CYP3A4",
-      "Path": "../PK_Ratio_CYP3A4.csv",
+      "Path": "PK_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -1045,7 +1045,7 @@
     {
       "Id": 1,
       "Title": "Chapter 1",
-      "Content": "../Content/Section1.md"
+      "Content": "Content/Section1.md"
     }
   ]
 }

@@ -2,11 +2,11 @@
   "Projects": [
     {
       "Id": "Midazolam",
-      "Path": "/Midazolam/Midazolam.json"
+      "Path": "Midazolam/Midazolam.json"
     },
     {
       "Id": "Itraconazole",
-      "Path": "/Itraconazole/Itraconazole.json",
+      "Path": "Itraconazole/Itraconazole.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",

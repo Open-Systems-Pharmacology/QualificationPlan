@@ -3,481 +3,481 @@
     {
       "Project": "Midazolam",
       "Simulation": "Mida po 0.075 mgkg - Chung 2006",
-      "Path": "../Midazolam/Mida po 0.075 mgkg - Chung 2006"
+      "Path": "Midazolam/Mida po 0.075 mgkg - Chung 2006"
     },
     {
       "Project": "Midazolam",
       "Simulation": "Mida iv 0.15 mgkg - Heizmann 1983",
-      "Path": "../Midazolam/Mida iv 0.15 mgkg - Heizmann 1983"
+      "Path": "Midazolam/Mida iv 0.15 mgkg - Heizmann 1983"
     },
     {
       "Project": "Midazolam",
       "Simulation": "Mida po 10 mg - Heizmann 1983",
-      "Path": "../Midazolam/Mida po 10 mg - Heizmann 1983/"
+      "Path": "Midazolam/Mida po 10 mg - Heizmann 1983/"
     },
     {
       "Project": "Midazolam",
       "Simulation": "Mida po 20 mg - Heizmann 1983",
-      "Path": "../Midazolam/Mida po 20 mg - Heizmann 1983/"
+      "Path": "Midazolam/Mida po 20 mg - Heizmann 1983/"
     },
     {
       "Project": "Midazolam",
       "Simulation": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood",
-      "Path": "../Midazolam/Mida iv 0.05 mgkg - Gorski 1998 - Whole blood"
+      "Path": "Midazolam/Mida iv 0.05 mgkg - Gorski 1998 - Whole blood"
     },
     {
       "Project": "Midazolam",
       "Simulation": "Mida iv 5 mg- Smith 1981",
-      "Path": "../Midazolam/Mida iv 5 mg- Smith 1981/"
+      "Path": "Midazolam/Mida iv 5 mg- Smith 1981/"
     },
     {
       "Project": "Midazolam",
       "Simulation": "Mida po 10 mg - Smith 1981",
-      "Path": "../Midazolam/Mida po 10 mg - Smith 1981/"
+      "Path": "Midazolam/Mida po 10 mg - Smith 1981/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 100 mg QD (Templeton 08) sol fast",
-      "Path": "../Itraconazole/po 100 mg QD (Templeton 08) sol fast/"
+      "Path": "Itraconazole/po 100 mg QD (Templeton 08) sol fast/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg QD (Olkkola 94) caps fast",
-      "Path": "../Itraconazole/po 200 mg QD (Olkkola 94) caps fast/"
+      "Path": "Itraconazole/po 200 mg QD (Olkkola 94) caps fast/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg BID (Hardin 88) caps fed",
-      "Path": "../Itraconazole/po 200 mg BID (Hardin 88) caps fed/"
+      "Path": "Itraconazole/po 200 mg BID (Hardin 88) caps fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 100 mg QD (Hardin 88) caps fed",
-      "Path": "../Itraconazole/po 100 mg QD (Hardin 88) caps fed/"
+      "Path": "Itraconazole/po 100 mg QD (Hardin 88) caps fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 100 mg SD (vanDeVelde 96) sol fast",
-      "Path": "../Itraconazole/po 100 mg SD (vanDeVelde 96) sol fast/"
+      "Path": "Itraconazole/po 100 mg SD (vanDeVelde 96) sol fast/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 100 mg SD (vanPeer 89) caps fed",
-      "Path": "../Itraconazole/po 100 mg SD (vanPeer 89) caps fed/"
+      "Path": "Itraconazole/po 100 mg SD (vanPeer 89) caps fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg QD (Barone 1998a) sol fast",
-      "Path": "../Itraconazole/po 200 mg QD (Barone 1998a) sol fast/"
+      "Path": "Itraconazole/po 200 mg QD (Barone 1998a) sol fast/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 100 mg SD (vanPeer 89) caps fast",
-      "Path": "../Itraconazole/po 100 mg SD (vanPeer 89) caps fast/"
+      "Path": "Itraconazole/po 100 mg SD (vanPeer 89) caps fast/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 100 mg SD (vanDeVelde 96) sol fed",
-      "Path": "../Itraconazole/po 100 mg SD (vanDeVelde 96) sol fed/"
+      "Path": "Itraconazole/po 100 mg SD (vanDeVelde 96) sol fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg SD (Barone 93) caps fast",
-      "Path": "../Itraconazole/po 200 mg SD (Barone 93) caps fast/"
+      "Path": "Itraconazole/po 200 mg SD (Barone 93) caps fast/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg SD (Barone 98b) caps fed",
-      "Path": "../Itraconazole/po 200 mg SD (Barone 98b) caps fed/"
+      "Path": "Itraconazole/po 200 mg SD (Barone 98b) caps fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg SD (Barone 98b) sol fed",
-      "Path": "../Itraconazole/po 200 mg SD (Barone 98b) sol fed/"
+      "Path": "Itraconazole/po 200 mg SD (Barone 98b) sol fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg QD (Barone 98a) sol fed",
-      "Path": "../Itraconazole/po 200 mg QD (Barone 98a) sol fed/"
+      "Path": "Itraconazole/po 200 mg QD (Barone 98a) sol fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg QD (Hardin 88) caps fed",
-      "Path": "../Itraconazole/po 200 mg QD (Hardin 88) caps fed/"
+      "Path": "Itraconazole/po 200 mg QD (Hardin 88) caps fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 100 mg QD (vanPeer 89) caps fed",
-      "Path": "../Itraconazole/po 100 mg QD (vanPeer 89) caps fed/"
+      "Path": "Itraconazole/po 100 mg QD (vanPeer 89) caps fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "po 200 mg BID (Barone 93) caps fed",
-      "Path": "../Itraconazole/po 200 mg BID (Barone 93) caps fed/"
+      "Path": "Itraconazole/po 200 mg BID (Barone 93) caps fed/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "200 mg IV MD",
-      "Path": "../Itraconazole/200 mg IV MD/"
+      "Path": "Itraconazole/200 mg IV MD/"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "100 mg IV",
-      "Path": "../Itraconazole/100 mg IV/"
+      "Path": "Itraconazole/100 mg IV/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Olkkola 1996 Midazolam PO-IV-PO/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Control Olkkola 1996 Midazolam PO-IV-PO/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Control Templeton 2010 Midazolam",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Templeton 2010 Midazolam/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Control Templeton 2010 Midazolam/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Treatment Templeton 2010 Midazolam + Itra 400mg",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra 400mg/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra 400mg/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Treatment Templeton 2010 Midazolam + Itra  50mg",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra  50mg/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra  50mg/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Control Olkkola 1994 Midazolam",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Olkkola 1994 Midazolam/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Control Olkkola 1994 Midazolam/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Control Backmann 1998 Midazolam",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Backmann 1998 Midazolam/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Control Backmann 1998 Midazolam/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Control Ahonen 1995 Midazolam",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Control Ahonen 1995 Midazolam/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Control Ahonen 1995 Midazolam/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Treatment Templeton 2010 Midazolam + Itra 200mg",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra 200mg/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Treatment Templeton 2010 Midazolam + Itra 200mg/"
     },
     {
       "Project": "Midazolam_Itraconazole_DDI",
       "Simulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
-      "Path": "../Midazolam_Itraconazole_DDI/DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD/"
+      "Path": "Midazolam_Itraconazole_DDI/DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD/"
     }
   ],
   "ObservededDataSets": [
     {
       "Id": "Heizmann et al. 1983, iv 11.42 mg, n=1",
-      "Path": "../ObservedData/Heizmann et al. 1983, iv 11.42 mg, n=1.csv"
+      "Path": "ObservedData/Heizmann et al. 1983, iv 11.42 mg, n=1.csv"
     },
     {
       "Id": "Heizmann et al. 1983, po 10 mg, n=1",
-      "Path": "../ObservedData/Heizmann et al. 1983, po 10 mg, n=1.csv"
+      "Path": "ObservedData/Heizmann et al. 1983, po 10 mg, n=1.csv"
     },
     {
       "Id": "Heizmann et al. 1983, po 20 mg, n=1",
-      "Path": "../ObservedData/Heizmann et al. 1983, po 20 mg, n=1.csv"
+      "Path": "ObservedData/Heizmann et al. 1983, po 20 mg, n=1.csv"
     },
     {
       "Id": "Chung et al. 2006, po 0.075 mgkg, n=19",
-      "Path": "../ObservedData/Chung et al. 2006, po 0.075 mgkg, n=19.csv"
+      "Path": "ObservedData/Chung et al. 2006, po 0.075 mgkg, n=19.csv"
     },
     {
       "Id": "Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16",
-      "Path": "../ObservedData/Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16.csv"
+      "Path": "ObservedData/Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16.csv"
     },
     {
       "Id": "Smith et al. 1981, iv 5 mg, n=6",
-      "Path": "../ObservedData/Smith et al. 1981, iv 5 mg, n=6.csv"
+      "Path": "ObservedData/Smith et al. 1981, iv 5 mg, n=6.csv"
     },
     {
       "Id": "Smith et al. 1981, po 10 mg, n=6",
-      "Path": "../ObservedData/Smith et al. 1981, po 10 mg, n=6.csv"
+      "Path": "ObservedData/Smith et al. 1981, po 10 mg, n=6.csv"
     },
     {
       "Id": "Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)",
-      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_solution_Itra_(fig 2).csv"
+      "Path": "ObservedData/Heykants_89_PO_100mg_SD_solution_Itra_(fig 2).csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fed_Itra",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_Itra.csv"
+      "Path": "ObservedData/barone_93_PO_SD_200mg_fed_Itra.csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fasted_Itra",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_Itra.csv"
+      "Path": "ObservedData/barone_93_PO_SD_200mg_fasted_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_100mg_QD_day1_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day1_Itra.csv"
+      "Path": "ObservedData/Hardin_88_PO_100mg_QD_day1_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_QD_day1_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day1_Itra.csv"
+      "Path": "ObservedData/Hardin_88_PO_200mg_QD_day1_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_BID_day1_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day1_Itra.csv"
+      "Path": "ObservedData/Hardin_88_PO_200mg_BID_day1_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_100mg_QD_day15_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_100mg_QD_day15_Itra.csv"
+      "Path": "ObservedData/Hardin_88_PO_100mg_QD_day15_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_QD_day15_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_QD_day15_Itra.csv"
+      "Path": "ObservedData/Hardin_88_PO_200mg_QD_day15_Itra.csv"
     },
     {
       "Id": "Hardin_88_PO_200mg_BID_day15_Itra",
-      "Path": "../ObservedData/Hardin_88_PO_200mg_BID_day15_Itra.csv"
+      "Path": "ObservedData/Hardin_88_PO_200mg_BID_day15_Itra.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day1_Itra",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_Itra.csv"
+      "Path": "ObservedData/Templeton_08_PO_MD_100mg_day1_Itra.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day7_Itra",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_Itra.csv"
+      "Path": "ObservedData/Templeton_08_PO_MD_100mg_day7_Itra.csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fed_OH",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fed_OH.csv"
+      "Path": "ObservedData/barone_93_PO_SD_200mg_fed_OH.csv"
     },
     {
       "Id": "barone_93_PO_SD_200mg_fasted_OH",
-      "Path": "../ObservedData/barone_93_PO_SD_200mg_fasted_OH.csv"
+      "Path": "ObservedData/barone_93_PO_SD_200mg_fasted_OH.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day1_OH",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day1_OH.csv"
+      "Path": "ObservedData/Templeton_08_PO_MD_100mg_day1_OH.csv"
     },
     {
       "Id": "Templeton_08_PO_MD_100mg_day7_OH",
-      "Path": "../ObservedData/Templeton_08_PO_MD_100mg_day7_OH.csv"
+      "Path": "ObservedData/Templeton_08_PO_MD_100mg_day7_OH.csv"
     },
     {
       "Id": "Heykants_89_PO_100mg_SD_OH_(fig 4)",
-      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_OH_(fig 4).csv"
+      "Path": "ObservedData/Heykants_89_PO_100mg_SD_OH_(fig 4).csv"
     },
     {
       "Id": "Heykants_89_PO_100mg_SD_Itra_(fig 4)",
-      "Path": "../ObservedData/Heykants_89_PO_100mg_SD_Itra_(fig 4).csv"
+      "Path": "ObservedData/Heykants_89_PO_100mg_SD_Itra_(fig 4).csv"
     },
     {
       "Id": "Heykants_89_IV_100mg_SD_Itra",
-      "Path": "../ObservedData/Heykants_89_IV_100mg_SD_Itra.csv"
+      "Path": "ObservedData/Heykants_89_IV_100mg_SD_Itra.csv"
     },
     {
       "Id": "Barone98.Solution 200mg ITZ",
-      "Path": "../ObservedData/Barone98.Solution 200mg ITZ.csv"
+      "Path": "ObservedData/Barone98.Solution 200mg ITZ.csv"
     },
     {
       "Id": "Barone98.F05 capsule 200 mg ITZ",
-      "Path": "../ObservedData/Barone98.F05 capsule 200 mg ITZ.csv"
+      "Path": "ObservedData/Barone98.F05 capsule 200 mg ITZ.csv"
     },
     {
       "Id": "Barone98.Solution 200mg OH-ITZ",
-      "Path": "../ObservedData/Barone98.Solution 200mg OH-ITZ.csv"
+      "Path": "ObservedData/Barone98.Solution 200mg OH-ITZ.csv"
     },
     {
       "Id": "Barone98.F05 capsule 200 mg OH-ITZ",
-      "Path": "../ObservedData/Barone98.F05 capsule 200 mg OH-ITZ.csv"
+      "Path": "ObservedData/Barone98.F05 capsule 200 mg OH-ITZ.csv"
     },
     {
       "Id": "Olkkola_1994_Itra",
-      "Path": "../ObservedData/Olkkola_1994_Itra.csv"
+      "Path": "ObservedData/Olkkola_1994_Itra.csv"
     },
     {
       "Id": "barone_93_15days_MD_Itra",
-      "Path": "../ObservedData/barone_93_15days_MD_Itra.csv"
+      "Path": "ObservedData/barone_93_15days_MD_Itra.csv"
     },
     {
       "Id": "barone_93_15days_MD_OH",
-      "Path": "../ObservedData/barone_93_15days_MD_OH.csv"
+      "Path": "ObservedData/barone_93_15days_MD_OH.csv"
     },
     {
       "Id": "Mouton_06_200mg_MD_Itra_HPBCD",
-      "Path": "../ObservedData/Mouton_06_200mg_MD_Itra_HPBCD.csv"
+      "Path": "ObservedData/Mouton_06_200mg_MD_Itra_HPBCD.csv"
     },
     {
       "Id": "Mouton_06_200mg_MD_OH_HPBCD",
-      "Path": "../ObservedData/Mouton_06_200mg_MD_OH_HPBCD.csv"
+      "Path": "ObservedData/Mouton_06_200mg_MD_OH_HPBCD.csv"
     },
     {
       "Id": "Templeton_et_al-2007.ND-Itraconazole",
-      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole.csv"
+      "Path": "ObservedData/Templeton_et_al-2007.ND-Itraconazole.csv"
     },
     {
       "Id": "Templeton_et_al-2007.ND-Itraconazole day7",
-      "Path": "../ObservedData/Templeton_et_al-2007.ND-Itraconazole day7.csv"
+      "Path": "ObservedData/Templeton_et_al-2007.ND-Itraconazole day7.csv"
     },
     {
       "Id": "Templeton_et_al-2007.Keto-Itraconazole",
-      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole.csv"
+      "Path": "ObservedData/Templeton_et_al-2007.Keto-Itraconazole.csv"
     },
     {
       "Id": "Templeton_et_al-2007.Keto-Itraconazole day7",
-      "Path": "../ObservedData/Templeton_et_al-2007.Keto-Itraconazole day7.csv"
+      "Path": "ObservedData/Templeton_et_al-2007.Keto-Itraconazole day7.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed.csv"
     },
     {
       "Id": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted.csv"
     },
     {
       "Id": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed",
-      "Path": "../ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed.csv"
+      "Path": "ObservedData/Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed.csv"
     },
     {
       "Id": "van Peer_1989.100mg_SD.Capsule fasted",
-      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fasted.csv"
+      "Path": "ObservedData/van Peer_1989.100mg_SD.Capsule fasted.csv"
     },
     {
       "Id": "van Peer_1989.100mg_SD.Capsule fed",
-      "Path": "../ObservedData/van Peer_1989.100mg_SD.Capsule fed.csv"
+      "Path": "ObservedData/van Peer_1989.100mg_SD.Capsule fed.csv"
     },
     {
       "Id": "van Peer_1989.100mg_SD.Solution fasted",
-      "Path": "../ObservedData/van Peer_1989.100mg_SD.Solution fasted.csv"
+      "Path": "ObservedData/van Peer_1989.100mg_SD.Solution fasted.csv"
     },
     {
       "Id": "van Peer_1989.100mg_QD_capsule_breakfast",
-      "Path": "../ObservedData/van Peer_1989.100mg_QD_capsule_breakfast.csv"
+      "Path": "ObservedData/van Peer_1989.100mg_QD_capsule_breakfast.csv"
     },
     {
       "Id": "Velde_et_al-1996.Itra.100mg_solution fasted",
-      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fasted.csv"
+      "Path": "ObservedData/Velde_et_al-1996.Itra.100mg_solution fasted.csv"
     },
     {
       "Id": "Velde_et_al-1996.Itra.100mg_solution fed",
-      "Path": "../ObservedData/Velde_et_al-1996.Itra.100mg_solution fed.csv"
+      "Path": "ObservedData/Velde_et_al-1996.Itra.100mg_solution fed.csv"
     },
     {
       "Id": "Velde_et_al-1996.OH-Itra.100mg_solution fasted",
-      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fasted.csv"
+      "Path": "ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fasted.csv"
     },
     {
       "Id": "Velde_et_al-1996.OH-Itra.100mg_solution fed",
-      "Path": "../ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fed.csv"
+      "Path": "ObservedData/Velde_et_al-1996.OH-Itra.100mg_solution fed.csv"
     },
     {
       "Id": "Hardin_88_Ctrough.100mg",
-      "Path": "../ObservedData/Hardin_88_Ctrough.100mg.csv"
+      "Path": "ObservedData/Hardin_88_Ctrough.100mg.csv"
     },
     {
       "Id": "Hardin_88_Ctrough.200mg QD",
-      "Path": "../ObservedData/Hardin_88_Ctrough.200mg QD.csv"
+      "Path": "ObservedData/Hardin_88_Ctrough.200mg QD.csv"
     },
     {
       "Id": "Hardin_88_Ctrough.200mg BID",
-      "Path": "../ObservedData/Hardin_88_Ctrough.200mg BID.csv"
+      "Path": "ObservedData/Hardin_88_Ctrough.200mg BID.csv"
     },
     {
       "Id": "Templeton_2010_Treatment Itra400",
-      "Path": "../ObservedData/Templeton_2010_Treatment Itra400.csv"
+      "Path": "ObservedData/Templeton_2010_Treatment Itra400.csv"
     },
     {
       "Id": "Templeton_2010_Treatment Itra200",
-      "Path": "../ObservedData/Templeton_2010_Treatment Itra200.csv"
+      "Path": "ObservedData/Templeton_2010_Treatment Itra200.csv"
     },
     {
       "Id": "Templeton_2010_Treatment Itra 50",
-      "Path": "../ObservedData/Templeton_2010_Treatment Itra 50.csv"
+      "Path": "ObservedData/Templeton_2010_Treatment Itra 50.csv"
     },
     {
       "Id": "Templeton_2010_Control",
-      "Path": "../ObservedData/Templeton_2010_Control.csv"
+      "Path": "ObservedData/Templeton_2010_Control.csv"
     },
     {
       "Id": "Olkkola_1994_Treatment",
-      "Path": "../ObservedData/Olkkola_1994_Treatment.csv"
+      "Path": "ObservedData/Olkkola_1994_Treatment.csv"
     },
     {
       "Id": "Olkkola_1994_Control",
-      "Path": "../ObservedData/Olkkola_1994_Control.csv"
+      "Path": "ObservedData/Olkkola_1994_Control.csv"
     },
     {
       "Id": "Ahonen_1995_Treatment",
-      "Path": "../ObservedData/Ahonen_1995_Treatment.csv"
+      "Path": "ObservedData/Ahonen_1995_Treatment.csv"
     },
     {
       "Id": "Ahonen_1995_Control",
-      "Path": "../ObservedData/Ahonen_1995_Control.csv"
+      "Path": "ObservedData/Ahonen_1995_Control.csv"
     },
     {
       "Id": "Olkkola_1994_Itra",
-      "Path": "../ObservedData/Olkkola_1994_Itra.csv"
+      "Path": "ObservedData/Olkkola_1994_Itra.csv"
     },
     {
       "Id": "Olkkola_1996_Control",
-      "Path": "../ObservedData/Olkkola_1996_Control.csv"
+      "Path": "ObservedData/Olkkola_1996_Control.csv"
     },
     {
       "Id": "Olkkola_1996_Treatment",
-      "Path": "../ObservedData/Olkkola_1996_Treatment.csv"
+      "Path": "ObservedData/Olkkola_1996_Treatment.csv"
     },
     {
       "Id": "Backmann_1998_Control PhaseIII",
-      "Path": "../ObservedData/Backmann_1998_Control PhaseIII.csv"
+      "Path": "ObservedData/Backmann_1998_Control PhaseIII.csv"
     },
     {
       "Id": "Backmann_1998_Control PhaseII",
-      "Path": "../ObservedData/Backmann_1998_Control PhaseII.csv"
+      "Path": "ObservedData/Backmann_1998_Control PhaseII.csv"
     },
     {
       "Id": "Backmann_1998_Treatment PhaseII",
-      "Path": "../ObservedData/Backmann_1998_Treatment PhaseII.csv"
+      "Path": "ObservedData/Backmann_1998_Treatment PhaseII.csv"
     },
     {
       "Id": "Backmann_1998_Treatment PhaseIII",
-      "Path": "../ObservedData/Backmann_1998_Treatment PhaseIII.csv"
+      "Path": "ObservedData/Backmann_1998_Treatment PhaseIII.csv"
     },
     {
       "Id": "PK_Ratio_CYP3A4",
-      "Path": "../ObservedData/PK_Ratio_CYP3A4.csv",
+      "Path": "ObservedData/PK_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -3483,7 +3483,7 @@
     {
       "Id": 1,
       "Title": "Chapter 1",
-      "Content": "../Content/Section1.md"
+      "Content": "Content/Section1.md"
     }
   ]
 }
