@@ -1,4 +1,5 @@
 {
+  "$schema": "./OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
@@ -9,9 +10,14 @@
       "Path": "Itraconazole/Itraconazole.json",
       "BuildingBlocks": [
         {
-          "Type": "Individual",
+          "Type": "Compound",
           "Name": "Ind",
           "Project": "Midazolam"
+        },
+        {
+          "Name": "xx",
+          "Project": "xx",
+          "Type": "Administration Protocol"
         }
       ],
       "SimulationParameters": []
@@ -66,7 +72,7 @@
         "Group": [
           {
             "Name": "Midazolam iv",
-            "Symbol": 1,
+            "Symbol": "Circle",
             "Simulation": [
               {
                 "Project": "Midazolam",
