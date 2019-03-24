@@ -52,7 +52,7 @@
           "properties": {
             "Id": {"type": "integer"},
             "Title": { "$ref": "#/definitions/nonEmptyString" },
-            "Content": { "$ref": "#/definitions/nonEmptyString" },
+            "Content": {"type": "string", "format": "regex", "pattern": ".md$"},
             "Sections": { "$ref": "#/definitions/sections" }
           },
           "required": ["Id", "Title", "Content"]
