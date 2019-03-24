@@ -12,11 +12,6 @@
           "Type": "Compound",
           "Name": "Ind",
           "Project": "Midazolam"
-        },
-        {
-          "Name": "xx",
-          "Project": "xx",
-          "Type": "Administration Protocol"
         }
       ],
       "SimulationParameters": []
