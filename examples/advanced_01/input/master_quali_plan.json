@@ -212,7 +212,7 @@
         "Group": [
           {
             "Name": "Midazolam iv",
-            "Symbol": 1,
+            "Symbol": "Circle",
             "Simulation": [
               {
                 "Project": "Midazolam",
@@ -239,7 +239,7 @@
           },
           {
             "Name": "Midazolam po",
-            "Symbol": 2,
+            "Symbol": "Asterisk",
             "Simulation": [
               {
                 "Project": "Midazolam",
@@ -280,7 +280,7 @@
         "Group": [
           {
             "Name": "Itraconazole iv",
-            "Symbol": 1,
+            "Symbol": "Cross",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -300,7 +300,7 @@
           },
           {
             "Name": "Itraconazole po sol fasted",
-            "Symbol": 2,
+            "Symbol": "Circle",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -327,7 +327,7 @@
           },
           {
             "Name": "Itraconazole po sol fed",
-            "Symbol": 3,
+            "Symbol": "Cross",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -354,7 +354,7 @@
           },
           {
             "Name": "Itraconazole po caps fasted",
-            "Symbol": 4,
+            "Symbol": "Diamond",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -381,7 +381,7 @@
           },
           {
             "Name": "Itraconazole po caps fed",
-            "Symbol": 5,
+            "Symbol": "Point",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -443,18 +443,20 @@
         "Group": [
           {
             "Name": "Itraconazole iv",
-            "Symbol": 1,
-            "Simulation": {
+            "Symbol": "Asterisk",
+            "Simulation": [
+              {
               "Project": "Itraconazole",
               "Simulation": "200 mg IV MD",
               "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
               "ObservedData": "Mouton_06_200mg_MD_OH_HPBCD",
               "Color": "#FF0000"
             }
+          ]
           },
           {
             "Name": "Itraconazole po sol fasted",
-            "Symbol": 2,
+            "Symbol": "Circle",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -481,7 +483,7 @@
           },
           {
             "Name": "Itraconazole po sol fed",
-            "Symbol": 3,
+            "Symbol": "Cross",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -508,18 +510,20 @@
           },
           {
             "Name": "Itraconazole po caps fasted",
-            "Symbol": 4,
-            "Simulation": {
+            "Symbol": "Diamond",
+            "Simulation": [
+              {
               "Project": "Itraconazole",
               "Simulation": "po 200 mg SD (Barone 93) caps fast",
               "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
               "ObservedData": "barone_93_PO_SD_200mg_fasted_OH",
               "Color": "#FF0000"
             }
+          ]
           },
           {
             "Name": "Itraconazole po caps fed",
-            "Symbol": 5,
+            "Symbol": "Point",
             "Simulation": [
               {
                 "Project": "Itraconazole",
@@ -550,33 +554,41 @@
         "SectionId": 1,
         "Name": "Keto-Itraconazole concentration in plasma",
         "PlotType": "predictedVsObserved|residualsOverTime",
-        "Group": {
+        "Group": [
+          {
           "Name": "Itraconazole po sol fasted",
-          "Symbol": 2,
-          "Simulation": {
+          "Symbol": "Circle",
+          "Simulation": [
+            {
             "Project": "Itraconazole",
             "Simulation": "po 100 mg QD (Templeton 08) sol fast",
             "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
             "ObservedData": "Templeton_et_al-2007.Keto-Itraconazole|Templeton_et_al-2007.Keto-Itraconazole day7",
             "Color": "#FF0000"
           }
+        ]
         }
+      ]
       },
       {
         "SectionId": 1,
         "Name": "N-desalkyl-Itraconazole concentration in plasma",
         "PlotType": "predictedVsObserved|residualsOverTime",
-        "Group": {
+        "Group": [
+          {
           "Name": "Itraconazole po sol fasted",
-          "Symbol": 2,
-          "Simulation": {
+          "Symbol": "Circle",
+          "Simulation": [
+            {
             "Project": "Itraconazole",
             "Simulation": "po 100 mg QD (Templeton 08) sol fast",
             "Output": "PeripheralVenousBlood|Plasma|N-desalkyl-Itraconazole",
             "ObservedData": "Templeton_et_al-2007.ND-Itraconazole|Templeton_et_al-2007.ND-Itraconazole day7",
             "Color": "#FF0000"
           }
+          ]
         }
+      ]
       }
     ],
     "ComparisonCTProfiles": [
@@ -831,7 +843,8 @@
           {
             "Caption": "Itra+Mida (Mida iv)",
             "Color": "#FF0000",
-            "DDIRatio": {
+            "DDIRatio": [
+              {
               "Output": "PeripheralVenousBlood|Plasma|Midazolam",
               "ObservedData": "PK_Ratio_CYP3A4",
               "ObservedDataId": "Olkkola 1996 (Day 4)",
@@ -850,6 +863,7 @@
                 "TimeUnit": "h"
               }
             }
+          ]
           },
           {
             "Caption": "Itra+Mida (Mida po)",
@@ -1047,5 +1061,6 @@
       "Title": "Chapter 1",
       "Content": "Content/Section1.md"
     }
-  ]
+  ],
+  "Inputs": []
 }
