@@ -1,68 +1,124 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "Projects": {
+
+  "definitions": {
+
+    "buildingBlockType": {
+      "$id": "#buildingBlockType",
+      "type": "string",
+      "enum": ["Individual", "Population", "Compound", "Administration Protocol", "Event", "Formulation"]
+    },
+
+    "buildingBlockOrSimulationType": {
+      "anyOf": [
+        { "$ref": "#/definitions/buildingBlockType" },
+        { "type": "string", "enum": ["Simulation"] }
+      ]
+    },
+
+    "fontSize": {"type": "integer", "minimum": 8, "maximum": 60},
+
+    "rgbColor": {
+      "type": "string",
+      "description": "RGB color (hex)",
+      "format":"regex",
+      "pattern": "^#([a-fA-F0-9]{6})$",
+      "example": "#aa33cc"
+    },
+
+    "timeUnit": {
+      "type": "string",
+      "enum": ["s", "min", "h", "day(s)", "week(s)", "month(s)", "year(s)"]
+    },
+
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+
+    "plotSize": { "type": "integer", "minimum": 200, "maximum": 2000 },
+
+    "symbolType": {
+      "type": "string",
+      "enum": ["Circle", "Square", "Diamond", "Asterisk", "Point", "Cross", "Triangle"]
+    },
+
+    "positiveNumber": { "type": "number", "minimum": 0, "exclusiveMinimum": true },
+
+    "nonNegativeNumber": { "type": "number", "minimum": 0 },
+
+    "sections": {
       "type": "array",
-      "items": [
+      "items": 
         {
           "type": "object",
           "properties": {
-            "Id": {"type": "string"},
-            "Path": {
-              "type": "string",
-              "format": "regex",
-              "pattern": ".json$"
-            },
+            "Id": {"type": "integer"},
+            "Title": { "$ref": "#/definitions/nonEmptyString" },
+            "Content": { "$ref": "#/definitions/nonEmptyString" },
+            "Sections": { "$ref": "#/definitions/sections" }
+          },
+          "required": ["Id", "Title", "Content"]
+        }
+    }
+
+  },
+
+  "type": "object",
+  "properties": {
+
+    "Projects": {
+      "type": "array",
+      "items": 
+        {
+          "type": "object",
+          "properties": {
+
+            "Id": { "$ref": "#/definitions/nonEmptyString" },
+
+            "Path": {"type": "string", "format": "regex", "pattern": ".json$"},
+
             "BuildingBlocks": {
               "type": "array",
-              "items": [
+              "items": 
                 {
                   "type": "object",
                   "properties": {
-                    "Type": {
-                      "type": "string",
-                      "enum": ["Individual", "Population", "Compound", "Administration Protocol", "Event", "Formulation"]
-                    },
-                    "Name": {"type": "string"},
-                    "Project": {"type": "string"}
+                    "Type": { "$ref": "#/definitions/buildingBlockType" },
+                    "Name": { "$ref": "#/definitions/nonEmptyString" },
+                    "Project": { "$ref": "#/definitions/nonEmptyString" }
                   },
                   "required": ["Type", "Name", "Project"]
                 }
-              ]
             },
+
             "SimulationParameters": {
               "type": "array",
-              "items": [
+              "items": 
                 {
                   "type": "object",
                   "properties": {
-                    "Simulation": {"type": "string"},
-                    "Path": {"type": "string"},
-                    "SourceProject": {"type": "string"},
-                    "SourceSimulation": {"type": "string"}
+                    "Simulation": { "$ref": "#/definitions/nonEmptyString" },
+                    "Path": { "$ref": "#/definitions/nonEmptyString" },
+                    "SourceProject": { "$ref": "#/definitions/nonEmptyString" },
+                    "SourceSimulation": { "$ref": "#/definitions/nonEmptyString" }
                   },
                   "required": ["Simulation", "Path", "SourceProject", "SourceSimulation"]
                 }
-              ]
             }
           },
           "required": ["Id", "Path"]
         }
-      ]
     },
+
     "ObservedDataSets": {
       "type": "array",
-      "items": [
+      "items": 
         {
           "type": "object",
           "properties": {
-            "Id": {"type": "string"},
-            "Path": {
-              "type": "string",
-              "format": "regex",
-              "pattern": ".csv$"
-            },
+
+            "Id": { "$ref": "#/definitions/nonEmptyString" },
+
+            "Path": {"type": "string", "format": "regex", "pattern": ".csv$"},
+
             "Type": {
               "type": "string",
               "enum": ["DDIRatio", "PKRatio", "TimeProfile"]
@@ -70,42 +126,27 @@
           },
           "required": ["Id", "Path", "Type"]
         }
-      ]
     },
+
     "Plots": {
       "type": "object",
       "properties": {
+
         "PlotSettings": {
           "type": "object",
           "properties": {
-            "ChartWidth": {"type": "integer"},
-            "ChartHeight": {"type": "integer"},
+            "ChartWidth": { "$ref": "#/definitions/plotSize" },
+            "ChartHeight": { "$ref": "#/definitions/plotSize" },
             "Fonts": {
               "type": "object",
               "properties": {
-                "AxisSize": {
-                  "type": "integer",
-                  "minimum": 8,
-                  "maximum": 60
-                },
-                "LegendSize": {
-                  "type": "integer",
-                  "minimum": 8,
-                  "maximum": 60
-                },
-                "OriginSize": {
-                  "type": "integer",
-                  "minimum": 8,
-                  "maximum": 60
-                },
+                "AxisSize": { "$ref": "#/definitions/fontSize" },
+                "LegendSize": { "$ref": "#/definitions/fontSize" },
+                "OriginSize": { "$ref": "#/definitions/fontSize" },
+                "WatermarkSize": { "$ref": "#/definitions/fontSize" },
                 "FontFamilyName": {
                   "type": "string",
                   "enum": ["Arial", "Tahoma", "Times New Roman", "Microsoft Sans Serif"]
-                },
-                "WatermarkSize": {
-                  "type": "integer",
-                  "minimum": 8,
-                  "maximum": 60
                 }
               },
               "required": ["AxisSize", "LegendSize", "OriginSize", "FontFamilyName", "WatermarkSize"]
@@ -113,122 +154,104 @@
           },
           "required": ["ChartWidth", "ChartHeight", "Fonts"]
         },
+
         "AllPlots": {
           "type": "array",
-          "items": [
+          "items": 
             {
               "type": "object",
               "properties": {
                 "SectionId": {"type": "integer"},
-                "Project": {"type": "string"},
-                "Simulation": {"type": "string"}
+                "Project": { "$ref": "#/definitions/nonEmptyString" },
+                "Simulation": { "$ref": "#/definitions/nonEmptyString" }
               },
               "required": ["SectionId", "Project", "Simulation"]
             }
-          ]
         },
+
         "GOFMerged": {
           "type": "array",
-          "items": [
+          "items": 
             {
               "type": "object",
               "properties": {
                 "SectionId": {"type": "integer"},
-                "Name": {"type": "string"},
+                "Name": { "$ref": "#/definitions/nonEmptyString" },
                 "PlotType": {
                   "type": "string",
                   "enum": ["predictedVsObserved", "residualsOverTime", "predictedVsObserved|residualsOverTime"]
                 },
                 "Group": {
                   "type": "array",
-                  "items": [
+                  "items": 
                     {
                       "type": "object",
                       "properties": {
-                        "Name": {"type": "string"},
-                        "Symbol": {"type": "integer"},
+                        "Name": { "$ref": "#/definitions/nonEmptyString" },
+                        "Symbol": { "$ref": "#/definitions/symbolType" },
                         "Simulation": {
                           "type": "array",
-                          "items": [
+                          "items": 
                             {
                               "type": "object",
                               "properties": {
-                                "Project": {"type": "string"},
-                                "Simulation": {"type": "string"},
-                                "Output": {"type": "string"},
-                                "ObservedData": {"type": "string"},
-                                "Color": {
-                                  "type": "string",
-                                  "description": "RGB color",
-                                  "format":"regex",
-                                  "pattern": "^#([a-fA-F0-9]{6})$",
-                                  "example": "#aa33cc"
-                                }
+                                "Project": { "$ref": "#/definitions/nonEmptyString" },
+                                "Simulation": { "$ref": "#/definitions/nonEmptyString" },
+                                "Output": { "$ref": "#/definitions/nonEmptyString" },
+                                "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
+                                "Color": { "$ref": "#/definitions/rgbColor" }
                               },
                               "required": ["Project", "Simulation", "Output", "ObservedData", "Color"]
                             }
-                          ]
                         }
                       },
                       "required": ["Name", "Symbol", "Simulation"]
                     }
-                  ]
                 }
               },
               "required": ["SectionId", "Name", "PlotType", "Group"]
             }
-          ]
         },
+
         "ComparisonCTProfiles": {
           "type": "array",
-          "items": [
+          "items": 
             {
               "type": "object",
               "properties": {
                 "SectionId": {"type": "integer"},
-                "Caption": {"type": "string"},
-                "SimulationDuration": {
-                  "type": "number",
-                  "minimum": 0,
-                  "exclusiveMinimum": true
-                },
-                "TimeUnit": {
-                  "type": "string",
-                  "enum": ["s", "min", "h", "day(s)", "week(s)", "month(s)", "year(s)"]
-                },
+                "Caption": { "$ref": "#/definitions/nonEmptyString" },
+                "SimulationDuration": { "$ref": "#/definitions/positiveNumber" },
+                "TimeUnit": { "$ref": "#/definitions/timeUnit" },
                 "CTProfile": {
                   "type": "array",
-                  "items": [
+                  "items": 
                     {
                       "type": "object",
                       "properties": {
-                        "Project": {"type": "string"},
-                        "Simulation": {"type": "string"},
-                        "Output": {"type": "string"},
-                        "ObservedData": {"type": "string"},
+                        "Project": { "$ref": "#/definitions/nonEmptyString" },
+                        "Simulation": { "$ref": "#/definitions/nonEmptyString" },
+                        "Output": { "$ref": "#/definitions/nonEmptyString" },
+                        "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
                         "StartTime": {"type": "number"},
-                        "TimeUnit": {
-                          "type": "string",
-                          "enum": ["s", "min", "h", "day(s)", "week(s)", "month(s)", "year(s)"]
-                        }
+                        "TimeUnit": { "$ref": "#/definitions/timeUnit" }
                       },
                       "required": ["Project", "Simulation", "Output", "ObservedData", "StartTime", "TimeUnit"]
                     }
-                  ]
                 }
               },
               "required": ["SectionId", "Caption", "SimulationDuration", "TimeUnit", "CTProfile"]
             }
-          ]
         },
+
         "DDIRatioPlots": {
           "type": "array",
-          "items": [
+          "items": 
             {
               "type": "object",
               "properties": {
                 "SectionId": {"type": "integer"},
-                "Caption": {"type": "string"},
+                "Caption": { "$ref": "#/definitions/nonEmptyString" },
                 "PKparameter": {
                   "type": "string",
                   "enum": ["AUC", "CMAX", "AUC|CMAX"]
@@ -239,51 +262,43 @@
                 },
                 "DDIRatioGroup": {
                   "type": "array",
-                  "items": [
+                  "items": 
                     {
                       "type": "object",
                       "properties": {
-                        "Caption": {"type": "string"},
-                        "Color": {
-                          "type": "string",
-                          "description": "RGB color",
-                          "format":"regex",
-                          "pattern": "^#([a-fA-F0-9]{6})$",
-                          "example": "#aa33cc"
-                        },
+                        "Caption": { "$ref": "#/definitions/nonEmptyString" },
+                        "Color": { "$ref": "#/definitions/rgbColor" },
                         "DDIRatio": {
-                          "type": "object",
-                          "properties": {
-                            "Output": {"type": "string"},
-                            "ObservedData": {"type": "string"},
-                            "ObservedDataId": {"type": "string"},
-                            "Simulation_control": {
-                              "type": "object",
-                              "properties": {
-                                "Project": {"type": "string"},
-                                "Simulation": {"type": "string"},
-                                "StartTime": {"type": "number"},
-                                "EndTime": {"type": "number"},
-                                "TimeUnit": {
-                                  "type": "string",
-                                  "enum": ["s", "min", "h", "day(s)", "week(s)", "month(s)", "year(s)"]
-                                }
-                              },
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": 
+                            {
+                              "Output": { "$ref": "#/definitions/nonEmptyString" },
+                              "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
+                              "ObservedDataId": { "$ref": "#/definitions/nonEmptyString" },
+                              "Simulation_control": {
+                                "type": "object",
+                                "properties": {
+                                  "Project": { "$ref": "#/definitions/nonEmptyString" },
+                                  "Simulation": { "$ref": "#/definitions/nonEmptyString" },
+                                  "StartTime": {"type": "number"},
+                                  "EndTime": {"type": "number"},
+                                  "TimeUnit": { "$ref": "#/definitions/timeUnit" }
+                                },
                               "required": ["Project", "Simulation", "StartTime", "EndTime", "TimeUnit"]
-                            },
-                            "Simulation_DDI": {
-                              "type": "object",
-                              "properties": {
-                                "Project": {"type": "string"},
-                                "Simulation": {"type": "string"},
-                                "StartTime": {"type": "number"},
-                                "EndTime": {"type": "number"},
-                                "TimeUnit": {
-                                  "type": "string",
-                                  "enum": ["s", "min", "h", "day(s)", "week(s)", "month(s)", "year(s)"]
-                                }
                               },
+                              "Simulation_DDI": {
+                                "type": "object",
+                                "properties": {
+                                  "Project": { "$ref": "#/definitions/nonEmptyString" },
+                                  "Simulation": { "$ref": "#/definitions/nonEmptyString" },
+                                  "StartTime": {"type": "number"},
+                                  "EndTime": {"type": "number"},
+                                  "TimeUnit": { "$ref": "#/definitions/timeUnit" }
+                                },
                               "required": ["Project", "Simulation", "StartTime", "EndTime", "TimeUnit"]
+                              }
                             }
                           },
                           "required": ["Output", "ObservedData", "ObservedDataId", "Simulation_control", "Simulation_DDI" ]
@@ -291,30 +306,30 @@
                       },
                       "required": ["Caption", "Color", "DDIRatio"]
                     }
-                  ]
                 }
               },
               "required": ["SectionId", "Caption", "PKparameter", "PlotType", "DDIRatioGroup"]
             }
-          ]
         }
       },
       "required": ["PlotSettings"]
     },
-    "Sections": {
+
+    "Sections": { "$ref": "#/definitions/sections" },
+
+    "Inputs":{
       "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "Id": {"type": "integer"},
-            "Title": {"type": "string"},
-            "Content": {"type": "string"}
-          },
-          "required": ["Id", "Title", "Content"]
+      "items": {
+        "type": "object",
+        "properties": {
+          "Project": { "$ref": "#/definitions/nonEmptyString" },
+          "Type": { "$ref": "#/definitions/buildingBlockOrSimulationType" },
+          "Name": { "$ref": "#/definitions/nonEmptyString" },
+          "SectionId": {"type": "integer"}
         }
-      ]
+      }
     }
+
   },
-  "required": ["Projects", "ObservedDataSets", "Plots", "Sections"]
+  "required": ["Projects", "ObservedDataSets", "Plots", "Sections", "Inputs"]
 }
