@@ -1,5 +1,4 @@
 {
-  "$schema": "./OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
