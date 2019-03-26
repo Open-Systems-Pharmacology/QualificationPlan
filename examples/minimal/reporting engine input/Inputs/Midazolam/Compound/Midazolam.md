@@ -1,12 +1,9 @@
-Molecular weight: 325.77 g/mol
-Effective molecular weight: 286.77 g/mol
-Is small molecule: Yes
-6.15 (Base)
-Lipophilicity
-Measurement
-Lipophilicity: 3.13 Log Units
-Fraction unbound (plasma, reference value)
-Measurement
-Fraction unbound (plasma, reference value): 0.20
-Species: Human
-Plasma protein binding partner: Albumin
+# Midazolam
+
+     Name                                             | Value | Unit     
+     ------------------------------------------------ | -----:| --------- 
+     Solubility at reference pH                       |  0.05 | mg/ml    
+     Reference pH                                     |  6.50 |          
+     Lipophilicity                                    |  3.13 | Log Units
+     Fraction unbound (plasma, reference value)       |  0.20 |          
+     Specific intestinal permeability (transcellular) |  0.00 | dm/min   
