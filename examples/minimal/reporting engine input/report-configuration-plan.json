@@ -16,7 +16,7 @@
       "Path": "Itraconazole/S1/"
     }
   ],
-  "ObservededDataSets": [
+  "ObservedDataSets": [
     {
       "Id": "Midazolam 600mg SD",
       "Path": "ObservedData/Midazolam 600mg SD.csv"
@@ -65,7 +65,7 @@
         "Group": [
           {
             "Name": "Midazolam iv",
-            "Symbol": 1,
+            "Symbol": "Circle",
             "Simulation": [
               {
                 "Project": "Midazolam",
