@@ -6,7 +6,7 @@
     "buildingBlockType": {
       "$id": "#buildingBlockType",
       "type": "string",
-      "enum": ["Individual", "Population", "Compound", "Administration Protocol", "Event", "Formulation"]
+      "enum": ["Individual", "Population", "Compound", "Protocol", "Event", "Formulation", "ObserverSet"]
     },
 
     "buildingBlockOrSimulationType": {
@@ -169,27 +169,27 @@
             }
         },
 
-        "GOFMerged": {
+        "GOFMergedPlots": {
           "type": "array",
           "items": 
             {
               "type": "object",
               "properties": {
                 "SectionId": {"type": "integer"},
-                "Name": { "$ref": "#/definitions/nonEmptyString" },
+                "Caption": { "$ref": "#/definitions/nonEmptyString" },
                 "PlotType": {
                   "type": "string",
                   "enum": ["predictedVsObserved", "residualsOverTime", "predictedVsObserved|residualsOverTime"]
                 },
-                "Group": {
+                "Groups": {
                   "type": "array",
                   "items": 
                     {
                       "type": "object",
                       "properties": {
-                        "Name": { "$ref": "#/definitions/nonEmptyString" },
+                        "Caption": { "$ref": "#/definitions/nonEmptyString" },
                         "Symbol": { "$ref": "#/definitions/symbolType" },
-                        "Simulation": {
+                        "Simulations": {
                           "type": "array",
                           "items": 
                             {
@@ -201,15 +201,15 @@
                                 "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
                                 "Color": { "$ref": "#/definitions/rgbColor" }
                               },
-                              "required": ["Project", "Simulation", "Output", "ObservedData", "Color"]
+                              "required": ["Project", "Simulations", "Output", "ObservedData", "Color"]
                             }
                         }
                       },
-                      "required": ["Name", "Symbol", "Simulation"]
+                      "required": ["Caption", "Symbol", "Simulations"]
                     }
                 }
               },
-              "required": ["SectionId", "Name", "PlotType", "Group"]
+              "required": ["SectionId", "Caption", "PlotType", "Groups"]
             }
         },
 
@@ -223,7 +223,7 @@
                 "Caption": { "$ref": "#/definitions/nonEmptyString" },
                 "SimulationDuration": { "$ref": "#/definitions/positiveNumber" },
                 "TimeUnit": { "$ref": "#/definitions/timeUnit" },
-                "CTProfile": {
+                "Simulations": {
                   "type": "array",
                   "items": 
                     {
@@ -233,14 +233,15 @@
                         "Simulation": { "$ref": "#/definitions/nonEmptyString" },
                         "Output": { "$ref": "#/definitions/nonEmptyString" },
                         "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
+                        "Color": { "$ref": "#/definitions/rgbColor" },
                         "StartTime": {"type": "number"},
                         "TimeUnit": { "$ref": "#/definitions/timeUnit" }
                       },
-                      "required": ["Project", "Simulation", "Output", "ObservedData", "StartTime", "TimeUnit"]
+                      "required": ["Project", "Simulation", "Output", "ObservedData", "Color", "StartTime", "TimeUnit"]
                     }
                 }
               },
-              "required": ["SectionId", "Caption", "SimulationDuration", "TimeUnit", "CTProfile"]
+              "required": ["SectionId", "Caption", "SimulationDuration", "TimeUnit", "Simulations"]
             }
         },
 
@@ -252,7 +253,7 @@
               "properties": {
                 "SectionId": {"type": "integer"},
                 "Caption": { "$ref": "#/definitions/nonEmptyString" },
-                "PKparameter": {
+                "PKParameter": {
                   "type": "string",
                   "enum": ["AUC", "CMAX", "AUC|CMAX"]
                 },
@@ -260,7 +261,7 @@
                   "type": "string",
                   "enum": ["predictedVsObserved", "residualsVsObserved", "predictedVsObserved|residualsVsObserved"]
                 },
-                "DDIRatioGroup": {
+                "Groups": {
                   "type": "array",
                   "items": 
                     {
@@ -268,7 +269,7 @@
                       "properties": {
                         "Caption": { "$ref": "#/definitions/nonEmptyString" },
                         "Color": { "$ref": "#/definitions/rgbColor" },
-                        "DDIRatio": {
+                        "Ratios": {
                           "type": "array",
                           "items": {
                             "type": "object",
@@ -277,7 +278,7 @@
                               "Output": { "$ref": "#/definitions/nonEmptyString" },
                               "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
                               "ObservedDataId": { "$ref": "#/definitions/nonEmptyString" },
-                              "Simulation_control": {
+                              "SimulationControl": {
                                 "type": "object",
                                 "properties": {
                                   "Project": { "$ref": "#/definitions/nonEmptyString" },
@@ -288,7 +289,7 @@
                                 },
                               "required": ["Project", "Simulation", "StartTime", "EndTime", "TimeUnit"]
                               },
-                              "Simulation_DDI": {
+                              "SimulationDDI": {
                                 "type": "object",
                                 "properties": {
                                   "Project": { "$ref": "#/definitions/nonEmptyString" },
@@ -301,14 +302,14 @@
                               }
                             }
                           },
-                          "required": ["Output", "ObservedData", "ObservedDataId", "Simulation_control", "Simulation_DDI" ]
+                          "required": ["Output", "ObservedData", "ObservedDataId", "SimulationControl", "SimulationDDI" ]
                         }
                       },
-                      "required": ["Caption", "Color", "DDIRatio"]
+                      "required": ["Caption", "Color", "Ratios"]
                     }
                 }
               },
-              "required": ["SectionId", "Caption", "PKparameter", "PlotType", "DDIRatioGroup"]
+              "required": ["SectionId", "Caption", "PKParameter", "PlotType", "Groups"]
             }
         }
       },
