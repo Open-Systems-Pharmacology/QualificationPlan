@@ -201,7 +201,7 @@
                                 "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
                                 "Color": { "$ref": "#/definitions/rgbColor" }
                               },
-                              "required": ["Project", "Simulations", "Output", "ObservedData", "Color"]
+                              "required": ["Project", "Simulation", "Output", "ObservedData", "Color"]
                             }
                         }
                       },
