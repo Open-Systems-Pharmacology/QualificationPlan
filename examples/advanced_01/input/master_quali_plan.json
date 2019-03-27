@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/f3a0204fa53389924da5ddf0a526afec213fabf5/schemas/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
