@@ -48,9 +48,9 @@
         "SectionId": 3
       }
     ],
-    "GOFMerged": [
+    "GOFMergedPlots": [
       {
-        "Name": "Midazolam concentration in plasma/blood",
+        "Caption": "Midazolam concentration in plasma/blood",
         "PlotType": "predictedVsObserved|residualsOverTime",
         "SectionId": 1,
         "PlotSettings": {
@@ -63,11 +63,11 @@
             "WatermarkSize": 40
           }
         },
-        "Group": [
+        "Groups": [
           {
-            "Name": "Midazolam iv",
+            "Caption": "Midazolam iv",
             "Symbol": "Circle",
-            "Simulation": [
+            "Simulations": [
               {
                 "Project": "Midazolam",
                 "Simulation": "S1",
