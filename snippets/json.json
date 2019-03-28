@@ -1,0 +1,220 @@
+{
+  // Open Systems Pharmacology - QualificationPlan Snippets 
+  "bootstrap": {
+    "prefix": "bs",
+    "body": [
+      "{",
+      "\"\\$schema\": \"https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json\",",
+      "\"Projects\": [],",
+      "\"ObservedDataSets\": [],",
+      "\"Plots\": {",
+      "\"AllPlots\": [],",
+      "\"GOFMergedPlots\": [],",
+      "\"ComparisonTimeProfilePlots\": [],",
+      "\"DDIRatioPlots\": []",
+      "},",
+      "\"Inputs\": [],",
+      "\"Sections\": []",
+      "}"
+    ],
+    "description": "Creates the skeleton for a qualification plan"
+  },
+  "addProject": {
+    "prefix": "ap",
+    "body": [
+      "{",
+      "\"Id\":  \"${1:project}\",",
+      "\"Path\":  \"${1:project}/${1:project}.json\",",
+      "\"BuildingBlocks\": []",
+      "}"
+    ],
+    "description": "Add a project reference"
+  },
+  "addBuildingBlockRef": {
+    "prefix": "abb",
+    "body": [
+      "{",
+      "\"Project\": \"${1:<Enter Project Id>}\",",
+      "\"Name\":  \"${2:<Enter BuildingBlock Name>}\",",
+      "\"Type\":  \"${3}\"",
+      "}"
+    ],
+    "description": "Adds a building block reference. Useful to replace a building block in a project"
+  },
+  "addObservedDataRef": {
+    "prefix": "aod",
+    "body": [
+      "{",
+      "\"Id\":  \"${1:observedDataId}\",",
+      "\"Path\":  \"${1:observedDataId}.csv\",",
+      "\"Type\":  \"${2}\"",
+      "}"
+    ],
+    "description": "Adds an observed data reference. Only for external observed data sources"
+  },
+  "addInput": {
+    "prefix": "ai",
+    "body": [
+      "{",
+      "\"Project\":  \"${1:<Enter Project Id>}\",",
+      "\"Name\":  \"${2:<Enter BuildingBlock Name>}\",",
+      "\"Type\":  \"${3}\",",
+      "\"SectionId\":  ${4:<Enter Section Id>}",
+      "}"
+    ],
+    "description": "Adds an input (reference to a building block in a given project)"
+  },
+  "addSection": {
+    "prefix": "as",
+    "body": [
+      "{",
+      "\"Id\":  ${1:<Enter Section Id>},",
+      "\"Title\":  \"${2:<Enter Section Title>}\",",
+      "\"Content\":  \"Content/${3:contentFile}.md\",",
+      "\"Sections\":  []",
+      "}"
+    ],
+    "description": "Adds a section"
+  },
+  "addPlotSettings": {
+    "prefix": "aps",
+    "body": [
+      "\"PlotSettings\": {",
+      "\"ChartWidth\": 500,",
+      "\"ChartHeight\": 400,",
+      "\"Fonts\": {",
+      "\"AxisSize\": 11,",
+      "\"LegendSize\": 9,",
+      "\"OriginSize\": 9,",
+      "\"FontFamilyName\": \"Arial\",",
+      "\"WatermarkSize\": 40",
+      "}",
+      "},"
+    ],
+    "description": "Adds the default plot settings configuration (global or local)"
+  },
+  "addAllPlot": {
+    "prefix": "aap",
+    "body": [
+      "{",
+      "\"Project\":  \"${1:<Enter Project Id>}\",",
+      "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
+      "\"SectionId\":  ${3:<Enter Section Id>}",
+      "}"
+    ],
+    "description": "Adds an all plot entry for a simulation"
+  },
+  "addGOGMergedPlot": {
+    "prefix": "agof",
+    "body": [
+      "{",
+      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"PlotType\":  \"${3}\",",
+      "\"Groups\":  []",
+      "}"
+    ],
+    "description": "Adds a GOFMergedPlot entry"
+  },
+  "addGOGMergedPlotGroup": {
+    "prefix": "agofg",
+    "body": [
+      "{",
+      "\"Caption\":  \"${1:<Enter Group Name>}\",",
+      "\"Symbol\":  \"${2}\",",
+      "\"OutputMappings\":  []",
+      "}"
+    ],
+    "description": "Adds a GOFMergedPlot group entry"
+  },
+  "addGOGMergedPlotGroupOutputMapping": {
+    "prefix": "agofo",
+    "body": [
+      "{",
+      "\"Project\":  \"${1:<Enter Project Id>}\",",
+      "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
+      "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
+      "\"ObservedData\":  \"${6:<Enter Observed Data Id>}\",",
+      "\"Color\":  \"${7:#FF0000}\"",
+      "}"
+    ],
+    "description": "Adds a GOFMergedPlot OutputMapping entry (to be used within a group)"
+  },
+  "addComparisonTimeProfilePlot": {
+    "prefix": "actp",
+    "body": [
+      "{",
+      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"SimulationDuration\":  ${3:<Enter Simulation Duration>},",
+      "\"TimeUnit\":  \"${4}\",",
+      "\"OutputMappings\":  []",
+      "}"
+    ],
+    "description": "Adds a ComparisonTimeProfile entry"
+  },
+  "addComparisonTimeProfilePlotOutputMapping": {
+    "prefix": "actpo",
+    "body": [
+      "{",
+      "\"Project\":  \"${1:<Enter Project Id>}\",",
+      "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
+      "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
+      "\"ObservedData\":  \"${6:<Enter Observed Data Id>}\",",
+      "\"Color\":  \"${7:#FF0000}\",",
+      "\"StartTime\":  ${8:<Enter Start Time>},",
+      "\"TimeUnit\":  \"${9}\"",
+      "}"
+    ],
+    "description": "Adds a ComparisonTimeProfile OutputMapping entry"
+  },
+  "addDDIRatioPlot": {
+    "prefix": "addir",
+    "body": [
+      "{",
+      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"PlotType\":  \"${3}\",",
+      "\"PKParameter\":  \"${4}\",",
+      "\"Groups\":  []",
+      "}"
+    ],
+    "description": "Adds a DDIRatioPlot entry"
+  },
+  "addDDIRatioPlotGroup": {
+    "prefix": "addirg",
+    "body": [
+      "{",
+      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"Color\":  \"${2:#FF0000}\",",
+      "\"DDIRatios\":  []",
+      "}"
+    ],
+    "description": "Adds a DDIRatioPlot group entry"
+  },
+  "addDDIRatioPlotGroupRatio": {
+    "prefix": "addirr",
+    "body": [
+      "{",
+      "\"ObservedData\":  \"${1:<Enter Observed Data Id>}\",",
+      "\"ObservedDataId\":  \"${2:<Enter Id of observed data set as defined in csv file>}\",",
+      "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
+      "\"SimulationControl\": {",
+      "\"Project\":  \"${6:<Enter Project Id>}\",",
+      "\"Simulation\":  \"${7:<Enter Simulation Name>}\",",
+      "\"StartTime\":  ${8:<Enter Start Time>},",
+      "\"EndTime\":  ${9:<Enter End Time>},",
+      "\"TimeUnit\":  \"${10}\"",
+      "},",
+      "\"SimulationDDI\": {",
+        "\"Project\":  \"${6:<Enter Project Id>}\",",
+        "\"Simulation\":  \"${11:<Enter Simulation Name>}\",",
+        "\"StartTime\":  ${8:<Enter Start Time>},",
+        "\"EndTime\":  ${9:<Enter End Time>},",
+        "\"TimeUnit\":  \"${10}\"",
+      "}",
+      "}"
+    ],
+    "description": "Adds a DDIRatioPlot ratio entry (to be used within a group)"
+  }
+}
