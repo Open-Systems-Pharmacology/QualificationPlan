@@ -10,12 +10,12 @@
       "\"Plots\": {",
       "\"AllPlots\": [],",
       "\"GOFMergedPlots\": [],",
-      "\"ComparisonCTProfiles\": [],",
+      "\"ComparisonTimeProfilePlots\": [],",
       "\"DDIRatioPlots\": []",
       "},",
       "\"Inputs\": [],",
       "\"Sections\": []",
-      "}",
+      "}"
     ],
     "description": "Creates the skeleton for a qualification plan"
   },
@@ -122,13 +122,13 @@
       "{",
       "\"Caption\":  \"${1:<Enter Group Name>}\",",
       "\"Symbol\":  \"${2}\",",
-      "\"Simulations\":  []",
+      "\"OutputMappings\":  []",
       "}"
     ],
     "description": "Adds a GOFMergedPlot group entry"
   },
-  "addGOGMergedPlotGroupSimulation": {
-    "prefix": "agofs",
+  "addGOGMergedPlotGroupOutputMapping": {
+    "prefix": "agofo",
     "body": [
       "{",
       "\"Project\":  \"${1:<Enter Project Id>}\",",
@@ -138,9 +138,9 @@
       "\"Color\":  \"${7:#FF0000}\"",
       "}"
     ],
-    "description": "Adds a GOFMergedPlot simulation entry (to be used within a group)"
+    "description": "Adds a GOFMergedPlot OutputMapping entry (to be used within a group)"
   },
-  "addComparisonCTProfile": {
+  "addComparisonTimeProfilePlot": {
     "prefix": "actp",
     "body": [
       "{",
@@ -148,13 +148,13 @@
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"SimulationDuration\":  ${3:<Enter Simulation Duration>},",
       "\"TimeUnit\":  \"${4}\",",
-      "\"Simulations\":  []",
+      "\"OutputMappings\":  []",
       "}"
     ],
-    "description": "Adds a ComparisonCTProfile entry"
+    "description": "Adds a ComparisonTimeProfile entry"
   },
-  "addComparisonCTProfileSimulation": {
-    "prefix": "actps",
+  "addComparisonTimeProfilePlotOutputMapping": {
+    "prefix": "actpo",
     "body": [
       "{",
       "\"Project\":  \"${1:<Enter Project Id>}\",",
@@ -166,7 +166,7 @@
       "\"TimeUnit\":  \"${9}\"",
       "}"
     ],
-    "description": "Adds a ComparisonCTProfile simulation entry"
+    "description": "Adds a ComparisonTimeProfile OutputMapping entry"
   },
   "addDDIRatioPlot": {
     "prefix": "addir",
@@ -175,7 +175,7 @@
       "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"PlotType\":  \"${3}\",",
-      "\"PKparameter\":  \"${4}\",",
+      "\"PKParameter\":  \"${4}\",",
       "\"Groups\":  []",
       "}"
     ],
@@ -187,13 +187,13 @@
       "{",
       "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
       "\"Color\":  \"${2:#FF0000}\",",
-      "\"Ratios\":  []",
+      "\"DDIRatios\":  []",
       "}"
     ],
     "description": "Adds a DDIRatioPlot group entry"
   },
   "addDDIRatioPlotGroupRatio": {
-    "prefix": "addirs",
+    "prefix": "addirr",
     "body": [
       "{",
       "\"ObservedData\":  \"${1:<Enter Observed Data Id>}\",",
