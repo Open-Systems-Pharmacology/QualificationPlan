@@ -189,7 +189,7 @@
                       "properties": {
                         "Caption": { "$ref": "#/definitions/nonEmptyString" },
                         "Symbol": { "$ref": "#/definitions/symbolType" },
-                        "Simulations": {
+                        "OutputMappings": {
                           "type": "array",
                           "items": 
                             {
@@ -205,7 +205,7 @@
                             }
                         }
                       },
-                      "required": ["Caption", "Symbol", "Simulations"]
+                      "required": ["Caption", "Symbol", "OutputMappings"]
                     }
                 }
               },
@@ -213,7 +213,7 @@
             }
         },
 
-        "ComparisonCTProfiles": {
+        "ComparisonTimeProfilePlots": {
           "type": "array",
           "items": 
             {
@@ -223,7 +223,7 @@
                 "Caption": { "$ref": "#/definitions/nonEmptyString" },
                 "SimulationDuration": { "$ref": "#/definitions/positiveNumber" },
                 "TimeUnit": { "$ref": "#/definitions/timeUnit" },
-                "Simulations": {
+                "OutputMappings": {
                   "type": "array",
                   "items": 
                     {
@@ -241,7 +241,7 @@
                     }
                 }
               },
-              "required": ["SectionId", "Caption", "SimulationDuration", "TimeUnit", "Simulations"]
+              "required": ["SectionId", "Caption", "SimulationDuration", "TimeUnit", "OutputMappings"]
             }
         },
 
@@ -269,7 +269,7 @@
                       "properties": {
                         "Caption": { "$ref": "#/definitions/nonEmptyString" },
                         "Color": { "$ref": "#/definitions/rgbColor" },
-                        "Ratios": {
+                        "DDIRatios": {
                           "type": "array",
                           "items": {
                             "type": "object",
@@ -305,7 +305,7 @@
                           "required": ["Output", "ObservedData", "ObservedDataId", "SimulationControl", "SimulationDDI" ]
                         }
                       },
-                      "required": ["Caption", "Color", "Ratios"]
+                      "required": ["Caption", "Color", "DDIRatios"]
                     }
                 }
               },
