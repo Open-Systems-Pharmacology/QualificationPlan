@@ -502,7 +502,7 @@
           {
             "Caption": "Midazolam iv",
             "Symbol": "Circle",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Midazolam",
                 "Simulation": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood",
@@ -529,7 +529,7 @@
           {
             "Caption": "Midazolam po",
             "Symbol": "Asterisk",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Midazolam",
                 "Simulation": "Mida po 0.075 mgkg - Chung 2006",
@@ -570,7 +570,7 @@
           {
             "Caption": "Itraconazole iv",
             "Symbol": "Cross",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "100 mg IV",
@@ -590,7 +590,7 @@
           {
             "Caption": "Itraconazole po sol fasted",
             "Symbol": "Circle",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Templeton 08) sol fast",
@@ -617,7 +617,7 @@
           {
             "Caption": "Itraconazole po sol fed",
             "Symbol": "Cross",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD (vanDeVelde 96) sol fed",
@@ -644,7 +644,7 @@
           {
             "Caption": "Itraconazole po caps fasted",
             "Symbol": "Diamond",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD (vanPeer 89) caps fast",
@@ -671,7 +671,7 @@
           {
             "Caption": "Itraconazole po caps fed",
             "Symbol": "Point",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Hardin 88) caps fed",
@@ -733,7 +733,7 @@
           {
             "Caption": "Itraconazole iv",
             "Symbol": "Asterisk",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "200 mg IV MD",
@@ -746,7 +746,7 @@
           {
             "Caption": "Itraconazole po sol fasted",
             "Symbol": "Circle",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Templeton 08) sol fast",
@@ -773,7 +773,7 @@
           {
             "Caption": "Itraconazole po sol fed",
             "Symbol": "Cross",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD (vanDeVelde 96) sol fed",
@@ -800,7 +800,7 @@
           {
             "Caption": "Itraconazole po caps fasted",
             "Symbol": "Diamond",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg SD (Barone 93) caps fast",
@@ -813,7 +813,7 @@
           {
             "Caption": "Itraconazole po caps fed",
             "Symbol": "Point",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD (vanPeer 89) caps fed",
@@ -847,7 +847,7 @@
           {
             "Caption": "Itraconazole po sol fasted",
             "Symbol": "Circle",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Templeton 08) sol fast",
@@ -867,7 +867,7 @@
           {
             "Caption": "Itraconazole po sol fasted",
             "Symbol": "Circle",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Templeton 08) sol fast",
@@ -880,13 +880,13 @@
         ]
       }
     ],
-    "ComparisonCTProfiles": [
+    "ComparisonTimeProfilePlots": [
       {
         "SectionId": 1,
         "Caption": "Ahonen 1995",
         "SimulationDuration": 18,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Ahonen 1995 Midazolam",
@@ -912,7 +912,7 @@
         "Caption": "Backman 1998 (Phase II)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Backmann 1998 Midazolam",
@@ -938,7 +938,7 @@
         "Caption": "Backman 1998 (Phase III)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Backmann 1998 Midazolam",
@@ -964,7 +964,7 @@
         "Caption": "Olkkola 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Olkkola 1994 Midazolam",
@@ -990,7 +990,7 @@
         "Caption": "Olkkola 1996 (Day 1)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
@@ -1016,7 +1016,7 @@
         "Caption": "Olkkola 1996 (Day 4)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
@@ -1042,7 +1042,7 @@
         "Caption": "Olkkola 1996 (Day 6)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
@@ -1068,7 +1068,7 @@
         "Caption": "Templeton 2010 (50 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Templeton 2010 Midazolam",
@@ -1094,7 +1094,7 @@
         "Caption": "Templeton 2010 (200 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Templeton 2010 Midazolam",
@@ -1120,7 +1120,7 @@
         "Caption": "Templeton 2010 (400 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
-        "Simulations": [
+        "OutputMappings": [
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Control Templeton 2010 Midazolam",
@@ -1152,7 +1152,7 @@
           {
             "Caption": "Itra+Mida (Mida iv)",
             "Color": "#FF0000",
-            "Ratios": [
+            "DDIRatios": [
               {
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
                 "ObservedData": "PK_Ratio_CYP3A4",
@@ -1177,7 +1177,7 @@
           {
             "Caption": "Itra+Mida (Mida po)",
             "Color": "#FF0000",
-            "Ratios": [
+            "DDIRatios": [
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
