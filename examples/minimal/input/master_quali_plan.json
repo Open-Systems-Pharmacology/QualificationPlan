@@ -67,7 +67,7 @@
           {
             "Caption": "Midazolam iv",
             "Symbol": "Circle",
-            "Simulations": [
+            "OutputMappings": [
               {
                 "Project": "Midazolam",
                 "Simulation": "S1",
