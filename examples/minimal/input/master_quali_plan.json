@@ -38,7 +38,7 @@
       }
     },
     "AxesSettings": {
-      "GOFMergedPlots_PredictedVsObserved": [
+      "GOFMergedPlotsPredictedVsObserved": [
         {
           "Unit": "µg/ml",
           "Dimension": "Concentration (mass)",
@@ -54,7 +54,7 @@
           "Scaling": "Log"
         }
       ],
-      "GOFMergedPlots_ResidualsOverTime": [
+      "GOFMergedPlotsResidualsOverTime": [
         {
           "Unit": "h",
           "Dimension": "Time",

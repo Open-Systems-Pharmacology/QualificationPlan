@@ -309,11 +309,11 @@
         "AxesSettings": {
           "type": "object",
           "properties": {
-            "GOFMergedPlots_PredictedVsObserved": { "$ref": "#/definitions/axesXY" },
-            "GOFMergedPlots_ResidualsOverTime": { "$ref": "#/definitions/axesXY" },
+            "GOFMergedPlotsPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
+            "GOFMergedPlotsResidualsOverTime": { "$ref": "#/definitions/axesXY" },
             "ComparisonTimeProfile": { "$ref": "#/definitions/axesXY" },
-            "DDIRatioPlots_PredictedVsObserved": { "$ref": "#/definitions/axesXY" },
-            "DDIRatioPlots_ResidualsVsObserved": { "$ref": "#/definitions/axesXY" },
+            "DDIRatioPlotsPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
+            "DDIRatioPlotsResidualsVsObserved": { "$ref": "#/definitions/axesXY" },
             "PKRatioPlots": { "$ref": "#/definitions/axesXY" }
           },
           "required": []
