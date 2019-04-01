@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
@@ -19,8 +20,8 @@
   ],
   "ObservedDataSets": [
     {
-      "Id": "PK_Ratio_CYP3A4",
-      "Path": "PK_Ratio_CYP3A4.csv",
+      "Id": "DDI_Ratio_CYP3A4",
+      "Path": "DDI_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -35,6 +36,40 @@
         "FontFamilyName": "Arial",
         "WatermarkSize": 40
       }
+    },
+    "AxesSettings": {
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ]
     },
     "AllPlots": [
       {
