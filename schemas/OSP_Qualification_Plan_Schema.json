@@ -40,7 +40,7 @@
       "enum": ["Circle", "Square", "Diamond", "Asterisk", "Point", "Cross", "Triangle"]
     },
 
-    "positiveNumber": { "type": "number", "minimum": 0, "exclusiveMinimum": true },
+    "positiveNumber": { "type": "number", "exclusiveMinimum": 0 },
 
     "nonNegativeNumber": { "type": "number", "minimum": 0 },
 
@@ -57,6 +57,157 @@
           },
           "required": ["Id", "Title", "Content"]
         }
+    },
+
+    "ageUnit": {
+      "type": "string",
+      "enum": ["year(s)", "month(s)", "week(s)", "day(s)"]
+    },
+    "amountUnit": {
+      "type": "string",
+      "enum": ["mol", "mmol", "µmol", "nmol", "pmol"]
+    },
+    "concentrationMassUnit": {
+      "type": "string",
+      "enum": ["mg/l", "µg/l", "ng/l", "pg/l", "mg/dl", "mg/ml", "µg/ml", "ng/ml", "pg/ml", "kg/l"]
+    },
+    "concentrationMolarUnit": {
+      "type": "string",
+      "enum": ["mol/l", "mmol/l", "µmol/l", "nmol/l", "pmol/l", "fmol/l", "mol/ml", "mmol/ml", "µmol/ml", "nmol/ml", "pmol/ml", "fmol/ml"]
+    },
+    "fractionUnit": {
+      "type": "string",
+      "enum": ["", "%"]
+    },
+    "massUnit": {
+      "type": "string",
+      "enum": ["kg", "g", "mg", "µg", "ng", "pg"]
+    },
+
+    "dimensionAndUnit": {
+      "type": "object",
+      "properties": {
+        "Dimension": {
+          "type": "string",
+          "enum": ["Age", "Amount", "Concentration (mass)", "Concentration (molar)", "Fraction", "Mass", "Time", "Dimensionless"]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Age" } }
+          },
+          "then": {
+            "properties": { "Unit": { "$ref": "#/definitions/ageUnit" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Amount" } }
+          },
+          "then": {
+            "properties": { "Unit": { "$ref": "#/definitions/amountUnit" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Concentration (mass)" } }
+          },
+          "then": {
+            "properties": { "Unit": { "$ref": "#/definitions/concentrationMassUnit" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Concentration (molar)" } }
+          },
+          "then": {
+            "properties": { "Unit": { "$ref": "#/definitions/concentrationMolarUnit" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Fraction" } }
+          },
+          "then": {
+            "properties": { "Unit": { "$ref": "#/definitions/fractionUnit" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Mass" } }
+          },
+          "then": {
+            "properties": { "Unit": { "$ref": "#/definitions/massUnit" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Time" } }
+          },
+          "then": {
+            "properties": { "Unit": { "$ref": "#/definitions/timeUnit" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Dimension": { "const": "Dimensionless" } }
+          },
+          "then": {
+            "properties": { "Unit": { "type": "string", "enum": [""] } }
+          }
+        }
+      ],
+      "required": ["Dimension", "Unit"]
+    },
+
+    "axis": {
+      "type": "object",
+      "allOf": [
+        { "$ref": "#/definitions/dimensionAndUnit" },
+        {
+          "properties": {
+            "GridLines": {"type": "boolean", "default": false},
+            "Scaling": {
+              "type": "string",
+              "enum": ["Linear", "Log"]
+            }
+          }
+        }
+      ],
+      "required": ["GridLines", "Scaling" ]
+    },
+
+    "axesXY": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": [
+        {
+          "type": "object",
+          "allOf": [
+            { "$ref": "#/definitions/axis" },
+            {
+              "properties": {
+                "Type": { "const": "X" }
+              }
+            }
+          ],
+          "required": ["Type"]
+        },
+        {
+          "type": "object",
+          "allOf": [
+            { "$ref": "#/definitions/axis" },
+            {
+              "properties": {
+                "Type": { "const": "Y" }
+              }
+            }
+          ],
+          "required": ["Type"]
+        }
+      ]
     }
 
   },
@@ -155,6 +306,19 @@
           "required": ["ChartWidth", "ChartHeight", "Fonts"]
         },
 
+        "AxesSettings": {
+          "type": "object",
+          "properties": {
+            "GOFMergedPlots_PredictedVsObserved": { "$ref": "#/definitions/axesXY" },
+            "GOFMergedPlots_ResidualsOverTime": { "$ref": "#/definitions/axesXY" },
+            "ComparisonTimeProfile": { "$ref": "#/definitions/axesXY" },
+            "DDIRatioPlots_PredictedVsObserved": { "$ref": "#/definitions/axesXY" },
+            "DDIRatioPlots_ResidualsVsObserved": { "$ref": "#/definitions/axesXY" },
+            "PKRatioPlots": { "$ref": "#/definitions/axesXY" }
+          },
+          "required": []
+        },
+
         "AllPlots": {
           "type": "array",
           "items": 
@@ -181,6 +345,8 @@
                   "type": "string",
                   "enum": ["predictedVsObserved", "residualsOverTime", "predictedVsObserved|residualsOverTime"]
                 },
+                "AxesPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
+                "AxesResidualsOverTime": { "$ref": "#/definitions/axesXY" },
                 "Groups": {
                   "type": "array",
                   "items": 
@@ -223,6 +389,7 @@
                 "Caption": { "$ref": "#/definitions/nonEmptyString" },
                 "SimulationDuration": { "$ref": "#/definitions/positiveNumber" },
                 "TimeUnit": { "$ref": "#/definitions/timeUnit" },
+                "Axes": { "$ref": "#/definitions/axesXY" },
                 "OutputMappings": {
                   "type": "array",
                   "items": 
@@ -261,6 +428,8 @@
                   "type": "string",
                   "enum": ["predictedVsObserved", "residualsVsObserved", "predictedVsObserved|residualsVsObserved"]
                 },
+                "AxesPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
+                "AxesResidualsVsObserved": { "$ref": "#/definitions/axesXY" },
                 "Groups": {
                   "type": "array",
                   "items": 
@@ -277,7 +446,7 @@
                             {
                               "Output": { "$ref": "#/definitions/nonEmptyString" },
                               "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
-                              "ObservedDataId": { "$ref": "#/definitions/nonEmptyString" },
+                              "ObservedDataId": { "type": "integer" },
                               "SimulationControl": {
                                 "type": "object",
                                 "properties": {
@@ -311,9 +480,44 @@
               },
               "required": ["SectionId", "Caption", "PKParameter", "PlotType", "Groups"]
             }
+        },
+
+        "PKRatioPlots": {
+          "type": "array",
+          "items": 
+            {
+              "type": "object",
+              "properties": {
+                "SectionId": {"type": "integer"},
+                "Caption": { "$ref": "#/definitions/nonEmptyString" },
+                "PKParameter": {
+                  "type": "string",
+                  "enum": ["AUC", "CL", "AUC|CL"]
+                },
+                "Color": { "$ref": "#/definitions/rgbColor" },
+                "Axes": { "$ref": "#/definitions/axesXY" },
+                "PKRatios": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "Output": { "$ref": "#/definitions/nonEmptyString" },
+                        "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
+                        "ObservedDataId": { "type": "integer" },
+                        "Project": { "$ref": "#/definitions/nonEmptyString" },
+                        "Simulation": { "$ref": "#/definitions/nonEmptyString" }
+                      },
+                      "required": ["Output", "ObservedData", "ObservedDataId", "Project", "Simulation"]
+                    }
+                  ]
+                }
+              },
+              "required": ["SectionId", "Caption", "PKParameter", "Color", "Axes", "PKRatios"]
+            }
         }
       },
-      "required": []
+      "required": ["AxesSettings"]
     },
 
     "Sections": { "$ref": "#/definitions/sections" },
