@@ -446,7 +446,7 @@
                             {
                               "Output": { "$ref": "#/definitions/nonEmptyString" },
                               "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
-                              "ObservedDataId": { "type": "integer" },
+                              "ObservedDataRecordId": { "type": "integer" },
                               "SimulationControl": {
                                 "type": "object",
                                 "properties": {
@@ -471,7 +471,7 @@
                               }
                             }
                           },
-                          "required": ["Output", "ObservedData", "ObservedDataId", "SimulationControl", "SimulationDDI" ]
+                          "required": ["Output", "ObservedData", "ObservedDataRecordId", "SimulationControl", "SimulationDDI" ]
                         }
                       },
                       "required": ["Caption", "Color", "DDIRatios"]
@@ -504,11 +504,11 @@
                       "properties": {
                         "Output": { "$ref": "#/definitions/nonEmptyString" },
                         "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
-                        "ObservedDataId": { "type": "integer" },
+                        "ObservedDataRecordId": { "type": "integer" },
                         "Project": { "$ref": "#/definitions/nonEmptyString" },
                         "Simulation": { "$ref": "#/definitions/nonEmptyString" }
                       },
-                      "required": ["Output", "ObservedData", "ObservedDataId", "Project", "Simulation"]
+                      "required": ["Output", "ObservedData", "ObservedDataRecordId", "Project", "Simulation"]
                     }
                   ]
                 }
