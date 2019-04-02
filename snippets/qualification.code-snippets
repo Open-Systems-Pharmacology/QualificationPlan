@@ -100,6 +100,35 @@
     ],
     "description": "Adds the default plot settings configuration (global or local)"
   },
+  "addAxesSettings":{
+    "scope": "json",
+    "prefix": "aas",
+    "body": [
+      "\"AxesSettings\": {",
+      "\"GOFMergedPlotsPredictedVsObserved\": [ ],",
+      "\"GOFMergedPlotsResidualsOverTime\": [ ],",
+      "\"ComparisonTimeProfile\": [ ],",
+      "\"DDIRatioPlotsPredictedVsObserved\": [ ],",
+      "\"DDIRatioPlotsResidualsVsObserved\": [ ],",
+      "\"PKRatioPlots\": [ ]",
+      "},",
+    ],
+    "description": "Adds the global axes settings skeleton"
+  },
+  "addAxisSettings" :{
+    "scope": "json",
+    "prefix": "aax",
+    "body": [
+      "{",
+      "\"Unit\": \"\",",
+      "\"Dimension\": \"\",",
+      "\"Type\": \"\",",
+      "\"GridLines\": false,",
+      "\"Scaling\": \"Linear\"",
+      "}"
+    ],
+    "description": "Adds axis settings content"
+  },
   "addAllPlot": {
     "scope": "json",
     "prefix": "aap",
