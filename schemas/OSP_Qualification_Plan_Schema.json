@@ -217,6 +217,7 @@
 
     "Projects": {
       "type": "array",
+      "minItems": 1,
       "items": 
         {
           "type": "object",
@@ -349,6 +350,7 @@
                 "AxesResidualsOverTime": { "$ref": "#/definitions/axesXY" },
                 "Groups": {
                   "type": "array",
+                  "minItems": 1,
                   "items": 
                     {
                       "type": "object",
@@ -357,6 +359,7 @@
                         "Symbol": { "$ref": "#/definitions/symbolType" },
                         "OutputMappings": {
                           "type": "array",
+                          "minItems": 1,
                           "items": 
                             {
                               "type": "object",
@@ -392,6 +395,7 @@
                 "Axes": { "$ref": "#/definitions/axesXY" },
                 "OutputMappings": {
                   "type": "array",
+                  "minItems": 1,
                   "items": 
                     {
                       "type": "object",
@@ -432,6 +436,7 @@
                 "AxesResidualsVsObserved": { "$ref": "#/definitions/axesXY" },
                 "Groups": {
                   "type": "array",
+                  "minItems": 1,
                   "items": 
                     {
                       "type": "object",
@@ -440,6 +445,7 @@
                         "Color": { "$ref": "#/definitions/rgbColor" },
                         "DDIRatios": {
                           "type": "array",
+                          "minItems": 1,
                           "items": {
                             "type": "object",
                             "properties": 
@@ -498,6 +504,7 @@
                 "Axes": { "$ref": "#/definitions/axesXY" },
                 "PKRatios": {
                   "type": "array",
+                  "minItems": 1,
                   "items": [
                     {
                       "type": "object",
