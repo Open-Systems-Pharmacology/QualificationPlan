@@ -9,6 +9,7 @@
       "\"Projects\": [],",
       "\"ObservedDataSets\": [],",
       "\"Plots\": {",
+      "\"AxesSettings\": {},",
       "\"AllPlots\": [],",
       "\"GOFMergedPlots\": [],",
       "\"ComparisonTimeProfilePlots\": [],",
@@ -100,34 +101,39 @@
     ],
     "description": "Adds the default plot settings configuration (global or local)"
   },
-  "addAxesSettings":{
+  "addAxesSettings": {
     "scope": "json",
     "prefix": "aas",
     "body": [
-      "\"AxesSettings\": {",
       "\"GOFMergedPlotsPredictedVsObserved\": [ ],",
       "\"GOFMergedPlotsResidualsOverTime\": [ ],",
       "\"ComparisonTimeProfile\": [ ],",
       "\"DDIRatioPlotsPredictedVsObserved\": [ ],",
       "\"DDIRatioPlotsResidualsVsObserved\": [ ],",
-      "\"PKRatioPlots\": [ ]",
-      "},",
+      "\"PKRatioPlots\": [ ]"
     ],
     "description": "Adds the global axes settings skeleton"
   },
-  "addAxisSettings" :{
+  "addAxisSettings": {
     "scope": "json",
-    "prefix": "aax",
+    "prefix": "axy",
     "body": [
       "{",
-      "\"Unit\": \"\",",
-      "\"Dimension\": \"\",",
-      "\"Type\": \"\",",
+      "\"Type\": \"X\",",
+      "\"Dimension\": \"${1}\",",
+      "\"Unit\": \"${2}\",",
       "\"GridLines\": false,",
       "\"Scaling\": \"Linear\"",
+      "},",
+      "{",
+      "\"Type\": \"Y\",",
+      "\"Dimension\": \"${3}\",",
+      "\"Unit\": \"${4}\",",
+      "\"GridLines\": false,",
+      "\"Scaling\": \"Log\"",
       "}"
     ],
-    "description": "Adds axis settings content"
+    "description": "Adds axes X and Y settings content"
   },
   "addAllPlot": {
     "scope": "json",
@@ -252,11 +258,11 @@
       "\"TimeUnit\":  \"${10}\"",
       "},",
       "\"SimulationDDI\": {",
-        "\"Project\":  \"${6:<Enter Project Id>}\",",
-        "\"Simulation\":  \"${11:<Enter Simulation Name>}\",",
-        "\"StartTime\":  ${8:<Enter Start Time>},",
-        "\"EndTime\":  ${9:<Enter End Time>},",
-        "\"TimeUnit\":  \"${10}\"",
+      "\"Project\":  \"${6:<Enter Project Id>}\",",
+      "\"Simulation\":  \"${11:<Enter Simulation Name>}\",",
+      "\"StartTime\":  ${8:<Enter Start Time>},",
+      "\"EndTime\":  ${9:<Enter End Time>},",
+      "\"TimeUnit\":  \"${10}\"",
       "}",
       "}"
     ],
