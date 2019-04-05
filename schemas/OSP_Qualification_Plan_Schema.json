@@ -520,11 +520,11 @@
                   ]
                 }
               },
-              "required": ["SectionId", "Caption", "PKParameter", "Color", "Axes", "PKRatios"]
+              "required": ["SectionId", "Caption", "PKParameter", "Color", "PKRatios"]
             }
         }
       },
-      "required": ["AxesSettings"]
+      "required": ["PlotSettings", "AxesSettings"]
     },
 
     "Sections": { "$ref": "#/definitions/sections" },
