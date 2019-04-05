@@ -476,8 +476,8 @@
       "Path": "ObservedData/Backmann_1998_Treatment PhaseIII.csv"
     },
     {
-      "Id": "PK_Ratio_CYP3A4",
-      "Path": "ObservedData/PK_Ratio_CYP3A4.csv",
+      "Id": "DDI_Ratio_CYP3A4",
+      "Path": "ObservedData/DDI_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -492,6 +492,104 @@
         "FontFamilyName": "Arial",
         "WatermarkSize": 40
       }
+    },
+    "AxesSettings": {
+      "ComparisonTimeProfile": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsPredictedVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsResidualsVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ],
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ],
+      "PKRatioPlots": [
+        {
+          "Unit": "year(s)",
+          "Dimension": "Age",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ]
     },
     "GOFMergedPlots": [
       {
@@ -1155,8 +1253,8 @@
             "DDIRatios": [
               {
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Olkkola 1996 (Day 4)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 378,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
@@ -1181,8 +1279,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Ahonen 1995",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 50,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Ahonen 1995 Midazolam",
@@ -1201,8 +1299,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Backman 1998 (Phase II)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 56,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Backmann 1998 Midazolam",
@@ -1221,8 +1319,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Backman 1998 (Phase III)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 57,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Backmann 1998 Midazolam",
@@ -1241,8 +1339,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Olkkola 1994",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 370,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Olkkola 1994 Midazolam",
@@ -1261,8 +1359,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Olkkola 1996 (Day 1)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 377,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
@@ -1281,8 +1379,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Olkkola 1996 (Day 6)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 379,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
@@ -1301,8 +1399,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Templeton 2010 (50 mg)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 424,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Templeton 2010 Midazolam",
@@ -1321,8 +1419,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Templeton 2010 (200 mg)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 425,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Templeton 2010 Midazolam",
@@ -1341,8 +1439,8 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
-                "ObservedDataId": "Templeton 2010 (400 mg)",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 426,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
                   "Simulation": "DDI Control Templeton 2010 Midazolam",
