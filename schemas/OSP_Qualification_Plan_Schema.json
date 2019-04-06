@@ -208,8 +208,22 @@
           "required": ["Type"]
         }
       ]
-    }
+    },
 
+    "simulationParameters": {
+      "type": "array",
+      "items": 
+        {
+          "type": "object",
+          "properties": {
+            "Simulation": { "$ref": "#/definitions/nonEmptyString" },
+            "Path": { "$ref": "#/definitions/nonEmptyString" },
+            "SourceProject": { "$ref": "#/definitions/nonEmptyString" },
+            "SourceSimulation": { "$ref": "#/definitions/nonEmptyString" }
+          },
+          "required": ["Simulation", "Path", "SourceProject", "SourceSimulation"]
+        }
+    }
   },
 
   "type": "object",
@@ -238,21 +252,6 @@
                     "Project": { "$ref": "#/definitions/nonEmptyString" }
                   },
                   "required": ["Type", "Name", "Project"]
-                }
-            },
-
-            "SimulationParameters": {
-              "type": "array",
-              "items": 
-                {
-                  "type": "object",
-                  "properties": {
-                    "Simulation": { "$ref": "#/definitions/nonEmptyString" },
-                    "Path": { "$ref": "#/definitions/nonEmptyString" },
-                    "SourceProject": { "$ref": "#/definitions/nonEmptyString" },
-                    "SourceSimulation": { "$ref": "#/definitions/nonEmptyString" }
-                  },
-                  "required": ["Simulation", "Path", "SourceProject", "SourceSimulation"]
                 }
             }
           },
