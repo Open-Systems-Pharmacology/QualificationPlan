@@ -61,8 +61,8 @@
   ],
   "ObservedDataSets": [
     {
-      "Id": "PK_Ratio_CYP3A4",
-      "Path": "PK_Ratio_CYP3A4.csv",
+      "Id": "DDI_Ratio_CYP3A4",
+      "Path": "DDI_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -965,7 +965,7 @@
             "DDIRatios": [
               {
               "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-              "ObservedData": "PK_Ratio_CYP3A4",
+              "ObservedData": "DDI_Ratio_CYP3A4",
               "ObservedDataRecordId": 378,
               "SimulationControl": {
                 "Project": "Midazolam_Itraconazole_DDI",
@@ -991,7 +991,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 50,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1011,7 +1011,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 56,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1031,7 +1031,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 57,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1051,7 +1051,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 370,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1071,7 +1071,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 377,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1091,7 +1091,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 379,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1111,7 +1111,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 424,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1131,7 +1131,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 425,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",
@@ -1151,7 +1151,7 @@
               {
                 "Project": "Midazolam_Itraconazole_DDI",
                 "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-                "ObservedData": "PK_Ratio_CYP3A4",
+                "ObservedData": "DDI_Ratio_CYP3A4",
                 "ObservedDataRecordId": 426,
                 "SimulationControl": {
                   "Project": "Midazolam_Itraconazole_DDI",

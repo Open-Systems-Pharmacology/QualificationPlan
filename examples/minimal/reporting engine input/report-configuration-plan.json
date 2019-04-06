@@ -30,8 +30,8 @@
       "Path": "ObservedData/Midazolam 600mg SD.csv"
     },
     {
-      "Id": "PK_Ratio_CYP3A4",
-      "Path": "ObservedData/PK_Ratio_CYP3A4.csv",
+      "Id": "DDI_Ratio_CYP3A4",
+      "Path": "ObservedData/DDI_Ratio_CYP3A4.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -46,6 +46,40 @@
         "FontFamilyName": "Arial",
         "WatermarkSize": 40
       }
+    },
+    "AxesSettings": {
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ]
     },
     "GOFMergedPlots": [
       {
