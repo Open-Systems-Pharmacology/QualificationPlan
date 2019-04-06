@@ -13,7 +13,8 @@
       "\"AllPlots\": [],",
       "\"GOFMergedPlots\": [],",
       "\"ComparisonTimeProfilePlots\": [],",
-      "\"DDIRatioPlots\": []",
+      "\"DDIRatioPlots\": [],",
+      "\"PKRatioPlots\": []",
       "},",
       "\"Inputs\": [],",
       "\"Sections\": []",
@@ -267,5 +268,33 @@
       "}"
     ],
     "description": "Adds a DDIRatioPlot ratio entry (to be used within a group)"
+  },
+  "addPKRatioPlot": {
+    "scope": "json",
+    "prefix": "apkr",
+    "body": [
+      "{",
+      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"Color\":  \"${3:#FF0000}\",",
+      "\"PKParameter\":  \"${4}\",",
+      "\"PKRatios\":  []",
+      "}"
+    ],
+    "description": "Adds a PKRatioPlot entry"
+  },
+  "addPKRatio": {
+    "scope": "json",
+    "prefix": "apkrr",
+    "body": [
+      "{",
+      "\"Project\":  \"${1:<Enter Project Id>}\",",
+      "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
+      "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
+      "\"ObservedData\":  \"${6:<Enter Observed Data Id>}\",",
+      "\"ObservedDataRecordId\":  ${7:<Enter Observed Data RecordId>}",
+      "}"
+    ],
+    "description": "Adds a PKRatioPlot ratio entry (to be used within a PKRatioPlot)"
   }
 }
