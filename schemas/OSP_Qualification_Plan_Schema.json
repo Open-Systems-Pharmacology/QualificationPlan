@@ -419,7 +419,8 @@
             "type": "array",
             "items": {
               "$ref": "#/definitions/nonEmptyString"
-            }
+            },
+            "minItems":1
           }
         },
         "required": [
