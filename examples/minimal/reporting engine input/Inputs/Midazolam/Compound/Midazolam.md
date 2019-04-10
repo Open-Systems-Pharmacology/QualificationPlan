@@ -25,7 +25,6 @@ Cellular permeabilities | PK-Sim Standard
 ### Metabolizing Enzyme: CYP3A4-Optimization
 
 Molecule: CYP3A4
-
 #### Parameters
 
 Name                 | Value        | Value Origin                                     
@@ -37,7 +36,6 @@ kcat                 | 13 1/min     | Parameter Identification-Parameter Identif
 ### Systemic Process: Glomerular Filtration-GFR
 
 Species: Human
-
 #### Parameters
 
 Name         | Value | Value Origin
