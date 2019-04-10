@@ -216,12 +216,12 @@
         {
           "type": "object",
           "properties": {
+            "Project": { "$ref": "#/definitions/nonEmptyString" },
             "Simulation": { "$ref": "#/definitions/nonEmptyString" },
             "Path": { "$ref": "#/definitions/nonEmptyString" },
-            "SourceProject": { "$ref": "#/definitions/nonEmptyString" },
-            "SourceSimulation": { "$ref": "#/definitions/nonEmptyString" }
+            "TargetSimulations": { "type": "array" }
           },
-          "required": ["Simulation", "Path", "SourceProject", "SourceSimulation"]
+          "required": [ "Project", "Simulation", "Path", "TargetSimulations"]
         }
     }
   },
@@ -253,7 +253,10 @@
                   },
                   "required": ["Type", "Name", "Project"]
                 }
-            }
+            },
+
+            "SimulationParameters": { "$ref": "#/definitions/simulationParameters" }
+
           },
           "required": ["Id", "Path"]
         }
