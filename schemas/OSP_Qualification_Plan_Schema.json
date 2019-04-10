@@ -1,183 +1,363 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-
   "definitions": {
-
     "buildingBlockType": {
       "$id": "#buildingBlockType",
       "type": "string",
-      "enum": ["Individual", "Population", "Compound", "Protocol", "Event", "Formulation", "ObserverSet"]
-    },
-
-    "buildingBlockOrSimulationType": {
-      "anyOf": [
-        { "$ref": "#/definitions/buildingBlockType" },
-        { "type": "string", "enum": ["Simulation"] }
+      "enum": [
+        "Individual",
+        "Population",
+        "Compound",
+        "Protocol",
+        "Event",
+        "Formulation",
+        "ObserverSet"
       ]
     },
-
-    "fontSize": {"type": "integer", "minimum": 8, "maximum": 60},
-
+    "buildingBlockOrSimulationType": {
+      "anyOf": [
+        {
+          "$ref": "#/definitions/buildingBlockType"
+        },
+        {
+          "type": "string",
+          "enum": [
+            "Simulation"
+          ]
+        }
+      ]
+    },
+    "fontSize": {
+      "type": "integer",
+      "minimum": 8,
+      "maximum": 60
+    },
     "rgbColor": {
       "type": "string",
       "description": "RGB color (hex)",
-      "format":"regex",
+      "format": "regex",
       "pattern": "^#([a-fA-F0-9]{6})$",
       "example": "#aa33cc"
     },
-
     "timeUnit": {
       "type": "string",
-      "enum": ["s", "min", "h", "day(s)", "week(s)", "month(s)", "year(s)"]
+      "enum": [
+        "s",
+        "min",
+        "h",
+        "day(s)",
+        "week(s)",
+        "month(s)",
+        "year(s)"
+      ]
     },
-
-    "nonEmptyString": { "type": "string", "minLength": 1 },
-
-    "plotSize": { "type": "integer", "minimum": 200, "maximum": 2000 },
-
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "plotSize": {
+      "type": "integer",
+      "minimum": 200,
+      "maximum": 2000
+    },
     "symbolType": {
       "type": "string",
-      "enum": ["Circle", "Square", "Diamond", "Asterisk", "Point", "Cross", "Triangle"]
+      "enum": [
+        "Circle",
+        "Square",
+        "Diamond",
+        "Asterisk",
+        "Point",
+        "Cross",
+        "Triangle"
+      ]
     },
-
-    "positiveNumber": { "type": "number", "exclusiveMinimum": 0 },
-
-    "nonNegativeNumber": { "type": "number", "minimum": 0 },
-
+    "positiveNumber": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "nonNegativeNumber": {
+      "type": "number",
+      "minimum": 0
+    },
     "sections": {
       "type": "array",
-      "items": 
-        {
-          "type": "object",
-          "properties": {
-            "Id": {"type": "integer"},
-            "Title": { "$ref": "#/definitions/nonEmptyString" },
-            "Content": {"type": "string", "format": "regex", "pattern": ".md$"},
-            "Sections": { "$ref": "#/definitions/sections" }
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
           },
-          "required": ["Id", "Title", "Content"]
-        }
+          "Title": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "Content": {
+            "type": "string",
+            "format": "regex",
+            "pattern": ".md$"
+          },
+          "Sections": {
+            "$ref": "#/definitions/sections"
+          }
+        },
+        "required": [
+          "Id",
+          "Title",
+          "Content"
+        ]
+      }
     },
-
     "ageUnit": {
       "type": "string",
-      "enum": ["year(s)", "month(s)", "week(s)", "day(s)"]
+      "enum": [
+        "year(s)",
+        "month(s)",
+        "week(s)",
+        "day(s)"
+      ]
     },
     "amountUnit": {
       "type": "string",
-      "enum": ["mol", "mmol", "µmol", "nmol", "pmol"]
+      "enum": [
+        "mol",
+        "mmol",
+        "µmol",
+        "nmol",
+        "pmol"
+      ]
     },
     "concentrationMassUnit": {
       "type": "string",
-      "enum": ["mg/l", "µg/l", "ng/l", "pg/l", "mg/dl", "mg/ml", "µg/ml", "ng/ml", "pg/ml", "kg/l"]
+      "enum": [
+        "mg/l",
+        "µg/l",
+        "ng/l",
+        "pg/l",
+        "mg/dl",
+        "mg/ml",
+        "µg/ml",
+        "ng/ml",
+        "pg/ml",
+        "kg/l"
+      ]
     },
     "concentrationMolarUnit": {
       "type": "string",
-      "enum": ["mol/l", "mmol/l", "µmol/l", "nmol/l", "pmol/l", "fmol/l", "mol/ml", "mmol/ml", "µmol/ml", "nmol/ml", "pmol/ml", "fmol/ml"]
+      "enum": [
+        "mol/l",
+        "mmol/l",
+        "µmol/l",
+        "nmol/l",
+        "pmol/l",
+        "fmol/l",
+        "mol/ml",
+        "mmol/ml",
+        "µmol/ml",
+        "nmol/ml",
+        "pmol/ml",
+        "fmol/ml"
+      ]
     },
     "fractionUnit": {
       "type": "string",
-      "enum": ["", "%"]
+      "enum": [
+        "",
+        "%"
+      ]
     },
     "massUnit": {
       "type": "string",
-      "enum": ["kg", "g", "mg", "µg", "ng", "pg"]
+      "enum": [
+        "kg",
+        "g",
+        "mg",
+        "µg",
+        "ng",
+        "pg"
+      ]
     },
-
     "dimensionAndUnit": {
       "type": "object",
       "properties": {
         "Dimension": {
           "type": "string",
-          "enum": ["Age", "Amount", "Concentration (mass)", "Concentration (molar)", "Fraction", "Mass", "Time", "Dimensionless"]
+          "enum": [
+            "Age",
+            "Amount",
+            "Concentration (mass)",
+            "Concentration (molar)",
+            "Fraction",
+            "Mass",
+            "Time",
+            "Dimensionless"
+          ]
         }
       },
       "allOf": [
         {
           "if": {
-            "properties": { "Dimension": { "const": "Age" } }
+            "properties": {
+              "Dimension": {
+                "const": "Age"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "$ref": "#/definitions/ageUnit" } }
+            "properties": {
+              "Unit": {
+                "$ref": "#/definitions/ageUnit"
+              }
+            }
           }
         },
         {
           "if": {
-            "properties": { "Dimension": { "const": "Amount" } }
+            "properties": {
+              "Dimension": {
+                "const": "Amount"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "$ref": "#/definitions/amountUnit" } }
+            "properties": {
+              "Unit": {
+                "$ref": "#/definitions/amountUnit"
+              }
+            }
           }
         },
         {
           "if": {
-            "properties": { "Dimension": { "const": "Concentration (mass)" } }
+            "properties": {
+              "Dimension": {
+                "const": "Concentration (mass)"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "$ref": "#/definitions/concentrationMassUnit" } }
+            "properties": {
+              "Unit": {
+                "$ref": "#/definitions/concentrationMassUnit"
+              }
+            }
           }
         },
         {
           "if": {
-            "properties": { "Dimension": { "const": "Concentration (molar)" } }
+            "properties": {
+              "Dimension": {
+                "const": "Concentration (molar)"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "$ref": "#/definitions/concentrationMolarUnit" } }
+            "properties": {
+              "Unit": {
+                "$ref": "#/definitions/concentrationMolarUnit"
+              }
+            }
           }
         },
         {
           "if": {
-            "properties": { "Dimension": { "const": "Fraction" } }
+            "properties": {
+              "Dimension": {
+                "const": "Fraction"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "$ref": "#/definitions/fractionUnit" } }
+            "properties": {
+              "Unit": {
+                "$ref": "#/definitions/fractionUnit"
+              }
+            }
           }
         },
         {
           "if": {
-            "properties": { "Dimension": { "const": "Mass" } }
+            "properties": {
+              "Dimension": {
+                "const": "Mass"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "$ref": "#/definitions/massUnit" } }
+            "properties": {
+              "Unit": {
+                "$ref": "#/definitions/massUnit"
+              }
+            }
           }
         },
         {
           "if": {
-            "properties": { "Dimension": { "const": "Time" } }
+            "properties": {
+              "Dimension": {
+                "const": "Time"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "$ref": "#/definitions/timeUnit" } }
+            "properties": {
+              "Unit": {
+                "$ref": "#/definitions/timeUnit"
+              }
+            }
           }
         },
         {
           "if": {
-            "properties": { "Dimension": { "const": "Dimensionless" } }
+            "properties": {
+              "Dimension": {
+                "const": "Dimensionless"
+              }
+            }
           },
           "then": {
-            "properties": { "Unit": { "type": "string", "enum": [""] } }
-          }
-        }
-      ],
-      "required": ["Dimension", "Unit"]
-    },
-
-    "axis": {
-      "type": "object",
-      "allOf": [
-        { "$ref": "#/definitions/dimensionAndUnit" },
-        {
-          "properties": {
-            "GridLines": {"type": "boolean", "default": false},
-            "Scaling": {
-              "type": "string",
-              "enum": ["Linear", "Log"]
+            "properties": {
+              "Unit": {
+                "type": "string",
+                "enum": [
+                  ""
+                ]
+              }
             }
           }
         }
       ],
-      "required": ["GridLines", "Scaling" ]
+      "required": [
+        "Dimension",
+        "Unit"
+      ]
     },
-
+    "axis": {
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/dimensionAndUnit"
+        },
+        {
+          "properties": {
+            "GridLines": {
+              "type": "boolean",
+              "default": false
+            },
+            "Scaling": {
+              "type": "string",
+              "enum": [
+                "Linear",
+                "Log"
+              ]
+            }
+          }
+        }
+      ],
+      "required": [
+        "GridLines",
+        "Scaling"
+      ]
+    },
     "axesXY": {
       "type": "array",
       "minItems": 2,
@@ -186,361 +366,646 @@
         {
           "type": "object",
           "allOf": [
-            { "$ref": "#/definitions/axis" },
+            {
+              "$ref": "#/definitions/axis"
+            },
             {
               "properties": {
-                "Type": { "const": "X" }
+                "Type": {
+                  "const": "X"
+                }
               }
             }
           ],
-          "required": ["Type"]
+          "required": [
+            "Type"
+          ]
         },
         {
           "type": "object",
           "allOf": [
-            { "$ref": "#/definitions/axis" },
+            {
+              "$ref": "#/definitions/axis"
+            },
             {
               "properties": {
-                "Type": { "const": "Y" }
+                "Type": {
+                  "const": "Y"
+                }
               }
             }
           ],
-          "required": ["Type"]
+          "required": [
+            "Type"
+          ]
         }
       ]
     },
-
     "simulationParameters": {
-      "type": "array",
-      "items": 
-        {
-          "type": "object",
-          "properties": {
-            "Simulation": { "$ref": "#/definitions/nonEmptyString" },
-            "Path": { "$ref": "#/definitions/nonEmptyString" },
-            "SourceProject": { "$ref": "#/definitions/nonEmptyString" },
-            "SourceSimulation": { "$ref": "#/definitions/nonEmptyString" }
-          },
-          "required": ["Simulation", "Path", "SourceProject", "SourceSimulation"]
-        }
-    }
-  },
-
-  "type": "object",
-  "properties": {
-
-    "Projects": {
-      "type": "array",
-      "minItems": 1,
-      "items": 
-        {
-          "type": "object",
-          "properties": {
-
-            "Id": { "$ref": "#/definitions/nonEmptyString" },
-
-            "Path": {"type": "string", "format": "regex", "pattern": ".json$"},
-
-            "BuildingBlocks": {
-              "type": "array",
-              "items": 
-                {
-                  "type": "object",
-                  "properties": {
-                    "Type": { "$ref": "#/definitions/buildingBlockType" },
-                    "Name": { "$ref": "#/definitions/nonEmptyString" },
-                    "Project": { "$ref": "#/definitions/nonEmptyString" }
-                  },
-                  "required": ["Type", "Name", "Project"]
-                }
-            }
-          },
-          "required": ["Id", "Path"]
-        }
-    },
-
-    "ObservedDataSets": {
-      "type": "array",
-      "items": 
-        {
-          "type": "object",
-          "properties": {
-
-            "Id": { "$ref": "#/definitions/nonEmptyString" },
-
-            "Path": {"type": "string", "format": "regex", "pattern": ".csv$"},
-
-            "Type": {
-              "type": "string",
-              "enum": ["DDIRatio", "PKRatio", "TimeProfile"]
-            }
-          },
-          "required": ["Id", "Path", "Type"]
-        }
-    },
-
-    "Plots": {
-      "type": "object",
-      "properties": {
-
-        "PlotSettings": {
-          "type": "object",
-          "properties": {
-            "ChartWidth": { "$ref": "#/definitions/plotSize" },
-            "ChartHeight": { "$ref": "#/definitions/plotSize" },
-            "Fonts": {
-              "type": "object",
-              "properties": {
-                "AxisSize": { "$ref": "#/definitions/fontSize" },
-                "LegendSize": { "$ref": "#/definitions/fontSize" },
-                "OriginSize": { "$ref": "#/definitions/fontSize" },
-                "WatermarkSize": { "$ref": "#/definitions/fontSize" },
-                "FontFamilyName": {
-                  "type": "string",
-                  "enum": ["Arial", "Tahoma", "Times New Roman", "Microsoft Sans Serif"]
-                }
-              },
-              "required": ["AxisSize", "LegendSize", "OriginSize", "FontFamilyName", "WatermarkSize"]
-            }
-          },
-          "required": ["ChartWidth", "ChartHeight", "Fonts"]
-        },
-
-        "AxesSettings": {
-          "type": "object",
-          "properties": {
-            "GOFMergedPlotsPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
-            "GOFMergedPlotsResidualsOverTime": { "$ref": "#/definitions/axesXY" },
-            "ComparisonTimeProfile": { "$ref": "#/definitions/axesXY" },
-            "DDIRatioPlotsPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
-            "DDIRatioPlotsResidualsVsObserved": { "$ref": "#/definitions/axesXY" },
-            "PKRatioPlots": { "$ref": "#/definitions/axesXY" }
-          },
-          "required": []
-        },
-
-        "AllPlots": {
-          "type": "array",
-          "items": 
-            {
-              "type": "object",
-              "properties": {
-                "SectionId": {"type": "integer"},
-                "Project": { "$ref": "#/definitions/nonEmptyString" },
-                "Simulation": { "$ref": "#/definitions/nonEmptyString" }
-              },
-              "required": ["SectionId", "Project", "Simulation"]
-            }
-        },
-
-        "GOFMergedPlots": {
-          "type": "array",
-          "items": 
-            {
-              "type": "object",
-              "properties": {
-                "SectionId": {"type": "integer"},
-                "Caption": { "$ref": "#/definitions/nonEmptyString" },
-                "PlotType": {
-                  "type": "string",
-                  "enum": ["predictedVsObserved", "residualsOverTime", "predictedVsObserved|residualsOverTime"]
-                },
-                "AxesPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
-                "AxesResidualsOverTime": { "$ref": "#/definitions/axesXY" },
-                "Groups": {
-                  "type": "array",
-                  "minItems": 1,
-                  "items": 
-                    {
-                      "type": "object",
-                      "properties": {
-                        "Caption": { "$ref": "#/definitions/nonEmptyString" },
-                        "Symbol": { "$ref": "#/definitions/symbolType" },
-                        "OutputMappings": {
-                          "type": "array",
-                          "minItems": 1,
-                          "items": 
-                            {
-                              "type": "object",
-                              "properties": {
-                                "Project": { "$ref": "#/definitions/nonEmptyString" },
-                                "Simulation": { "$ref": "#/definitions/nonEmptyString" },
-                                "Output": { "$ref": "#/definitions/nonEmptyString" },
-                                "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
-                                "Color": { "$ref": "#/definitions/rgbColor" }
-                              },
-                              "required": ["Project", "Simulation", "Output", "ObservedData", "Color"]
-                            }
-                        }
-                      },
-                      "required": ["Caption", "Symbol", "OutputMappings"]
-                    }
-                }
-              },
-              "required": ["SectionId", "Caption", "PlotType", "Groups"]
-            }
-        },
-
-        "ComparisonTimeProfilePlots": {
-          "type": "array",
-          "items": 
-            {
-              "type": "object",
-              "properties": {
-                "SectionId": {"type": "integer"},
-                "Caption": { "$ref": "#/definitions/nonEmptyString" },
-                "SimulationDuration": { "$ref": "#/definitions/positiveNumber" },
-                "TimeUnit": { "$ref": "#/definitions/timeUnit" },
-                "Axes": { "$ref": "#/definitions/axesXY" },
-                "OutputMappings": {
-                  "type": "array",
-                  "minItems": 1,
-                  "items": 
-                    {
-                      "type": "object",
-                      "properties": {
-                        "Project": { "$ref": "#/definitions/nonEmptyString" },
-                        "Simulation": { "$ref": "#/definitions/nonEmptyString" },
-                        "Output": { "$ref": "#/definitions/nonEmptyString" },
-                        "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
-                        "Color": { "$ref": "#/definitions/rgbColor" },
-                        "StartTime": {"type": "number"},
-                        "TimeUnit": { "$ref": "#/definitions/timeUnit" }
-                      },
-                      "required": ["Project", "Simulation", "Output", "ObservedData", "Color", "StartTime", "TimeUnit"]
-                    }
-                }
-              },
-              "required": ["SectionId", "Caption", "SimulationDuration", "TimeUnit", "OutputMappings"]
-            }
-        },
-
-        "DDIRatioPlots": {
-          "type": "array",
-          "items": 
-            {
-              "type": "object",
-              "properties": {
-                "SectionId": {"type": "integer"},
-                "Caption": { "$ref": "#/definitions/nonEmptyString" },
-                "PKParameter": {
-                  "type": "string",
-                  "enum": ["AUC", "CMAX", "AUC|CMAX"]
-                },
-                "PlotType": {
-                  "type": "string",
-                  "enum": ["predictedVsObserved", "residualsVsObserved", "predictedVsObserved|residualsVsObserved"]
-                },
-                "AxesPredictedVsObserved": { "$ref": "#/definitions/axesXY" },
-                "AxesResidualsVsObserved": { "$ref": "#/definitions/axesXY" },
-                "Groups": {
-                  "type": "array",
-                  "minItems": 1,
-                  "items": 
-                    {
-                      "type": "object",
-                      "properties": {
-                        "Caption": { "$ref": "#/definitions/nonEmptyString" },
-                        "Color": { "$ref": "#/definitions/rgbColor" },
-                        "DDIRatios": {
-                          "type": "array",
-                          "minItems": 1,
-                          "items": {
-                            "type": "object",
-                            "properties": 
-                            {
-                              "Output": { "$ref": "#/definitions/nonEmptyString" },
-                              "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
-                              "ObservedDataRecordId": { "type": "integer" },
-                              "SimulationControl": {
-                                "type": "object",
-                                "properties": {
-                                  "Project": { "$ref": "#/definitions/nonEmptyString" },
-                                  "Simulation": { "$ref": "#/definitions/nonEmptyString" },
-                                  "StartTime": {"type": "number"},
-                                  "EndTime": {"type": "number"},
-                                  "TimeUnit": { "$ref": "#/definitions/timeUnit" }
-                                },
-                              "required": ["Project", "Simulation", "StartTime", "EndTime", "TimeUnit"]
-                              },
-                              "SimulationDDI": {
-                                "type": "object",
-                                "properties": {
-                                  "Project": { "$ref": "#/definitions/nonEmptyString" },
-                                  "Simulation": { "$ref": "#/definitions/nonEmptyString" },
-                                  "StartTime": {"type": "number"},
-                                  "EndTime": {"type": "number"},
-                                  "TimeUnit": { "$ref": "#/definitions/timeUnit" }
-                                },
-                              "required": ["Project", "Simulation", "StartTime", "EndTime", "TimeUnit"]
-                              }
-                            }
-                          },
-                          "required": ["Output", "ObservedData", "ObservedDataRecordId", "SimulationControl", "SimulationDDI" ]
-                        }
-                      },
-                      "required": ["Caption", "Color", "DDIRatios"]
-                    }
-                }
-              },
-              "required": ["SectionId", "Caption", "PKParameter", "PlotType", "Groups"]
-            }
-        },
-
-        "PKRatioPlots": {
-          "type": "array",
-          "items": 
-            {
-              "type": "object",
-              "properties": {
-                "SectionId": {"type": "integer"},
-                "Caption": { "$ref": "#/definitions/nonEmptyString" },
-                "PKParameter": {
-                  "type": "string",
-                  "enum": ["AUC", "CL", "AUC|CL"]
-                },
-                "Color": { "$ref": "#/definitions/rgbColor" },
-                "Axes": { "$ref": "#/definitions/axesXY" },
-                "PKRatios": {
-                  "type": "array",
-                  "minItems": 1,
-                  "items": [
-                    {
-                      "type": "object",
-                      "properties": {
-                        "Output": { "$ref": "#/definitions/nonEmptyString" },
-                        "ObservedData": { "$ref": "#/definitions/nonEmptyString" },
-                        "ObservedDataRecordId": { "type": "integer" },
-                        "Project": { "$ref": "#/definitions/nonEmptyString" },
-                        "Simulation": { "$ref": "#/definitions/nonEmptyString" }
-                      },
-                      "required": ["Output", "ObservedData", "ObservedDataRecordId", "Project", "Simulation"]
-                    }
-                  ]
-                }
-              },
-              "required": ["SectionId", "Caption", "PKParameter", "Color", "PKRatios"]
-            }
-        }
-      },
-      "required": ["PlotSettings", "AxesSettings"]
-    },
-
-    "Sections": { "$ref": "#/definitions/sections" },
-
-    "Inputs":{
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "Project": { "$ref": "#/definitions/nonEmptyString" },
-          "Type": { "$ref": "#/definitions/buildingBlockOrSimulationType" },
-          "Name": { "$ref": "#/definitions/nonEmptyString" },
-          "SectionId": {"type": "integer"}
+          "Project": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "Simulation": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "Path": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "TargetSimulations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/nonEmptyString"
+            },
+            "minItems":1
+          }
+        },
+        "required": [
+          "Project",
+          "Simulation",
+          "Path",
+          "TargetSimulations"
+        ]
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "Projects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "Path": {
+            "type": "string",
+            "format": "regex",
+            "pattern": ".json$"
+          },
+          "BuildingBlocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Type": {
+                  "$ref": "#/definitions/buildingBlockType"
+                },
+                "Name": {
+                  "$ref": "#/definitions/nonEmptyString"
+                },
+                "Project": {
+                  "$ref": "#/definitions/nonEmptyString"
+                }
+              },
+              "required": [
+                "Type",
+                "Name",
+                "Project"
+              ]
+            }
+          },
+          "SimulationParameters": {
+            "$ref": "#/definitions/simulationParameters"
+          }
+        },
+        "required": [
+          "Id",
+          "Path"
+        ]
+      }
+    },
+    "ObservedDataSets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "Path": {
+            "type": "string",
+            "format": "regex",
+            "pattern": ".csv$"
+          },
+          "Type": {
+            "type": "string",
+            "enum": [
+              "DDIRatio",
+              "PKRatio",
+              "TimeProfile"
+            ]
+          }
+        },
+        "required": [
+          "Id",
+          "Path",
+          "Type"
+        ]
+      }
+    },
+    "Plots": {
+      "type": "object",
+      "properties": {
+        "PlotSettings": {
+          "type": "object",
+          "properties": {
+            "ChartWidth": {
+              "$ref": "#/definitions/plotSize"
+            },
+            "ChartHeight": {
+              "$ref": "#/definitions/plotSize"
+            },
+            "Fonts": {
+              "type": "object",
+              "properties": {
+                "AxisSize": {
+                  "$ref": "#/definitions/fontSize"
+                },
+                "LegendSize": {
+                  "$ref": "#/definitions/fontSize"
+                },
+                "OriginSize": {
+                  "$ref": "#/definitions/fontSize"
+                },
+                "WatermarkSize": {
+                  "$ref": "#/definitions/fontSize"
+                },
+                "FontFamilyName": {
+                  "type": "string",
+                  "enum": [
+                    "Arial",
+                    "Tahoma",
+                    "Times New Roman",
+                    "Microsoft Sans Serif"
+                  ]
+                }
+              },
+              "required": [
+                "AxisSize",
+                "LegendSize",
+                "OriginSize",
+                "FontFamilyName",
+                "WatermarkSize"
+              ]
+            }
+          },
+          "required": [
+            "ChartWidth",
+            "ChartHeight",
+            "Fonts"
+          ]
+        },
+        "AxesSettings": {
+          "type": "object",
+          "properties": {
+            "GOFMergedPlotsPredictedVsObserved": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "GOFMergedPlotsResidualsOverTime": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "ComparisonTimeProfile": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "DDIRatioPlotsPredictedVsObserved": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "DDIRatioPlotsResidualsVsObserved": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "PKRatioPlots": {
+              "$ref": "#/definitions/axesXY"
+            }
+          },
+          "required": []
+        },
+        "AllPlots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SectionId": {
+                "type": "integer"
+              },
+              "Project": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
+              "Simulation": {
+                "$ref": "#/definitions/nonEmptyString"
+              }
+            },
+            "required": [
+              "SectionId",
+              "Project",
+              "Simulation"
+            ]
+          }
+        },
+        "GOFMergedPlots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SectionId": {
+                "type": "integer"
+              },
+              "Caption": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
+              "PlotType": {
+                "type": "string",
+                "enum": [
+                  "predictedVsObserved",
+                  "residualsOverTime",
+                  "predictedVsObserved|residualsOverTime"
+                ]
+              },
+              "AxesPredictedVsObserved": {
+                "$ref": "#/definitions/axesXY"
+              },
+              "AxesResidualsOverTime": {
+                "$ref": "#/definitions/axesXY"
+              },
+              "Groups": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "Caption": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "Symbol": {
+                      "$ref": "#/definitions/symbolType"
+                    },
+                    "OutputMappings": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "Project": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "Simulation": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "Output": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "ObservedData": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "Color": {
+                            "$ref": "#/definitions/rgbColor"
+                          }
+                        },
+                        "required": [
+                          "Project",
+                          "Simulation",
+                          "Output",
+                          "ObservedData",
+                          "Color"
+                        ]
+                      }
+                    }
+                  },
+                  "required": [
+                    "Caption",
+                    "Symbol",
+                    "OutputMappings"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "SectionId",
+              "Caption",
+              "PlotType",
+              "Groups"
+            ]
+          }
+        },
+        "ComparisonTimeProfilePlots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SectionId": {
+                "type": "integer"
+              },
+              "Caption": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
+              "SimulationDuration": {
+                "$ref": "#/definitions/positiveNumber"
+              },
+              "TimeUnit": {
+                "$ref": "#/definitions/timeUnit"
+              },
+              "Axes": {
+                "$ref": "#/definitions/axesXY"
+              },
+              "OutputMappings": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "Project": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "Simulation": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "Output": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "ObservedData": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "Color": {
+                      "$ref": "#/definitions/rgbColor"
+                    },
+                    "StartTime": {
+                      "type": "number"
+                    },
+                    "TimeUnit": {
+                      "$ref": "#/definitions/timeUnit"
+                    }
+                  },
+                  "required": [
+                    "Project",
+                    "Simulation",
+                    "Output",
+                    "ObservedData",
+                    "Color",
+                    "StartTime",
+                    "TimeUnit"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "SectionId",
+              "Caption",
+              "SimulationDuration",
+              "TimeUnit",
+              "OutputMappings"
+            ]
+          }
+        },
+        "DDIRatioPlots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SectionId": {
+                "type": "integer"
+              },
+              "Caption": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
+              "PKParameter": {
+                "type": "string",
+                "enum": [
+                  "AUC",
+                  "CMAX",
+                  "AUC|CMAX"
+                ]
+              },
+              "PlotType": {
+                "type": "string",
+                "enum": [
+                  "predictedVsObserved",
+                  "residualsVsObserved",
+                  "predictedVsObserved|residualsVsObserved"
+                ]
+              },
+              "AxesPredictedVsObserved": {
+                "$ref": "#/definitions/axesXY"
+              },
+              "AxesResidualsVsObserved": {
+                "$ref": "#/definitions/axesXY"
+              },
+              "Groups": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "Caption": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "Color": {
+                      "$ref": "#/definitions/rgbColor"
+                    },
+                    "DDIRatios": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "Output": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "ObservedData": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "ObservedDataRecordId": {
+                            "type": "integer"
+                          },
+                          "SimulationControl": {
+                            "type": "object",
+                            "properties": {
+                              "Project": {
+                                "$ref": "#/definitions/nonEmptyString"
+                              },
+                              "Simulation": {
+                                "$ref": "#/definitions/nonEmptyString"
+                              },
+                              "StartTime": {
+                                "type": "number"
+                              },
+                              "EndTime": {
+                                "type": "number"
+                              },
+                              "TimeUnit": {
+                                "$ref": "#/definitions/timeUnit"
+                              }
+                            },
+                            "required": [
+                              "Project",
+                              "Simulation",
+                              "StartTime",
+                              "EndTime",
+                              "TimeUnit"
+                            ]
+                          },
+                          "SimulationDDI": {
+                            "type": "object",
+                            "properties": {
+                              "Project": {
+                                "$ref": "#/definitions/nonEmptyString"
+                              },
+                              "Simulation": {
+                                "$ref": "#/definitions/nonEmptyString"
+                              },
+                              "StartTime": {
+                                "type": "number"
+                              },
+                              "EndTime": {
+                                "type": "number"
+                              },
+                              "TimeUnit": {
+                                "$ref": "#/definitions/timeUnit"
+                              }
+                            },
+                            "required": [
+                              "Project",
+                              "Simulation",
+                              "StartTime",
+                              "EndTime",
+                              "TimeUnit"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "Output",
+                        "ObservedData",
+                        "ObservedDataRecordId",
+                        "SimulationControl",
+                        "SimulationDDI"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "Caption",
+                    "Color",
+                    "DDIRatios"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "SectionId",
+              "Caption",
+              "PKParameter",
+              "PlotType",
+              "Groups"
+            ]
+          }
+        },
+        "PKRatioPlots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SectionId": {
+                "type": "integer"
+              },
+              "Caption": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
+              "PKParameter": {
+                "type": "string",
+                "enum": [
+                  "AUC",
+                  "CL",
+                  "AUC|CL"
+                ]
+              },
+              "Color": {
+                "$ref": "#/definitions/rgbColor"
+              },
+              "Axes": {
+                "$ref": "#/definitions/axesXY"
+              },
+              "PKRatios": {
+                "type": "array",
+                "minItems": 1,
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "Output": {
+                        "$ref": "#/definitions/nonEmptyString"
+                      },
+                      "ObservedData": {
+                        "$ref": "#/definitions/nonEmptyString"
+                      },
+                      "ObservedDataRecordId": {
+                        "type": "integer"
+                      },
+                      "Project": {
+                        "$ref": "#/definitions/nonEmptyString"
+                      },
+                      "Simulation": {
+                        "$ref": "#/definitions/nonEmptyString"
+                      }
+                    },
+                    "required": [
+                      "Output",
+                      "ObservedData",
+                      "ObservedDataRecordId",
+                      "Project",
+                      "Simulation"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "SectionId",
+              "Caption",
+              "PKParameter",
+              "Color",
+              "PKRatios"
+            ]
+          }
+        }
+      },
+      "required": [
+        "PlotSettings",
+        "AxesSettings"
+      ]
+    },
+    "Sections": {
+      "$ref": "#/definitions/sections"
+    },
+    "Inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Project": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "Type": {
+            "$ref": "#/definitions/buildingBlockOrSimulationType"
+          },
+          "Name": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "SectionId": {
+            "type": "integer"
+          }
         }
       }
     }
-
   },
-  "required": ["Projects", "ObservedDataSets", "Plots", "Sections", "Inputs"]
+  "required": [
+    "Projects",
+    "ObservedDataSets",
+    "Plots",
+    "Sections",
+    "Inputs"
+  ]
 }
