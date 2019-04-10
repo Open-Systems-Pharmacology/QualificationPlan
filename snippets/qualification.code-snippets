@@ -10,6 +10,7 @@
       "\"ObservedDataSets\": [],",
       "\"Plots\": {",
       "\"AxesSettings\": {},",
+      "\"PlotSettings\": {},",
       "\"AllPlots\": [],",
       "\"GOFMergedPlots\": [],",
       "\"ComparisonTimeProfilePlots\": [],",
@@ -29,7 +30,8 @@
       "{",
       "\"Id\":  \"${1:project}\",",
       "\"Path\":  \"${1:project}/${1:project}.json\",",
-      "\"BuildingBlocks\": []",
+      "\"BuildingBlocks\": [],",
+      "\"SimulationParameters\": []",
       "}"
     ],
     "description": "Add a project reference"
@@ -45,6 +47,19 @@
       "}"
     ],
     "description": "Adds a building block reference. Useful to replace a building block in a project"
+  },
+  "addSimulationParameterRef": {
+    "scope": "json",
+    "prefix": "asp",
+    "body": [
+      "{",
+      "\"Project\": \"${1:<Enter Project Id>}\",",
+      "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
+      "\"Path\":  \"${3:<Enter Parameter Path>}\",",
+      "\"TargetSimulations\":  [\"${4:<Enter Name of Simulation to Update>}\"]",
+      "}"
+    ],
+    "description": "Adds a simulation parameter reference. Useful to replace a parameter in a simulation with a parameter from another simulation"
   },
   "addObservedDataRef": {
     "scope": "json",
