@@ -546,20 +546,10 @@
                   ]
                 }
               },
-              "required": [
-                "AxisSize",
-                "LegendSize",
-                "OriginSize",
-                "FontFamilyName",
-                "WatermarkSize"
-              ]
+              "required": []
             }
           },
-          "required": [
-            "ChartWidth",
-            "ChartHeight",
-            "Fonts"
-          ]
+          "required": []
         },
         "AxesSettings": {
           "type": "object",
