@@ -242,6 +242,16 @@
           ]
         }
       ],
+      "Parameters": [
+        {
+          "Path": "Midazolam|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "InVitro"
+          }
+        }
+      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
         "Organism|ArterialBlood|Plasma|Midazolam|Concentration in container",
@@ -348,7 +358,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Undefined\nS1\n2019-01-08 10:31"
+          "OriginText": "Midazolam\nS1\n2019-04-10 14:25"
         },
         {
           "Axes": [
@@ -408,7 +418,7 @@
             }
           ],
           "Name": "Another Chart",
-          "OriginText": "Undefined\nS1\n2019-01-08 10:31"
+          "OriginText": "Midazolam\nS1\n2019-04-10 14:25"
         }
       ]
     },
@@ -507,7 +517,7 @@
               "GridLines": true,
               "Visible": true,
               "Min": -0.8087273,
-              "Max": 18.5381165,
+              "Max": 18.53812,
               "DefaultColor": "White",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -519,8 +529,8 @@
               "Type": "Y",
               "GridLines": true,
               "Visible": true,
-              "Min": 0.0121767037,
-              "Max": 18.3302116,
+              "Min": 0.0121767,
+              "Max": 18.33021,
               "DefaultColor": "White",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
