@@ -1,0 +1,192 @@
+ID,Study,PMID,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgType,AUC Var,AUC VarUnit,AUC VarType,AUC Type,Cmax Avg,Cmax AvgUnit,Cmax AvgType,Cmax Var,Cmax VarUnit,Cmax VarType,Cmax Type,CL Avg,CL AvgUnit,CL AvgType,CL Var,CL VarUnit,CL VarType,CL Type,Comment
+82,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,mean,Amikacin,0,72,h,,,,,,,,,,,,,,,0.123,L/h/kg,mean,52,%,geoSD,CL total,Table 2
+83,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID1,Amikacin,0,72,h,,,,,,,,,,,,,,,0.053,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+84,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID2,Amikacin,0,72,h,,,,,,,,,,,,,,,0.073,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+85,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID3,Amikacin,0,72,h,,,,,,,,,,,,,,,0.095,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+86,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID4,Amikacin,0,72,h,,,,,,,,,,,,,,,0.106,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+87,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID5,Amikacin,0,72,h,,,,,,,,,,,,,,,0.118,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+88,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID6,Amikacin,0,72,h,,,,,,,,,,,,,,,0.12,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+89,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID7,Amikacin,0,72,h,,,,,,,,,,,,,,,0.127,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+90,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID8,Amikacin,0,72,h,,,,,,,,,,,,,,,0.15,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+91,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID9,Amikacin,0,72,h,,,,,,,,,,,,,,,0.181,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+92,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID7,Amikacin,0,72,h,,,,,,,,,,,,,,,0.19,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+93,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID8,Amikacin,0,72,h,,,,,,,,,,,,,,,0.196,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+94,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID9,Amikacin,0,72,h,,,,,,,,,,,,,,,0.177,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
+95,Vogelstein,https://www.ncbi.nlm.nih.gov/pubmed/874697,mean,Amikacin,0,225,min,,,,,,,,,,,,,,,2.49,mL/kg/min,arith. Mean,0.75,mL/kg/min,arith. SD,CL total,Table 1
+96,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID1,Amikacin,0,225,min,,,,,,,,,,,,,,,1.74,mL/kg/min,individual,,,,CL total,Table 1
+97,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID2,Amikacin,0,225,min,,,,,,,,,,,,,,,1.44,mL/kg/min,individual,,,,CL total,Table 1
+98,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID3,Amikacin,0,225,min,,,,,,,,,,,,,,,2.56,mL/kg/min,individual,,,,CL total,Table 1
+99,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID4,Amikacin,0,225,min,,,,,,,,,,,,,,,1.35,mL/kg/min,individual,,,,CL total,Table 1
+100,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID5,Amikacin,0,225,min,,,,,,,,,,,,,,,2.64,mL/kg/min,individual,,,,CL total,Table 1
+101,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID6,Amikacin,0,225,min,,,,,,,,,,,,,,,2.19,mL/kg/min,individual,,,,CL total,Table 1
+102,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID7,Amikacin,0,225,min,,,,,,,,,,,,,,,4.22,mL/kg/min,individual,,,,CL total,Table 1
+103,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID8,Amikacin,0,225,min,,,,,,,,,,,,,,,2.63,mL/kg/min,individual,,,,CL total,Table 1
+104,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID9,Amikacin,0,225,min,,,,,,,,,,,,,,,4.26,mL/kg/min,individual,,,,CL total,Table 1
+105,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID10,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/kg/min,individual,,,,CL total,Table 1
+106,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID11,Amikacin,0,225,min,,,,,,,,,,,,,,,1.91,mL/kg/min,individual,,,,CL total,Table 1
+107,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID12,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/kg/min,individual,,,,CL total,Table 1
+108,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID13,Amikacin,0,225,min,,,,,,,,,,,,,,,2.23,mL/kg/min,individual,,,,CL total,Table 1
+109,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID14,Amikacin,0,225,min,,,,,,,,,,,,,,,2.58,mL/kg/min,individual,,,,CL total,Table 1
+110,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID15,Amikacin,0,225,min,,,,,,,,,,,,,,,2.86,mL/kg/min,individual,,,,CL total,Table 1
+111,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID16,Amikacin,0,225,min,,,,,,,,,,,,,,,2.88,mL/kg/min,individual,,,,CL total,Table 1
+112,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID17,Amikacin,0,225,min,,,,,,,,,,,,,,,3.31,mL/kg/min,individual,,,,CL total,Table 1
+113,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID18,Amikacin,0,225,min,,,,,,,,,,,,,,,1.88,mL/kg/min,individual,,,,CL total,Table 1
+114,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID19,Amikacin,0,225,min,,,,,,,,,,,,,,,2.06,mL/kg/min,individual,,,,CL total,Table 1
+115,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID20,Amikacin,0,225,min,,,,,,,,,,,,,,,2.47,mL/kg/min,individual,,,,CL total,Table 1
+116,Belfayol 1996,https://www.ncbi.nlm.nih.gov/pubmed/11866842,mean,Amikacin,0,24,h,,,,,,,,,,,,,,,56.3,mL/min,arith. Mean,33.8,mL/min,arith. SD,CL total,Table 1
+117,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 0.5g,vancomycin,0,720,min,,,,,,,,,,,,,,,94.5,mL/min,arith. Mean,15.9,mL/min,arith. SD,CL total,Table 1
+118,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 1g,vancomycin,0,720,min,,,,,,,,,,,,,,,96.5,mL/min,arith. Mean,18.1,mL/min,arith. SD,CL total,Table 1
+119,Healy 1987,https://www.ncbi.nlm.nih.gov/pubmed/3579256,mean 0.5g,vancomycin,0,61.00335,h,,,,,,,,,,,,,,,84.8,mL/min/1.73m2,arith. Mean,11.5,mL/min/1.73m2,arith. SD,CL total,At steady state (Table 1)
+120,Healy 1987,https://www.ncbi.nlm.nih.gov/pubmed/3579256,mean 1g,vancomycin,0,61.28713,h,,,,,,,,,,,,,,,86.1,mL/min/1.73m2,arith. Mean,8.9,mL/min/1.73m2,arith. SD,CL total,At steady state (Table 2)
+121,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 1,vancomycin,0,6.5,h,,,,,,,,,,,,,,,30,mL/min/1.73m2,arith. Mean,,,,,
+122,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 2,vancomycin,0,7,h,,,,,,,,,,,,,,,50,mL/min/1.73m2,arith. Mean,,,,,
+123,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 3,vancomycin,0,7,h,,,,,,,,,,,,,,,81,mL/min/1.73m2,arith. Mean,,,,,
+124,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 4,vancomycin,0,7,h,,,,,,,,,,,,,,,163,mL/min/1.73m2,arith. Mean,,,,,
+125,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 5,vancomycin,0,7,h,,,,,,,,,,,,,,,131,mL/min/1.73m2,arith. Mean,,,,,
+126,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 6,vancomycin,0,8,h,,,,,,,,,,,,,,,134,mL/min/1.73m2,arith. Mean,,,,,
+127,Bovill 1984,https://www.ncbi.nlm.nih.gov/pubmed/6238552,mean,Sufentanil,0,8,h,,,,,,,,,,,,,,,12.66,mL/kg/min,arith. Mean,0.78,mL/kg/min,arith. SEM,CL total,Table 3
+128,Willsie 2015,https://www.ncbi.nlm.nih.gov/pubmed/25544247,mean,Sufentanil,0,1440,min,273.8,h*pg/mL,arith. Mean,61.1,h*pg/mL,arith. SD,AUC_inf,,,,,,,,,,,,,,,
+129,Davis 1987,https://www.ncbi.nlm.nih.gov/pubmed/2950809,mean,Sufentanil,0,120,min,,,,,,,,,,,,,,,27.5,mL/kg/min,arith. Mean,9.3,mL/kg/min,arith. Mean,CL total,"Table 3, last samples taken 120 OR until the initiation of cardiopulmonary bypass"
+130,Davis 1987,https://www.ncbi.nlm.nih.gov/pubmed/2950809,mean,Sufentanil,0,120,min,,,,,,,,,,,,,,,18.1,mL/kg/min,individual,10.7,mL/kg/min,arith. Mean,CL total,Table 3
+131,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID1,Sufentanil,0,360,min,,,,,,,,,,,,,,,17.9,mL/kg/min,individual,,,,,t_end is time to reach limit of quanititation after dose
+132,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID2,Sufentanil,0,60,min,,,,,,,,,,,,,,,40.6,mL/kg/min,individual,,,,,
+133,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID3,Sufentanil,0,240,min,,,,,,,,,,,,,,,39.7,mL/kg/min,individual,,,,,
+134,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID4,Sufentanil,0,240,min,,,,,,,,,,,,,,,34,mL/kg/min,individual,,,,,
+135,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID5,Sufentanil,0,300,min,,,,,,,,,,,,,,,29.7,mL/kg/min,individual,,,,,
+136,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID6,Sufentanil,0,120,min,,,,,,,,,,,,,,,29.7,mL/kg/min,individual,,,,,
+137,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID7,Sufentanil,0,420,min,,,,,,,,,,,,,,,19.5,mL/kg/min,individual,,,,,
+138,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID8,Sufentanil,0,240,min,,,,,,,,,,,,,,,44.9,mL/kg/min,individual,,,,,
+139,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID9,Sufentanil,0,120,min,,,,,,,,,,,,,,,44.7,mL/kg/min,individual,,,,,
+140,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID10,Sufentanil,0,240,min,,,,,,,,,,,,,,,36.1,mL/kg/min,individual,,,,,
+141,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID11,Sufentanil,0,420,min,,,,,,,,,,,,,,,23.1,mL/kg/min,individual,,,,,
+142,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID12,Sufentanil,0,240,min,,,,,,,,,,,,,,,26.5,mL/kg/min,individual,,,,,
+143,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID13,Sufentanil,0,420,min,,,,,,,,,,,,,,,18.2,mL/kg/min,individual,,,,,
+144,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID14,Sufentanil,0,420,min,,,,,,,,,,,,,,,19.1,mL/kg/min,individual,,,,,
+145,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID15,Sufentanil,0,180,min,,,,,,,,,,,,,,,23.6,mL/kg/min,individual,,,,,
+146,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID16,Sufentanil,0,240,min,,,,,,,,,,,,,,,25.9,mL/kg/min,individual,,,,,
+147,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID17,Sufentanil,0,180,min,,,,,,,,,,,,,,,32.9,mL/kg/min,individual,,,,,
+148,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID18,Sufentanil,0,180,min,,,,,,,,,,,,,,,28,mL/kg/min,individual,,,,,
+149,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID19,Sufentanil,0,240,min,,,,,,,,,,,,,,,40.1,mL/kg/min,individual,,,,,
+150,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID20,Sufentanil,0,180,min,,,,,,,,,,,,,,,35.2,mL/kg/min,individual,,,,,
+151,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I1,Alfentanil,0,60,min,21.1,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+152,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I2,Alfentanil,0,60,min,14,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+153,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I3,Alfentanil,0,60,min,19.8,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+154,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I4,Alfentanil,0,60,min,18.5,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+155,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I5,Alfentanil,0,60,min,15.9,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+157,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,C1,Alfentanil,0,60,min,12.4,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+158,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,C2,Alfentanil,0,60,min,24.3,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+159,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,C3,Alfentanil,0,60,min,11.3,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+160,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,C4,Alfentanil,0,60,min,18.6,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+161,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,C5,Alfentanil,0,60,min,20.7,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+162,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,C6,Alfentanil,0,60,min,22.7,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
+163,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID1,Alfentanil,0,360,min,,,,,,,,,,,,,,,3.4,mg/min/kg,individual,,,,,
+164,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID2,Alfentanil,0,360,min,,,,,,,,,,,,,,,5.9,mg/min/kg,individual,,,,,
+165,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID3,Alfentanil,0,360,min,,,,,,,,,,,,,,,8.3,mg/min/kg,individual,,,,,
+166,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID4,Alfentanil,0,360,min,,,,,,,,,,,,,,,4.6,mg/min/kg,individual,,,,,
+167,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603 ,ID5,Alfentanil,0,360,min,,,,,,,,,,,,,,,3.7,mg/min/kg,individual,,,,,
+168,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID6,Alfentanil,0,360,min,,,,,,,,,,,,,,,4.8,mg/min/kg,individual,,,,,
+169,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID7,Alfentanil,0,360,min,,,,,,,,,,,,,,,4.4,mg/min/kg,individual,,,,,
+170,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID8,Alfentanil,0,360,min,,,,,,,,,,,,,,,2.7,mg/min/kg,individual,,,,,
+171,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,mean child,Alfentanil,0,360,min,,,,,,,,,,,,,,,4.7,mg/min/kg,arith. Mean,0.6,mg/min/kg,arith. SD,CL total,
+172,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID9,Alfentanil,0,360,min,,,,,,,,,,,,,,,7.2,mg/min/kg,individual,,,,,
+173,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID10,Alfentanil,0,360,min,,,,,,,,,,,,,,,3.9,mg/min/kg,individual,,,,,
+174,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID11,Alfentanil,0,360,min,,,,,,,,,,,,,,,2.7,mg/min/kg,individual,,,,,
+175,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID12,Alfentanil,0,360,min,,,,,,,,,,,,,,,3.9,mg/min/kg,individual,,,,,
+176,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,ID13,Alfentanil,0,360,min,,,,,,,,,,,,,,,3.3,mg/min/kg,individual,,,,,
+177,Meistelman 1987,https://www.ncbi.nlm.nih.gov/pubmed/3099603,mean adult,Alfentanil,0,360,min,,,,,,,,,,,,,,,4.2,mg/min/kg,arith. Mean,1.7,mg/min/kg,arith. SD,CL total,
+178,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID1,Alfentanil,0,360,min,5543,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+179,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID2,Alfentanil,0,360,min,4609,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+180,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID3,Alfentanil,0,360,min,5753,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+181,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID4,Alfentanil,0,360,min,8086,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+182,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID5,Alfentanil,0,360,min,6923,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+183,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID6,Alfentanil,0,360,min,6736,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+184,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID7,Alfentanil,0,360,min,6089,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+185,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID8,Alfentanil,0,360,min,5702,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+186,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID9,Alfentanil,0,360,min,6972,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+187,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID10,Alfentanil,0,360,min,9343,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+188,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID11,Alfentanil,0,360,min,4837,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+189,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID12,Alfentanil,0,360,min,5492,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+190,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID13,Alfentanil,0,360,min,9100,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+191,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID14,Alfentanil,0,360,min,14704,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+192,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID15,Alfentanil,0,360,min,11003,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+193,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID16,Alfentanil,0,360,min,17707,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+194,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID17,Alfentanil,0,360,min,140909,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+195,Goresky 1987,https://www.ncbi.nlm.nih.gov/pubmed/3118743,ID18,Alfentanil,0,360,min,21587,mL*min/kg,individual,,,,,,,,,,,,,,,,,,,
+197,Abdel-Rahman 2007,https://www.ncbi.nlm.nih.gov/pubmed/17517842,6m-2y,Itraconazole,0,24,h,2121,ng*h/mL,arith. Mean,1231,ng*h/mL,arith. SD,AUC_tau,827,ng/mL,arith. mean,859,ng/mL,arith. SD,Cmax_total,1143,mL/h/kg,arith. Mean,513,mL/h/kg,arith. Mean,CL total,
+198,Abdel-Rahman 2007,https://www.ncbi.nlm.nih.gov/pubmed/17517842,2-6y,Itraconazole,0,24,h,9510,ng*h/mL,arith. Mean,11316,ng*h/mL,arith. SD,AUC_tau,1553,ng/mL,arith. mean,918,ng/mL,arith. SD,Cmax_total,529,mL/h/kg,arith. Mean,611,mL/h/kg,arith. Mean,CL total,
+199,Abdel-Rahman 2007,https://www.ncbi.nlm.nih.gov/pubmed/17517842,6-12y,Itraconazole,0,24,h,3765,ng*h/mL,arith. Mean,1711,ng*h/mL,arith. SD,AUC_tau,785,ng/mL,arith. mean,301,ng/mL,arith. SD,Cmax_total,621,mL/h/kg,arith. Mean,340,mL/h/kg,arith. Mean,CL total,
+200,Abdel-Rahman 2007,https://www.ncbi.nlm.nih.gov/pubmed/17517842,12-16y,Itraconazole,0,24,h,2669,ng*h/mL,arith. Mean,1076,ng*h/mL,arith. SD,AUC_tau,806,ng/mL,arith. mean,381,ng/mL,arith. SD,Cmax_total,777,mL/h/kg,arith. Mean,455,mL/h/kg,arith. Mean,CL total,
+201,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,3-9 days,Digoxin,0,24,h,,,,,,,,,,,,,,,1.8,mL/min/kg,arith. Mean,,,,CL total,
+202,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,1.3-11months,Digoxin,0,24,h,,,,,,,,,,,,,,,10.7,mL/min/kg,arith. Mean,,,,CL total,
+203,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,2-5years,Digoxin,0,24,h,,,,,,,,,,,,,,,5.8,mL/min/kg,arith. Mean,,,,CL total,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ÎD1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+201,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+202,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+203,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,school children+adolescents,Digoxin,0,12,h,4387.2,ng/mL*h,arith. Mean,1485.1,ng/mL*h,arith. SD,AUC_tau_ss (14d),,,,,,,,0.384,1/h,geo.Mean,0.012,1/h,geoSD,CL/F total,
+204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID1,Digoxin,,,,,,,,,,,,,,,,,,,,,,,,,
+205,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID2,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+206,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID3,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+207,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID4,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+208,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID5,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+209,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID6,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+210,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID7,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+211,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID8,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+212,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID9,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+213,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID10,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+214,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID11,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+215,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID12,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+216,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID13,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+217,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID14,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+218,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID15,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+219,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID16,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+220,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID17,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+221,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID18,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+222,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID19,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+223,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID20,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+224,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID21,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+225,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID22,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+226,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID23,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+227,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID24,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+228,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID25,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+229,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID26,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+230,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID27,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+231,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID28,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+232,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID29,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+233,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID30,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+234,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID31,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+235,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID32,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+236,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID33,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+237,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID34,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+238,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID35,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+239,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID36,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+240,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID37,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+241,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID38,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+242,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID39,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+243,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID40,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+244,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID41,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+245,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID42,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+246,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID43,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+247,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID44,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+248,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID45,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+249,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID46,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+250,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID47,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+251,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID48,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+252,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID49,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
+253,Kearns 2008,https://www.ncbi.nlm.nih.gov/pubmed/18296556,ID50,Montelukast,,,,,,,,,,,,,,,,,,,,,,,,,
