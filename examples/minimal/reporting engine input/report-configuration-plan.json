@@ -104,7 +104,7 @@
               {
                 "Project": "Midazolam",
                 "Simulation": "S1",
-                "Output": "PeripheralVenousBlood|Whole Blood|Midazolam",
+                "Output": "Organism|ArterialBlood|Midazolam|Whole Blood",
                 "ObservedData": "Midazolam 600mg SD",
                 "Color": "#FF0000"
               }
