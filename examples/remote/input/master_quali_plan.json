@@ -12,7 +12,7 @@
         {
           "Type": "Individual",
           "Name": "Ind",
-          "Project": "Midazolam"
+          "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/examples/minimal/input/Midazolam/Midazolam.json"
         }
       ],
       "SimulationParameters": [
