@@ -1,0 +1,159 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Midazolam",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/examples/minimal/input/Midazolam/Midazolam.json"
+    },
+    {
+      "Id": "Itraconazole",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/examples/minimal/input/Itraconazole/Itraconazole.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "Ind",
+          "Project": "Midazolam"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "S1",
+          "Path": "Midazolam|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
+          "TargetSimulations": ["S1"]
+        }
+      ]
+    }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "DDI_Ratio_CYP3A4",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/examples/minimal/input/DDI_Ratio_CYP3A4.csv",
+      "Type": "DDIRatio"
+    }
+  ],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AxesSettings": {
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "µg/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ]
+    },
+    "AllPlots": [
+      {
+        "Project": "Itraconazole",
+        "Simulation": "S1",
+        "SectionId": 2
+      },
+      {
+        "Project": "Midazolam",
+        "Simulation": "S2",
+        "SectionId": 3
+      }
+    ],
+    "GOFMergedPlots": [
+      {
+        "Caption": "Midazolam concentration in plasma/blood",
+        "PlotType": "predictedVsObserved|residualsOverTime",
+        "SectionId": 1,
+        "PlotSettings": {
+          "ChartWidth": 300,
+          "ChartHeight": 300,
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 10,
+            "OriginSize": 10,
+            "WatermarkSize": 40
+          }
+        },
+        "Groups": [
+          {
+            "Caption": "Midazolam iv",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Midazolam",
+                "Simulation": "S1",
+                "Output": "Organism|ArterialBlood|Midazolam|Whole Blood",
+                "ObservedData": "Midazolam 600mg SD",
+                "Color": "#FF0000"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Inputs": [
+    {
+      "Project": "Midazolam",
+      "Type": "Compound",
+      "Name": "Midazolam",
+      "SectionId": 1
+    },
+    {
+      "Project": "Midazolam",
+      "Type": "Simulation",
+      "Name": "S1",
+      "SectionId": 2
+    }
+  ],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Chapter 1",
+      "Content": "/Content/Section1.md"
+    },
+    {
+      "Id": 2,
+      "Title": "Chapter 2",
+      "Content": "/Content/Section2.md",
+      "Sections": [
+        {
+          "Id": 3,
+          "Title": "Chapter 2.1",
+          "Content": "/Content/Section2.1.md"
+        }
+      ]
+    }
+  ]
+}
