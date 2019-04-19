@@ -420,7 +420,7 @@
             "items": {
               "$ref": "#/definitions/nonEmptyString"
             },
-            "minItems":1
+            "minItems": 1
           }
         },
         "required": [
@@ -452,21 +452,43 @@
             "type": "array",
             "items": {
               "type": "object",
-              "properties": {
-                "Type": {
-                  "$ref": "#/definitions/buildingBlockType"
+              "oneOf": [
+                {
+                  "properties": {
+                    "Type": {
+                      "$ref": "#/definitions/buildingBlockType"
+                    },
+                    "Name": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "Project": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    }
+                  },
+                  "required": [
+                    "Type",
+                    "Name",
+                    "Project"
+                  ]
                 },
-                "Name": {
-                  "$ref": "#/definitions/nonEmptyString"
-                },
-                "Project": {
-                  "$ref": "#/definitions/nonEmptyString"
+                {
+                  "properties": {
+                    "Type": {
+                      "$ref": "#/definitions/buildingBlockType"
+                    },
+                    "Name": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
+                    "Path": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    }
+                  },
+                  "required": [
+                    "Type",
+                    "Name",
+                    "Path"
+                  ]
                 }
-              },
-              "required": [
-                "Type",
-                "Name",
-                "Project"
               ]
             }
           },
