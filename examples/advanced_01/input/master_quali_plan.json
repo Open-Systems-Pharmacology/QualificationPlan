@@ -962,6 +962,7 @@
           {
             "Caption": "Itra+Mida (Mida iv)",
             "Color": "#FF0000",
+            "Symbol": "Circle",
             "DDIRatios": [
               {
               "Output": "PeripheralVenousBlood|Plasma|Midazolam",
@@ -987,6 +988,7 @@
           {
             "Caption": "Itra+Mida (Mida po)",
             "Color": "#FF0000",
+            "Symbol": "Circle",
             "DDIRatios": [
               {
                 "Project": "Midazolam_Itraconazole_DDI",

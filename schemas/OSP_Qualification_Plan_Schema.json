@@ -420,7 +420,7 @@
             "items": {
               "$ref": "#/definitions/nonEmptyString"
             },
-            "minItems":1
+            "minItems": 1
           }
         },
         "required": [
@@ -795,6 +795,9 @@
                     },
                     "Color": {
                       "$ref": "#/definitions/rgbColor"
+                    },
+                    "Symbol": {
+                      "$ref": "#/definitions/symbolType"
                     },
                     "DDIRatios": {
                       "type": "array",
