@@ -253,6 +253,7 @@
       "{",
       "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
       "\"Color\":  \"${2:#FF0000}\",",
+      "\"Symbol\":  \"${3}\",",
       "\"DDIRatios\":  []",
       "}"
     ],
