@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Theophylline",
+      "Path": "Theo/Theo.json"
+    }
+  ],
+  "ObservedDataSets": [],
+  "Plots": {
+    "PlotSettings": {},
+    "AxesSettings": {},
+    "AllPlots": [
+      {
+        "Project": "Theophylline",
+        "Simulation": "S1",
+        "SectionId": 1
+      }
+    ]
+  },
+  "Inputs": [],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Chapter 1",
+      "Content": "/Content/Section1.md"
+    }
+  ]
+}
