@@ -1,0 +1,1154 @@
+{
+  "Version": 75,
+  "Individuals": [
+    {
+      "Name": "Man",
+      "Seed": 5217250,
+      "OriginData": {
+        "CalculationMethods": [
+          "Body surface area - Mosteller",
+          "SurfaceAreaPlsInt_VAR1"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.2035575247
+            },
+            {
+              "Name": "Brain",
+              "Value": 0.1089700115
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.1025641122
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.1612521561
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.1853778279
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.1242615711
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.0623084644
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1434071905
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.1167268851
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.1164106218
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0931195743
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.1699264566
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.1047213424
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.1699264566
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.1699264566
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.1699264566
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.1699264566
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.1699264566
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.1047213424
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.1047213424
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.1047213424
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.1047213424
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          }
+        }
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "POP_10",
+      "Seed": 13086796,
+      "Settings": {
+        "NumberOfIndividuals": 10,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 0.0,
+          "Max": 100.0,
+          "Unit": "year(s)"
+        },
+        "Individual": {
+          "Name": "Man",
+          "Seed": 5217250,
+          "OriginData": {
+            "CalculationMethods": [
+              "Body surface area - Mosteller",
+              "SurfaceAreaPlsInt_VAR1"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "CYP1A2",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Bone",
+                  "Value": 0.2035575247
+                },
+                {
+                  "Name": "Brain",
+                  "Value": 0.1089700115
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.1025641122
+                },
+                {
+                  "Name": "Heart",
+                  "Value": 0.1612521561
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.1853778279
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.1242615711
+                },
+                {
+                  "Name": "Muscle",
+                  "Value": 0.0623084644
+                },
+                {
+                  "Name": "Pancreas",
+                  "Value": 0.1434071905
+                },
+                {
+                  "Name": "Skin",
+                  "Value": 0.1167268851
+                },
+                {
+                  "Name": "Spleen",
+                  "Value": 0.1164106218
+                },
+                {
+                  "Name": "Stomach",
+                  "Value": 0.0931195743
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.1699264566
+                },
+                {
+                  "Name": "LargeIntestine",
+                  "Value": 0.1047213424
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.1699264566
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.1699264566
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.1699264566
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.1699264566
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.1699264566
+                },
+                {
+                  "Name": "ColonAscendens",
+                  "Value": 0.1047213424
+                },
+                {
+                  "Name": "ColonTransversum",
+                  "Value": 0.1047213424
+                },
+                {
+                  "Name": "ColonDescendens",
+                  "Value": 0.1047213424
+                },
+                {
+                  "Name": "ColonSigmoid",
+                  "Value": 0.1047213424
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP1A2"
+              }
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP1A2|Reference concentration",
+          "Seed": 13087187,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.8,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2|t1/2 (liver)",
+          "Seed": 13087187,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 39.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 24.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Theophylline",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement logMA",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.89,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Thelen K, Coboeken K, Willmann S, et al. Evolution of a detailed physiological model to simulate the gastrointestinal transit and absorption process in humans, Part 1:Oral solutions. J Pharm Sci. 2011 Dec;100(12):5324-45"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.44,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Thelen K, Coboeken K, Willmann S, et al. Evolution of a detailed physiological model to simulate the gastrointestinal transit and absorption process in humans, Part 1:Oral solutions. J Pharm Sci. 2011 Dec;100(12):5324-45"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 14300.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Thelen K, Coboeken K, Willmann S, et al. Evolution of a detailed physiological model to simulate the gastrointestinal transit and absorption process in humans, Part 1:Oral solutions. J Pharm Sci. 2011 Dec;100(12):5324-45"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Thelen K, Coboeken K, Willmann S, et al. Evolution of a detailed physiological model to simulate the gastrointestinal transit and absorption process in humans, Part 1:Oral solutions. J Pharm Sci. 2011 Dec;100(12):5324-45"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 8.8
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_FirstOrder",
+          "DataSource": "adjusted",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.00843,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ManualFit",
+                "Description": "adjusted to match IV Kaumeier data"
+              }
+            }
+          ],
+          "Description": "Metabolic enzyme activity is described as first order process. Specific clearance is calculated from specific rates determined in an in vitro assay.\r\n\r\nadjusted to match IV Kaumeier data"
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.15
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 180.17,
+          "Unit": "g/mol"
+        }
+      ],
+      "Description": "Version 1.1"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "IV 100 mg",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 100.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 4.0,
+          "Unit": "min"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "S1",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Human.Plasma.IV.Subj 1",
+        "Human.Plasma.IV.Subj 2",
+        "Human.Plasma.IV.Subj 3"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|IV 100 mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 4.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|Bone|Intracellular|Theophylline|Concentration in container",
+        "Organism|Brain|Interstitial|Theophylline|Concentration in container"
+      ],
+      "Population": "POP_10",
+      "Compounds": [
+        {
+          "Name": "Theophylline",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-adjusted",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV 100 mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-S1-Theophylline-Organism-Intracellular-Bone",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "mg/ml",
+                "QuantityPath": "Organism|Bone|Intracellular|Theophylline|Concentration in container",
+                "QuantityType": "Drug, Observer",
+                "Color": "Black",
+                "Area": "DataArea"
+              },
+              {
+                "Name": "Concentration-S1-Theophylline-Organism-Interstitial-Brain",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|Brain|Interstitial|Theophylline|Concentration in container",
+                "QuantityType": "Drug, Observer",
+                "Color": "Red",
+                "Area": "DataArea",
+                "Index": 1
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Dash"
+              },
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Dot"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "DashDot"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Human.Plasma.IV.Subj 1",
+              "Human.Plasma.IV.Subj 2",
+              "Human.Plasma.IV.Subj 3"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Human.Plasma.PO.Subj 1-Theophylline-Peripheral Venous Blood-Plasma-Subj 1 ",
+                "Path": "Human.Plasma.PO.Subj 1|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 1 ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Human.Plasma.IV.Subj 2-Theophylline-Peripheral Venous Blood-Plasma-Subj 2 ",
+                "Path": "Human.Plasma.IV.Subj 2|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 2 ",
+                "CurveOptions": {
+                  "Color": "Red",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Human.Plasma.IV.Subj 3-Theophylline-Peripheral Venous Blood-Plasma-Subj 3 ",
+                "Path": "Human.Plasma.IV.Subj 3|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 3 ",
+                "CurveOptions": {
+                  "Color": "Blue",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [
+            {
+              "AutoRange": false
+            },
+            {
+              "AutoRange": false
+            }
+          ],
+          "Name": "Analysis_1",
+          "OriginText": "Theophylline_PopDummy\nS1\n2019-04-25 18:31"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Theophylline-Organism-Intracellular-Bone",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "mg/ml",
+                "QuantityPath": "Organism|Bone|Intracellular|Theophylline|Concentration in container",
+                "QuantityType": "Drug, Observer",
+                "Color": "Black",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Dash"
+              },
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Dot"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "DashDot"
+              },
+              {
+                "Id": "Min",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Max",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Median",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range95",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_10",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_25",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_30",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_37",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_50",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_63",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_70",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_75",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Percentile_90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Human.Plasma.IV.Subj 1",
+              "Human.Plasma.IV.Subj 2",
+              "Human.Plasma.IV.Subj 3"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Human.Plasma.PO.Subj 1-Theophylline-Peripheral Venous Blood-Plasma-Subj 1 ",
+                "Path": "Human.Plasma.PO.Subj 1|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 1 ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Human.Plasma.IV.Subj 2-Theophylline-Peripheral Venous Blood-Plasma-Subj 2 ",
+                "Path": "Human.Plasma.IV.Subj 2|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 2 ",
+                "CurveOptions": {
+                  "Color": "Red",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Human.Plasma.IV.Subj 3-Theophylline-Peripheral Venous Blood-Plasma-Subj 3 ",
+                "Path": "Human.Plasma.IV.Subj 3|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 3 ",
+                "CurveOptions": {
+                  "Color": "Blue",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [
+            {
+              "AutoRange": false
+            },
+            {
+              "AutoRange": false
+            }
+          ],
+          "Name": "Analysis_2",
+          "OriginText": "Theophylline_PopDummy\nS1\n2019-04-25 18:31"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Human.Plasma.IV.Subj 3",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\SVN\\SBSuites\\pk-sim\\branches\\6.2\\Tests\\TestProjects\\PISA\\experimental data.xlsx.Kaumeier1984 208mg IV"
+        },
+        {
+          "Name": "File",
+          "Value": "experimental data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Kaumeier1984 208mg IV"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Theophylline"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Kaumeier 1984"
+        },
+        {
+          "Name": "Gender",
+          "Value": "Female"
+        },
+        {
+          "Name": "Dose",
+          "Value": "208 mg"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Subj 3"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Subj 3 ",
+          "QuantityInfo": {
+            "Name": "Subj 3 ",
+            "Path": "Human.Plasma.IV.Subj 3|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 3 "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-05-23T15:36:21.9789334+02:00",
+            "Source": "experimental data.Kaumeier1984 208mg IV.10.Subj 3 [mg/L]",
+            "MolWeight": 180.17,
+            "LLOQ": 2E-07
+          },
+          "Values": [
+            11.17,
+            7.89000034,
+            5.72,
+            5.5,
+            5.06,
+            4.87,
+            4.31,
+            4.18,
+            3.77,
+            3.91999984,
+            3.78,
+            2.67,
+            1.79000008,
+            1.2299999,
+            0.365,
+            0.1
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Human.Plasma.IV.Subj 3|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-05-23T15:36:21.9789334+02:00",
+          "Source": "experimental data.Kaumeier1984 208mg IV.10.Time [h]"
+        },
+        "Values": [
+          0.03,
+          0.0800000057,
+          0.17,
+          0.25,
+          0.329999983,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Human.Plasma.IV.Subj 2",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\SVN\\SBSuites\\pk-sim\\branches\\6.2\\Tests\\TestProjects\\PISA\\experimental data.xlsx.Kaumeier1984 208mg IV"
+        },
+        {
+          "Name": "File",
+          "Value": "experimental data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Kaumeier1984 208mg IV"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Theophylline"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Kaumeier 1984"
+        },
+        {
+          "Name": "Gender",
+          "Value": "Male"
+        },
+        {
+          "Name": "Dose",
+          "Value": "208 mg"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Subj 2"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Subj 2 ",
+          "QuantityInfo": {
+            "Name": "Subj 2 ",
+            "Path": "Human.Plasma.IV.Subj 2|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 2 "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-05-23T15:36:21.9789334+02:00",
+            "Source": "experimental data.Kaumeier1984 208mg IV.9.Subj 2 [mg/L]",
+            "MolWeight": 180.17,
+            "LLOQ": 2E-07
+          },
+          "Values": [
+            9.26,
+            7.59,
+            7.75999975,
+            6.54999971,
+            6.15,
+            6.06,
+            5.37,
+            5.52,
+            5.33,
+            5.48,
+            5.8300004,
+            4.25,
+            3.42,
+            2.59,
+            1.51,
+            0.1
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Human.Plasma.IV.Subj 2|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-05-23T15:36:21.9789334+02:00",
+          "Source": "experimental data.Kaumeier1984 208mg IV.9.Time [h]"
+        },
+        "Values": [
+          0.03,
+          0.0800000057,
+          0.17,
+          0.25,
+          0.329999983,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Human.Plasma.IV.Subj 1",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\SVN\\SBSuites\\pk-sim\\branches\\6.2\\Tests\\TestProjects\\PISA\\experimental data.xlsx.Kaumeier1984 208mg IV"
+        },
+        {
+          "Name": "File",
+          "Value": "experimental data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Kaumeier1984 208mg IV"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Theophylline"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Kaumeier 1984"
+        },
+        {
+          "Name": "Gender",
+          "Value": "Male"
+        },
+        {
+          "Name": "Dose",
+          "Value": "208 mg"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Subj 1"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Subj 1 ",
+          "QuantityInfo": {
+            "Name": "Subj 1 ",
+            "Path": "Human.Plasma.PO.Subj 1|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 1 "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-05-23T15:36:21.9789334+02:00",
+            "Source": "experimental data.Kaumeier1984 208mg IV.8.Subj 1 [mg/L]",
+            "MolWeight": 180.17,
+            "LLOQ": 2E-07
+          },
+          "Values": [
+            9.71,
+            6.98,
+            5.72,
+            5.81999969,
+            5.2,
+            4.75,
+            5.0,
+            4.93000031,
+            4.6,
+            4.96,
+            5.23,
+            4.17,
+            3.59,
+            2.58,
+            2.25,
+            0.1
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Human.Plasma.PO.Subj 1|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-05-23T15:36:21.9789334+02:00",
+          "Source": "experimental data.Kaumeier1984 208mg IV.8.Time [h]"
+        },
+        "Values": [
+          0.03,
+          0.0800000057,
+          0.17,
+          0.25,
+          0.329999983,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
