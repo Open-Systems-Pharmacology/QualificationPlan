@@ -405,23 +405,44 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Templeton 08) sol fast",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Templeton_08_PO_MD_100mg_day1_Itra|Templeton_08_PO_MD_100mg_day7_Itra",
+                "ObservedData": "Templeton_08_PO_MD_100mg_day1_Itra",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg QD (Templeton 08) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "Templeton_08_PO_MD_100mg_day7_Itra",
                 "Color": "#FF0000"
               },
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD (vanDeVelde 96) sol fast",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Velde_et_al-1996.Itra.100mg_solution fasted|van Peer_1989.100mg_SD.Solution fasted",
+                "ObservedData": "Velde_et_al-1996.Itra.100mg_solution fasted",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg SD (vanDeVelde 96) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "van Peer_1989.100mg_SD.Solution fasted",
                 "Color": "#FF0000"
               },
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg QD (Barone 1998a) sol fast",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted|Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted",
+                "ObservedData": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fasted",
                 "Color": "#FF0000"
-              }
+              },
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 200 mg QD (Barone 1998a) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fasted",
+                "Color": "#FF0000"
+              }              
             ]
           },
           {
@@ -432,14 +453,28 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD (vanDeVelde 96) sol fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Velde_et_al-1996.Itra.100mg_solution fed|Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)",
+                "ObservedData": "Velde_et_al-1996.Itra.100mg_solution fed",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg SD (vanDeVelde 96) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)",
+                "Color": "#FF0000"
+              },
+             {
+                "Project": "Itraconazole",
+                "Simulation": "po 200 mg QD (Barone 98a) sol fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed",
                 "Color": "#FF0000"
               },
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg QD (Barone 98a) sol fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Barone_et_al-1998a.Itra_Day1.200mg_OD_solution fed|Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed",
+                "ObservedData": "Barone_et_al-1998a.Itra_Day15.200mg_OD_solution fed",
                 "Color": "#FF0000"
               },
               {
@@ -486,9 +521,23 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Hardin 88) caps fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Hardin_88_PO_100mg_QD_day1_Itra|Hardin_88_PO_100mg_QD_day15_Itra|Hardin_88_Ctrough.100mg",
+                "ObservedData": "Hardin_88_PO_100mg_QD_day1_Itra",
                 "Color": "#FF0000"
               },
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg QD (Hardin 88) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "Hardin_88_PO_100mg_QD_day15_Itra",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg QD (Hardin 88) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "Hardin_88_Ctrough.100mg",
+                "Color": "#FF0000"
+              },              
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (vanPeer 89) caps fed",
@@ -507,28 +556,35 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg BID (Barone 93) caps fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "barone_93_PO_SD_200mg_fed_Itra|barone_93_PO_SD_200mg_fasted_Itra",
+                "ObservedData": "barone_93_PO_SD_200mg_fed_Itra",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 200 mg BID (Barone 93) caps fed",
+                "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
+                "ObservedData": "barone_93_PO_SD_200mg_fasted_Itra",
                 "Color": "#FF0000"
               },
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg BID (Hardin 88) caps fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Hardin_88_PO_200mg_BID_day1_Itra|Hardin_88_PO_200mg_BID_day15_Itra|Hardin_88_Ctrough.200mg BID",
+                "ObservedData": "Hardin_88_PO_200mg_BID_day1_Itra",
                 "Color": "#FF0000"
               },
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg QD (Hardin 88) caps fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Hardin_88_PO_200mg_QD_day1_Itra|Hardin_88_PO_200mg_QD_day15_Itra|Hardin_88_Ctrough.200mg QD",
+                "ObservedData": "Hardin_88_PO_200mg_QD_day1_Itra",
                 "Color": "#FF0000"
               },
               {
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg SD (Barone 98b) caps fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
-                "ObservedData": "Barone98.F05 capsule 200 mg ITZ|barone_93_PO_SD_200mg_fed_Itra",
+                "ObservedData": "Barone98.F05 capsule 200 mg ITZ",
                 "Color": "#FF0000"
               }
             ]
@@ -561,7 +617,7 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg QD (Templeton 08) sol fast",
                 "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-                "ObservedData": "Templeton_08_PO_MD_100mg_day1_OH|Templeton_08_PO_MD_100mg_day7_OH",
+                "ObservedData": "Templeton_08_PO_MD_100mg_day1_OH",
                 "Color": "#FF0000"
               },
               {
@@ -575,7 +631,7 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg QD (Barone 1998a) sol fast",
                 "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-                "ObservedData": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted|Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fasted",
+                "ObservedData": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fasted",
                 "Color": "#FF0000"
               }
             ]
@@ -595,7 +651,7 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg QD (Barone 98a) sol fed",
                 "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-                "ObservedData": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed|Barone_et_al-1998a.OH-Itra_Day15.200mg_OD_solution fed",
+                "ObservedData": "Barone_et_al-1998a.OH-Itra_Day1.200mg_OD_solution fed",
                 "Color": "#FF0000"
               },
               {
@@ -635,7 +691,7 @@
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg BID (Barone 93) caps fed",
                 "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-                "ObservedData": "barone_93_PO_SD_200mg_fed_OH|barone_93_15days_MD_OH",
+                "ObservedData": "barone_93_PO_SD_200mg_fed_OH",
                 "Color": "#FF0000"
               },
               {
@@ -662,7 +718,7 @@
             "Project": "Itraconazole",
             "Simulation": "po 100 mg QD (Templeton 08) sol fast",
             "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-            "ObservedData": "Templeton_et_al-2007.Keto-Itraconazole|Templeton_et_al-2007.Keto-Itraconazole day7",
+            "ObservedData": "Templeton_et_al-2007.Keto-Itraconazole",
             "Color": "#FF0000"
           }
         ]
@@ -682,7 +738,7 @@
             "Project": "Itraconazole",
             "Simulation": "po 100 mg QD (Templeton 08) sol fast",
             "Output": "PeripheralVenousBlood|Plasma|N-desalkyl-Itraconazole",
-            "ObservedData": "Templeton_et_al-2007.ND-Itraconazole|Templeton_et_al-2007.ND-Itraconazole day7",
+            "ObservedData": "Templeton_et_al-2007.ND-Itraconazole",
             "Color": "#FF0000"
           }
           ]
