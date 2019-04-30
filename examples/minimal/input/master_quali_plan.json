@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
+  "$schema": "../../../schemas/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
@@ -20,7 +20,9 @@
           "Project": "Midazolam",
           "Simulation": "S1",
           "Path": "Midazolam|Use pH- and pKa-dependent penalty factor for charged molecule fraction",
-          "TargetSimulations": ["S1"]
+          "TargetSimulations": [
+            "S1"
+          ]
         }
       ]
     }
@@ -154,6 +156,15 @@
           "Content": "/Content/Section2.1.md"
         }
       ]
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Content/intro.md"
+    },
+    {
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/examples/remote/input/intro.md",
+      "Name": "remote_intro"
     }
   ]
 }
