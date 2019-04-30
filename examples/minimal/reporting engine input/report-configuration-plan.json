@@ -407,5 +407,13 @@
         }
       ]
     }
+  ],
+  "Intro": [
+    {
+      "Path": "C:\\projects\\QualificationPlan\\examples\\minimal\\reporting engine input\\Intro\\intro.md"
+    },
+    {
+      "Path": "C:\\projects\\QualificationPlan\\examples\\minimal\\reporting engine input\\Intro\\remote_intro.md"
+    }
   ]
 }
