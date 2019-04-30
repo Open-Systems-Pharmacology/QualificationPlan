@@ -1008,7 +1008,7 @@
         "type": "object",
         "properties": {
           "Path": {
-            "description": "Relative or remote path of files",
+            "description": "Relative or remote path of file",
             "$ref": "#/definitions/nonEmptyString"
           },
           "Name": {
