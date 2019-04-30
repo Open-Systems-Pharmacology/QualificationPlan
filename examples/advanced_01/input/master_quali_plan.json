@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
+  "$schema": "../../../schemas/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
@@ -760,7 +760,8 @@
             "ObservedData": "Ahonen_1995_Control",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -769,7 +770,8 @@
             "ObservedData": "Ahonen_1995_Treatmen",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -786,7 +788,8 @@
             "ObservedData": "Backmann_1998_Control PhaseII",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -795,7 +798,8 @@
             "ObservedData": "Backmann_1998_Treatment PhaseII",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -812,7 +816,8 @@
             "ObservedData": "Backmann_1998_Control PhaseIII",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -821,7 +826,8 @@
             "ObservedData": "Backmann_1998_Control PhaseIII",
             "StartTime": 170,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -838,7 +844,8 @@
             "ObservedData": "Olkkola_1994_Control",
             "StartTime": 73,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -847,7 +854,8 @@
             "ObservedData": "Olkkola_1994_Treatment",
             "StartTime": 73,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -864,7 +872,8 @@
             "ObservedData": "Olkkola_1996_Control",
             "StartTime": 2,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -873,7 +882,8 @@
             "ObservedData": "Olkkola_1996_Treatment",
             "StartTime": 2,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -890,7 +900,8 @@
             "ObservedData": "Olkkola_1996_Control",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -899,7 +910,8 @@
             "ObservedData": "Olkkola_1996_Treatment",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -916,7 +928,8 @@
             "ObservedData": "Olkkola_1996_Control",
             "StartTime": 122,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -925,7 +938,8 @@
             "ObservedData": "Olkkola_1996_Treatment",
             "StartTime": 122,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -942,7 +956,8 @@
             "ObservedData": "Templeton_2010_Control",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -951,7 +966,8 @@
             "ObservedData": "Templeton_2010_Treatment Itra 50",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -968,7 +984,8 @@
             "ObservedData": "Templeton_2010_Control",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -977,7 +994,8 @@
             "ObservedData": "Templeton_2010_Treatment Itra200",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -994,7 +1012,8 @@
             "ObservedData": "Templeton_2010_Control",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
@@ -1003,7 +1022,8 @@
             "ObservedData": "Templeton_2010_Treatment Itra400",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       }

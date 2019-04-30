@@ -723,6 +723,9 @@
                     "Color": {
                       "$ref": "#/definitions/rgbColor"
                     },
+                    "Symbol": {
+                      "$ref": "#/definitions/symbolType"
+                    },
                     "StartTime": {
                       "type": "number"
                     },
@@ -736,6 +739,7 @@
                     "Output",
                     "ObservedData",
                     "Color",
+                    "Symbol",
                     "StartTime",
                     "TimeUnit"
                   ]

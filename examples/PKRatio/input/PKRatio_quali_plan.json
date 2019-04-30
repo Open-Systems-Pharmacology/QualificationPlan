@@ -1,88 +1,88 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
-    "Projects": [
-        {
-            "Id": "Amikacin",
-            "Path": "Amikacin/Amikacin.json",
-            "BuildingBlocks": []
-        }
-    ],
-    "ObservedDataSets": [
-        {
-            "Id": "PK-Parameter",
-            "Path": "Data/PK-Parameter.csv",
-            "Type": "PKRatio"
-        }
-    ],
-    "Plots": {
-        "PlotSettings": {
-            "ChartWidth": 500,
-            "ChartHeight": 400,
-            "Fonts": {
-                "AxisSize": 11,
-                "LegendSize": 9,
-                "OriginSize": 9,
-                "FontFamilyName": "Arial",
-                "WatermarkSize": 40
-            }
-        },
-        "AxesSettings": {
-            "PKRatioPlots": [
-                {
-                    "Type": "X",
-                    "Dimension": "Age",
-                    "Unit": "year(s)",
-                    "GridLines": false,
-                    "Scaling": "Linear"
-                },
-                {
-                    "Type": "Y",
-                    "Dimension": "Dimensionless",
-                    "Unit": "",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                }
-            ]
-        },
-        "PKRatioPlots": [
-            {
-                "Caption": "Observed versus Predicted Clearance Ratio",
-                "Color": "#000000",
-                "PKParameter": "CL",
-                "SectionId": 1,
-                "PKRatios": [
-                    {
-                        "Project": "Amikacin",
-                        "Simulation": "Vogelstein#1",
-                        "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
-                        "ObservedData": "PK-Parameter",
-                        "ObservedDataRecordId": 96
-                    },
-                    {
-                        "Project": "Amikacin",
-                        "Simulation": "Vogelstein#2",
-                        "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
-                        "ObservedData": "PK-Parameter",
-                        "ObservedDataRecordId": 97
-                    },
-                    {
-                        "Project": "Amikacin",
-                        "Simulation": "Vogelstein#3",
-                        "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
-                        "ObservedData": "PK-Parameter",
-                        "ObservedDataRecordId": 98
-                    }
-                ]
-            }
-        ]
+  "$schema": "../../../schemas/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Amikacin",
+      "Path": "Amikacin/Amikacin.json",
+      "BuildingBlocks": []
+    }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "PK-Parameter",
+      "Path": "Data/PK-Parameter.csv",
+      "Type": "PKRatio"
+    }
+  ],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
     },
-    "Inputs": [],
-    "Sections": [
+    "AxesSettings": {
+      "PKRatioPlots": [
         {
-            "Id": 1,
-            "Title": "Qualification results",
-            "Content": "Content/Results.md",
-            "Sections": []
+          "Type": "X",
+          "Dimension": "Age",
+          "Unit": "year(s)",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
         }
+      ]
+    },
+    "PKRatioPlots": [
+      {
+        "Caption": "Observed versus Predicted Clearance Ratio",
+        "Color": "#000000",
+        "PKParameter": "CL",
+        "SectionId": 1,
+        "PKRatios": [
+          {
+            "Project": "Amikacin",
+            "Simulation": "Vogelstein#1",
+            "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "PK-Parameter",
+            "ObservedDataRecordId": 96
+          },
+          {
+            "Project": "Amikacin",
+            "Simulation": "Vogelstein#2",
+            "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "PK-Parameter",
+            "ObservedDataRecordId": 97
+          },
+          {
+            "Project": "Amikacin",
+            "Simulation": "Vogelstein#3",
+            "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "PK-Parameter",
+            "ObservedDataRecordId": 98
+          }
+        ]
+      }
     ]
+  },
+  "Inputs": [],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Qualification results",
+      "Content": "Content/Results.md",
+      "Sections": []
+    }
+  ]
 }

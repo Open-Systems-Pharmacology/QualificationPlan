@@ -19,7 +19,7 @@
       "},",
       "\"Inputs\": [],",
       "\"Sections\": []",
-      "\"Introduction\": []",
+      "\"Intro\": []",
       "}"
     ],
     "description": "Creates the skeleton for a qualification plan"
@@ -227,8 +227,9 @@
       "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
       "\"ObservedData\":  \"${6:<Enter Observed Data Id>}\",",
       "\"Color\":  \"${7:#FF0000}\",",
-      "\"StartTime\":  ${8:<Enter Start Time>},",
-      "\"TimeUnit\":  \"${9}\"",
+      "\"Symbol\":  \"${8}\",",
+      "\"StartTime\":  ${9:<Enter Start Time>},",
+      "\"TimeUnit\":  \"${10}\"",
       "}"
     ],
     "description": "Adds a ComparisonTimeProfile OutputMapping entry"
