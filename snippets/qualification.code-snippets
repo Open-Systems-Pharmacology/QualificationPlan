@@ -226,10 +226,11 @@
       "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
       "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
       "\"ObservedData\":  \"${6:<Enter Observed Data Id>}\",",
-      "\"Color\":  \"${7:#FF0000}\",",
-      "\"Symbol\":  \"${8}\",",
-      "\"StartTime\":  ${9:<Enter Start Time>},",
-      "\"TimeUnit\":  \"${10}\"",
+      "\"Caption\":  \"${7:<Enter Output Caption>}\",",
+      "\"Color\":  \"${8:#FF0000}\",",
+      "\"Symbol\":  \"${9}\",",
+      "\"StartTime\":  ${10:<Enter Start Time>},",
+      "\"TimeUnit\":  \"${11}\"",
       "}"
     ],
     "description": "Adds a ComparisonTimeProfile OutputMapping entry"

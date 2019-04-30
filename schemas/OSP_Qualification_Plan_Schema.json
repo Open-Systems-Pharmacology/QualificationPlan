@@ -720,6 +720,9 @@
                     "ObservedData": {
                       "$ref": "#/definitions/nonEmptyString"
                     },
+                    "Caption": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
                     "Color": {
                       "$ref": "#/definitions/rgbColor"
                     },
@@ -738,6 +741,7 @@
                     "Simulation",
                     "Output",
                     "ObservedData",
+                    "Caption",
                     "Color",
                     "Symbol",
                     "StartTime",
