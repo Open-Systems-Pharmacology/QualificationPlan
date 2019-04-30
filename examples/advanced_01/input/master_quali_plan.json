@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
+  "$schema": "../../../schemas/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
@@ -758,18 +758,22 @@
             "Simulation": "DDI Control Ahonen 1995 Midazolam",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Ahonen_1995_Control",
+            "Caption": "Midazolam 1",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Ahonen 1995 Midazolam + Itra 100mg MD",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Ahonen_1995_Treatmen",
+            "Caption": "Midazolam 2",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -784,18 +788,22 @@
             "Simulation": "DDI Control Backmann 1998 Midazolam",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Backmann_1998_Control PhaseII",
+            "Caption": "Midazolam 1",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Backmann_1998_Treatment PhaseII",
+            "Caption": "Midazolam 2",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -810,18 +818,22 @@
             "Simulation": "DDI Control Backmann 1998 Midazolam",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Backmann_1998_Control PhaseIII",
+            "Caption": "Midazolam 1",
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Backmann 1998 Midazolam + Itra 200mg MD",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Backmann_1998_Control PhaseIII",
+            "Caption": "Midazolam 2",
             "StartTime": 170,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -836,18 +848,22 @@
             "Simulation": "DDI Control Olkkola 1994 Midazolam",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1994_Control",
+            "Caption": "Midazolam 1",        
             "StartTime": 73,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Olkkola 1994 Midazolam + Itra 200mg MD",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1994_Treatment",
+            "Caption": "Midazolam 2",        
             "StartTime": 73,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -862,18 +878,22 @@
             "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1996_Control",
+            "Caption": "Midazolam 1",        
             "StartTime": 2,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1996_Treatment",
+            "Caption": "Midazolam 2",        
             "StartTime": 2,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -888,18 +908,22 @@
             "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1996_Control",
+            "Caption": "Midazolam 1",        
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1996_Treatment",
+            "Caption": "Midazolam 2",        
             "StartTime": 74,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -914,18 +938,22 @@
             "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1996_Control",
+            "Caption": "Midazolam 1",        
             "StartTime": 122,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Olkkola_1996_Treatment",
+            "Caption": "Midazolam 2",        
             "StartTime": 122,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -940,18 +968,22 @@
             "Simulation": "DDI Control Templeton 2010 Midazolam",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Templeton_2010_Control",
+            "Caption": "Midazolam 1",        
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Templeton 2010 Midazolam + Itra  50mg",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Templeton_2010_Treatment Itra 50",
+            "Caption": "Midazolam 2",        
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -966,18 +998,22 @@
             "Simulation": "DDI Control Templeton 2010 Midazolam",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Templeton_2010_Control",
+            "Caption": "Midazolam 1",        
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Templeton 2010 Midazolam + Itra 200mg",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Templeton_2010_Treatment Itra200",
+            "Caption": "Midazolam 2",        
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       },
@@ -992,18 +1028,22 @@
             "Simulation": "DDI Control Templeton 2010 Midazolam",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Templeton_2010_Control",
+            "Caption": "Midazolam 1",        
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           },
           {
             "Project": "Midazolam_Itraconazole_DDI",
             "Simulation": "DDI Treatment Templeton 2010 Midazolam + Itra 400mg",
             "Output": "PeripheralVenousBlood|Plasma|Midazolam",
             "ObservedData": "Templeton_2010_Treatment Itra400",
+            "Caption": "Midazolam 2",        
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#FF0000"
+            "Color": "#FF0000",
+            "Symbol": "Cross"
           }
         ]
       }

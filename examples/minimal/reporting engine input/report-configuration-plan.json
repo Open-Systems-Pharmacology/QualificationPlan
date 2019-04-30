@@ -407,5 +407,13 @@
         }
       ]
     }
+  ],
+  "Intro": [
+    {
+      "Path": "Intro/intro.md"
+    },
+    {
+      "Path": "Intro/remote_intro.md"
+    }
   ]
 }

@@ -19,6 +19,7 @@
       "},",
       "\"Inputs\": [],",
       "\"Sections\": []",
+      "\"Intro\": []",
       "}"
     ],
     "description": "Creates the skeleton for a qualification plan"
@@ -225,9 +226,11 @@
       "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
       "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
       "\"ObservedData\":  \"${6:<Enter Observed Data Id>}\",",
-      "\"Color\":  \"${7:#FF0000}\",",
-      "\"StartTime\":  ${8:<Enter Start Time>},",
-      "\"TimeUnit\":  \"${9}\"",
+      "\"Caption\":  \"${7:<Enter Output Caption>}\",",
+      "\"Color\":  \"${8:#FF0000}\",",
+      "\"Symbol\":  \"${9}\",",
+      "\"StartTime\":  ${10:<Enter Start Time>},",
+      "\"TimeUnit\":  \"${11}\"",
       "}"
     ],
     "description": "Adds a ComparisonTimeProfile OutputMapping entry"

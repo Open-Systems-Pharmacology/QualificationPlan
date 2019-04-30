@@ -720,8 +720,14 @@
                     "ObservedData": {
                       "$ref": "#/definitions/nonEmptyString"
                     },
+                    "Caption": {
+                      "$ref": "#/definitions/nonEmptyString"
+                    },
                     "Color": {
                       "$ref": "#/definitions/rgbColor"
+                    },
+                    "Symbol": {
+                      "$ref": "#/definitions/symbolType"
                     },
                     "StartTime": {
                       "type": "number"
@@ -735,7 +741,9 @@
                     "Simulation",
                     "Output",
                     "ObservedData",
+                    "Caption",
                     "Color",
+                    "Symbol",
                     "StartTime",
                     "TimeUnit"
                   ]
@@ -991,6 +999,26 @@
             "type": "integer"
           }
         }
+      }
+    },
+    "Intro": {
+      "description": "Relative or remote path of markdown files that will be appended before the table of content of the generated report",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Path": {
+            "description": "Relative or remote path of file",
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "Name": {
+            "description": "Name will be used for the file name instead of the default file name. It can be with or without the markdown extension. Only relevant for remote files",
+            "$ref": "#/definitions/nonEmptyString"
+          }
+        },
+        "required": [
+          "Path"
+        ]
       }
     }
   },
