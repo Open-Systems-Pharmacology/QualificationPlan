@@ -1,0 +1,194 @@
+
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="..\html-styles.css">
+  </head>
+  <body><h1 id="chapter1">Chapter 1</h1>
+<p>Oh there was a sow who had three little pigs,
+There little piggies had she.
+The old sow always went "oink, oink, oink,"
+and the piggies went "wee, wee, wee-ee-ee."     </p>
+<p>Now one day one of the three little pigs
+To the other two piggies said he,
+"Why don't we always go oink, oink, oink?
+It's so childish to go wee, wee, wee-ee-ee!"    </p>
+<p>These three piggies grew skinny and lean,
+Skinny they well should be,
+For they always would try to go "oink, oink, oink,"
+And they wouldn't go "wee, wee, wee-ee-ee."</p>
+<p>Now there three piggies they up and they died.
+A very sad sight to see.
+So don't ever try to go "oink, oink, oink,"
+When you oughta go "wee, wee, wee-ee-ee!"</p>
+<p><img src="001_plotGOFMergedResiduals.png" alt="001_plotGOFMergedResiduals.png" />
+<img src="002_plotGOFMergedPredictedVsObserved.png" alt="002_plotGOFMergedPredictedVsObserved.png" />
+14.506243</p>
+<h1 id="compoundmidazolam">Compound: Midazolam</h1>
+<h2 id="parameters">Parameters</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Value Origin</th>
+<th>Alternative</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Solubility at reference pH</td>
+<td>0.049 mg/ml</td>
+<td>Publication-FaSSIF (Heikkinen 2012)</td>
+<td>Measurement</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Reference pH</td>
+<td>6.5</td>
+<td>Publication-FaSSIF (Heikkinen 2012)</td>
+<td>Measurement</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Lipophilicity</td>
+<td>3.13 Log Units</td>
+<td>Database-Unknown-Drugbank</td>
+<td>Measurement</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Fraction unbound (plasma, reference value)</td>
+<td>0.2</td>
+<td>Parameter Identification-Parameter Identification</td>
+<td>Measurement</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Specific intestinal permeability (transcellular)</td>
+<td>2E-06 dm/min</td>
+<td>Parameter Identification-Parameter Identification</td>
+<td>Optimization</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Cl</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>F</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Is small molecule</td>
+<td>Yes</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Molecular weight</td>
+<td>325.77 g/mol</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Plasma protein binding partner</td>
+<td>Albumin</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Enable supersaturation</td>
+<td>No</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="calculationmethods">Calculation methods</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Partition coefficients</td>
+<td>Rodgers and Rowland</td>
+</tr>
+<tr>
+<td>Cellular permeabilities</td>
+<td>PK-Sim Standard</td>
+</tr>
+</tbody>
+</table>
+<h2 id="processes">Processes</h2>
+<h3 id="metabolizingenzymecyp3a4optimization">Metabolizing Enzyme: CYP3A4-Optimization</h3>
+<p>Molecule: CYP3A4</p>
+<h4 id="parameters-1">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Value Origin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enzyme concentration</td>
+<td>1 µmol/l</td>
+<td></td>
+</tr>
+<tr>
+<td>Vmax</td>
+<td>0 µmol/l/min</td>
+<td></td>
+</tr>
+<tr>
+<td>Km</td>
+<td>2.73 µmol/l</td>
+<td></td>
+</tr>
+<tr>
+<td>kcat</td>
+<td>13 1/min</td>
+<td>Parameter Identification-Parameter Identification</td>
+</tr>
+</tbody>
+</table>
+<h3 id="systemicprocessglomerularfiltrationgfr">Systemic Process: Glomerular Filtration-GFR</h3>
+<p>Species: Human</p>
+<h4 id="parameters-2">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:right;">Value</th>
+<th style="text-align:right;">Value Origin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GFR fraction</td>
+<td style="text-align:right;">1</td>
+<td style="text-align:right;"></td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
