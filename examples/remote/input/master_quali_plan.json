@@ -141,17 +141,17 @@
     {
       "Id": 1,
       "Title": "Chapter 1",
-      "Content": "/Content/Section1.md"
+      "Content": "Section1.md"
     },
     {
       "Id": 2,
       "Title": "Chapter 2",
-      "Content": "/Content/Section2.md",
+      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/README.md",
       "Sections": [
         {
           "Id": 3,
           "Title": "Chapter 2.1",
-          "Content": "/Content/Section2.1.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/examples/minimal/input/Content/Section2.md"
         }
       ]
     }
