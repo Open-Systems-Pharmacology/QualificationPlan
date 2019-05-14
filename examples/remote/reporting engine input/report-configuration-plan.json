@@ -391,18 +391,18 @@
   ],
   "Sections": [
     {
-      "Id": "1",
+      "Id": 1,
       "Title": "Chapter 1",
       "Content": "Content/Section1.md",
       "Sections": []
     },
     {
-      "Id": "2",
+      "Id": 2,
       "Title": "Chapter 2",
       "Content": "Content/README.md",
       "Sections": [
         {
-          "Id": "3",
+          "Id": 3,
           "Title": "Chapter 2.1",
           "Content": "Content/Section2.md",
           "Sections": []
