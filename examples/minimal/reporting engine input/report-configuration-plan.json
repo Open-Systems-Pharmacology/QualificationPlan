@@ -393,17 +393,19 @@
     {
       "Id": 1,
       "Title": "Chapter 1",
-      "Content": "/Content/Section1.md"
+      "Content": "Content/Section1.md",
+      "Sections": []
     },
     {
       "Id": 2,
       "Title": "Chapter 2",
-      "Content": "/Content/Section2.md",
+      "Content": "Content/Section2.md",
       "Sections": [
         {
           "Id": 3,
           "Title": "Chapter 2.1",
-          "Content": "/Content/Section2.1.md"
+          "Content": "Content/Section2.1.md",
+          "Sections": []
         }
       ]
     }
