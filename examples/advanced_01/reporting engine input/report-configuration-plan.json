@@ -3713,7 +3713,8 @@
     {
       "Id": 1,
       "Title": "Chapter 1",
-      "Content": "Content/Section1.md"
+      "Content": "Content/Section1.md",
+      "Sections": []
     }
   ],
   "Intro": []
