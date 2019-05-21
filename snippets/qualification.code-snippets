@@ -169,7 +169,7 @@
     "prefix": "agof",
     "body": [
       "{",
-      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"PlotType\":  \"${3}\",",
       "\"Groups\":  []",
@@ -177,7 +177,7 @@
     ],
     "description": "Adds a GOFMergedPlot entry"
   },
-  "addGOGMergedPlotGroup": {
+  "addGOFMergedPlotGroup": {
     "scope": "json",
     "prefix": "agofg",
     "body": [
@@ -189,7 +189,7 @@
     ],
     "description": "Adds a GOFMergedPlot group entry"
   },
-  "addGOGMergedPlotGroupOutputMapping": {
+  "addGOFMergedPlotGroupOutputMapping": {
     "scope": "json",
     "prefix": "agofo",
     "body": [
@@ -208,7 +208,7 @@
     "prefix": "actp",
     "body": [
       "{",
-      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"SimulationDuration\":  ${3:<Enter Simulation Duration>},",
       "\"TimeUnit\":  \"${4}\",",
@@ -240,7 +240,7 @@
     "prefix": "addir",
     "body": [
       "{",
-      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"PlotType\":  \"${3}\",",
       "\"PKParameter\":  \"${4}\",",
@@ -293,7 +293,7 @@
     "prefix": "apkr",
     "body": [
       "{",
-      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"Color\":  \"${3:#FF0000}\",",
       "\"PKParameter\":  \"${4}\",",

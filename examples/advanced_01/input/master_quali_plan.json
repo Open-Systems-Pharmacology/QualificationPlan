@@ -306,7 +306,7 @@
     "GOFMergedPlots": [
       {
         "SectionId": 1,
-        "Caption": "Midazolam concentration in plasma/blood",
+        "Title": "Midazolam concentration in plasma/blood",
         "PlotType": "predictedVsObserved|residualsOverTime",
         "Groups": [
           {
@@ -374,7 +374,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Itraconazole concentration in plasma",
+        "Title": "Itraconazole concentration in plasma",
         "PlotType": "predictedVsObserved|residualsOverTime",
         "Groups": [
           {
@@ -593,7 +593,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Hydroxy-Itraconazole concentration in plasma",
+        "Title": "Hydroxy-Itraconazole concentration in plasma",
         "PlotType": "predictedVsObserved|residualsOverTime",
         "Groups": [
           {
@@ -707,7 +707,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Keto-Itraconazole concentration in plasma",
+        "Title": "Keto-Itraconazole concentration in plasma",
         "PlotType": "predictedVsObserved|residualsOverTime",
         "Groups": [
           {
@@ -727,7 +727,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "N-desalkyl-Itraconazole concentration in plasma",
+        "Title": "N-desalkyl-Itraconazole concentration in plasma",
         "PlotType": "predictedVsObserved|residualsOverTime",
         "Groups": [
           {
@@ -749,7 +749,7 @@
     "ComparisonTimeProfilePlots": [
       {
         "SectionId": 1,
-        "Caption": "Ahonen 1995",
+        "Title": "Ahonen 1995",
         "SimulationDuration": 18,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -779,7 +779,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Backman 1998 (Phase II)",
+        "Title": "Backman 1998 (Phase II)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -809,7 +809,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Backman 1998 (Phase III)",
+        "Title": "Backman 1998 (Phase III)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -839,7 +839,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Olkkola 1994",
+        "Title": "Olkkola 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -869,7 +869,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Olkkola 1996 (Day 1)",
+        "Title": "Olkkola 1996 (Day 1)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -899,7 +899,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Olkkola 1996 (Day 4)",
+        "Title": "Olkkola 1996 (Day 4)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -929,7 +929,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Olkkola 1996 (Day 6)",
+        "Title": "Olkkola 1996 (Day 6)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -959,7 +959,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Templeton 2010 (50 mg)",
+        "Title": "Templeton 2010 (50 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -989,7 +989,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Templeton 2010 (200 mg)",
+        "Title": "Templeton 2010 (200 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -1019,7 +1019,7 @@
       },
       {
         "SectionId": 1,
-        "Caption": "Templeton 2010 (400 mg)",
+        "Title": "Templeton 2010 (400 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -1051,7 +1051,7 @@
     "DDIRatioPlots": [
       {
         "SectionId": 1,
-        "Caption": "CYP3A4 DDI AUCR",
+        "Title": "CYP3A4 DDI AUCR",
         "PKParameter": "AUC|CMAX",
         "PlotType": "predictedVsObserved|residualsVsObserved",
         "Groups": [
