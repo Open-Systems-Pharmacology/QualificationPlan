@@ -605,7 +605,7 @@
               "SectionId": {
                 "type": "integer"
               },
-              "Caption": {
+              "Title": {
                 "$ref": "#/definitions/nonEmptyString"
               },
               "PlotType": {
@@ -676,7 +676,7 @@
             },
             "required": [
               "SectionId",
-              "Caption",
+              "Title",
               "PlotType",
               "Groups"
             ]
@@ -690,7 +690,7 @@
               "SectionId": {
                 "type": "integer"
               },
-              "Caption": {
+              "Title": {
                 "$ref": "#/definitions/nonEmptyString"
               },
               "SimulationDuration": {
@@ -752,7 +752,7 @@
             },
             "required": [
               "SectionId",
-              "Caption",
+              "Title",
               "SimulationDuration",
               "TimeUnit",
               "OutputMappings"
@@ -767,7 +767,7 @@
               "SectionId": {
                 "type": "integer"
               },
-              "Caption": {
+              "Title": {
                 "$ref": "#/definitions/nonEmptyString"
               },
               "PKParameter": {
@@ -897,7 +897,7 @@
             },
             "required": [
               "SectionId",
-              "Caption",
+              "Title",
               "PKParameter",
               "PlotType",
               "Groups"
@@ -912,7 +912,7 @@
               "SectionId": {
                 "type": "integer"
               },
-              "Caption": {
+              "Title": {
                 "$ref": "#/definitions/nonEmptyString"
               },
               "PKParameter": {
@@ -965,7 +965,7 @@
             },
             "required": [
               "SectionId",
-              "Caption",
+              "Title",
               "PKParameter",
               "Color",
               "PKRatios"
