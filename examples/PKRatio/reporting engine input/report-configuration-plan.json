@@ -55,7 +55,7 @@
     },
     "PKRatioPlots": [
       {
-        "Caption": "Observed versus Predicted Clearance Ratio",
+        "Title": "Observed versus Predicted Clearance Ratio",
         "Color": "#000000",
         "PKParameter": "CL",
         "SectionId": 1,
