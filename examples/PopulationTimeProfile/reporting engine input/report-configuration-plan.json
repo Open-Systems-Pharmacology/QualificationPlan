@@ -1,9 +1,9 @@
 {
   "SimulationMappings": [
     {
-      "Project": "Theo",
+      "Project": "Theophylline",
       "Simulation": "S1",
-      "Path": "Theo/S1/"
+      "Path": "Theophylline/S1/"
     }
   ],
   "ObservedDataSets": [
@@ -26,7 +26,7 @@
     "TimeProfile": [
       {
         "SectionId": 1,
-        "Project": "Theo",
+        "Project": "Theophylline",
         "Simulation": "S1",
         "Plot": {
           "Type": "TimeProfile",
@@ -129,7 +129,7 @@
       },
       {
         "SectionId": 1,
-        "Project": "Theo",
+        "Project": "Theophylline",
         "Simulation": "S1",
         "Plot": {
           "Type": "TimeProfile",
@@ -282,7 +282,8 @@
     {
       "Id": 1,
       "Title": "Chapter 1",
-      "Content": "/Content/Section1.md"
+      "Content": "Content/Section1.md",
+      "Sections": []
     }
   ],
   "Intro": []
