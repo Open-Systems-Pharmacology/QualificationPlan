@@ -92,7 +92,7 @@
     ],
     "GOFMergedPlots": [
       {
-        "Caption": "Midazolam concentration in plasma/blood",
+        "Title": "Midazolam concentration in plasma/blood",
         "PlotType": "predictedVsObserved|residualsOverTime",
         "SectionId": 1,
         "PlotSettings": {
