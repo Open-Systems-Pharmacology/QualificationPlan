@@ -14,7 +14,6 @@ F                                                | 1              |             
 Is small molecule                                | Yes            |                                                   |              |         |
 Molecular weight                                 | 325.77 g/mol   |                                                   |              |         |
 Plasma protein binding partner                   | Albumin        |                                                   |              |         |
-Enable supersaturation                           | No             |                                                   |              |         |
 ## Calculation methods
 
 Name                    | Value               |
