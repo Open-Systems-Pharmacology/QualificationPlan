@@ -104,7 +104,8 @@
           "Id",
           "Title",
           "Content"
-        ]
+        ],
+        "additionalProperties": false
       }
     },
     "ageUnit": {
@@ -428,12 +429,57 @@
           "Simulation",
           "Path",
           "TargetSimulations"
-        ]
+        ],
+        "additionalProperties": false
       }
+    },
+    "plotSettings": {
+      "type": "object",
+      "properties": {
+        "ChartWidth": {
+          "$ref": "#/definitions/plotSize"
+        },
+        "ChartHeight": {
+          "$ref": "#/definitions/plotSize"
+        },
+        "Fonts": {
+          "type": "object",
+          "properties": {
+            "AxisSize": {
+              "$ref": "#/definitions/fontSize"
+            },
+            "LegendSize": {
+              "$ref": "#/definitions/fontSize"
+            },
+            "OriginSize": {
+              "$ref": "#/definitions/fontSize"
+            },
+            "WatermarkSize": {
+              "$ref": "#/definitions/fontSize"
+            },
+            "FontFamilyName": {
+              "type": "string",
+              "enum": [
+                "Arial",
+                "Tahoma",
+                "Times New Roman",
+                "Microsoft Sans Serif"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [],
+      "additionalProperties": false
     }
   },
   "type": "object",
   "properties": {
+    "$schema": {
+      "$ref": "#/definitions/nonEmptyString"
+    },
     "Projects": {
       "type": "array",
       "minItems": 1,
@@ -467,7 +513,8 @@
                 "Type",
                 "Name",
                 "Project"
-              ]
+              ],
+              "additionalProperties": false
             }
           },
           "SimulationParameters": {
@@ -477,7 +524,8 @@
         "required": [
           "Id",
           "Path"
-        ]
+        ],
+        "additionalProperties": false
       }
     },
     "ObservedDataSets": {
@@ -506,50 +554,15 @@
           "Id",
           "Path",
           "Type"
-        ]
+        ],
+        "additionalProperties": false
       }
     },
     "Plots": {
       "type": "object",
       "properties": {
         "PlotSettings": {
-          "type": "object",
-          "properties": {
-            "ChartWidth": {
-              "$ref": "#/definitions/plotSize"
-            },
-            "ChartHeight": {
-              "$ref": "#/definitions/plotSize"
-            },
-            "Fonts": {
-              "type": "object",
-              "properties": {
-                "AxisSize": {
-                  "$ref": "#/definitions/fontSize"
-                },
-                "LegendSize": {
-                  "$ref": "#/definitions/fontSize"
-                },
-                "OriginSize": {
-                  "$ref": "#/definitions/fontSize"
-                },
-                "WatermarkSize": {
-                  "$ref": "#/definitions/fontSize"
-                },
-                "FontFamilyName": {
-                  "type": "string",
-                  "enum": [
-                    "Arial",
-                    "Tahoma",
-                    "Times New Roman",
-                    "Microsoft Sans Serif"
-                  ]
-                }
-              },
-              "required": []
-            }
-          },
-          "required": []
+          "$ref": "#/definitions/plotSettings"
         },
         "AxesSettings": {
           "type": "object",
@@ -573,7 +586,8 @@
               "$ref": "#/definitions/axesXY"
             }
           },
-          "required": []
+          "required": [],
+          "additionalProperties": false
         },
         "AllPlots": {
           "type": "array",
@@ -594,7 +608,8 @@
               "SectionId",
               "Project",
               "Simulation"
-            ]
+            ],
+            "additionalProperties": false
           }
         },
         "GOFMergedPlots": {
@@ -602,6 +617,9 @@
           "items": {
             "type": "object",
             "properties": {
+              "PlotSettings": {
+                "$ref": "#/definitions/plotSettings"
+              },
               "SectionId": {
                 "type": "integer"
               },
@@ -662,7 +680,8 @@
                           "Output",
                           "ObservedData",
                           "Color"
-                        ]
+                        ],
+                        "additionalProperties": false
                       }
                     }
                   },
@@ -670,7 +689,8 @@
                     "Caption",
                     "Symbol",
                     "OutputMappings"
-                  ]
+                  ],
+                  "additionalProperties": false
                 }
               }
             },
@@ -679,7 +699,8 @@
               "Title",
               "PlotType",
               "Groups"
-            ]
+            ],
+            "additionalProperties": false
           }
         },
         "ComparisonTimeProfilePlots": {
@@ -687,6 +708,9 @@
           "items": {
             "type": "object",
             "properties": {
+              "PlotSettings": {
+                "$ref": "#/definitions/plotSettings"
+              },
               "SectionId": {
                 "type": "integer"
               },
@@ -746,7 +770,8 @@
                     "Symbol",
                     "StartTime",
                     "TimeUnit"
-                  ]
+                  ],
+                  "additionalProperties": false
                 }
               }
             },
@@ -756,7 +781,8 @@
               "SimulationDuration",
               "TimeUnit",
               "OutputMappings"
-            ]
+            ],
+            "additionalProperties": false
           }
         },
         "DDIRatioPlots": {
@@ -764,6 +790,9 @@
           "items": {
             "type": "object",
             "properties": {
+              "PlotSettings": {
+                "$ref": "#/definitions/plotSettings"
+              },
               "SectionId": {
                 "type": "integer"
               },
@@ -847,7 +876,8 @@
                               "StartTime",
                               "EndTime",
                               "TimeUnit"
-                            ]
+                            ],
+                            "additionalProperties": false
                           },
                           "SimulationDDI": {
                             "type": "object",
@@ -874,7 +904,8 @@
                               "StartTime",
                               "EndTime",
                               "TimeUnit"
-                            ]
+                            ],
+                            "additionalProperties": false
                           }
                         }
                       },
@@ -884,14 +915,16 @@
                         "ObservedDataRecordId",
                         "SimulationControl",
                         "SimulationDDI"
-                      ]
+                      ],
+                      "additionalProperties": false
                     }
                   },
                   "required": [
                     "Caption",
                     "Color",
                     "DDIRatios"
-                  ]
+                  ],
+                  "additionalProperties": false
                 }
               }
             },
@@ -901,7 +934,8 @@
               "PKParameter",
               "PlotType",
               "Groups"
-            ]
+            ],
+            "additionalProperties": false
           }
         },
         "PKRatioPlots": {
@@ -909,6 +943,9 @@
           "items": {
             "type": "object",
             "properties": {
+              "PlotSettings": {
+                "$ref": "#/definitions/plotSettings"
+              },
               "SectionId": {
                 "type": "integer"
               },
@@ -958,7 +995,8 @@
                       "ObservedDataRecordId",
                       "Project",
                       "Simulation"
-                    ]
+                    ],
+                    "additionalProperties": false
                   }
                 ]
               }
@@ -969,14 +1007,16 @@
               "PKParameter",
               "Color",
               "PKRatios"
-            ]
+            ],
+            "additionalProperties": false
           }
         }
       },
       "required": [
         "PlotSettings",
         "AxesSettings"
-      ]
+      ],
+      "additionalProperties": false
     },
     "Sections": {
       "$ref": "#/definitions/sections"
@@ -1018,7 +1058,8 @@
         },
         "required": [
           "Path"
-        ]
+        ],
+        "additionalProperties": false
       }
     }
   },
@@ -1028,5 +1069,6 @@
     "Plots",
     "Sections",
     "Inputs"
-  ]
+  ],
+  "additionalProperties": false
 }
