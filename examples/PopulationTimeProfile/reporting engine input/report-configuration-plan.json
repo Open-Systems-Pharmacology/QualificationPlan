@@ -82,8 +82,8 @@
             "ApplyGrouping": false,
             "CurveOptions": [
               {
-                "Caption": "Human.Plasma.PO.Subj 1-Theophylline-Peripheral Venous Blood-Plasma-Subj 1 ",
-                "Path": "Human.Plasma.PO.Subj 1|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 1 ",
+                "Caption": "Human.Plasma.IV.Subj 1-Theophylline-Peripheral Venous Blood-Plasma-Subj 1 ",
+                "Path": "Human.Plasma.IV.Subj 1|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 1 ",
                 "CurveOptions": {
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -230,8 +230,8 @@
             "ApplyGrouping": false,
             "CurveOptions": [
               {
-                "Caption": "Human.Plasma.PO.Subj 1-Theophylline-Peripheral Venous Blood-Plasma-Subj 1 ",
-                "Path": "Human.Plasma.PO.Subj 1|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 1 ",
+                "Caption": "Human.Plasma.IV.Subj 1-Theophylline-Peripheral Venous Blood-Plasma-Subj 1 ",
+                "Path": "Human.Plasma.IV.Subj 1|ObservedData|Peripheral Venous Blood|Plasma|Theophylline|Subj 1 ",
                 "CurveOptions": {
                   "LineStyle": "None",
                   "Symbol": "Circle"
