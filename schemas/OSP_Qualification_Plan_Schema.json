@@ -494,7 +494,8 @@
         "type": "string",
         "enum": [
           "GMFE",
-          "Plot"
+          "Plot",
+          "X-fold"
         ]
       },
       "minItems": 1,
