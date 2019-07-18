@@ -49,7 +49,12 @@
         "Title": "Observed versus Predicted Clearance Ratio",
         "PKParameter": "CL",
         "SectionId": 1,
-        "Artifacts":["Plot", "Table", "GMFE", "X-fold"],
+        "Artifacts": [
+          "Plot",
+          "Table",
+          "GMFE",
+          "X-fold"
+        ],
         "Groups": [
           {
             "Caption": "Group caption #1",
@@ -61,10 +66,7 @@
                 "Simulation": "Vogelstein#1",
                 "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "PK-Parameter",
-                "ObservedDataRecordId": 96,
-                "StartTime": 0,
-                "EndTime": 122,
-                "TimeUnit": "h"
+                "ObservedDataRecordId": 96
               },
               {
                 "Project": "Amikacin",
@@ -88,10 +90,32 @@
                 "Simulation": "Vogelstein#3",
                 "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "PK-Parameter",
-                "ObservedDataRecordId": 98,
-                "StartTime": 0,
-                "EndTime": 122,
-                "TimeUnit": "h"
+                "ObservedDataRecordId": 98
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Observed versus Predicted Clearance Ratio",
+        "PKParameter": "CL",
+        "SectionId": 1,
+        "Artifacts": [
+          "Table",
+          "X-fold"
+        ],
+        "Groups": [
+          {
+            "Caption": "Group caption #2",
+            "Color": "#FF0000",
+            "Symbol": "Diamond",
+            "PKRatios": [
+              {
+                "Project": "Amikacin",
+                "Simulation": "Vogelstein#3",
+                "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "PK-Parameter",
+                "ObservedDataRecordId": 98
               }
             ]
           }
