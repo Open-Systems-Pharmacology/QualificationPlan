@@ -473,6 +473,32 @@
       },
       "required": [],
       "additionalProperties": false
+    },
+    "artifactsRatioPlots": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Table",
+          "GMFE",
+          "Plot",
+          "X-fold"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "artifactsGOFPlots": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "GMFE",
+          "Plot"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
     }
   },
   "type": "object",
@@ -625,6 +651,9 @@
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
+              },
+              "Artifacts": {
+                "$ref": "#/definitions/artifactsGOFPlots"
               },
               "PlotType": {
                 "type": "string",
@@ -799,6 +828,9 @@
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
               },
+              "Artifacts": {
+                "$ref": "#/definitions/artifactsRatioPlots"
+              },
               "PKParameter": {
                 "type": "string",
                 "enum": [
@@ -951,6 +983,9 @@
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
+              },
+              "Artifacts": {
+                "$ref": "#/definitions/artifactsRatioPlots"
               },
               "PKParameter": {
                 "type": "string",
