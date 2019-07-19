@@ -482,7 +482,7 @@
           "Table",
           "GMFE",
           "Plot",
-          "X-fold"
+          "Measure"
         ]
       },
       "minItems": 1,
@@ -495,7 +495,7 @@
         "enum": [
           "GMFE",
           "Plot",
-          "X-fold"
+          "Measure"
         ]
       },
       "minItems": 1,

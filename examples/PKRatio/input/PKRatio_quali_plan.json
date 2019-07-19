@@ -53,7 +53,7 @@
           "Plot",
           "Table",
           "GMFE",
-          "X-fold"
+          "Measure"
         ],
         "Groups": [
           {
@@ -99,7 +99,7 @@
         "SectionId": 1,
         "Artifacts": [
           "Table",
-          "X-fold"
+          "Measure"
         ],
         "Groups": [
           {

@@ -1056,7 +1056,7 @@
         "Title": "CYP3A4 DDI AUCR",
         "PKParameter": "AUC|CMAX",
         "PlotType": "predictedVsObserved|residualsVsObserved",
-        "Artifacts": ["Plot","GMFE","Table","X-fold"],
+        "Artifacts": ["Plot","GMFE","Table","Measure"],
         "Groups": [
           {
             "Caption": "Itra+Mida (Mida iv)",

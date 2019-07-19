@@ -12,27 +12,27 @@ ID,Study,PMID,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgType,AU
 92,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID7,Amikacin,0,72,h,,,,,,,,,,,,,,,0.19,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
 93,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID8,Amikacin,0,72,h,,,,,,,,,,,,,,,0.196,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
 94,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID9,Amikacin,0,72,h,,,,,,,,,,,,,,,0.177,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
-95,Vogelstein,https://www.ncbi.nlm.nih.gov/pubmed/874697,mean,Amikacin,0,225,min,,,,,,,,,,,,,,,2.49,mL/kg/min,arith. Mean,0.75,mL/kg/min,arith. SD,CL total,Table 1
-96,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID1,Amikacin,0,225,min,,,,,,,,,,,,,,,1.74,mL/kg/min,individual,,,,CL total,Table 1
-97,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID2,Amikacin,0,225,min,,,,,,,,,,,,,,,1.44,mL/kg/min,individual,,,,CL total,Table 1
-98,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID3,Amikacin,0,225,min,,,,,,,,,,,,,,,2.56,mL/kg/min,individual,,,,CL total,Table 1
-99,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID4,Amikacin,0,225,min,,,,,,,,,,,,,,,1.35,mL/kg/min,individual,,,,CL total,Table 1
-100,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID5,Amikacin,0,225,min,,,,,,,,,,,,,,,2.64,mL/kg/min,individual,,,,CL total,Table 1
-101,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID6,Amikacin,0,225,min,,,,,,,,,,,,,,,2.19,mL/kg/min,individual,,,,CL total,Table 1
-102,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID7,Amikacin,0,225,min,,,,,,,,,,,,,,,4.22,mL/kg/min,individual,,,,CL total,Table 1
-103,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID8,Amikacin,0,225,min,,,,,,,,,,,,,,,2.63,mL/kg/min,individual,,,,CL total,Table 1
-104,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID9,Amikacin,0,225,min,,,,,,,,,,,,,,,4.26,mL/kg/min,individual,,,,CL total,Table 1
-105,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID10,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/kg/min,individual,,,,CL total,Table 1
-106,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID11,Amikacin,0,225,min,,,,,,,,,,,,,,,1.91,mL/kg/min,individual,,,,CL total,Table 1
-107,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID12,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/kg/min,individual,,,,CL total,Table 1
-108,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID13,Amikacin,0,225,min,,,,,,,,,,,,,,,2.23,mL/kg/min,individual,,,,CL total,Table 1
-109,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID14,Amikacin,0,225,min,,,,,,,,,,,,,,,2.58,mL/kg/min,individual,,,,CL total,Table 1
-110,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID15,Amikacin,0,225,min,,,,,,,,,,,,,,,2.86,mL/kg/min,individual,,,,CL total,Table 1
-111,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID16,Amikacin,0,225,min,,,,,,,,,,,,,,,2.88,mL/kg/min,individual,,,,CL total,Table 1
-112,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID17,Amikacin,0,225,min,,,,,,,,,,,,,,,3.31,mL/kg/min,individual,,,,CL total,Table 1
-113,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID18,Amikacin,0,225,min,,,,,,,,,,,,,,,1.88,mL/kg/min,individual,,,,CL total,Table 1
-114,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID19,Amikacin,0,225,min,,,,,,,,,,,,,,,2.06,mL/kg/min,individual,,,,CL total,Table 1
-115,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID20,Amikacin,0,225,min,,,,,,,,,,,,,,,2.47,mL/kg/min,individual,,,,CL total,Table 1
+95,Vogelstein,https://www.ncbi.nlm.nih.gov/pubmed/874697,mean,Amikacin,0,225,min,,,,,,,,,,,,,,,2.49,mL/min/kg,arith. Mean,0.75,mL/min/kg,arith. SD,CL total,Table 1
+96,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID1,Amikacin,0,225,min,,,,,,,,,,,,,,,1.74,mL/min/kg,individual,,,,CL total,Table 1
+97,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID2,Amikacin,0,225,min,,,,,,,,,,,,,,,1.44,mL/min/kg,individual,,,,CL total,Table 1
+98,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID3,Amikacin,0,225,min,,,,,,,,,,,,,,,2.56,mL/min/kg,individual,,,,CL total,Table 1
+99,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID4,Amikacin,0,225,min,,,,,,,,,,,,,,,1.35,mL/min/kg,individual,,,,CL total,Table 1
+100,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID5,Amikacin,0,225,min,,,,,,,,,,,,,,,2.64,mL/min/kg,individual,,,,CL total,Table 1
+101,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID6,Amikacin,0,225,min,,,,,,,,,,,,,,,2.19,mL/min/kg,individual,,,,CL total,Table 1
+102,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID7,Amikacin,0,225,min,,,,,,,,,,,,,,,4.22,mL/min/kg,individual,,,,CL total,Table 1
+103,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID8,Amikacin,0,225,min,,,,,,,,,,,,,,,2.63,mL/min/kg,individual,,,,CL total,Table 1
+104,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID9,Amikacin,0,225,min,,,,,,,,,,,,,,,4.26,mL/min/kg,individual,,,,CL total,Table 1
+105,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID10,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/min/kg,individual,,,,CL total,Table 1
+106,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID11,Amikacin,0,225,min,,,,,,,,,,,,,,,1.91,mL/min/kg,individual,,,,CL total,Table 1
+107,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID12,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/min/kg,individual,,,,CL total,Table 1
+108,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID13,Amikacin,0,225,min,,,,,,,,,,,,,,,2.23,mL/min/kg,individual,,,,CL total,Table 1
+109,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID14,Amikacin,0,225,min,,,,,,,,,,,,,,,2.58,mL/min/kg,individual,,,,CL total,Table 1
+110,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID15,Amikacin,0,225,min,,,,,,,,,,,,,,,2.86,mL/min/kg,individual,,,,CL total,Table 1
+111,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID16,Amikacin,0,225,min,,,,,,,,,,,,,,,2.88,mL/min/kg,individual,,,,CL total,Table 1
+112,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID17,Amikacin,0,225,min,,,,,,,,,,,,,,,3.31,mL/min/kg,individual,,,,CL total,Table 1
+113,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID18,Amikacin,0,225,min,,,,,,,,,,,,,,,1.88,mL/min/kg,individual,,,,CL total,Table 1
+114,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID19,Amikacin,0,225,min,,,,,,,,,,,,,,,2.06,mL/min/kg,individual,,,,CL total,Table 1
+115,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID20,Amikacin,0,225,min,,,,,,,,,,,,,,,2.47,mL/min/kg,individual,,,,CL total,Table 1
 116,Belfayol 1996,https://www.ncbi.nlm.nih.gov/pubmed/11866842,mean,Amikacin,0,24,h,,,,,,,,,,,,,,,56.3,mL/min,arith. Mean,33.8,mL/min,arith. SD,CL total,Table 1
 117,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 0.5g,vancomycin,0,720,min,,,,,,,,,,,,,,,94.5,mL/min,arith. Mean,15.9,mL/min,arith. SD,CL total,Table 1
 118,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 1g,vancomycin,0,720,min,,,,,,,,,,,,,,,96.5,mL/min,arith. Mean,18.1,mL/min,arith. SD,CL total,Table 1
@@ -44,30 +44,30 @@ ID,Study,PMID,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgType,AU
 124,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 4,vancomycin,0,7,h,,,,,,,,,,,,,,,163,mL/min/1.73m2,arith. Mean,,,,,
 125,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 5,vancomycin,0,7,h,,,,,,,,,,,,,,,131,mL/min/1.73m2,arith. Mean,,,,,
 126,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 6,vancomycin,0,8,h,,,,,,,,,,,,,,,134,mL/min/1.73m2,arith. Mean,,,,,
-127,Bovill 1984,https://www.ncbi.nlm.nih.gov/pubmed/6238552,mean,Sufentanil,0,8,h,,,,,,,,,,,,,,,12.66,mL/kg/min,arith. Mean,0.78,mL/kg/min,arith. SEM,CL total,Table 3
+127,Bovill 1984,https://www.ncbi.nlm.nih.gov/pubmed/6238552,mean,Sufentanil,0,8,h,,,,,,,,,,,,,,,12.66,mL/min/kg,arith. Mean,0.78,mL/min/kg,arith. SEM,CL total,Table 3
 128,Willsie 2015,https://www.ncbi.nlm.nih.gov/pubmed/25544247,mean,Sufentanil,0,1440,min,273.8,h*pg/mL,arith. Mean,61.1,h*pg/mL,arith. SD,AUC_inf,,,,,,,,,,,,,,,
-129,Davis 1987,https://www.ncbi.nlm.nih.gov/pubmed/2950809,mean,Sufentanil,0,120,min,,,,,,,,,,,,,,,27.5,mL/kg/min,arith. Mean,9.3,mL/kg/min,arith. Mean,CL total,"Table 3, last samples taken 120 OR until the initiation of cardiopulmonary bypass"
-130,Davis 1987,https://www.ncbi.nlm.nih.gov/pubmed/2950809,mean,Sufentanil,0,120,min,,,,,,,,,,,,,,,18.1,mL/kg/min,individual,10.7,mL/kg/min,arith. Mean,CL total,Table 3
-131,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID1,Sufentanil,0,360,min,,,,,,,,,,,,,,,17.9,mL/kg/min,individual,,,,,t_end is time to reach limit of quanititation after dose
-132,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID2,Sufentanil,0,60,min,,,,,,,,,,,,,,,40.6,mL/kg/min,individual,,,,,
-133,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID3,Sufentanil,0,240,min,,,,,,,,,,,,,,,39.7,mL/kg/min,individual,,,,,
-134,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID4,Sufentanil,0,240,min,,,,,,,,,,,,,,,34,mL/kg/min,individual,,,,,
-135,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID5,Sufentanil,0,300,min,,,,,,,,,,,,,,,29.7,mL/kg/min,individual,,,,,
-136,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID6,Sufentanil,0,120,min,,,,,,,,,,,,,,,29.7,mL/kg/min,individual,,,,,
-137,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID7,Sufentanil,0,420,min,,,,,,,,,,,,,,,19.5,mL/kg/min,individual,,,,,
-138,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID8,Sufentanil,0,240,min,,,,,,,,,,,,,,,44.9,mL/kg/min,individual,,,,,
-139,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID9,Sufentanil,0,120,min,,,,,,,,,,,,,,,44.7,mL/kg/min,individual,,,,,
-140,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID10,Sufentanil,0,240,min,,,,,,,,,,,,,,,36.1,mL/kg/min,individual,,,,,
-141,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID11,Sufentanil,0,420,min,,,,,,,,,,,,,,,23.1,mL/kg/min,individual,,,,,
-142,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID12,Sufentanil,0,240,min,,,,,,,,,,,,,,,26.5,mL/kg/min,individual,,,,,
-143,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID13,Sufentanil,0,420,min,,,,,,,,,,,,,,,18.2,mL/kg/min,individual,,,,,
-144,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID14,Sufentanil,0,420,min,,,,,,,,,,,,,,,19.1,mL/kg/min,individual,,,,,
-145,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID15,Sufentanil,0,180,min,,,,,,,,,,,,,,,23.6,mL/kg/min,individual,,,,,
-146,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID16,Sufentanil,0,240,min,,,,,,,,,,,,,,,25.9,mL/kg/min,individual,,,,,
-147,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID17,Sufentanil,0,180,min,,,,,,,,,,,,,,,32.9,mL/kg/min,individual,,,,,
-148,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID18,Sufentanil,0,180,min,,,,,,,,,,,,,,,28,mL/kg/min,individual,,,,,
-149,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID19,Sufentanil,0,240,min,,,,,,,,,,,,,,,40.1,mL/kg/min,individual,,,,,
-150,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID20,Sufentanil,0,180,min,,,,,,,,,,,,,,,35.2,mL/kg/min,individual,,,,,
+129,Davis 1987,https://www.ncbi.nlm.nih.gov/pubmed/2950809,mean,Sufentanil,0,120,min,,,,,,,,,,,,,,,27.5,mL/min/kg,arith. Mean,9.3,mL/min/kg,arith. Mean,CL total,"Table 3, last samples taken 120 OR until the initiation of cardiopulmonary bypass"
+130,Davis 1987,https://www.ncbi.nlm.nih.gov/pubmed/2950809,mean,Sufentanil,0,120,min,,,,,,,,,,,,,,,18.1,mL/min/kg,individual,10.7,mL/min/kg,arith. Mean,CL total,Table 3
+131,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID1,Sufentanil,0,360,min,,,,,,,,,,,,,,,17.9,mL/min/kg,individual,,,,,t_end is time to reach limit of quanititation after dose
+132,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID2,Sufentanil,0,60,min,,,,,,,,,,,,,,,40.6,mL/min/kg,individual,,,,,
+133,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID3,Sufentanil,0,240,min,,,,,,,,,,,,,,,39.7,mL/min/kg,individual,,,,,
+134,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID4,Sufentanil,0,240,min,,,,,,,,,,,,,,,34,mL/min/kg,individual,,,,,
+135,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID5,Sufentanil,0,300,min,,,,,,,,,,,,,,,29.7,mL/min/kg,individual,,,,,
+136,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID6,Sufentanil,0,120,min,,,,,,,,,,,,,,,29.7,mL/min/kg,individual,,,,,
+137,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID7,Sufentanil,0,420,min,,,,,,,,,,,,,,,19.5,mL/min/kg,individual,,,,,
+138,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID8,Sufentanil,0,240,min,,,,,,,,,,,,,,,44.9,mL/min/kg,individual,,,,,
+139,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID9,Sufentanil,0,120,min,,,,,,,,,,,,,,,44.7,mL/min/kg,individual,,,,,
+140,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID10,Sufentanil,0,240,min,,,,,,,,,,,,,,,36.1,mL/min/kg,individual,,,,,
+141,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID11,Sufentanil,0,420,min,,,,,,,,,,,,,,,23.1,mL/min/kg,individual,,,,,
+142,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID12,Sufentanil,0,240,min,,,,,,,,,,,,,,,26.5,mL/min/kg,individual,,,,,
+143,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID13,Sufentanil,0,420,min,,,,,,,,,,,,,,,18.2,mL/min/kg,individual,,,,,
+144,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID14,Sufentanil,0,420,min,,,,,,,,,,,,,,,19.1,mL/min/kg,individual,,,,,
+145,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID15,Sufentanil,0,180,min,,,,,,,,,,,,,,,23.6,mL/min/kg,individual,,,,,
+146,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID16,Sufentanil,0,240,min,,,,,,,,,,,,,,,25.9,mL/min/kg,individual,,,,,
+147,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID17,Sufentanil,0,180,min,,,,,,,,,,,,,,,32.9,mL/min/kg,individual,,,,,
+148,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID18,Sufentanil,0,180,min,,,,,,,,,,,,,,,28,mL/min/kg,individual,,,,,
+149,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID19,Sufentanil,0,240,min,,,,,,,,,,,,,,,40.1,mL/min/kg,individual,,,,,
+150,Guay 1991,https://www.ncbi.nlm.nih.gov/pubmed/1531117,ID20,Sufentanil,0,180,min,,,,,,,,,,,,,,,35.2,mL/min/kg,individual,,,,,
 151,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I1,Alfentanil,0,60,min,21.1,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
 152,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I2,Alfentanil,0,60,min,14,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
 153,den Hollander 1992,https://www.ncbi.nlm.nih.gov/pubmed/1610996,I3,Alfentanil,0,60,min,19.8,mg*min/L,individual,,,,,,,,,,,,,,,,,,,
