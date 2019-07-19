@@ -12,27 +12,27 @@ ID,Study,PMID,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgType,AU
 92,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID7,Amikacin,0,72,h,,,,,,,,,,,,,,,0.19,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
 93,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID8,Amikacin,0,72,h,,,,,,,,,,,,,,,0.196,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
 94,Treluyer 2002,https://www.ncbi.nlm.nih.gov/pubmed/11959572,ID9,Amikacin,0,72,h,,,,,,,,,,,,,,,0.177,L/h/kg,individual,,,,,POP-PK Point estimate Scanned from figure 1
-95,Vogelstein,https://www.ncbi.nlm.nih.gov/pubmed/874697,mean,Amikacin,0,225,min,,,,,,,,,,,,,,,2.49,ml/min/kg,arith. Mean,0.75,mL/kg/min,arith. SD,CL total,Table 1
-96,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID1,Amikacin,0,225,min,,,,,,,,,,,,,,,1.74,ml/min/kg,individual,,,,CL total,Table 1
-97,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID2,Amikacin,0,225,min,,,,,,,,,,,,,,,1.44,ml/min/kg,individual,,,,CL total,Table 1
-98,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID3,Amikacin,0,225,min,,,,,,,,,,,,,,,2.56,ml/min/kg,individual,,,,CL total,Table 1
-99,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID4,Amikacin,0,225,min,,,,,,,,,,,,,,,1.35,ml/min/kg,individual,,,,CL total,Table 1
-100,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID5,Amikacin,0,225,min,,,,,,,,,,,,,,,2.64,ml/min/kg,individual,,,,CL total,Table 1
-101,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID6,Amikacin,0,225,min,,,,,,,,,,,,,,,2.19,ml/min/kg,individual,,,,CL total,Table 1
-102,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID7,Amikacin,0,225,min,,,,,,,,,,,,,,,4.22,ml/min/kg,individual,,,,CL total,Table 1
-103,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID8,Amikacin,0,225,min,,,,,,,,,,,,,,,2.63,ml/min/kg,individual,,,,CL total,Table 1
-104,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID9,Amikacin,0,225,min,,,,,,,,,,,,,,,4.26,ml/min/kg,individual,,,,CL total,Table 1
-105,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID10,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,ml/min/kg,individual,,,,CL total,Table 1
-106,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID11,Amikacin,0,225,min,,,,,,,,,,,,,,,1.91,ml/min/kg,individual,,,,CL total,Table 1
-107,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID12,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,ml/min/kg,individual,,,,CL total,Table 1
-108,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID13,Amikacin,0,225,min,,,,,,,,,,,,,,,2.23,ml/min/kg,individual,,,,CL total,Table 1
-109,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID14,Amikacin,0,225,min,,,,,,,,,,,,,,,2.58,ml/min/kg,individual,,,,CL total,Table 1
-110,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID15,Amikacin,0,225,min,,,,,,,,,,,,,,,2.86,ml/min/kg,individual,,,,CL total,Table 1
-111,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID16,Amikacin,0,225,min,,,,,,,,,,,,,,,2.88,ml/min/kg,individual,,,,CL total,Table 1
-112,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID17,Amikacin,0,225,min,,,,,,,,,,,,,,,3.31,ml/min/kg,individual,,,,CL total,Table 1
-113,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID18,Amikacin,0,225,min,,,,,,,,,,,,,,,1.88,ml/min/kg,individual,,,,CL total,Table 1
-114,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID19,Amikacin,0,225,min,,,,,,,,,,,,,,,2.06,ml/min/kg,individual,,,,CL total,Table 1
-115,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID20,Amikacin,0,225,min,,,,,,,,,,,,,,,2.47,ml/min/kg,individual,,,,CL total,Table 1
+95,Vogelstein,https://www.ncbi.nlm.nih.gov/pubmed/874697,mean,Amikacin,0,225,min,,,,,,,,,,,,,,,2.49,mL/kg/min,arith. Mean,0.75,mL/kg/min,arith. SD,CL total,Table 1
+96,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID1,Amikacin,0,225,min,,,,,,,,,,,,,,,1.74,mL/kg/min,individual,,,,CL total,Table 1
+97,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID2,Amikacin,0,225,min,,,,,,,,,,,,,,,1.44,mL/kg/min,individual,,,,CL total,Table 1
+98,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID3,Amikacin,0,225,min,,,,,,,,,,,,,,,2.56,mL/kg/min,individual,,,,CL total,Table 1
+99,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID4,Amikacin,0,225,min,,,,,,,,,,,,,,,1.35,mL/kg/min,individual,,,,CL total,Table 1
+100,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID5,Amikacin,0,225,min,,,,,,,,,,,,,,,2.64,mL/kg/min,individual,,,,CL total,Table 1
+101,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID6,Amikacin,0,225,min,,,,,,,,,,,,,,,2.19,mL/kg/min,individual,,,,CL total,Table 1
+102,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID7,Amikacin,0,225,min,,,,,,,,,,,,,,,4.22,mL/kg/min,individual,,,,CL total,Table 1
+103,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID8,Amikacin,0,225,min,,,,,,,,,,,,,,,2.63,mL/kg/min,individual,,,,CL total,Table 1
+104,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID9,Amikacin,0,225,min,,,,,,,,,,,,,,,4.26,mL/kg/min,individual,,,,CL total,Table 1
+105,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID10,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/kg/min,individual,,,,CL total,Table 1
+106,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID11,Amikacin,0,225,min,,,,,,,,,,,,,,,1.91,mL/kg/min,individual,,,,CL total,Table 1
+107,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID12,Amikacin,0,225,min,,,,,,,,,,,,,,,2.3,mL/kg/min,individual,,,,CL total,Table 1
+108,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID13,Amikacin,0,225,min,,,,,,,,,,,,,,,2.23,mL/kg/min,individual,,,,CL total,Table 1
+109,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID14,Amikacin,0,225,min,,,,,,,,,,,,,,,2.58,mL/kg/min,individual,,,,CL total,Table 1
+110,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID15,Amikacin,0,225,min,,,,,,,,,,,,,,,2.86,mL/kg/min,individual,,,,CL total,Table 1
+111,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID16,Amikacin,0,225,min,,,,,,,,,,,,,,,2.88,mL/kg/min,individual,,,,CL total,Table 1
+112,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID17,Amikacin,0,225,min,,,,,,,,,,,,,,,3.31,mL/kg/min,individual,,,,CL total,Table 1
+113,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID18,Amikacin,0,225,min,,,,,,,,,,,,,,,1.88,mL/kg/min,individual,,,,CL total,Table 1
+114,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID19,Amikacin,0,225,min,,,,,,,,,,,,,,,2.06,mL/kg/min,individual,,,,CL total,Table 1
+115,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID20,Amikacin,0,225,min,,,,,,,,,,,,,,,2.47,mL/kg/min,individual,,,,CL total,Table 1
 116,Belfayol 1996,https://www.ncbi.nlm.nih.gov/pubmed/11866842,mean,Amikacin,0,24,h,,,,,,,,,,,,,,,56.3,mL/min,arith. Mean,33.8,mL/min,arith. SD,CL total,Table 1
 117,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 0.5g,vancomycin,0,720,min,,,,,,,,,,,,,,,94.5,mL/min,arith. Mean,15.9,mL/min,arith. SD,CL total,Table 1
 118,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 1g,vancomycin,0,720,min,,,,,,,,,,,,,,,96.5,mL/min,arith. Mean,18.1,mL/min,arith. SD,CL total,Table 1

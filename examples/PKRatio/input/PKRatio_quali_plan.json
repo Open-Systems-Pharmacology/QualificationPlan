@@ -47,30 +47,77 @@
     "PKRatioPlots": [
       {
         "Title": "Observed versus Predicted Clearance Ratio",
-        "Color": "#000000",
         "PKParameter": "CL",
         "SectionId": 1,
-        "PKRatios": [
+        "Artifacts": [
+          "Plot",
+          "Table",
+          "GMFE",
+          "X-fold"
+        ],
+        "Groups": [
           {
-            "Project": "Amikacin",
-            "Simulation": "Vogelstein#1",
-            "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "PK-Parameter",
-            "ObservedDataRecordId": 96
+            "Caption": "Group caption #1",
+            "Color": "#000000",
+            "Symbol": "Circle",
+            "PKRatios": [
+              {
+                "Project": "Amikacin",
+                "Simulation": "Vogelstein#1",
+                "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "PK-Parameter",
+                "ObservedDataRecordId": 96
+              },
+              {
+                "Project": "Amikacin",
+                "Simulation": "Vogelstein#2",
+                "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "PK-Parameter",
+                "ObservedDataRecordId": 97,
+                "StartTime": 0,
+                "EndTime": 122,
+                "TimeUnit": "h"
+              }
+            ]
           },
           {
-            "Project": "Amikacin",
-            "Simulation": "Vogelstein#2",
-            "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "PK-Parameter",
-            "ObservedDataRecordId": 97
-          },
+            "Caption": "Group caption #2",
+            "Color": "#FF0000",
+            "Symbol": "Diamond",
+            "PKRatios": [
+              {
+                "Project": "Amikacin",
+                "Simulation": "Vogelstein#3",
+                "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "PK-Parameter",
+                "ObservedDataRecordId": 98
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Observed versus Predicted Clearance Ratio",
+        "PKParameter": "CL",
+        "SectionId": 1,
+        "Artifacts": [
+          "Table",
+          "X-fold"
+        ],
+        "Groups": [
           {
-            "Project": "Amikacin",
-            "Simulation": "Vogelstein#3",
-            "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "PK-Parameter",
-            "ObservedDataRecordId": 98
+            "Caption": "Group caption #2",
+            "Color": "#FF0000",
+            "Symbol": "Diamond",
+            "PKRatios": [
+              {
+                "Project": "Amikacin",
+                "Simulation": "Vogelstein#3",
+                "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "PK-Parameter",
+                "ObservedDataRecordId": 98
+              }
+            ]
           }
         ]
       }
