@@ -1017,36 +1017,34 @@
                     "PKRatios": {
                       "type": "array",
                       "minItems": 1,
-                      "items": [
-                        {
-                          "type": "object",
-                          "properties": {
-                            "Output": {
-                              "$ref": "#/definitions/nonEmptyString"
-                            },
-                            "ObservedData": {
-                              "$ref": "#/definitions/nonEmptyString"
-                            },
-                            "ObservedDataRecordId": {
-                              "type": "integer"
-                            },
-                            "Project": {
-                              "$ref": "#/definitions/nonEmptyString"
-                            },
-                            "Simulation": {
-                              "$ref": "#/definitions/nonEmptyString"
-                            }
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "Output": {
+                            "$ref": "#/definitions/nonEmptyString"
                           },
-                          "required": [
-                            "Output",
-                            "ObservedData",
-                            "ObservedDataRecordId",
-                            "Project",
-                            "Simulation"
-                          ],
-                          "additionalProperties": false
-                        }
-                      ]
+                          "ObservedData": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "ObservedDataRecordId": {
+                            "type": "integer"
+                          },
+                          "Project": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          },
+                          "Simulation": {
+                            "$ref": "#/definitions/nonEmptyString"
+                          }
+                        },
+                        "required": [
+                          "Output",
+                          "ObservedData",
+                          "ObservedDataRecordId",
+                          "Project",
+                          "Simulation"
+                        ],
+                        "additionalProperties": false
+                      }
                     }
                   },
                   "required": [

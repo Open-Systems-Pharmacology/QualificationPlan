@@ -82,10 +82,7 @@
                 "Simulation": "Vogelstein#2",
                 "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "PK-Parameter",
-                "ObservedDataRecordId": 97,
-                "StartTime": 0,
-                "EndTime": 122,
-                "TimeUnit": "h"
+                "ObservedDataRecordId": 97
               }
             ]
           },
