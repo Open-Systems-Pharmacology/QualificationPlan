@@ -92,7 +92,7 @@
     "prefix": "aintro",
     "body": [
       "{",
-      "\"Path\":  \"Content/${3:IntroFile}.md\","
+      "\"Path\":  \"Content/${3:IntroFile}.md\"",
       "}"
     ],
     "description": "Adds an introduction)"
