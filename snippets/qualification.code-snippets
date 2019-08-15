@@ -5,7 +5,7 @@
     "prefix": "bs",
     "body": [
       "{",
-      "\"\\$schema\": \"https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json\",",
+      "\"\\$schema\": \"https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json\",",
       "\"Projects\": [],",
       "\"ObservedDataSets\": [],",
       "\"Plots\": {",
@@ -18,7 +18,7 @@
       "\"PKRatioPlots\": []",
       "},",
       "\"Inputs\": [],",
-      "\"Sections\": []",
+      "\"Sections\": [],",
       "\"Intro\": []",
       "}"
     ],
@@ -86,6 +86,16 @@
       "}"
     ],
     "description": "Adds an input (reference to a building block in a given project)"
+  },
+  "addIntro": {
+    "scope": "json",
+    "prefix": "aintro",
+    "body": [
+      "{",
+      "\"Path\":  \"Content/${3:IntroFile}.md\"",
+      "}"
+    ],
+    "description": "Adds an introduction)"
   },
   "addSection": {
     "scope": "json",
@@ -164,13 +174,14 @@
     ],
     "description": "Adds an all plot entry for a simulation"
   },
-  "addGOGMergedPlot": {
+  "addGOFMergedPlot": {
     "scope": "json",
     "prefix": "agof",
     "body": [
       "{",
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\"],",
       "\"PlotType\":  \"${3}\",",
       "\"Groups\":  []",
       "}"
@@ -242,6 +253,7 @@
       "{",
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\", \"Table\"],",
       "\"PlotType\":  \"${3}\",",
       "\"PKParameter\":  \"${4}\",",
       "\"Groups\":  []",
@@ -295,12 +307,25 @@
       "{",
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
-      "\"Color\":  \"${3:#FF0000}\",",
+      "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\", \"Table\"],",
       "\"PKParameter\":  \"${4}\",",
-      "\"PKRatios\":  []",
+      "\"Groups\":  []",
       "}"
     ],
     "description": "Adds a PKRatioPlot entry"
+  },
+  "addPKRatioPlotGroup": {
+    "scope": "json",
+    "prefix": "apkrg",
+    "body": [
+      "{",
+      "\"Caption\":  \"${1:<Enter Plot Caption>}\",",
+      "\"Color\":  \"${2:#FF0000}\",",
+      "\"Symbol\":  \"${3}\",",
+      "\"PKRatios\":  []",
+      "}"
+    ],
+    "description": "Adds a PKRatioPlot group entry"
   },
   "addPKRatio": {
     "scope": "json",
