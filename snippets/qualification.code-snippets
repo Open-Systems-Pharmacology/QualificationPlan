@@ -87,6 +87,16 @@
     ],
     "description": "Adds an input (reference to a building block in a given project)"
   },
+  "addIntro": {
+    "scope": "json",
+    "prefix": "aintro",
+    "body": [
+      "{",
+      "\"Path\":  \"Content/${3:IntroFile}.md\",",
+      "}"
+    ],
+    "description": "Adds an introduction)"
+  },
   "addSection": {
     "scope": "json",
     "prefix": "as",
@@ -315,6 +325,7 @@
       "\"PKRatios\":  []",
       "}"
     ],
+    "description": "Adds a PKRatioPlot group entry"
   },
   "addPKRatio": {
     "scope": "json",
