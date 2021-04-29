@@ -27,6 +27,19 @@
         }
       ]
     },
+    "observedData": {
+      "anyOf": [
+        {
+          "$ref": "#/definitions/nonEmptyString"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/nonEmptyString"
+          }
+        }
+      ]
+    },
     "fontSize": {
       "type": "integer",
       "minimum": 8,
@@ -698,7 +711,7 @@
                             "$ref": "#/definitions/nonEmptyString"
                           },
                           "ObservedData": {
-                            "$ref": "#/definitions/nonEmptyString"
+                            "$ref": "#/definitions/observedData"
                           },
                           "Color": {
                             "$ref": "#/definitions/rgbColor"
@@ -772,7 +785,7 @@
                       "$ref": "#/definitions/nonEmptyString"
                     },
                     "ObservedData": {
-                      "$ref": "#/definitions/nonEmptyString"
+                      "$ref": "#/definitions/observedData"
                     },
                     "Caption": {
                       "$ref": "#/definitions/nonEmptyString"
