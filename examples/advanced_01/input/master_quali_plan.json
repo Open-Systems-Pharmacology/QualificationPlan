@@ -307,7 +307,7 @@
       {
         "SectionId": 1,
         "Title": "Midazolam concentration in plasma/blood",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
         "Artifacts": ["GMFE"],
         "Groups": [
           {
@@ -376,7 +376,7 @@
       {
         "SectionId": 1,
         "Title": "Itraconazole concentration in plasma",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
         "Artifacts": ["Plot"],
         "Groups": [
           {
@@ -465,7 +465,7 @@
                 "ObservedData": "Heykants_89_PO_100mg_SD_solution_Itra_(fig 2)",
                 "Color": "#FF0000"
               },
-             {
+              {
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg QD (Barone 98a) sol fed",
                 "Output": "PeripheralVenousBlood|Plasma|Itraconazole",
@@ -596,20 +596,20 @@
       {
         "SectionId": 1,
         "Title": "Hydroxy-Itraconazole concentration in plasma",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": ["predictedVsObserved","residualsOverTime"],
         "Groups": [
           {
             "Caption": "Itraconazole iv",
             "Symbol": "Asterisk",
             "OutputMappings": [
               {
-              "Project": "Itraconazole",
-              "Simulation": "200 mg IV MD",
-              "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-              "ObservedData": "Mouton_06_200mg_MD_OH_HPBCD",
-              "Color": "#FF0000"
-            }
-          ]
+                "Project": "Itraconazole",
+                "Simulation": "200 mg IV MD",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedData": "Mouton_06_200mg_MD_OH_HPBCD",
+                "Color": "#FF0000"
+              }
+            ]
           },
           {
             "Caption": "Itraconazole po sol fasted",
@@ -670,13 +670,13 @@
             "Symbol": "Diamond",
             "OutputMappings": [
               {
-              "Project": "Itraconazole",
-              "Simulation": "po 200 mg SD (Barone 93) caps fast",
-              "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-              "ObservedData": "barone_93_PO_SD_200mg_fasted_OH",
-              "Color": "#FF0000"
-            }
-          ]
+                "Project": "Itraconazole",
+                "Simulation": "po 200 mg SD (Barone 93) caps fast",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedData": "barone_93_PO_SD_200mg_fasted_OH",
+                "Color": "#FF0000"
+              }
+            ]
           },
           {
             "Caption": "Itraconazole po caps fed",
@@ -710,42 +710,42 @@
       {
         "SectionId": 1,
         "Title": "Keto-Itraconazole concentration in plasma",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": ["predictedVsObserved","residualsOverTime"],
         "Groups": [
           {
-          "Caption": "Itraconazole po sol fasted",
-          "Symbol": "Circle",
-          "OutputMappings": [
-            {
-            "Project": "Itraconazole",
-            "Simulation": "po 100 mg QD (Templeton 08) sol fast",
-            "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
-            "ObservedData": "Templeton_et_al-2007.Keto-Itraconazole",
-            "Color": "#FF0000"
+            "Caption": "Itraconazole po sol fasted",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg QD (Templeton 08) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|Hydroxy-Itraconazole",
+                "ObservedData": "Templeton_et_al-2007.Keto-Itraconazole",
+                "Color": "#FF0000"
+              }
+            ]
           }
         ]
-        }
-      ]
       },
       {
         "SectionId": 1,
         "Title": "N-desalkyl-Itraconazole concentration in plasma",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": ["predictedVsObserved","residualsOverTime"],
         "Groups": [
           {
-          "Caption": "Itraconazole po sol fasted",
-          "Symbol": "Circle",
-          "OutputMappings": [
-            {
-            "Project": "Itraconazole",
-            "Simulation": "po 100 mg QD (Templeton 08) sol fast",
-            "Output": "PeripheralVenousBlood|Plasma|N-desalkyl-Itraconazole",
-            "ObservedData": "Templeton_et_al-2007.ND-Itraconazole",
-            "Color": "#FF0000"
+            "Caption": "Itraconazole po sol fasted",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg QD (Templeton 08) sol fast",
+                "Output": "PeripheralVenousBlood|Plasma|N-desalkyl-Itraconazole",
+                "ObservedData": "Templeton_et_al-2007.ND-Itraconazole",
+                "Color": "#FF0000"
+              }
+            ]
           }
-          ]
-        }
-      ]
+        ]
       }
     ],
     "ComparisonTimeProfilePlots": [
@@ -1064,25 +1064,25 @@
             "Symbol": "Circle",
             "DDIRatios": [
               {
-              "Output": "PeripheralVenousBlood|Plasma|Midazolam",
-              "ObservedData": "DDI_Ratio_CYP3A4",
-              "ObservedDataRecordId": 378,
-              "SimulationControl": {
-                "Project": "Midazolam_Itraconazole_DDI",
-                "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
-                "StartTime": 74,
-                "EndTime": 122,
-                "TimeUnit": "h"
-              },
-              "SimulationDDI": {
-                "Project": "Midazolam_Itraconazole_DDI",
-                "Simulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
-                "StartTime": 74,
-                "EndTime": 122,
-                "TimeUnit": "h"
+                "Output": "PeripheralVenousBlood|Plasma|Midazolam",
+                "ObservedData": "DDI_Ratio_CYP3A4",
+                "ObservedDataRecordId": 378,
+                "SimulationControl": {
+                  "Project": "Midazolam_Itraconazole_DDI",
+                  "Simulation": "DDI Control Olkkola 1996 Midazolam PO-IV-PO",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Midazolam_Itraconazole_DDI",
+                  "Simulation": "DDI Treatment Olkkola 1996 Midazolam PO-IV-PO + Itra 200mg MD",
+                  "StartTime": 74,
+                  "EndTime": 122,
+                  "TimeUnit": "h"
+                }
               }
-            }
-          ]
+            ]
           },
           {
             "Caption": "Itra+Mida (Mida po)",

@@ -114,10 +114,19 @@
             "$ref": "#/definitions/sections"
           }
         },
-        "required": [
-          "Id",
-          "Title",
-          "Content"
+        "anyOf": [
+          {
+            "required": [
+              "Id",
+              "Title"
+            ]
+          },
+          {
+            "required": [
+              "Id",
+              "Content"
+            ]
+          }
         ],
         "additionalProperties": false
       }
@@ -670,6 +679,16 @@
               "Artifacts": {
                 "$ref": "#/definitions/artifactsGOFPlots"
               },
+              "PlotTypes": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "enum": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                  ]
+                }
+              },
               "PlotType": {
                 "type": "string",
                 "enum": [
@@ -738,406 +757,442 @@
                 }
               }
             },
-            "required": [
-              "SectionId",
-              "Title",
-              "PlotType",
-              "Groups"
-            ],
-            "additionalProperties": false
-          }
-        },
-        "ComparisonTimeProfilePlots": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "PlotSettings": {
-                "$ref": "#/definitions/plotSettings"
-              },
-              "SectionId": {
-                "type": "integer"
-              },
-              "Title": {
-                "$ref": "#/definitions/nonEmptyString"
-              },
-              "SimulationDuration": {
-                "$ref": "#/definitions/positiveNumber"
-              },
-              "TimeUnit": {
-                "$ref": "#/definitions/timeUnit"
-              },
-              "Axes": {
-                "$ref": "#/definitions/axesXY"
-              },
-              "OutputMappings": {
-                "type": "array",
-                "minItems": 1,
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "Project": {
-                      "$ref": "#/definitions/nonEmptyString"
-                    },
-                    "Simulation": {
-                      "$ref": "#/definitions/nonEmptyString"
-                    },
-                    "Output": {
-                      "$ref": "#/definitions/nonEmptyString"
-                    },
-                    "ObservedData": {
-                      "$ref": "#/definitions/observedData"
-                    },
-                    "Caption": {
-                      "$ref": "#/definitions/nonEmptyString"
-                    },
-                    "Color": {
-                      "$ref": "#/definitions/rgbColor"
-                    },
-                    "Symbol": {
-                      "$ref": "#/definitions/symbolType"
-                    },
-                    "StartTime": {
-                      "type": "number"
-                    },
-                    "TimeUnit": {
-                      "$ref": "#/definitions/timeUnit"
-                    }
-                  },
-                  "required": [
-                    "Project",
-                    "Simulation",
-                    "Output",
-                    "ObservedData",
-                    "Caption",
-                    "Color",
-                    "Symbol",
-                    "StartTime",
-                    "TimeUnit"
-                  ],
-                  "additionalProperties": false
-                }
-              }
+            "oneOf": [
+              { 
+                "required": [
+                  "SectionId",
+                  "Title",
+                  "PlotType",
+                  "Groups"
+              ]
             },
-            "required": [
-              "SectionId",
-              "Title",
-              "SimulationDuration",
-              "TimeUnit",
-              "OutputMappings"
-            ],
-            "additionalProperties": false
+            { 
+              "required": [
+                "SectionId",
+                "Title",
+                "PlotTypes",
+                "Groups"
+            ]
           }
-        },
-        "DDIRatioPlots": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "PlotSettings": {
-                "$ref": "#/definitions/plotSettings"
-              },
-              "SectionId": {
-                "type": "integer"
-              },
-              "Title": {
-                "$ref": "#/definitions/nonEmptyString"
-              },
-              "Artifacts": {
-                "$ref": "#/definitions/artifactsRatioPlots"
-              },
-              "PKParameter": {
-                "type": "string",
-                "enum": [
-                  "AUC",
-                  "CMAX",
-                  "AUC|CMAX"
-                ]
-              },
-              "PlotType": {
-                "type": "string",
+
+          ],
+          "additionalProperties": false
+        }
+      },
+      "ComparisonTimeProfilePlots": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "PlotSettings": {
+              "$ref": "#/definitions/plotSettings"
+            },
+            "SectionId": {
+              "type": "integer"
+            },
+            "Title": {
+              "$ref": "#/definitions/nonEmptyString"
+            },
+            "SimulationDuration": {
+              "$ref": "#/definitions/positiveNumber"
+            },
+            "TimeUnit": {
+              "$ref": "#/definitions/timeUnit"
+            },
+            "Axes": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "OutputMappings": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "Project": {
+                    "$ref": "#/definitions/nonEmptyString"
+                  },
+                  "Simulation": {
+                    "$ref": "#/definitions/nonEmptyString"
+                  },
+                  "Output": {
+                    "$ref": "#/definitions/nonEmptyString"
+                  },
+                  "ObservedData": {
+                    "$ref": "#/definitions/observedData"
+                  },
+                  "Caption": {
+                    "$ref": "#/definitions/nonEmptyString"
+                  },
+                  "Color": {
+                    "$ref": "#/definitions/rgbColor"
+                  },
+                  "Symbol": {
+                    "$ref": "#/definitions/symbolType"
+                  },
+                  "StartTime": {
+                    "type": "number"
+                  },
+                  "TimeUnit": {
+                    "$ref": "#/definitions/timeUnit"
+                  }
+                },
+                "required": [
+                  "Project",
+                  "Simulation",
+                  "Output",
+                  "ObservedData",
+                  "Caption",
+                  "Color",
+                  "Symbol",
+                  "StartTime",
+                  "TimeUnit"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "SectionId",
+            "Title",
+            "SimulationDuration",
+            "TimeUnit",
+            "OutputMappings"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "DDIRatioPlots": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "PlotSettings": {
+              "$ref": "#/definitions/plotSettings"
+            },
+            "SectionId": {
+              "type": "integer"
+            },
+            "Title": {
+              "$ref": "#/definitions/nonEmptyString"
+            },
+            "Artifacts": {
+              "$ref": "#/definitions/artifactsRatioPlots"
+            },
+            "PKParameter": {
+              "type": "string",
+              "enum": [
+                "AUC",
+                "CMAX",
+                "AUC|CMAX"
+              ]
+            },
+            "PlotType": {
+              "type": "string",
+              "enum": [
+                "predictedVsObserved",
+                "residualsVsObserved",
+                "predictedVsObserved|residualsVsObserved"
+              ]
+            },
+            "PlotTypes": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
                 "enum": [
                   "predictedVsObserved",
-                  "residualsVsObserved",
-                  "predictedVsObserved|residualsVsObserved"
+                  "residualsVsObserved"
                 ]
-              },
-              "AxesPredictedVsObserved": {
-                "$ref": "#/definitions/axesXY"
-              },
-              "AxesResidualsVsObserved": {
-                "$ref": "#/definitions/axesXY"
-              },
-              "Groups": {
-                "type": "array",
-                "minItems": 1,
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "Caption": {
-                      "$ref": "#/definitions/nonEmptyString"
-                    },
-                    "Color": {
-                      "$ref": "#/definitions/rgbColor"
-                    },
-                    "Symbol": {
-                      "$ref": "#/definitions/symbolType"
-                    },
-                    "DDIRatios": {
-                      "type": "array",
-                      "minItems": 1,
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "Output": {
-                            "$ref": "#/definitions/nonEmptyString"
-                          },
-                          "ObservedData": {
-                            "$ref": "#/definitions/nonEmptyString"
-                          },
-                          "ObservedDataRecordId": {
-                            "type": "integer"
-                          },
-                          "SimulationControl": {
-                            "type": "object",
-                            "properties": {
-                              "Project": {
-                                "$ref": "#/definitions/nonEmptyString"
-                              },
-                              "Simulation": {
-                                "$ref": "#/definitions/nonEmptyString"
-                              },
-                              "StartTime": {
-                                "type": "number"
-                              },
-                              "EndTime": {
-                                "type": "number"
-                              },
-                              "TimeUnit": {
-                                "$ref": "#/definitions/timeUnit"
-                              }
+              }
+            },
+            "AxesPredictedVsObserved": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "AxesResidualsVsObserved": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "Groups": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "Caption": {
+                    "$ref": "#/definitions/nonEmptyString"
+                  },
+                  "Color": {
+                    "$ref": "#/definitions/rgbColor"
+                  },
+                  "Symbol": {
+                    "$ref": "#/definitions/symbolType"
+                  },
+                  "DDIRatios": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "Output": {
+                          "$ref": "#/definitions/nonEmptyString"
+                        },
+                        "ObservedData": {
+                          "$ref": "#/definitions/nonEmptyString"
+                        },
+                        "ObservedDataRecordId": {
+                          "type": "integer"
+                        },
+                        "SimulationControl": {
+                          "type": "object",
+                          "properties": {
+                            "Project": {
+                              "$ref": "#/definitions/nonEmptyString"
                             },
-                            "required": [
-                              "Project",
-                              "Simulation",
-                              "StartTime",
-                              "EndTime",
-                              "TimeUnit"
-                            ],
-                            "additionalProperties": false
-                          },
-                          "SimulationDDI": {
-                            "type": "object",
-                            "properties": {
-                              "Project": {
-                                "$ref": "#/definitions/nonEmptyString"
-                              },
-                              "Simulation": {
-                                "$ref": "#/definitions/nonEmptyString"
-                              },
-                              "StartTime": {
-                                "type": "number"
-                              },
-                              "EndTime": {
-                                "type": "number"
-                              },
-                              "TimeUnit": {
-                                "$ref": "#/definitions/timeUnit"
-                              }
+                            "Simulation": {
+                              "$ref": "#/definitions/nonEmptyString"
                             },
-                            "required": [
-                              "Project",
-                              "Simulation",
-                              "StartTime",
-                              "EndTime",
-                              "TimeUnit"
-                            ],
-                            "additionalProperties": false
-                          }
+                            "StartTime": {
+                              "type": "number"
+                            },
+                            "EndTime": {
+                              "type": "number"
+                            },
+                            "TimeUnit": {
+                              "$ref": "#/definitions/timeUnit"
+                            }
+                          },
+                          "required": [
+                            "Project",
+                            "Simulation",
+                            "StartTime",
+                            "EndTime",
+                            "TimeUnit"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "SimulationDDI": {
+                          "type": "object",
+                          "properties": {
+                            "Project": {
+                              "$ref": "#/definitions/nonEmptyString"
+                            },
+                            "Simulation": {
+                              "$ref": "#/definitions/nonEmptyString"
+                            },
+                            "StartTime": {
+                              "type": "number"
+                            },
+                            "EndTime": {
+                              "type": "number"
+                            },
+                            "TimeUnit": {
+                              "$ref": "#/definitions/timeUnit"
+                            }
+                          },
+                          "required": [
+                            "Project",
+                            "Simulation",
+                            "StartTime",
+                            "EndTime",
+                            "TimeUnit"
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": [
+                      "Output",
+                      "ObservedData",
+                      "ObservedDataRecordId",
+                      "SimulationControl",
+                      "SimulationDDI"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "Caption",
+                  "Color",
+                  "DDIRatios"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "oneOf": [
+            {
+              "required": [
+                "SectionId",
+                "Title",
+                "PKParameter",
+                "PlotType",
+                "Groups"
+              ]
+            },
+            {
+              "required": [
+                "SectionId",
+                "Title",
+                "PKParameter",
+                "PlotTypes",
+                "Groups"
+              ]
+            }
+          ],
+          "additionalProperties": false
+        }
+      },
+      "PKRatioPlots": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "PlotSettings": {
+              "$ref": "#/definitions/plotSettings"
+            },
+            "SectionId": {
+              "type": "integer"
+            },
+            "Title": {
+              "$ref": "#/definitions/nonEmptyString"
+            },
+            "Artifacts": {
+              "$ref": "#/definitions/artifactsRatioPlots"
+            },
+            "PKParameter": {
+              "type": "string",
+              "enum": [
+                "AUC",
+                "CL",
+                "AUC|CL"
+              ]
+            },
+            "Axes": {
+              "$ref": "#/definitions/axesXY"
+            },
+            "Groups": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "Caption": {
+                    "$ref": "#/definitions/nonEmptyString"
+                  },
+                  "Color": {
+                    "$ref": "#/definitions/rgbColor"
+                  },
+                  "Symbol": {
+                    "$ref": "#/definitions/symbolType"
+                  },
+                  "PKRatios": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "Output": {
+                          "$ref": "#/definitions/nonEmptyString"
+                        },
+                        "ObservedData": {
+                          "$ref": "#/definitions/nonEmptyString"
+                        },
+                        "ObservedDataRecordId": {
+                          "type": "integer"
+                        },
+                        "Project": {
+                          "$ref": "#/definitions/nonEmptyString"
+                        },
+                        "Simulation": {
+                          "$ref": "#/definitions/nonEmptyString"
                         }
                       },
                       "required": [
                         "Output",
                         "ObservedData",
                         "ObservedDataRecordId",
-                        "SimulationControl",
-                        "SimulationDDI"
+                        "Project",
+                        "Simulation"
                       ],
                       "additionalProperties": false
                     }
-                  },
-                  "required": [
-                    "Caption",
-                    "Color",
-                    "DDIRatios"
-                  ],
-                  "additionalProperties": false
-                }
+                  }
+                },
+                "required": [
+                  "Caption",
+                  "Color",
+                  "Symbol",
+                  "PKRatios"
+                ],
+                "additionalProperties": false
               }
-            },
-            "required": [
-              "SectionId",
-              "Title",
-              "PKParameter",
-              "PlotType",
-              "Groups"
-            ],
-            "additionalProperties": false
-          }
-        },
-        "PKRatioPlots": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "PlotSettings": {
-                "$ref": "#/definitions/plotSettings"
-              },
-              "SectionId": {
-                "type": "integer"
-              },
-              "Title": {
-                "$ref": "#/definitions/nonEmptyString"
-              },
-              "Artifacts": {
-                "$ref": "#/definitions/artifactsRatioPlots"
-              },
-              "PKParameter": {
-                "type": "string",
-                "enum": [
-                  "AUC",
-                  "CL",
-                  "AUC|CL"
-                ]
-              },
-              "Axes": {
-                "$ref": "#/definitions/axesXY"
-              },
-              "Groups": {
-                "type": "array",
-                "minItems": 1,
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "Caption": {
-                      "$ref": "#/definitions/nonEmptyString"
-                    },
-                    "Color": {
-                      "$ref": "#/definitions/rgbColor"
-                    },
-                    "Symbol": {
-                      "$ref": "#/definitions/symbolType"
-                    },
-                    "PKRatios": {
-                      "type": "array",
-                      "minItems": 1,
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "Output": {
-                            "$ref": "#/definitions/nonEmptyString"
-                          },
-                          "ObservedData": {
-                            "$ref": "#/definitions/nonEmptyString"
-                          },
-                          "ObservedDataRecordId": {
-                            "type": "integer"
-                          },
-                          "Project": {
-                            "$ref": "#/definitions/nonEmptyString"
-                          },
-                          "Simulation": {
-                            "$ref": "#/definitions/nonEmptyString"
-                          }
-                        },
-                        "required": [
-                          "Output",
-                          "ObservedData",
-                          "ObservedDataRecordId",
-                          "Project",
-                          "Simulation"
-                        ],
-                        "additionalProperties": false
-                      }
-                    }
-                  },
-                  "required": [
-                    "Caption",
-                    "Color",
-                    "Symbol",
-                    "PKRatios"
-                  ],
-                  "additionalProperties": false
-                }
-              }
-            },
-            "required": [
-              "SectionId",
-              "Title",
-              "PKParameter",
-              "Groups"
-            ],
-            "additionalProperties": false
-          }
-        }
-      },
-      "required": [
-        "PlotSettings",
-        "AxesSettings"
-      ],
-      "additionalProperties": false
-    },
-    "Sections": {
-      "$ref": "#/definitions/sections"
-    },
-    "Inputs": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "Project": {
-            "$ref": "#/definitions/nonEmptyString"
+            }
           },
-          "Type": {
-            "$ref": "#/definitions/buildingBlockOrSimulationType"
-          },
-          "Name": {
-            "$ref": "#/definitions/nonEmptyString"
-          },
-          "SectionId": {
-            "type": "integer"
-          }
+          "required": [
+            "SectionId",
+            "Title",
+            "PKParameter",
+            "Groups"
+          ],
+          "additionalProperties": false
         }
       }
     },
-    "Intro": {
-      "description": "Relative or remote path of markdown files that will be appended before the table of content of the generated report",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "Path": {
-            "description": "Relative or remote path of file",
-            "$ref": "#/definitions/nonEmptyString"
-          },
-          "Name": {
-            "description": "Name will be used for the file name instead of the default file name. It can be with or without the markdown extension. Only relevant for remote files",
-            "$ref": "#/definitions/nonEmptyString"
-          }
+    "required": [
+      "PlotSettings",
+      "AxesSettings"
+    ],
+    "additionalProperties": false
+  },
+  "Sections": {
+    "$ref": "#/definitions/sections"
+  },
+  "Inputs": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "Project": {
+          "$ref": "#/definitions/nonEmptyString"
         },
-        "required": [
-          "Path"
-        ],
-        "additionalProperties": false
+        "Type": {
+          "$ref": "#/definitions/buildingBlockOrSimulationType"
+        },
+        "Name": {
+          "$ref": "#/definitions/nonEmptyString"
+        },
+        "SectionId": {
+          "type": "integer"
+        }
       }
     }
   },
-  "required": [
-    "Projects",
-    "ObservedDataSets",
-    "Plots",
-    "Sections",
-    "Inputs"
-  ],
-  "additionalProperties": false
+  "Intro": {
+    "description": "Relative or remote path of markdown files that will be appended before the table of content of the generated report",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "Path": {
+          "description": "Relative or remote path of file",
+          "$ref": "#/definitions/nonEmptyString"
+        },
+        "Name": {
+          "description": "Name will be used for the file name instead of the default file name. It can be with or without the markdown extension. Only relevant for remote files",
+          "$ref": "#/definitions/nonEmptyString"
+        }
+      },
+      "required": [
+        "Path"
+      ],
+      "additionalProperties": false
+    }
+  }
+},
+"required": [
+  "Projects",
+  "ObservedDataSets",
+  "Plots",
+  "Sections",
+  "Inputs"
+],
+"additionalProperties": false
 }

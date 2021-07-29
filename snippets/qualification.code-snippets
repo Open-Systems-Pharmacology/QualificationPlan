@@ -182,7 +182,7 @@
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\"],",
-      "\"PlotType\":  \"${3}\",",
+      "\"PlotTypes\":  [\"${3}\"],",
       "\"Groups\":  []",
       "}"
     ],
@@ -254,7 +254,7 @@
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
       "\"SectionId\":  ${2:<Enter Section Id>},",
       "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\", \"Table\"],",
-      "\"PlotType\":  \"${3}\",",
+      "\"PlotTypes\":  [\"${3}\"],",
       "\"PKParameter\":  \"${4}\",",
       "\"Groups\":  []",
       "}"
