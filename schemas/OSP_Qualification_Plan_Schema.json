@@ -12,7 +12,7 @@
         "Event",
         "Formulation",
         "ObserverSet",
-        "Expression"
+        "ExpressionProfile"
       ]
     },
     "buildingBlockOrSimulationType": {
