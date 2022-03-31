@@ -151,6 +151,9 @@
           "Title": {
             "$ref": "#/definitions/nonEmptyString"
           },
+          "Reference": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
           "Content": {
             "type": "string",
             "format": "regex",
