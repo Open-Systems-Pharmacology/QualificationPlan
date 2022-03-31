@@ -151,7 +151,8 @@
         {
           "Id": 3,
           "Title": "Chapter 2.1",
-          "Content": "/Content/Section2.1.md"
+          "Content": "/Content/Section2.1.md",
+          "Reference": "MyAnchor"
         }
       ]
     }
