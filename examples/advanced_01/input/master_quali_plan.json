@@ -1054,8 +1054,8 @@
       {
         "SectionId": 1,
         "Title": "CYP3A4 DDI AUCR",
-        "PKParameter": "AUC|CMAX",
-        "PlotType": "predictedVsObserved|residualsVsObserved",
+        "PKParameters": ["AUC","CMAX"],
+        "PlotTypes": ["predictedVsObserved","residualsVsObserved"],
         "Artifacts": ["Plot","GMFE","Table","Measure"],
         "Groups": [
           {

@@ -47,7 +47,7 @@
     "PKRatioPlots": [
       {
         "Title": "Observed versus Predicted Clearance Ratio",
-        "PKParameter": "CL",
+        "PKParameters": ["CL"],
         "SectionId": 1,
         "Artifacts": [
           "Plot",
@@ -95,7 +95,7 @@
       },
       {
         "Title": "Observed versus Predicted Clearance Ratio",
-        "PKParameter": "CL",
+        "PKParameters": ["CL"],
         "SectionId": 1,
         "Artifacts": [
           "Table",

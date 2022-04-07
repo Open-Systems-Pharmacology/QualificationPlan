@@ -93,7 +93,7 @@
     "GOFMergedPlots": [
       {
         "Title": "Midazolam concentration in plasma/blood",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": ["predictedVsObserved","residualsOverTime"],
         "SectionId": 1,
         "PlotSettings": {
           "ChartWidth": 300,
@@ -128,23 +128,23 @@
       "Project": "Midazolam",
       "Type": "Compound",
       "Name": "Midazolam",
-      "SectionId": 1
+      "SectionReference": "Chap1"
     },
     {
       "Project": "Midazolam",
       "Type": "Simulation",
       "Name": "S1",
-      "SectionId": 2
+      "SectionReference": "Chap2"
     }
   ],
   "Sections": [
     {
-      "Id": 1,
+      "Reference": "Chap1",
       "Title": "Chapter 1",
       "Content": "Section1.md"
     },
     {
-      "Id": 2,
+      "Reference": "Chap2",
       "Title": "Chapter 2",
       "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/README.md",
       "Sections": [
