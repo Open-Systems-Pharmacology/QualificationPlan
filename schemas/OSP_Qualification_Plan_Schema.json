@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "definitions": {
     "buildingBlockType": {
       "$id": "#buildingBlockType",
@@ -145,13 +145,7 @@
       "items": {
         "type": "object",
         "properties": {
-          "Id": {
-            "type": "integer"
-          },
           "Title": {
-            "$ref": "#/definitions/nonEmptyString"
-          },
-          "Reference": {
             "$ref": "#/definitions/nonEmptyString"
           },
           "Content": {
@@ -163,22 +157,35 @@
             "$ref": "#/definitions/sections"
           }
         },
-        "anyOf": [
+        "oneOf": [
           {
-            "required": [
-              "Id",
-              "Title"
-            ]
+            "properties": {
+              "Id": {
+                "type": "integer"
+              }
+            },
+            "required": ["Id"]
           },
           {
-            "required": [
-              "Id",
-              "Content"
-            ]
+            "properties": {
+              "Reference": {
+                "$ref": "#/definitions/nonEmptyString"
+              }
+            },
+            "required": ["Reference"]
+          },
+          {
+            "properties": {
+              "Reference": false,
+              "Id": false
+            }
           }
-        ],
-        "additionalProperties": false
-      }
+        ]
+      },
+      "required": [
+        "Title"
+      ],
+      "additionalProperties": false
     },
     "ageUnit": {
       "type": "string",
@@ -751,6 +758,9 @@
               "SectionId": {
                 "type": "integer"
               },
+              "SectionReference": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
               "Project": {
                 "$ref": "#/definitions/nonEmptyString"
               },
@@ -759,9 +769,20 @@
               }
             },
             "required": [
-              "SectionId",
               "Project",
               "Simulation"
+            ],
+            "oneOf": [
+              {
+                "required": [
+                  "SectionReference"
+                ]
+              },
+              {
+                "required": [
+                  "SectionId"
+                ]
+              }
             ],
             "additionalProperties": false
           }
@@ -776,6 +797,9 @@
               },
               "SectionId": {
                 "type": "integer"
+              },
+              "SectionReference": {
+                "$ref": "#/definitions/nonEmptyString"
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
@@ -861,21 +885,20 @@
                 }
               }
             },
+            "required": [
+              "Title",
+              "PlotTypes",
+              "Groups"
+            ],
             "oneOf": [
               {
                 "required": [
-                  "SectionId",
-                  "Title",
-                  "PlotType",
-                  "Groups"
+                  "SectionReference"
                 ]
               },
               {
                 "required": [
-                  "SectionId",
-                  "Title",
-                  "PlotTypes",
-                  "Groups"
+                  "SectionId"
                 ]
               }
             ],
@@ -892,6 +915,9 @@
               },
               "SectionId": {
                 "type": "integer"
+              },
+              "SectionReference": {
+                "$ref": "#/definitions/nonEmptyString"
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
@@ -955,11 +981,22 @@
               }
             },
             "required": [
-              "SectionId",
               "Title",
               "SimulationDuration",
               "TimeUnit",
               "OutputMappings"
+            ],
+            "oneOf": [
+              {
+                "required": [
+                  "SectionReference"
+                ]
+              },
+              {
+                "required": [
+                  "SectionId"
+                ]
+              }
             ],
             "additionalProperties": false
           }
@@ -975,30 +1012,17 @@
               "SectionId": {
                 "type": "integer"
               },
+              "SectionReference": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
               },
               "Artifacts": {
                 "$ref": "#/definitions/artifactsRatioPlots"
               },
-              "PKParameter": {
-                "type": "string",
-                "enum": [
-                  "AUC",
-                  "CMAX",
-                  "AUC|CMAX"
-                ]
-              },
               "PKParameters": {
                 "$ref": "#/definitions/pkParameters"
-              },
-              "PlotType": {
-                "type": "string",
-                "enum": [
-                  "predictedVsObserved",
-                  "residualsVsObserved",
-                  "predictedVsObserved|residualsVsObserved"
-                ]
               },
               "PlotTypes": {
                 "type": "array",
@@ -1072,39 +1096,25 @@
                   "additionalProperties": false
                 }
               },
-              "Subunits":
-              {
+              "Subunits": {
                 "$ref": "#/definitions/subunitsDDIRatioPlots"
               }
             },
             "required": [
-              "SectionId",
               "Title",
-              "Groups"
+              "Groups",
+              "PKParameters",
+              "PlotTypes"
             ],
-            "anyOf": [
+            "oneOf": [
               {
                 "required": [
-                  "PKParameters",
-                  "PlotTypes"
+                  "SectionReference"
                 ]
               },
               {
                 "required": [
-                  "PKParameter",
-                  "PlotTypes"
-                ]
-              },
-              {
-                "required": [
-                  "PKParameters",
-                  "PlotType"
-                ]
-              },
-              {
-                "required": [
-                  "PKParameter",
-                  "PlotType"
+                  "SectionId"
                 ]
               }
             ],
@@ -1122,19 +1132,14 @@
               "SectionId": {
                 "type": "integer"
               },
+              "SectionReference": {
+                "$ref": "#/definitions/nonEmptyString"
+              },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
               },
               "Artifacts": {
                 "$ref": "#/definitions/artifactsRatioPlots"
-              },
-              "PKParameter": {
-                "type": "string",
-                "enum": [
-                  "AUC",
-                  "CL",
-                  "AUC|CL"
-                ]
               },
               "PKParameters": {
                 "$ref": "#/definitions/pkParameters"
@@ -1201,19 +1206,19 @@
               }
             },
             "required": [
-              "SectionId",
               "Title",
-              "Groups"
+              "Groups",
+              "PKParameters"
             ],
-            "anyOf": [
+            "oneOf": [
               {
                 "required": [
-                  "PKParameters"
+                  "SectionReference"
                 ]
               },
               {
                 "required": [
-                  "PKParameter"
+                  "SectionId"
                 ]
               }
             ],
@@ -1246,8 +1251,29 @@
           },
           "SectionId": {
             "type": "integer"
+          },
+          "SectionReference": {
+            "$ref": "#/definitions/nonEmptyString"
           }
-        }
+        },
+        "required": [
+          "Project",
+          "Type",
+          "Name"
+        ],
+        "oneOf": [
+          {
+            "required": [
+              "SectionReference"
+            ]
+          },
+          {
+            "required": [
+              "SectionId"
+            ]
+          }
+        ],
+        "additionalProperties": false
       }
     },
     "Intro": {

@@ -93,7 +93,7 @@
     "GOFMergedPlots": [
       {
         "Title": "Midazolam concentration in plasma/blood",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
         "SectionId": 1,
         "PlotSettings": {
           "ChartWidth": 300,
@@ -128,7 +128,7 @@
       "Project": "Midazolam",
       "Type": "Compound",
       "Name": "Midazolam",
-      "SectionId": 1
+      "SectionReference": "Ref"
     },
     {
       "Project": "Midazolam",
@@ -139,20 +139,24 @@
   ],
   "Sections": [
     {
-      "Id": 1,
+      "Title": "tt",
+      "Reference": "ss"
+    },
+    {
       "Title": "Chapter 1",
       "Content": "/Content/Section1.md"
     },
     {
-      "Id": 2,
       "Title": "Chapter 2",
       "Content": "/Content/Section2.md",
       "Sections": [
         {
-          "Id": 3,
           "Title": "Chapter 2.1",
-          "Content": "/Content/Section2.1.md",
-          "Reference": "MyAnchor"
+          "Content": "/Content/Section2.1.md"
+        },
+        {
+          "Content": "Toto.md",
+          "Title": "tata"
         }
       ]
     }
