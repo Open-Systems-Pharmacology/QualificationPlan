@@ -2,18 +2,21 @@
   "SimulationMappings": [
     {
       "Project": "Midazolam",
-      "Simulation": "S1",
-      "Path": "Midazolam/S1/"
+      "Simulation": "S2",
+      "Path": "Midazolam/S2/",
+      "SimulationFile": "S2"
     },
     {
       "Project": "Midazolam",
-      "Simulation": "S2",
-      "Path": "Midazolam/S2/"
+      "Simulation": "S1",
+      "Path": "Midazolam/S1/",
+      "SimulationFile": "S1"
     },
     {
       "Project": "Itraconazole",
       "Simulation": "S1",
-      "Path": "Itraconazole/S1/"
+      "Path": "Itraconazole/S1/",
+      "SimulationFile": "S1"
     }
   ],
   "ObservedDataSets": [
@@ -84,7 +87,10 @@
     "GOFMergedPlots": [
       {
         "Title": "Midazolam concentration in plasma/blood",
-        "PlotType": "predictedVsObserved|residualsOverTime",
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
         "SectionId": 1,
         "PlotSettings": {
           "ChartWidth": 300,
@@ -115,9 +121,9 @@
     ],
     "TimeProfile": [
       {
-        "SectionId": 3,
         "Project": "Midazolam",
         "Simulation": "S2",
+        "SectionId": 3,
         "Plot": {
           "Axes": [
             {
@@ -237,9 +243,9 @@
         }
       },
       {
-        "SectionId": 2,
         "Project": "Itraconazole",
         "Simulation": "S1",
+        "SectionId": 2,
         "Plot": {
           "Axes": [
             {
@@ -301,9 +307,9 @@
         }
       },
       {
-        "SectionId": 2,
         "Project": "Itraconazole",
         "Simulation": "S1",
+        "SectionId": 2,
         "Plot": {
           "Axes": [
             {
@@ -381,23 +387,23 @@
   },
   "Inputs": [
     {
-      "SectionId": 1,
+      "SectionReference": "Chap1",
       "Path": "Inputs/Midazolam/Compound/Midazolam.md"
     },
     {
-      "SectionId": 2,
+      "SectionReference": "Chap2",
       "Path": "Inputs/Midazolam/Simulation/S1.md"
     }
   ],
   "Sections": [
     {
-      "Id": 1,
+      "Reference": "Chap1",
       "Title": "Chapter 1",
       "Content": "Content/Section1.md",
       "Sections": []
     },
     {
-      "Id": 2,
+      "Reference": "Chap2",
       "Title": "Chapter 2",
       "Content": "Content/README.md",
       "Sections": [
