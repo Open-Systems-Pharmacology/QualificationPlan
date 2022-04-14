@@ -155,36 +155,35 @@
           },
           "Sections": {
             "$ref": "#/definitions/sections"
+          },
+          "Id": {
+            "type": "integer"
+          },
+          "Reference": {
+            "$ref": "#/definitions/nonEmptyString"
           }
         },
-        "oneOf": [
+        "allOf": [
           {
-            "properties": {
-              "Id": {
-                "type": "integer"
-              }
-            },
-            "required": ["Id"]
+            "required": [
+              "Title"
+            ]
           },
           {
-            "properties": {
-              "Reference": {
-                "$ref": "#/definitions/nonEmptyString"
-              }
-            },
-            "required": ["Reference"]
-          },
-          {
-            "properties": {
-              "Reference": false,
-              "Id": false
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "Id",
+                    "Reference"
+                  ]
+                }
+              ]
             }
           }
-        ]
+        ],
+        "additionalProperties": false
       },
-      "required": [
-        "Title"
-      ],
       "additionalProperties": false
     },
     "ageUnit": {
