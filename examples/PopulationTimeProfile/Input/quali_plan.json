@@ -14,14 +14,14 @@
       {
         "Project": "Theophylline",
         "Simulation": "S1",
-        "SectionId": 1
+        "SectionReference": "01-ref" 
       }
     ]
   },
   "Inputs": [],
   "Sections": [
     {
-      "Id": 1,
+      "Reference": "01-ref",
       "Title": "Chapter 1",
       "Content": "/Content/Section1.md"
     }

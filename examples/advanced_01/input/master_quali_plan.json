@@ -319,7 +319,7 @@
                 "Simulation": "Mida iv 0.05 mgkg - Gorski 1998 - Whole blood",
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
                 "ObservedData": ["Gorski et al. 1998, iv 0.05 mgkg, Whole blood, n=16"],
-                "Color": "#FF0000"
+                "Color": "toto"
               },
               {
                 "Project": "Midazolam",
