@@ -102,7 +102,7 @@
     "prefix": "as",
     "body": [
       "{",
-      "\"Reference\":  \"${1:<Enter Section Id>}\",",
+      "\"Reference\":  \"${1:<Enter Section Reference>}\",",
       "\"Title\":  \"${2:<Enter Section Title>}\",",
       "\"Content\":  \"Content/${3:contentFile}.md\",",
       "\"Sections\":  []",
