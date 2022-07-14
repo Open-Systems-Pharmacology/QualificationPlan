@@ -5,7 +5,7 @@
     "prefix": "bs",
     "body": [
       "{",
-      "\"\\$schema\": \"https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json\",",
+      "\"\\$schema\": \"https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json\",",
       "\"Projects\": [],",
       "\"ObservedDataSets\": [],",
       "\"Plots\": {",
@@ -82,7 +82,7 @@
       "\"Project\":  \"${1:<Enter Project Id>}\",",
       "\"Name\":  \"${2:<Enter BuildingBlock Name>}\",",
       "\"Type\":  \"${3}\",",
-      "\"SectionId\":  ${4:<Enter Section Id>}",
+      "\"SectionReference\":  \"${4:<Enter Section Reference>}\"",
       "}"
     ],
     "description": "Adds an input (reference to a building block in a given project)"
@@ -102,7 +102,7 @@
     "prefix": "as",
     "body": [
       "{",
-      "\"Id\":  ${1:<Enter Section Id>},",
+      "\"Reference\":  \"${1:<Enter Section Id>}\",",
       "\"Title\":  \"${2:<Enter Section Title>}\",",
       "\"Content\":  \"Content/${3:contentFile}.md\",",
       "\"Sections\":  []",
@@ -169,7 +169,7 @@
       "{",
       "\"Project\":  \"${1:<Enter Project Id>}\",",
       "\"Simulation\":  \"${2:<Enter Simulation Name>}\",",
-      "\"SectionId\":  ${3:<Enter Section Id>}",
+      "\"SectionReference\":  \"${3:<Enter Section Reference>}\"",
       "}"
     ],
     "description": "Adds an all plot entry for a simulation"
@@ -180,9 +180,9 @@
     "body": [
       "{",
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
-      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"SectionReference\":  \"${2:<Enter Section Reference>}\",",
       "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\"],",
-      "\"PlotTypes\":  [\"${3}\"],",
+      "\"PlotTypes\":  [\"predictedVsObserved\", \"residualsOverTime\"],",
       "\"Groups\":  []",
       "}"
     ],
@@ -220,7 +220,7 @@
     "body": [
       "{",
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
-      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"SectionReference\":  \"${2:<Enter Section Reference>}\",",
       "\"SimulationDuration\":  ${3:<Enter Simulation Duration>},",
       "\"TimeUnit\":  \"${4}\",",
       "\"OutputMappings\":  []",
@@ -252,10 +252,11 @@
     "body": [
       "{",
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
-      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"SectionReference\":  \"${2:<Enter Section Reference>}\",",
       "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\", \"Table\"],",
-      "\"PlotTypes\":  [\"${3}\"],",
-      "\"PKParameter\":  \"${4}\",",
+      "\"PlotTypes\":  [\"predictedVsObserved\", \"residualsVsObserved\"],",
+      "\"PKParameters\":  [\"${3}\"],",
+      "\"Subunits\":  [\"Mechanism\", \"Perpetrator\", \"Victim\"],",
       "\"Groups\":  []",
       "}"
     ],
@@ -280,7 +281,7 @@
     "body": [
       "{",
       "\"ObservedData\":  \"${1:<Enter Observed Data Id>}\",",
-      "\"ObservedDataId\":  \"${2:<Enter Id of observed data set as defined in csv file>}\",",
+      "\"ObservedDataRecordId\":  ${2:<Enter Id of observed data record as defined in the data source>},",
       "\"Output\":  \"Organism|${3:Organ}|${4:Compartment}|${5:Drug}|Concentration\",",
       "\"SimulationControl\": {",
       "\"Project\":  \"${6:<Enter Project Id>}\",",
@@ -306,9 +307,9 @@
     "body": [
       "{",
       "\"Title\":  \"${1:<Enter Plot Title>}\",",
-      "\"SectionId\":  ${2:<Enter Section Id>},",
+      "\"SectionReference\":  \"${2:<Enter Section Reference>}\",",
       "\"Artifacts\": [\"GMFE\", \"Measure\", \"Plot\", \"Table\"],",
-      "\"PKParameter\":  \"${4}\",",
+      "\"PKParameters\":  [\"${4}\"],",
       "\"Groups\":  []",
       "}"
     ],
