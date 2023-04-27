@@ -257,6 +257,7 @@
       "\"PlotTypes\":  [\"predictedVsObserved\", \"residualsVsObserved\"],",
       "\"PKParameters\":  [\"${3}\"],",
       "\"Subunits\":  [\"Mechanism\", \"Perpetrator\", \"Victim\"],",
+      "\"GuestDelta\": 1.0,",
       "\"Groups\":  []",
       "}"
     ],
