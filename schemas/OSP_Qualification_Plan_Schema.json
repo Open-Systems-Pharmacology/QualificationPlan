@@ -726,6 +726,15 @@
           },
           "SimulationParameters": {
             "$ref": "#/definitions/simulationParameters"
+          },
+          "Application": {
+            "description": "Application used to run the project. Default is PKSim",
+            "type": "string",
+            "enum": [
+              "PKSim",
+              "MoBi"
+            ],
+            "default": "PKSim"
           }
         },
         "required": [
@@ -1303,6 +1312,10 @@
             "$ref": "#/definitions/buildingBlockOrSimulationType"
           },
           "Name": {
+            "$ref": "#/definitions/nonEmptyString"
+          },
+          "PKSimModule": {
+            "description": "Only for inputs of a MoBi project: name of the PK-Sim module inside the MoBi project that this input is resolved against",
             "$ref": "#/definitions/nonEmptyString"
           },
           "SectionId": {
